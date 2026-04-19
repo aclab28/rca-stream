@@ -1,25 +1,157 @@
 <!DOCTYPE html>
 <html>
-<body style="background:#111; color:#eee; font-family:monospace; padding:16px;">
-<h3>WebSocket Test</h3>
-<div id="status">Connecting to echo server...</div>
-<pre id="log" style="font-size:12px; white-space:pre-wrap;"></pre>
-<script>
-  const log = msg => {
-    document.getElementById('log').textContent += msg + '\n'
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>RCA Stream</title>
+<style>
+  * { box-sizing: border-box; margin: 0; padding: 0; }
+  body {
+    background: #111;
+    color: #eee;
+    font-family: monospace;
+    padding: 12px;
   }
+  #status {
+    font-size: 13px;
+    color: #aaa;
+    padding: 8px 0;
+    border-bottom: 1px solid #333;
+    margin-bottom: 8px;
+  }
+  #log {
+    font-size: 11px;
+    white-space: pre-wrap;
+    word-break: break-all;
+    line-height: 1.6;
+  }
+</style>
+</head>
+<body>
+<div id="status">Starting...</div>
+<pre id="log"></pre>
 
-  const ws = new WebSocket('wss://echo.websocket.org')
+<script>
+// ── Config ────────────────────────────────────────────────
+const WARMUP_LIMIT = 10
+const isRCA = slug => slug.includes('reddit')
+
+// ── UI helpers ────────────────────────────────────────────
+const logEl  = document.getElementById('log')
+const statEl = document.getElementById('status')
+let totalListings = 0
+let rcaCount      = 0
+let warmupDone    = false
+
+function log(msg) {
+  logEl.textContent = msg + '\n' + logEl.textContent
+}
+
+function status(msg) {
+  statEl.textContent = msg
+}
+
+// ── Get OpenSea API key ───────────────────────────────────
+async function getApiKey() {
+  log('🔑 Fetching OpenSea API key...')
+  const resp = await fetch('https://api.opensea.io/api/v2/auth/keys', {
+    method:  'POST',
+    headers: { 'accept': 'application/json', 'content-type': 'application/json' }
+  })
+  const data = await resp.json()
+  log('✅ Got key, expires: ' + data.expires_at.substring(0, 10))
+  return data.api_key
+}
+
+// ── Connect to OpenSea stream ─────────────────────────────
+function connect(apiKey) {
+  log('\n📡 Connecting to OpenSea stream...')
+  status('Connecting...')
+
+  const ws = new WebSocket(
+    'wss://stream.openseabeta.com/socket/websocket?token=' + apiKey
+  )
 
   ws.onopen = () => {
-    document.getElementById('status').textContent = '✅ Connected!'
-    log('WebSocket works in Safari')
-    ws.send('hello opensea')
+    log('✅ Connected!\n')
+    status('🟢 Live | seen: ' + totalListings + ' | rca: ' + rcaCount)
+
+    // Heartbeat every 30s
+    setInterval(() => {
+      if (ws.readyState === WebSocket.OPEN) {
+        ws.send(JSON.stringify({
+          topic: 'phoenix', event: 'heartbeat', payload: {}, ref: 0
+        }))
+      }
+    }, 30000)
+
+    // Subscribe to all collections
+    ws.send(JSON.stringify({
+      topic: 'collection:*', event: 'phx_join', payload: {}, ref: 1
+    }))
+    log('📡 Subscribed — showing first ' + WARMUP_LIMIT + ' listings from any collection...\n')
   }
 
-  ws.onmessage = e => log('Echo reply: ' + e.data)
-  ws.onerror   = () => log('❌ Error')
-  ws.onclose   = e => log('Closed: ' + e.code)
+  ws.onmessage = (e) => {
+    try {
+      const data  = JSON.parse(e.data)
+      const outer = data.payload || {}
+      if (outer.event_type !== 'item_listed') return
+
+      totalListings++
+      const p    = outer.payload || {}
+      const slug = (p.collection || {}).slug || ''
+      const name = ((p.item || {}).metadata || {}).name || 'Unknown'
+      const link = (p.item || {}).permalink || ''
+      const rca  = isRCA(slug)
+      if (rca) rcaCount++
+
+      status('🟢 Live | seen: ' + totalListings + ' | rca: ' + rcaCount)
+
+      // Warmup: show all collections
+      if (!warmupDone) {
+        const tag = rca ? '🟢 RCA' : '⚪️ ANY'
+        log('[' + totalListings + '] ' + tag)
+        log('    ' + name)
+        log('    ' + slug)
+        log('')
+        if (totalListings >= WARMUP_LIMIT) {
+          warmupDone = true
+          log('━━━ Warmup done — RCA only from here ━━━\n')
+        }
+        return
+      }
+
+      // RCA only
+      if (!rca) return
+
+      log('[RCA #' + rcaCount + '] ' + name)
+      log('    ' + slug)
+      log('    ' + link)
+      log('')
+
+    } catch(err) {
+      // ignore parse errors
+    }
+  }
+
+  ws.onerror = () => {
+    log('❌ WebSocket error')
+    status('🔴 Error — reload to retry')
+  }
+
+  ws.onclose = (e) => {
+    log('🔴 Disconnected (code: ' + e.code + ')')
+    status('🔴 Disconnected — reload to retry')
+  }
+}
+
+// ── Start ─────────────────────────────────────────────────
+getApiKey()
+  .then(key => connect(key))
+  .catch(err => {
+    log('❌ Failed to get API key: ' + err.message)
+    status('❌ Key fetch failed')
+  })
 </script>
 </body>
 </html>
