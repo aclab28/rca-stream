@@ -8,6 +8,7 @@ import smtplib
 import urllib.request
 import requests
 import base64
+import re
 from datetime import datetime, timezone
 from email.mime.multipart import MIMEMultipart
 from email.mime.text import MIMEText
@@ -22,7 +23,7 @@ EASTERN        = pytz.timezone("America/New_York")
 WETH_USD       = None
 LISTING_COUNT  = 0
 LAST_CONNECTED = None
-MAX_LISTINGS   = 50  # keep last 50 on website
+MAX_LISTINGS   = 200
 
 SMTP_HOST = "smtp.gmail.com"
 SMTP_PORT = 587
@@ -46,44 +47,100 @@ def log(msg):
 def is_rca(slug):
     return "reddit" in slug.lower()
 
-def send_email(subject, html_body):
+# ── Email ─────────────────────────────────────────────────────
+def send_email(subject, html_body, to=None):
     try:
         msg = MIMEMultipart("alternative")
         msg["Subject"] = subject
         msg["From"]    = EMAIL_FROM
-        msg["To"]      = EMAIL_TO
+        msg["To"]      = to or EMAIL_TO
         msg.attach(MIMEText(html_body, "html"))
         with smtplib.SMTP(SMTP_HOST, SMTP_PORT) as server:
             server.ehlo()
             server.starttls()
             server.login(SMTP_USER, SMTP_PASS)
-            server.sendmail(EMAIL_FROM, EMAIL_TO, msg.as_string())
-        log("📧 Email sent")
+            server.sendmail(EMAIL_FROM, to or EMAIL_TO, msg.as_string())
+        log(f"📧 Email sent to {to or EMAIL_TO}")
     except Exception as e:
         log(f"⚠️  Email failed: {e}")
 
+def load_subscribers():
+    path = os.path.expanduser("~/subscribers.txt")
+    if not os.path.exists(path):
+        return []
+    with open(path) as f:
+        return [line.strip() for line in f if line.strip()]
+
+def broadcast_to_subscribers(name, price, link, image_url, slug, maker, expiry):
+    subscribers = load_subscribers()
+    if not subscribers:
+        log("📭 No subscribers to broadcast to")
+        return
+    img_tag = f"<img src='{image_url}' style='width:120px;height:120px;object-fit:cover;border-radius:8px;float:right;margin-left:12px;'/>" if image_url else ""
+    html = f"""
+    <html><body style="background:#121212; padding:16px; font-family:sans-serif;">
+    <h2 style="color:#2081e2;">🆕 New Reddit Avatar Listed</h2>
+    <div style="background:#1e1e1e; border:1px solid #2a2a2a; border-radius:12px;
+                padding:16px; max-width:500px; color:#e0e0e0;">
+      {img_tag}
+      <h3 style="margin:0 0 8px 0; color:white;">{name}</h3>
+      <p style="font-size:16px; font-weight:700; color:#2081e2;">💰 {price}</p>
+      <p style="font-size:12px; color:#888;">📁 {slug}</p>
+      <p style="font-size:12px; color:#888;">💼 {maker}</p>
+      <p style="font-size:12px; color:#888;">⏰ Expires: {expiry}</p>
+      <div style="clear:both; margin-top:12px;">
+        <a href="{link}" style="background:#2081e2; color:white; padding:8px 16px;
+           border-radius:8px; text-decoration:none; font-size:13px;">
+          View on OpenSea ↗
+        </a>
+      </div>
+    </div>
+    <p style="font-size:11px; color:#444; margin-top:16px;">
+      You are receiving this because you subscribed at
+      <a href="https://aclab28.github.io/rca-stream" style="color:#2081e2;">RCA Listings</a>.
+    </p>
+    </body></html>
+    """
+    subject = f"🆕 RCA Listed: {name} — {price}"
+    for email in subscribers:
+        try:
+            msg = MIMEMultipart("alternative")
+            msg["Subject"] = subject
+            msg["From"]    = EMAIL_FROM
+            msg["To"]      = email
+            msg.attach(MIMEText(html, "html"))
+            with smtplib.SMTP(SMTP_HOST, SMTP_PORT) as server:
+                server.ehlo()
+                server.starttls()
+                server.login(SMTP_USER, SMTP_PASS)
+                server.sendmail(EMAIL_FROM, email, msg.as_string())
+            log(f"📨 Subscriber email sent to {email}")
+        except Exception as e:
+            log(f"⚠️  Subscriber email failed for {email}: {e}")
+
 def listing_html(name, slug, price, maker, expiry, link, image_url, prefix=""):
-    img_tag = f"<img src='{image_url}' style='width:120px;height:120px;object-fit:cover;border-radius:8px;float:right;margin-left:12px;' />" if image_url else ""
+    img_tag = f"<img src='{image_url}' style='width:120px;height:120px;object-fit:cover;border-radius:8px;float:right;margin-left:12px;'/>" if image_url else ""
     return f"""
-    <div style="font-family:sans-serif; border:1px solid #ddd;
-                border-radius:8px; padding:16px; margin-bottom:16px;
-                max-width:500px;">
+    <div style="font-family:sans-serif; background:#1e1e1e; border:1px solid #2a2a2a;
+                border-radius:12px; padding:16px; margin-bottom:16px;
+                max-width:500px; color:#e0e0e0;">
       <div style="font-size:11px; color:#888; margin-bottom:8px;">{prefix}</div>
       {img_tag}
-      <h3 style="margin:0 0 8px 0; color:#333;">{name}</h3>
-      <p style="margin:4px 0; font-size:14px;">💰 <strong>{price}</strong></p>
-      <p style="margin:4px 0; font-size:12px; color:#555;">📁 {slug}</p>
-      <p style="margin:4px 0; font-size:12px; color:#555;">💼 {maker[:10]}...{maker[-6:]}</p>
-      <p style="margin:4px 0; font-size:12px; color:#555;">⏰ Expires: {expiry}</p>
-      <a href="{link}" style="display:inline-block; margin-top:10px;
-         background:#2081e2; color:white; padding:8px 16px;
-         border-radius:6px; text-decoration:none; font-size:13px;">
-        View on OpenSea
-      </a>
-      <div style="clear:both;"></div>
+      <h3 style="margin:0 0 8px 0; color:white;">{name}</h3>
+      <p style="margin:4px 0; font-size:14px; color:#2081e2;">💰 <strong>{price}</strong></p>
+      <p style="margin:4px 0; font-size:12px; color:#888;">📁 {slug}</p>
+      <p style="margin:4px 0; font-size:12px; color:#888;">💼 {maker[:10]}...{maker[-6:]}</p>
+      <p style="margin:4px 0; font-size:12px; color:#888;">⏰ Expires: {expiry}</p>
+      <div style="clear:both; margin-top:12px;">
+        <a href="{link}" style="background:#2081e2; color:white; padding:8px 16px;
+           border-radius:8px; text-decoration:none; font-size:13px;">
+          View on OpenSea ↗
+        </a>
+      </div>
     </div>
     """
 
+# ── WETH ──────────────────────────────────────────────────────
 def fetch_weth():
     global WETH_USD
     try:
@@ -108,6 +165,7 @@ def fmt_price(base_price, symbol="WETH"):
     except:
         return str(base_price)
 
+# ── Image ─────────────────────────────────────────────────────
 def fetch_image_url(contract, token_id):
     try:
         if not contract or not token_id:
@@ -123,9 +181,9 @@ def fetch_image_url(contract, token_id):
         log(f"⚠️  Image fetch failed: {e}")
         return ""
 
+# ── GitHub push ───────────────────────────────────────────────
 def push_to_github(listing):
     try:
-        # Load existing listings
         listings = []
         if os.path.exists(LISTINGS_FILE):
             with open(LISTINGS_FILE) as f:
@@ -134,11 +192,13 @@ def push_to_github(listing):
         listings.append(listing)
         listings = listings[-MAX_LISTINGS:]
 
-        # Save locally
         with open(LISTINGS_FILE, "w") as f:
             json.dump(listings, f, indent=2)
 
-        # Get current file SHA from GitHub
+        if not GITHUB_TOKEN:
+            log("⚠️  No GitHub token — skipping GitHub push")
+            return
+
         api_url = f"https://api.github.com/repos/{GITHUB_REPO}/contents/{GITHUB_FILE}"
         r = requests.get(api_url, headers={
             "Authorization": f"token {GITHUB_TOKEN}",
@@ -146,7 +206,6 @@ def push_to_github(listing):
         })
         sha = r.json().get("sha", "")
 
-        # Push updated file
         content = base64.b64encode(
             json.dumps(listings, indent=2).encode()
         ).decode()
@@ -163,40 +222,7 @@ def push_to_github(listing):
     except Exception as e:
         log(f"⚠️  GitHub push failed: {e}")
 
-def log_and_email_listing(name, slug, price, maker, expiry, link,
-                           image_url="", prefix="", listed_at=None):
-    global LISTING_COUNT
-    LISTING_COUNT += 1
-    log("=" * 45)
-    log(f"{prefix}🆕 RCA LISTING #{LISTING_COUNT}")
-    log(f"🖼  {name}")
-    log(f"📁 {slug}")
-    log(f"💰 {price}")
-    log(f"💼 {maker[:10]}...{maker[-6:]}")
-    log(f"⏰ Expires: {expiry}")
-    log(f"🔗 {link}")
-
-    listing = {
-        "name":      name,
-        "slug":      slug,
-        "price":     price,
-        "maker":     f"{maker[:10]}...{maker[-6:]}",
-        "expiry":    expiry,
-        "link":      link,
-        "image_url": image_url,
-        "listed_at": listed_at or datetime.now(timezone.utc).isoformat(),
-        "catchup":   bool(prefix)
-    }
-    threading.Thread(target=push_to_github, args=(listing,), daemon=True).start()
-
-    html = f"""
-    <html><body style="background:#f5f5f5; padding:16px;">
-    <h2 style="color:#2081e2;">🆕 New Reddit Avatar Listed</h2>
-    {listing_html(name, slug, price, maker, expiry, link, image_url, prefix)}
-    </body></html>
-    """
-    send_email(f"🆕 RCA: {name} — {price}", html)
-
+# ── Recent listings email (your email only) ───────────────────
 def send_recent_listings_email():
     try:
         log("📧 Building recent listings email...")
@@ -222,19 +248,66 @@ def send_recent_listings_email():
             price  = next((l.split("💰 ")[-1].strip() for l in block if "💰" in l), "")
             maker  = next((l.split("💼 ")[-1].strip() for l in block if "💼" in l), "")
             expiry = next((l.split("⏰ Expires: ")[-1].strip() for l in block if "⏰" in l), "")
-            link   = next((l.split("🔗 ")[-1].strip() for l in block if "🔗" in l), "")
+            link   = next((re.search(r'https://\S+', l).group(0) for l in block if "https://" in l), "")
             cards += listing_html(name, slug, price, maker, expiry, link, "")
 
         html = f"""
-        <html><body style="background:#f5f5f5; padding:16px;">
-        <h2 style="color:#2081e2;">📋 Recent RCA Listings (Last 20)</h2>
-        {cards if cards else "<p>No listings yet.</p>"}
+        <html><body style="background:#121212; padding:16px;">
+        <h2 style="color:#2081e2; font-family:sans-serif;">📋 Recent RCA Listings (Last 20)</h2>
+        {cards if cards else "<p style='color:#888;'>No listings yet.</p>"}
         </body></html>
         """
         send_email("📋 Recent RCA Listings", html)
     except Exception as e:
         log(f"⚠️  Recent listings email failed: {e}")
 
+# ── Log and notify ────────────────────────────────────────────
+def log_and_email_listing(name, slug, price, maker, expiry, link,
+                           image_url="", prefix="", listed_at=None):
+    global LISTING_COUNT
+    LISTING_COUNT += 1
+    log("=" * 45)
+    log(f"{prefix}🆕 RCA LISTING #{LISTING_COUNT}")
+    log(f"🖼  {name}")
+    log(f"📁 {slug}")
+    log(f"💰 {price}")
+    log(f"💼 {maker[:10]}...{maker[-6:]}")
+    log(f"⏰ Expires: {expiry}")
+    log(f"🔗 {link}")
+
+    listing = {
+        "name":      name,
+        "slug":      slug,
+        "price":     price,
+        "maker":     f"{maker[:10]}...{maker[-6:]}",
+        "expiry":    expiry,
+        "link":      link,
+        "image_url": image_url,
+        "listed_at": listed_at or datetime.now(timezone.utc).isoformat(),
+        "catchup":   bool(prefix)
+    }
+
+    # Push to GitHub and local file
+    threading.Thread(target=push_to_github, args=(listing,), daemon=True).start()
+
+    # Email to your address
+    html = f"""
+    <html><body style="background:#121212; padding:16px;">
+    <h2 style="color:#2081e2; font-family:sans-serif;">🆕 New Reddit Avatar Listed</h2>
+    {listing_html(name, slug, price, maker, expiry, link, image_url, prefix)}
+    </body></html>
+    """
+    send_email(f"🆕 RCA: {name} — {price}", html)
+
+    # Broadcast to subscribers
+    threading.Thread(
+        target=broadcast_to_subscribers,
+        args=(name, price, link, image_url, slug,
+              f"{maker[:10]}...{maker[-6:]}", expiry),
+        daemon=True
+    ).start()
+
+# ── REST catchup ──────────────────────────────────────────────
 def rest_catchup(since_timestamp):
     log("🔍 Catching up on missed listings...")
     try:
@@ -273,6 +346,12 @@ def rest_catchup(since_timestamp):
                 symbol    = event.get("payment", {}).get("symbol", "WETH")
                 qty       = event.get("payment", {}).get("quantity", "0")
                 decs      = event.get("payment", {}).get("decimals", 18)
+
+                if not image_url:
+                    m = re.search(r'opensea\.io/item/polygon/(0x[a-fA-F0-9]+)/(\d+)', link)
+                    if m:
+                        image_url = fetch_image_url(m.group(1), m.group(2))
+
                 try:
                     amount = int(qty) / (10 ** decs)
                     price  = f"${amount * WETH_USD:,.2f}  ({amount:.4f} {symbol})" if WETH_USD else f"{amount:.4f} {symbol}"
@@ -291,6 +370,7 @@ def rest_catchup(since_timestamp):
     except Exception as e:
         log(f"⚠️  Catchup failed: {e}")
 
+# ── Stream handlers ───────────────────────────────────────────
 def handle_event(data):
     try:
         outer = data.get("payload", {})
@@ -300,14 +380,14 @@ def handle_event(data):
         slug   = p.get("collection", {}).get("slug", "")
         if not is_rca(slug):
             return
-        item   = p.get("item", {})
-        meta   = item.get("metadata", {})
-        name   = meta.get("name", "Unknown Avatar")
-        link   = item.get("permalink", "")
-        symbol = p.get("payment_token", {}).get("symbol", "WETH")
-        price  = fmt_price(p.get("base_price", "0"), symbol)
-        maker  = p.get("maker", {}).get("address", "?")
-        expiry = p.get("expiration_date", "?")[:10]
+        item      = p.get("item", {})
+        meta      = item.get("metadata", {})
+        name      = meta.get("name", "Unknown Avatar")
+        link      = item.get("permalink", "")
+        symbol    = p.get("payment_token", {}).get("symbol", "WETH")
+        price     = fmt_price(p.get("base_price", "0"), symbol)
+        maker     = p.get("maker", {}).get("address", "?")
+        expiry    = p.get("expiration_date", "?")[:10]
         listed_at = p.get("event_timestamp", "")
 
         image_url = meta.get("image_url", "")
