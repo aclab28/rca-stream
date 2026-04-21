@@ -1,30 +1,51 @@
-import re, json, os
+import re, json, os, requests, base64
 
-log = open(os.path.expanduser('~/rca_listings.log')).read()
-blocks = re.split(r'={10,}', log)
+log_path = os.path.expanduser('~/rca_listings.log')
+lines = open(log_path).readlines()
+
 listings = []
+current = {}
 
-for b in blocks:
-    n = re.search(r'LISTING #\d+\n\[\S+ \S+\] (.+)', b)
-    s = re.search(r'\] \xf0\x9f\x93\x81 (.+)', b)
-    p = re.search(r'\] \xf0\x9f\x92\xb0 (.+)', b)
-    m = re.search(r'\] \xf0\x9f\x92\xbc (.+)', b)
-    e = re.search(r'Expires: (.+)', b)
-    l = re.search(r'\] https://opensea\.io/\S+', b)
-    if all([n, s, p, m, e, l]):
-        listings.append({
-            'name':      n.group(1).strip(),
-            'slug':      s.group(1).strip(),
-            'price':     p.group(1).strip(),
-            'maker':     m.group(1).strip(),
-            'expiry':    e.group(1).strip(),
-            'link':      l.group(0).split('] ')[1].strip(),
-            'image_url': '',
-            'listed_at': '',
-            'catchup':   False
-        })
+for line in lines:
+    # Strip timestamp like [12:34:56 EDT]
+    clean = re.sub(r'^\[\S+ \S+\] ', '', line).strip()
+
+    if 'RCA LISTING #' in clean:
+        if current and current.get('link'):
+            listings.append(current)
+        current = {'image_url': '', 'listed_at': '', 'catchup': '[CATCHUP]' in clean}
+
+    elif current is not None:
+        if clean.startswith('Name:') or (len(clean) > 2 and clean[1] == '\u200d' or True):
+            # Try to match each field by position after emoji
+            text = clean[2:].strip() if len(clean) > 2 else clean
+
+            if 'name' not in current and not any(k in clean for k in ['📁','💰','💼','⏰','🔗','=']):
+                if not any(c in clean for c in ['#','$','0x','https','Expires']):
+                    current['name'] = clean
+
+            elif '📁' in clean or clean.count('-') > 2 and 'reddit' in clean:
+                current['slug'] = text
+
+            elif '$' in clean and 'WETH' in clean:
+                current['price'] = text
+
+            elif '0x' in clean and '...' in clean:
+                current['maker'] = text
+
+            elif 'Expires:' in clean:
+                current['expiry'] = clean.split('Expires:')[-1].strip()
+
+            elif 'https://opensea.io' in clean:
+                current['link'] = clean
+
+if current and current.get('link'):
+    listings.append(current)
 
 print(f'Found {len(listings)} listings')
+for l in listings[:3]:
+    print(l)
+
 with open(os.path.expanduser('~/listings.json'), 'w') as f:
     json.dump(listings, f, indent=2)
 print('Saved')
