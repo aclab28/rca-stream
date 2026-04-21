@@ -4,20 +4,30 @@ import json
 import threading
 import time
 import os
-import subprocess
+import smtplib
 import urllib.request
 from datetime import datetime
+from email.mime.multipart import MIMEMultipart
+from email.mime.text import MIMEText
+import pytz
 
-API_KEY = "e42883f67023429590c1b7a8468eda67"
-LOG_FILE = os.path.expanduser("~/rca_listings.log")
-EMAIL_TO = "rca.lert1000@gmail.com"
-WETH_USD = None
-LISTING_COUNT = 0
-LAST_CONNECTED = None
-CATCHUP_SECONDS = 300
+API_KEY    = "e42883f67023429590c1b7a8468eda67"
+LOG_FILE   = os.path.expanduser("~/rca_listings.log")
+EMAIL_TO   = "rca.lert1000@gmail.com"
+EMAIL_FROM = "rca.lert1000@gmail.com"
+EASTERN    = pytz.timezone("America/New_York")
+WETH_USD   = None
+LISTING_COUNT   = 0
+LAST_CONNECTED  = None
+
+# ── Gmail SMTP config ─────────────────────────────────────────
+SMTP_HOST = "smtp.gmail.com"
+SMTP_PORT = 587
+SMTP_USER = "rca.lert1000@gmail.com"
+SMTP_PASS = "pbgq axma hbxa moii"
 
 def log(msg):
-    ts = datetime.now().strftime("%H:%M:%S")
+    ts   = datetime.now(pytz.utc).astimezone(EASTERN).strftime("%H:%M:%S %Z")
     line = f"[{ts}] {msg}"
     print(line, flush=True)
     try:
@@ -29,15 +39,42 @@ def log(msg):
 def is_rca(slug):
     return "reddit" in slug.lower()
 
-def send_email(subject, body):
+def send_email(subject, html_body):
     try:
-        proc = subprocess.Popen(
-            ["mail", "-s", subject, EMAIL_TO],
-            stdin=subprocess.PIPE
-        )
-        proc.communicate(body.encode())
+        msg = MIMEMultipart("alternative")
+        msg["Subject"] = subject
+        msg["From"]    = EMAIL_FROM
+        msg["To"]      = EMAIL_TO
+        msg.attach(MIMEText(html_body, "html"))
+        with smtplib.SMTP(SMTP_HOST, SMTP_PORT) as server:
+            server.ehlo()
+            server.starttls()
+            server.login(SMTP_USER, SMTP_PASS)
+            server.sendmail(EMAIL_FROM, EMAIL_TO, msg.as_string())
+        log("📧 Email sent")
     except Exception as e:
         log(f"⚠️  Email failed: {e}")
+
+def listing_html(name, slug, price, maker, expiry, link, image_url, prefix=""):
+    return f"""
+    <div style="font-family:sans-serif; border:1px solid #ddd;
+                border-radius:8px; padding:16px; margin-bottom:16px;
+                max-width:500px;">
+      <div style="font-size:11px; color:#888; margin-bottom:8px;">{prefix}</div>
+      {"<img src='" + image_url + "' style='width:120px;height:120px;object-fit:cover;border-radius:8px;float:right;margin-left:12px;' />" if image_url else ""}
+      <h3 style="margin:0 0 8px 0; color:#333;">{name}</h3>
+      <p style="margin:4px 0; font-size:14px;">💰 <strong>{price}</strong></p>
+      <p style="margin:4px 0; font-size:12px; color:#555;">📁 {slug}</p>
+      <p style="margin:4px 0; font-size:12px; color:#555;">💼 {maker[:10]}...{maker[-6:]}</p>
+      <p style="margin:4px 0; font-size:12px; color:#555;">⏰ Expires: {expiry}</p>
+      <a href="{link}" style="display:inline-block; margin-top:10px;
+         background:#2081e2; color:white; padding:8px 16px;
+         border-radius:6px; text-decoration:none; font-size:13px;">
+        View on OpenSea
+      </a>
+      <div style="clear:both;"></div>
+    </div>
+    """
 
 def fetch_weth():
     global WETH_USD
@@ -63,46 +100,82 @@ def fmt_price(base_price, symbol="WETH"):
     except:
         return str(base_price)
 
-def send_recent_listings():
+def fetch_image_url(slug, token_id):
     try:
-        result = subprocess.run(
-            ["bash", "-c", "grep -A 6 'RCA LISTING' ~/rca_listings.log | tac"],
-            capture_output=True, text=True
+        url = f"https://api.opensea.io/api/v2/chain/matic/contract/{slug}/nfts/{token_id}"
+        req = urllib.request.Request(
+            url,
+            headers={"accept": "application/json", "x-api-key": API_KEY}
         )
-        body = result.stdout if result.stdout else "No listings found yet."
-        send_email("RCA Recent Listings", body)
-        log("📧 Recent listings emailed")
-    except Exception as e:
-        log(f"⚠️  Failed to send recent listings: {e}")
+        with urllib.request.urlopen(req, timeout=10) as r:
+            data = json.loads(r.read())
+        return data.get("nft", {}).get("image_url", "")
+    except:
+        return ""
 
-def log_listing(name, slug, price, maker, expiry, link, prefix=""):
+def log_and_email_listing(name, slug, price, maker, expiry, link,
+                           image_url="", prefix=""):
     global LISTING_COUNT
     LISTING_COUNT += 1
-    msg = (
-        f"{prefix}🆕 RCA LISTING #{LISTING_COUNT}\n"
-        f"🖼  {name}\n"
-        f"📁 {slug}\n"
-        f"💰 {price}\n"
-        f"💼 {maker[:10]}...{maker[-6:]}\n"
-        f"⏰ Expires: {expiry}\n"
-        f"🔗 {link}"
-    )
-    for line in msg.split("\n"):
-        log(line)
+    log("=" * 45)
+    log(f"{prefix}🆕 RCA LISTING #{LISTING_COUNT}")
+    log(f"🖼  {name}")
+    log(f"📁 {slug}")
+    log(f"💰 {price}")
+    log(f"💼 {maker[:10]}...{maker[-6:]}")
+    log(f"⏰ Expires: {expiry}")
+    log(f"🔗 {link}")
 
-    # Send email for new listing
-    send_email(
-        f"🆕 RCA Listed: {name} — {price}",
-        f"Name:    {name}\n"
-        f"Collection: {slug}\n"
-        f"Price:   {price}\n"
-        f"Seller:  {maker}\n"
-        f"Expires: {expiry}\n"
-        f"Link:    {link}"
-    )
+    html = f"""
+    <html><body style="background:#f5f5f5; padding:16px;">
+    <h2 style="color:#2081e2;">🆕 New Reddit Avatar Listed</h2>
+    {listing_html(name, slug, price, maker, expiry, link, image_url, prefix)}
+    </body></html>
+    """
+    send_email(f"🆕 RCA: {name} — {price}", html)
+
+def send_recent_listings_email():
+    try:
+        log("📧 Building recent listings email...")
+        lines = open(LOG_FILE).readlines()
+        blocks = []
+        current = []
+        for line in lines:
+            if "RCA LISTING" in line:
+                if current:
+                    blocks.append(current)
+                current = [line]
+            elif current:
+                current.append(line)
+        if current:
+            blocks.append(current)
+
+        # last 20 newest first
+        recent = blocks[-20:][::-1]
+
+        cards = ""
+        for block in recent:
+            text  = "".join(block)
+            name  = next((l.split("🖼  ")[-1].strip() for l in block if "🖼" in l), "Unknown")
+            slug  = next((l.split("📁 ")[-1].strip() for l in block if "📁" in l), "")
+            price = next((l.split("💰 ")[-1].strip() for l in block if "💰" in l), "")
+            maker = next((l.split("💼 ")[-1].strip() for l in block if "💼" in l), "")
+            expiry= next((l.split("⏰ Expires: ")[-1].strip() for l in block if "⏰" in l), "")
+            link  = next((l.split("🔗 ")[-1].strip() for l in block if "🔗" in l), "")
+            cards += listing_html(name, slug, price, maker, expiry, link, "")
+
+        html = f"""
+        <html><body style="background:#f5f5f5; padding:16px;">
+        <h2 style="color:#2081e2;">📋 Recent RCA Listings (Last 20)</h2>
+        {cards if cards else "<p>No listings yet.</p>"}
+        </body></html>
+        """
+        send_email("📋 Recent RCA Listings", html)
+    except Exception as e:
+        log(f"⚠️  Recent listings email failed: {e}")
 
 def rest_catchup(since_timestamp):
-    log(f"🔍 Catching up on missed listings...")
+    log("🔍 Catching up on missed listings...")
     try:
         found = 0
         next_cursor = None
@@ -112,10 +185,7 @@ def rest_catchup(since_timestamp):
                 url += f"&next={next_cursor}"
             req = urllib.request.Request(
                 url,
-                headers={
-                    "accept": "application/json",
-                    "x-api-key": API_KEY
-                }
+                headers={"accept": "application/json", "x-api-key": API_KEY}
             )
             with urllib.request.urlopen(req, timeout=15) as r:
                 data = json.loads(r.read())
@@ -135,36 +205,29 @@ def rest_catchup(since_timestamp):
                 if not is_rca(slug):
                     continue
 
-                name   = event.get("asset", {}).get("name", "Unknown Avatar")
-                link   = event.get("asset", {}).get("opensea_url", "")
-                maker  = event.get("maker", "?")
-                expiry = event.get("closing_date", "?")
-                if expiry and len(str(expiry)) >= 10:
-                    expiry = str(expiry)[:10]
-                symbol = event.get("payment", {}).get("symbol", "WETH")
-                qty    = event.get("payment", {}).get("quantity", "0")
-                decs   = event.get("payment", {}).get("decimals", 18)
+                name      = event.get("asset", {}).get("name", "Unknown Avatar")
+                link      = event.get("asset", {}).get("opensea_url", "")
+                image_url = event.get("asset", {}).get("image_url", "")
+                maker     = event.get("maker", "?")
+                expiry    = str(event.get("closing_date", "?"))[:10]
+                symbol    = event.get("payment", {}).get("symbol", "WETH")
+                qty       = event.get("payment", {}).get("quantity", "0")
+                decs      = event.get("payment", {}).get("decimals", 18)
                 try:
                     amount = int(qty) / (10 ** decs)
-                    if WETH_USD and symbol in ("WETH", "ETH"):
-                        price = f"${amount * WETH_USD:,.2f}  ({amount:.4f} {symbol})"
-                    else:
-                        price = f"{amount:.4f} {symbol}"
+                    price  = f"${amount * WETH_USD:,.2f}  ({amount:.4f} {symbol})" if WETH_USD else f"{amount:.4f} {symbol}"
                 except:
                     price = qty
 
-                log_listing(name, slug, price, maker, expiry, link, prefix="[CATCHUP] ")
+                log_and_email_listing(name, slug, price, maker, expiry,
+                                      link, image_url, prefix="[CATCHUP] ")
                 found += 1
 
             if done or not data.get("next"):
                 break
             next_cursor = data.get("next")
 
-        if found == 0:
-            log("✅ No missed listings found")
-        else:
-            log(f"✅ Caught up {found} missed listing(s)")
-
+        log(f"✅ Caught up {found} missed listing(s)" if found else "✅ No missed listings")
     except Exception as e:
         log(f"⚠️  Catchup failed: {e}")
 
@@ -173,19 +236,21 @@ def handle_event(data):
         outer = data.get("payload", {})
         if outer.get("event_type") != "item_listed":
             return
-        p    = outer.get("payload", {})
-        slug = p.get("collection", {}).get("slug", "")
+        p         = outer.get("payload", {})
+        slug      = p.get("collection", {}).get("slug", "")
         if not is_rca(slug):
             return
-        item   = p.get("item", {})
-        meta   = item.get("metadata", {})
-        name   = meta.get("name", "Unknown Avatar")
-        link   = item.get("permalink", "")
-        symbol = p.get("payment_token", {}).get("symbol", "WETH")
-        price  = fmt_price(p.get("base_price", "0"), symbol)
-        maker  = p.get("maker", {}).get("address", "?")
-        expiry = p.get("expiration_date", "?")[:10]
-        log_listing(name, slug, price, maker, expiry, link)
+        item      = p.get("item", {})
+        meta      = item.get("metadata", {})
+        name      = meta.get("name", "Unknown Avatar")
+        link      = item.get("permalink", "")
+        image_url = meta.get("image_url", "")
+        symbol    = p.get("payment_token", {}).get("symbol", "WETH")
+        price     = fmt_price(p.get("base_price", "0"), symbol)
+        maker     = p.get("maker", {}).get("address", "?")
+        expiry    = p.get("expiration_date", "?")[:10]
+        log_and_email_listing(name, slug, price, maker, expiry,
+                              link, image_url)
     except:
         pass
 
@@ -229,7 +294,7 @@ def on_close(ws, code, msg):
 
 def connect():
     url = f"wss://stream.openseabeta.com/socket/websocket?token={API_KEY}"
-    ws = websocket.WebSocketApp(
+    ws  = websocket.WebSocketApp(
         url,
         on_open=on_open,
         on_message=on_message,
