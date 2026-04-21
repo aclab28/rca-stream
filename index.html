@@ -326,7 +326,7 @@
     msg.textContent = 'Subscribing...'
 
     try {
-      const resp = await fetch(`https://${ORACLE_IP}:5000/subscribe`, {
+      const resp = await fetch(`https://${ORACLE_IP}/subscribe`, {
         method:  'POST',
         headers: { 'Content-Type': 'application/json' },
         body:    JSON.stringify({ email })
@@ -435,7 +435,7 @@
   async function loadListings() {
     try {
       const resp = await fetch(
-        `https://${ORACLE_IP}:5000/listings?cb=${Date.now()}`
+        `https://${ORACLE_IP}/listings?cb=${Date.now()}`
       )
       const listings = await resp.json()
 
