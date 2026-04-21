@@ -279,6 +279,14 @@
       <button onclick="subscribe()">Subscribe</button>
     </div>
     <div id="signup-msg"></div>
+       <div id="unsub-section" style="margin-top:16px; border-top:1px solid #2a2a2a; padding-top:14px;">
+      <p style="font-size:12px; color:#555; margin-bottom:10px;">Already subscribed? Unsubscribe below.</p>
+      <div class="signup-row">
+        <input type="email" id="unsub-input" placeholder="your@email.com" />
+        <button onclick="unsubscribe()" style="background:#333;">Unsubscribe</button>
+      </div>
+      <div id="unsub-msg" style="margin-top:10px; font-size:12px; min-height:18px;"></div>
+    </div>
   </div>
 
   <div id="stats-bar"></div>
@@ -327,6 +335,42 @@
       }
     } catch(e) {
       msg.className = 'msg-error'
+      msg.textContent = 'Could not connect. Please try again.'
+    }
+  }
+  async function unsubscribe() {
+    const email = document.getElementById('unsub-input').value.trim()
+    const msg   = document.getElementById('unsub-msg')
+
+    if (!email || !email.includes('@')) {
+      msg.className = 'msg-error'
+      msg.textContent = 'Please enter a valid email address.'
+      return
+    }
+
+    msg.className = ''
+    msg.textContent = 'Processing...'
+
+    try {
+      const resp = await fetch(`${ORACLE_URL}/unsubscribe`, {
+        method:  'POST',
+        headers: { 'Content-Type': 'application/json' },
+        body:    JSON.stringify({ email })
+      })
+      const data = await resp.json()
+      if (data.status === 'success') {
+        msg.className   = 'msg-success'
+        msg.textContent = '✅ Unsubscribed successfully.'
+        document.getElementById('unsub-input').value = ''
+      } else if (data.status === 'notfound') {
+        msg.className   = 'msg-error'
+        msg.textContent = '❌ Email not found in subscriber list.'
+      } else {
+        msg.className   = 'msg-error'
+        msg.textContent = '❌ ' + data.message
+      }
+    } catch(e) {
+      msg.className   = 'msg-error'
       msg.textContent = 'Could not connect. Please try again.'
     }
   }
