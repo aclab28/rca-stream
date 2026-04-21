@@ -6,6 +6,7 @@ import time
 import os
 import smtplib
 import urllib.request
+import requests
 from datetime import datetime
 from email.mime.multipart import MIMEMultipart
 from email.mime.text import MIMEText
@@ -105,15 +106,11 @@ def fetch_image_url(contract, token_id):
         if not contract or not token_id:
             return ""
         url = f"https://api.opensea.io/api/v2/metadata/polygon/{contract}/{token_id}"
-        req = urllib.request.Request(
-            url,
-            headers={
-                "accept": "*/*",
-                "x-api-key": API_KEY
-            }
-        )
-        with urllib.request.urlopen(req, timeout=10) as r:
-            data = json.loads(r.read())
+        r = requests.get(url, headers={
+            "accept": "*/*",
+            "x-api-key": API_KEY
+        }, timeout=10)
+        data = r.json()
         return data.get("image", data.get("image_url", ""))
     except Exception as e:
         log(f"⚠️  Image fetch failed: {e}")
@@ -187,12 +184,11 @@ def rest_catchup(since_timestamp):
             url = "https://api.opensea.io/api/v2/events?event_type=listing&limit=200"
             if next_cursor:
                 url += f"&next={next_cursor}"
-            req = urllib.request.Request(
-                url,
-                headers={"accept": "application/json", "x-api-key": API_KEY}
-            )
-            with urllib.request.urlopen(req, timeout=15) as r:
-                data = json.loads(r.read())
+            r = requests.get(url, headers={
+                "accept": "application/json",
+                "x-api-key": API_KEY
+            }, timeout=15)
+            data = r.json()
 
             events = data.get("asset_events", [])
             if not events:
@@ -253,7 +249,6 @@ def handle_event(data):
         maker  = p.get("maker", {}).get("address", "?")
         expiry = p.get("expiration_date", "?")[:10]
 
-        # Extract contract and token from nft_id (format: matic/0xcontract/tokenid)
         image_url = meta.get("image_url", "")
         if not image_url:
             nft_id = item.get("nft_id", "")
