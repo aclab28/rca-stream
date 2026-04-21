@@ -9,88 +9,172 @@
 
   body {
     font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
-    background: #f0f2f5;
-    color: #1a1a2e;
+    background: #121212;
+    color: #e0e0e0;
     min-height: 100vh;
   }
 
   header {
-    background: linear-gradient(135deg, #ff4500, #ff6534);
-    color: white;
-    padding: 24px 16px;
+    background: #1a1a1a;
+    border-bottom: 1px solid #2a2a2a;
+    padding: 20px 16px;
     text-align: center;
+    position: sticky;
+    top: 0;
+    z-index: 100;
   }
 
   header h1 {
-    font-size: 24px;
+    font-size: 22px;
     font-weight: 700;
-    margin-bottom: 4px;
+    color: white;
+    margin-bottom: 2px;
   }
 
   header p {
-    font-size: 13px;
-    opacity: 0.85;
+    font-size: 12px;
+    color: #888;
   }
 
   #status {
-    text-align: center;
-    font-size: 12px;
-    color: #888;
-    padding: 10px;
-    background: white;
-    border-bottom: 1px solid #eee;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 6px;
+    font-size: 11px;
+    color: #666;
+    padding: 6px;
+    background: #1a1a1a;
+    border-bottom: 1px solid #222;
   }
 
-  #status span {
-    display: inline-block;
-    width: 8px;
-    height: 8px;
+  #status .dot {
+    width: 7px;
+    height: 7px;
     border-radius: 50%;
     background: #22c55e;
-    margin-right: 6px;
     animation: pulse 2s infinite;
   }
 
   @keyframes pulse {
     0%, 100% { opacity: 1; }
-    50% { opacity: 0.3; }
+    50%       { opacity: 0.3; }
   }
 
   .container {
-    max-width: 600px;
+    max-width: 640px;
     margin: 0 auto;
     padding: 16px;
   }
 
-  .card {
-    background: white;
+  /* ── Signup ── */
+  .signup-box {
+    background: #1e1e1e;
+    border: 1px solid #2a2a2a;
     border-radius: 12px;
-    padding: 16px;
-    margin-bottom: 12px;
-    box-shadow: 0 1px 4px rgba(0,0,0,0.08);
+    padding: 20px;
+    margin-bottom: 16px;
+    text-align: center;
+  }
+
+  .signup-box h2 {
+    font-size: 15px;
+    font-weight: 600;
+    color: white;
+    margin-bottom: 4px;
+  }
+
+  .signup-box p {
+    font-size: 12px;
+    color: #666;
+    margin-bottom: 14px;
+  }
+
+  .signup-row {
+    display: flex;
+    gap: 8px;
+  }
+
+  .signup-row input {
+    flex: 1;
+    padding: 10px 14px;
+    background: #2a2a2a;
+    border: 1px solid #333;
+    border-radius: 8px;
+    font-size: 14px;
+    color: white;
+    outline: none;
+  }
+
+  .signup-row input::placeholder { color: #555; }
+  .signup-row input:focus { border-color: #2081e2; }
+
+  .signup-row button {
+    background: #2081e2;
+    color: white;
+    border: none;
+    padding: 10px 18px;
+    border-radius: 8px;
+    font-size: 14px;
+    font-weight: 600;
+    cursor: pointer;
+    white-space: nowrap;
+  }
+
+  .signup-row button:hover { background: #1a6fc4; }
+
+  #signup-msg {
+    margin-top: 10px;
+    font-size: 12px;
+    min-height: 18px;
+    color: #888;
+  }
+
+  .msg-success { color: #22c55e !important; }
+  .msg-error   { color: #ef4444 !important; }
+
+  /* ── Cards ── */
+  .card {
+    background: #1e1e1e;
+    border: 1px solid #2a2a2a;
+    border-radius: 12px;
+    padding: 14px;
+    margin-bottom: 10px;
     display: flex;
     gap: 14px;
     align-items: flex-start;
+    transition: border-color 0.2s;
   }
 
-  .card img {
+  .card:hover { border-color: #444; }
+
+  .card-img {
     width: 80px;
     height: 80px;
     border-radius: 10px;
     object-fit: cover;
     flex-shrink: 0;
-    background: #f0f2f5;
+    background: #2a2a2a;
   }
 
-  .card-body {
-    flex: 1;
-    min-width: 0;
+  .card-img-placeholder {
+    width: 80px;
+    height: 80px;
+    border-radius: 10px;
+    background: #2a2a2a;
+    flex-shrink: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 24px;
   }
+
+  .card-body  { flex: 1; min-width: 0; }
 
   .card-name {
     font-size: 15px;
     font-weight: 600;
-    color: #1a1a2e;
+    color: white;
     margin-bottom: 4px;
     white-space: nowrap;
     overflow: hidden;
@@ -98,16 +182,16 @@
   }
 
   .card-price {
-    font-size: 16px;
+    font-size: 15px;
     font-weight: 700;
-    color: #ff4500;
-    margin-bottom: 6px;
+    color: #2081e2;
+    margin-bottom: 8px;
   }
 
   .card-meta {
     font-size: 11px;
-    color: #888;
-    line-height: 1.6;
+    color: #666;
+    line-height: 1.7;
   }
 
   .card-meta span {
@@ -117,47 +201,74 @@
     text-overflow: ellipsis;
   }
 
-  .card-footer {
-    margin-top: 10px;
-  }
+  .card-footer { margin-top: 10px; }
 
-  .btn {
-    display: inline-block;
+  .btn-opensea {
+    display: inline-flex;
+    align-items: center;
+    gap: 6px;
     background: #2081e2;
     color: white;
     padding: 6px 14px;
-    border-radius: 6px;
+    border-radius: 8px;
     text-decoration: none;
     font-size: 12px;
     font-weight: 500;
   }
 
+  .btn-opensea:hover { background: #1a6fc4; }
+
   .tag-catchup {
     display: inline-block;
-    background: #fef3c7;
-    color: #92400e;
+    background: #2a2a00;
+    color: #fbbf24;
     font-size: 10px;
-    padding: 2px 6px;
+    padding: 2px 7px;
     border-radius: 4px;
-    margin-bottom: 4px;
+    margin-bottom: 6px;
   }
 
+  .tag-new {
+    display: inline-block;
+    background: #022c22;
+    color: #22c55e;
+    font-size: 10px;
+    padding: 2px 7px;
+    border-radius: 4px;
+    margin-bottom: 6px;
+  }
+
+  /* ── States ── */
   .empty {
     text-align: center;
     padding: 60px 20px;
-    color: #aaa;
+    color: #555;
   }
 
-  .empty h2 {
-    font-size: 18px;
+  .empty h2 { font-size: 18px; margin-bottom: 8px; color: #888; }
+
+  #load-more {
+    text-align: center;
+    padding: 16px;
+    color: #555;
+    font-size: 13px;
+  }
+
+  #stats-bar {
+    text-align: center;
+    font-size: 11px;
+    color: #555;
+    padding: 6px;
     margin-bottom: 8px;
   }
 
-  #refresh-bar {
+  footer {
     text-align: center;
-    font-size: 12px;
-    color: #aaa;
-    padding: 8px;
+    font-size: 11px;
+    color: #444;
+    padding: 24px 16px;
+    border-top: 1px solid #1e1e1e;
+    margin-top: 16px;
   }
 </style>
 </head>
@@ -165,93 +276,191 @@
 
 <header>
   <h1>🎭 RCA Listings</h1>
-  <p>Live Reddit Collectible Avatar listings from OpenSea</p>
+  <p>Reddit Collectible Avatars — Live from OpenSea</p>
 </header>
 
 <div id="status">
-  <span></span>Live — updating automatically
+  <div class="dot"></div>
+  <span id="status-text">Loading...</span>
 </div>
 
 <div class="container">
-  <div id="listings">
-    <div class="empty">
-      <h2>Loading listings...</h2>
+
+  <div class="signup-box">
+    <h2>📬 Get listing alerts</h2>
+    <p>Free email notifications when new Reddit Avatars are listed</p>
+    <div class="signup-row">
+      <input type="email" id="email-input" placeholder="you@email.com" />
+      <button onclick="subscribe()">Subscribe</button>
     </div>
+    <div id="signup-msg"></div>
   </div>
-  <div id="refresh-bar"></div>
+
+  <div id="stats-bar"></div>
+  <div id="listings"></div>
+  <div id="load-more"></div>
+
 </div>
 
-<script>
-  const LISTINGS_URL = 'https://raw.githubusercontent.com/Aclab28/rca-stream/main/listings.json?cb=' + Date.now()
+<footer>RCA Listings — Not affiliated with Reddit or OpenSea</footer>
 
+<script>
+  const ORACLE_IP  = '129.158.249.252'
+  const PAGE_SIZE  = 20
+  let allListings  = []
+  let visibleCount = PAGE_SIZE
+  let loading      = false
+
+  // ── Subscribe ─────────────────────────────────────────────
+  async function subscribe() {
+    const email = document.getElementById('email-input').value.trim()
+    const msg   = document.getElementById('signup-msg')
+
+    if (!email || !email.includes('@')) {
+      msg.className = 'msg-error'
+      msg.textContent = 'Please enter a valid email address.'
+      return
+    }
+
+    msg.className = ''
+    msg.textContent = 'Subscribing...'
+
+    try {
+      const resp = await fetch(`http://${ORACLE_IP}:5000/subscribe`, {
+        method:  'POST',
+        headers: { 'Content-Type': 'application/json' },
+        body:    JSON.stringify({ email })
+      })
+      const data = await resp.json()
+      if (data.status === 'success') {
+        msg.className   = 'msg-success'
+        msg.textContent = '✅ Subscribed! You will receive new listing alerts.'
+        document.getElementById('email-input').value = ''
+      } else if (data.status === 'already') {
+        msg.className   = 'msg-success'
+        msg.textContent = '✅ You are already subscribed!'
+      } else {
+        msg.className   = 'msg-error'
+        msg.textContent = '❌ ' + data.message
+      }
+    } catch(e) {
+      msg.className   = 'msg-error'
+      msg.textContent = 'Could not connect. Please try again.'
+    }
+  }
+
+  document.addEventListener('DOMContentLoaded', () => {
+    document.getElementById('email-input').addEventListener('keydown', e => {
+      if (e.key === 'Enter') subscribe()
+    })
+  })
+
+  // ── Helpers ───────────────────────────────────────────────
   function timeAgo(isoString) {
     if (!isoString) return ''
     const diff = Math.floor((Date.now() - new Date(isoString)) / 1000)
-    if (diff < 60) return `${diff}s ago`
-    if (diff < 3600) return `${Math.floor(diff/60)}m ago`
+    if (diff < 60)    return `${diff}s ago`
+    if (diff < 3600)  return `${Math.floor(diff/60)}m ago`
     if (diff < 86400) return `${Math.floor(diff/3600)}h ago`
     return `${Math.floor(diff/86400)}d ago`
   }
 
+  function isNew(isoString) {
+    if (!isoString) return false
+    return (Date.now() - new Date(isoString)) < 3600000 // within 1 hour
+  }
+
   function renderCard(listing) {
     const img = listing.image_url
-      ? `<img src="${listing.image_url}" alt="${listing.name}" onerror="this.style.display='none'">`
-      : `<div style="width:80px;height:80px;border-radius:10px;background:#f0f2f5;flex-shrink:0;"></div>`
+      ? `<img class="card-img" src="${listing.image_url}" alt="${listing.name}" onerror="this.outerHTML='<div class=card-img-placeholder>🎭</div>'">`
+      : `<div class="card-img-placeholder">🎭</div>`
 
-    const catchup = listing.catchup
-      ? `<div class="tag-catchup">📬 Caught up</div>`
-      : ''
+    const tag = listing.catchup
+      ? `<div class="tag-catchup">📬 Catchup</div>`
+      : isNew(listing.listed_at)
+        ? `<div class="tag-new">🟢 New</div>`
+        : ''
+
+    const ago = listing.listed_at ? `<span>🕐 ${timeAgo(listing.listed_at)}</span>` : ''
 
     return `
       <div class="card">
         ${img}
         <div class="card-body">
-          ${catchup}
+          ${tag}
           <div class="card-name">${listing.name}</div>
           <div class="card-price">${listing.price}</div>
           <div class="card-meta">
             <span>📁 ${listing.slug}</span>
             <span>💼 ${listing.maker}</span>
             <span>⏰ Expires ${listing.expiry}</span>
-            <span>🕐 ${timeAgo(listing.listed_at)}</span>
+            ${ago}
           </div>
           <div class="card-footer">
-            <a class="btn" href="${listing.link}" target="_blank">View on OpenSea</a>
+            <a class="btn-opensea" href="${listing.link}" target="_blank">
+              View on OpenSea ↗
+            </a>
           </div>
         </div>
-      </div>
-    `
+      </div>`
   }
 
+  function renderVisible() {
+    const el      = document.getElementById('listings')
+    const loadEl  = document.getElementById('load-more')
+    const visible = allListings.slice(0, visibleCount)
+
+    el.innerHTML = visible.map(renderCard).join('')
+
+    if (visibleCount < allListings.length) {
+      loadEl.textContent = `Showing ${visibleCount} of ${allListings.length} listings — scroll for more`
+    } else {
+      loadEl.textContent = `All ${allListings.length} listings shown`
+    }
+  }
+
+  // ── Infinite scroll ───────────────────────────────────────
+  window.addEventListener('scroll', () => {
+    if (loading) return
+    const nearBottom = window.innerHeight + window.scrollY >= document.body.offsetHeight - 300
+    if (nearBottom && visibleCount < allListings.length) {
+      loading = true
+      visibleCount += PAGE_SIZE
+      renderVisible()
+      loading = false
+    }
+  })
+
+  // ── Load listings ─────────────────────────────────────────
   async function loadListings() {
     try {
-      const url = 'https://raw.githubusercontent.com/Aclab28/rca-stream/main/listings.json?cb=' + Date.now()
-      const resp = await fetch(url)
+      const resp = await fetch(
+        `http://${ORACLE_IP}:5000/listings?cb=${Date.now()}`
+      )
       const listings = await resp.json()
 
-      const el = document.getElementById('listings')
-      const bar = document.getElementById('refresh-bar')
-
       if (!listings || listings.length === 0) {
-        el.innerHTML = `
-          <div class="empty">
-            <h2>No listings yet</h2>
-            <p>Watching for new Reddit Avatar listings...</p>
-          </div>`
+        document.getElementById('listings').innerHTML =
+          `<div class="empty"><h2>No listings yet</h2><p>Watching for new Reddit Avatar listings...</p></div>`
+        document.getElementById('status-text').textContent = 'Live — no listings yet'
         return
       }
 
-      el.innerHTML = listings
-        .slice()
-        .reverse()
-        .map(renderCard)
-        .join('')
+      // Newest first
+      allListings = listings.slice().reverse()
 
-      bar.textContent = `${listings.length} listing${listings.length !== 1 ? 's' : ''} • refreshes every 30s`
+      document.getElementById('status-text').textContent =
+        `Live — ${allListings.length} listing${allListings.length !== 1 ? 's' : ''} • updates every 30s`
+
+      document.getElementById('stats-bar').textContent =
+        `${allListings.length} listing${allListings.length !== 1 ? 's' : ''} tracked today`
+
+      renderVisible()
 
     } catch(e) {
-      document.getElementById('listings').innerHTML = `
-        <div class="empty"><h2>Could not load listings</h2></div>`
+      document.getElementById('listings').innerHTML =
+        `<div class="empty"><h2>Could not load listings</h2><p>Check back soon</p></div>`
+      document.getElementById('status-text').textContent = 'Connection error'
     }
   }
 
