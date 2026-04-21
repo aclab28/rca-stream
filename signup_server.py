@@ -5,7 +5,7 @@ import re
 import ssl
 
 app = Flask(__name__)
-SUBSCRIBERS_FILE = os.path.expanduser("~/subscribers.txt")
+SUBSCRIBERS_FILE = "/home/ubuntu/subscribers.txt"
 LISTINGS_FILE = "/home/ubuntu/listings.json"
 
 def valid_email(email):
