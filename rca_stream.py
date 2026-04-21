@@ -7,24 +7,31 @@ import os
 import smtplib
 import urllib.request
 import requests
-from datetime import datetime
+import base64
+from datetime import datetime, timezone
 from email.mime.multipart import MIMEMultipart
 from email.mime.text import MIMEText
 import pytz
 
-API_KEY    = "e42883f67023429590c1b7a8468eda67"
-LOG_FILE   = os.path.expanduser("~/rca_listings.log")
-EMAIL_TO   = "rca.lert1000@gmail.com"
-EMAIL_FROM = "rca.lert1000@gmail.com"
-EASTERN    = pytz.timezone("America/New_York")
-WETH_USD   = None
+API_KEY        = "e42883f67023429590c1b7a8468eda67"
+LOG_FILE       = os.path.expanduser("~/rca_listings.log")
+LISTINGS_FILE  = os.path.expanduser("~/listings.json")
+EMAIL_TO       = "rca.lert1000@gmail.com"
+EMAIL_FROM     = "rca.lert1000@gmail.com"
+EASTERN        = pytz.timezone("America/New_York")
+WETH_USD       = None
 LISTING_COUNT  = 0
 LAST_CONNECTED = None
+MAX_LISTINGS   = 50  # keep last 50 on website
 
 SMTP_HOST = "smtp.gmail.com"
 SMTP_PORT = 587
 SMTP_USER = "rca.lert1000@gmail.com"
 SMTP_PASS = "pbgq axma hbxa moii"
+
+GITHUB_TOKEN = os.environ.get("GITHUB_TOKEN", "")
+GITHUB_REPO  = "Aclab28/rca-stream"
+GITHUB_FILE  = "listings.json"
 
 def log(msg):
     ts   = datetime.now(pytz.utc).astimezone(EASTERN).strftime("%H:%M:%S %Z")
@@ -116,8 +123,48 @@ def fetch_image_url(contract, token_id):
         log(f"⚠️  Image fetch failed: {e}")
         return ""
 
+def push_to_github(listing):
+    try:
+        # Load existing listings
+        listings = []
+        if os.path.exists(LISTINGS_FILE):
+            with open(LISTINGS_FILE) as f:
+                listings = json.load(f)
+
+        listings.append(listing)
+        listings = listings[-MAX_LISTINGS:]
+
+        # Save locally
+        with open(LISTINGS_FILE, "w") as f:
+            json.dump(listings, f, indent=2)
+
+        # Get current file SHA from GitHub
+        api_url = f"https://api.github.com/repos/{GITHUB_REPO}/contents/{GITHUB_FILE}"
+        r = requests.get(api_url, headers={
+            "Authorization": f"token {GITHUB_TOKEN}",
+            "Accept": "application/vnd.github.v3+json"
+        })
+        sha = r.json().get("sha", "")
+
+        # Push updated file
+        content = base64.b64encode(
+            json.dumps(listings, indent=2).encode()
+        ).decode()
+
+        requests.put(api_url, headers={
+            "Authorization": f"token {GITHUB_TOKEN}",
+            "Accept": "application/vnd.github.v3+json"
+        }, json={
+            "message": f"New listing: {listing.get('name', 'RCA')}",
+            "content": content,
+            "sha": sha
+        })
+        log("📤 Pushed to GitHub")
+    except Exception as e:
+        log(f"⚠️  GitHub push failed: {e}")
+
 def log_and_email_listing(name, slug, price, maker, expiry, link,
-                           image_url="", prefix=""):
+                           image_url="", prefix="", listed_at=None):
     global LISTING_COUNT
     LISTING_COUNT += 1
     log("=" * 45)
@@ -128,6 +175,19 @@ def log_and_email_listing(name, slug, price, maker, expiry, link,
     log(f"💼 {maker[:10]}...{maker[-6:]}")
     log(f"⏰ Expires: {expiry}")
     log(f"🔗 {link}")
+
+    listing = {
+        "name":      name,
+        "slug":      slug,
+        "price":     price,
+        "maker":     f"{maker[:10]}...{maker[-6:]}",
+        "expiry":    expiry,
+        "link":      link,
+        "image_url": image_url,
+        "listed_at": listed_at or datetime.now(timezone.utc).isoformat(),
+        "catchup":   bool(prefix)
+    }
+    threading.Thread(target=push_to_github, args=(listing,), daemon=True).start()
 
     html = f"""
     <html><body style="background:#f5f5f5; padding:16px;">
@@ -248,6 +308,7 @@ def handle_event(data):
         price  = fmt_price(p.get("base_price", "0"), symbol)
         maker  = p.get("maker", {}).get("address", "?")
         expiry = p.get("expiration_date", "?")[:10]
+        listed_at = p.get("event_timestamp", "")
 
         image_url = meta.get("image_url", "")
         if not image_url:
@@ -259,7 +320,7 @@ def handle_event(data):
                     image_url = fetch_image_url(contract, token_id)
 
         log_and_email_listing(name, slug, price, maker, expiry,
-                              link, image_url)
+                              link, image_url, listed_at=listed_at)
     except:
         pass
 
