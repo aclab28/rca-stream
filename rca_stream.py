@@ -17,10 +17,9 @@ EMAIL_TO   = "rca.lert1000@gmail.com"
 EMAIL_FROM = "rca.lert1000@gmail.com"
 EASTERN    = pytz.timezone("America/New_York")
 WETH_USD   = None
-LISTING_COUNT   = 0
-LAST_CONNECTED  = None
+LISTING_COUNT  = 0
+LAST_CONNECTED = None
 
-# ── Gmail SMTP config ─────────────────────────────────────────
 SMTP_HOST = "smtp.gmail.com"
 SMTP_PORT = 587
 SMTP_USER = "rca.lert1000@gmail.com"
@@ -56,12 +55,13 @@ def send_email(subject, html_body):
         log(f"⚠️  Email failed: {e}")
 
 def listing_html(name, slug, price, maker, expiry, link, image_url, prefix=""):
+    img_tag = f"<img src='{image_url}' style='width:120px;height:120px;object-fit:cover;border-radius:8px;float:right;margin-left:12px;' />" if image_url else ""
     return f"""
     <div style="font-family:sans-serif; border:1px solid #ddd;
                 border-radius:8px; padding:16px; margin-bottom:16px;
                 max-width:500px;">
       <div style="font-size:11px; color:#888; margin-bottom:8px;">{prefix}</div>
-      {"<img src='" + image_url + "' style='width:120px;height:120px;object-fit:cover;border-radius:8px;float:right;margin-left:12px;' />" if image_url else ""}
+      {img_tag}
       <h3 style="margin:0 0 8px 0; color:#333;">{name}</h3>
       <p style="margin:4px 0; font-size:14px;">💰 <strong>{price}</strong></p>
       <p style="margin:4px 0; font-size:12px; color:#555;">📁 {slug}</p>
@@ -100,9 +100,13 @@ def fmt_price(base_price, symbol="WETH"):
     except:
         return str(base_price)
 
-def fetch_image_url(slug, token_id):
+def fetch_image_url(nft_id):
     try:
-        url = f"https://api.opensea.io/api/v2/chain/matic/contract/{slug}/nfts/{token_id}"
+        parts = nft_id.split("/")
+        if len(parts) != 3:
+            return ""
+        chain, contract, token = parts
+        url = f"https://api.opensea.io/api/v2/chain/{chain}/contract/{contract}/nfts/{token}"
         req = urllib.request.Request(
             url,
             headers={"accept": "application/json", "x-api-key": API_KEY}
@@ -150,18 +154,16 @@ def send_recent_listings_email():
         if current:
             blocks.append(current)
 
-        # last 20 newest first
         recent = blocks[-20:][::-1]
 
         cards = ""
         for block in recent:
-            text  = "".join(block)
-            name  = next((l.split("🖼  ")[-1].strip() for l in block if "🖼" in l), "Unknown")
-            slug  = next((l.split("📁 ")[-1].strip() for l in block if "📁" in l), "")
-            price = next((l.split("💰 ")[-1].strip() for l in block if "💰" in l), "")
-            maker = next((l.split("💼 ")[-1].strip() for l in block if "💼" in l), "")
-            expiry= next((l.split("⏰ Expires: ")[-1].strip() for l in block if "⏰" in l), "")
-            link  = next((l.split("🔗 ")[-1].strip() for l in block if "🔗" in l), "")
+            name   = next((l.split("🖼  ")[-1].strip() for l in block if "🖼" in l), "Unknown")
+            slug   = next((l.split("📁 ")[-1].strip() for l in block if "📁" in l), "")
+            price  = next((l.split("💰 ")[-1].strip() for l in block if "💰" in l), "")
+            maker  = next((l.split("💼 ")[-1].strip() for l in block if "💼" in l), "")
+            expiry = next((l.split("⏰ Expires: ")[-1].strip() for l in block if "⏰" in l), "")
+            link   = next((l.split("🔗 ")[-1].strip() for l in block if "🔗" in l), "")
             cards += listing_html(name, slug, price, maker, expiry, link, "")
 
         html = f"""
@@ -244,11 +246,17 @@ def handle_event(data):
         meta      = item.get("metadata", {})
         name      = meta.get("name", "Unknown Avatar")
         link      = item.get("permalink", "")
-        image_url = meta.get("image_url", "")
+        nft_id    = item.get("nft_id", "")
         symbol    = p.get("payment_token", {}).get("symbol", "WETH")
         price     = fmt_price(p.get("base_price", "0"), symbol)
         maker     = p.get("maker", {}).get("address", "?")
         expiry    = p.get("expiration_date", "?")[:10]
+
+        # Try image from metadata first, fall back to REST API lookup
+        image_url = meta.get("image_url", "")
+        if not image_url and nft_id:
+            image_url = fetch_image_url(nft_id)
+
         log_and_email_listing(name, slug, price, maker, expiry,
                               link, image_url)
     except:
