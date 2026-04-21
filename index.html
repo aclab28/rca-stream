@@ -24,17 +24,8 @@
     z-index: 100;
   }
 
-  header h1 {
-    font-size: 22px;
-    font-weight: 700;
-    color: white;
-    margin-bottom: 2px;
-  }
-
-  header p {
-    font-size: 12px;
-    color: #888;
-  }
+  header h1 { font-size: 22px; font-weight: 700; color: white; margin-bottom: 2px; }
+  header p  { font-size: 12px; color: #888; }
 
   #status {
     display: flex;
@@ -49,8 +40,7 @@
   }
 
   #status .dot {
-    width: 7px;
-    height: 7px;
+    width: 7px; height: 7px;
     border-radius: 50%;
     background: #22c55e;
     animation: pulse 2s infinite;
@@ -61,11 +51,7 @@
     50%       { opacity: 0.3; }
   }
 
-  .container {
-    max-width: 640px;
-    margin: 0 auto;
-    padding: 16px;
-  }
+  .container { max-width: 640px; margin: 0 auto; padding: 16px; }
 
   /* ── Signup ── */
   .signup-box {
@@ -77,23 +63,10 @@
     text-align: center;
   }
 
-  .signup-box h2 {
-    font-size: 15px;
-    font-weight: 600;
-    color: white;
-    margin-bottom: 4px;
-  }
+  .signup-box h2 { font-size: 15px; font-weight: 600; color: white; margin-bottom: 4px; }
+  .signup-box p  { font-size: 12px; color: #666; margin-bottom: 14px; }
 
-  .signup-box p {
-    font-size: 12px;
-    color: #666;
-    margin-bottom: 14px;
-  }
-
-  .signup-row {
-    display: flex;
-    gap: 8px;
-  }
+  .signup-row { display: flex; gap: 8px; }
 
   .signup-row input {
     flex: 1;
@@ -123,13 +96,7 @@
 
   .signup-row button:hover { background: #1a6fc4; }
 
-  #signup-msg {
-    margin-top: 10px;
-    font-size: 12px;
-    min-height: 18px;
-    color: #888;
-  }
-
+  #signup-msg { margin-top: 10px; font-size: 12px; min-height: 18px; color: #888; }
   .msg-success { color: #22c55e !important; }
   .msg-error   { color: #ef4444 !important; }
 
@@ -169,7 +136,7 @@
 
   .card-body {
     width: 50%;
-    padding: 16px;
+    padding: 14px;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
@@ -177,25 +144,25 @@
   }
 
   .card-name {
-    font-size: 16px;
+    font-size: 15px;
     font-weight: 700;
     color: white;
-    margin-bottom: 6px;
+    margin-bottom: 4px;
     line-height: 1.3;
   }
 
   .card-price {
-    font-size: 18px;
+    font-size: 17px;
     font-weight: 700;
     color: #2081e2;
-    margin-bottom: 10px;
+    margin-bottom: 8px;
   }
 
   .card-meta {
     font-size: 11px;
     color: #666;
     line-height: 1.8;
-    margin-bottom: 12px;
+    margin-bottom: 10px;
   }
 
   .card-meta span {
@@ -213,28 +180,10 @@
     color: #2081e2;
     text-decoration: none;
     font-size: 11px;
+    margin-bottom: 2px;
   }
 
   .card-collection:hover { text-decoration: underline; }
-
-  .card-footer { margin-top: auto; }
-
-  .btn-opensea {
-    display: inline-flex;
-    align-items: center;
-    gap: 6px;
-    background: #2081e2;
-    color: white;
-    padding: 8px 16px;
-    border-radius: 8px;
-    text-decoration: none;
-    font-size: 12px;
-    font-weight: 500;
-    width: 100%;
-    justify-content: center;
-  }
-
-  .btn-opensea:hover { background: #1a6fc4; }
 
   .tag-new {
     display: inline-block;
@@ -243,24 +192,52 @@
     font-size: 10px;
     padding: 2px 7px;
     border-radius: 4px;
-    margin-bottom: 8px;
+    margin-bottom: 6px;
   }
+
+  /* ── Buttons ── */
+  .card-buttons {
+    display: flex;
+    flex-direction: column;
+    gap: 6px;
+    margin-top: auto;
+  }
+
+  .btn-view {
+    display: block;
+    text-align: center;
+    background: transparent;
+    color: #2081e2;
+    border: 1px solid #2081e2;
+    padding: 6px 10px;
+    border-radius: 7px;
+    text-decoration: none;
+    font-size: 11px;
+    font-weight: 500;
+  }
+
+  .btn-view:hover { background: #1a2a3a; }
+
+  .btn-buy {
+    display: block;
+    text-align: center;
+    background: #2081e2;
+    color: white;
+    border: 1px solid #2081e2;
+    padding: 6px 10px;
+    border-radius: 7px;
+    text-decoration: none;
+    font-size: 11px;
+    font-weight: 600;
+  }
+
+  .btn-buy:hover { background: #1a6fc4; }
 
   /* ── States ── */
-  .empty {
-    text-align: center;
-    padding: 60px 20px;
-    color: #555;
-  }
-
+  .empty { text-align: center; padding: 60px 20px; color: #555; }
   .empty h2 { font-size: 18px; margin-bottom: 8px; color: #888; }
 
-  #load-more {
-    text-align: center;
-    padding: 16px;
-    color: #555;
-    font-size: 13px;
-  }
+  #load-more { text-align: center; padding: 16px; color: #555; font-size: 13px; }
 
   #stats-bar {
     text-align: center;
@@ -323,36 +300,33 @@
   async function subscribe() {
     const email = document.getElementById('email-input').value.trim()
     const msg   = document.getElementById('signup-msg')
-
     if (!email || !email.includes('@')) {
       msg.className = 'msg-error'
       msg.textContent = 'Please enter a valid email address.'
       return
     }
-
     msg.className = ''
     msg.textContent = 'Subscribing...'
-
     try {
       const resp = await fetch(`${ORACLE_URL}/subscribe`, {
-        method:  'POST',
+        method: 'POST',
         headers: { 'Content-Type': 'application/json' },
-        body:    JSON.stringify({ email })
+        body: JSON.stringify({ email })
       })
       const data = await resp.json()
       if (data.status === 'success') {
-        msg.className   = 'msg-success'
+        msg.className = 'msg-success'
         msg.textContent = '✅ Subscribed! You will receive new listing alerts.'
         document.getElementById('email-input').value = ''
       } else if (data.status === 'already') {
-        msg.className   = 'msg-success'
+        msg.className = 'msg-success'
         msg.textContent = '✅ You are already subscribed!'
       } else {
-        msg.className   = 'msg-error'
+        msg.className = 'msg-error'
         msg.textContent = '❌ ' + data.message
       }
     } catch(e) {
-      msg.className   = 'msg-error'
+      msg.className = 'msg-error'
       msg.textContent = 'Could not connect. Please try again.'
     }
   }
@@ -364,13 +338,23 @@
   })
 
   // ── Helpers ───────────────────────────────────────────────
-  function timeAgo(isoString) {
+  function formatTime(isoString) {
     if (!isoString) return ''
-    const diff = Math.floor((Date.now() - new Date(isoString)) / 1000)
+    const date = new Date(isoString)
+    const now  = new Date()
+    const diff = Math.floor((now - date) / 1000)
+
     if (diff < 60)    return `${diff}s ago`
     if (diff < 3600)  return `${Math.floor(diff/60)}m ago`
     if (diff < 86400) return `${Math.floor(diff/3600)}h ago`
-    return `${Math.floor(diff/86400)}d ago`
+
+    // Older than 24h — show date
+    return date.toLocaleDateString('en-US', {
+      month: 'short',
+      day:   'numeric',
+      hour:  'numeric',
+      minute:'2-digit'
+    })
   }
 
   function isNew(isoString) {
@@ -378,32 +362,32 @@
     return (Date.now() - new Date(isoString)) < 3600000
   }
 
-  function collectionUrl(slug) {
-    return `https://opensea.io/collection/${slug}`
-  }
-
   function formatSlug(slug) {
-    // Convert slug to readable name
     return slug
-      .replace(/-x-reddit-collectible-avatars?/gi, '')
+      .replace(/-x-reddit-collectible-avatars?(-\d+)?/gi, '')
       .replace(/-/g, ' ')
       .replace(/\b\w/g, c => c.toUpperCase())
       .trim()
   }
 
+  function clean(s) {
+    return s ? s.replace(/[^\x00-\x7F]/g, '').trim() : ''
+  }
+
   function renderCard(listing) {
+    const name       = clean(listing.name)
+    const price      = clean(listing.price)
+    const maker      = clean(listing.maker)
+    const slug       = clean(listing.slug)
+    const link       = clean(listing.link)
+    const collName   = formatSlug(slug)
+    const collUrl    = `https://opensea.io/collection/${slug}`
+    const timeStr    = formatTime(listing.listed_at)
+    const newTag     = isNew(listing.listed_at) ? `<div class="tag-new">New</div>` : ''
+
     const img = listing.image_url
-      ? `<img class="card-img" src="${listing.image_url}" alt="${listing.name}" onerror="this.outerHTML='<div class=card-img-placeholder>🎭</div>'">`
+      ? `<img class="card-img" src="${listing.image_url}" alt="${name}" onerror="this.outerHTML='<div class=card-img-placeholder>🎭</div>'">`
       : `<div class="card-img-placeholder">🎭</div>`
-
-    const newTag = isNew(listing.listed_at)
-      ? `<div class="tag-new">New</div>` : ''
-
-    const ago = listing.listed_at
-      ? `<span>${timeAgo(listing.listed_at)}</span>` : ''
-
-    const collectionName = formatSlug(listing.slug)
-    const collectionLink = collectionUrl(listing.slug)
 
     return `
       <div class="card">
@@ -411,31 +395,26 @@
         <div class="card-body">
           <div>
             ${newTag}
-            <div class="card-name">${listing.name}</div>
-            <div class="card-price">${listing.price}</div>
+            <div class="card-name">${name}</div>
+            <div class="card-price">${price}</div>
             <div class="card-meta">
-              <a class="card-collection" href="${collectionLink}" target="_blank">${collectionName}</a>
-              <span>${listing.maker}</span>
-              <span>Expires ${listing.expiry}</span>
-              ${ago}
+              <a class="card-collection" href="${collUrl}" target="_blank">${collName}</a>
+              <span>${maker}</span>
+              <span>${timeStr}</span>
             </div>
           </div>
-          <div class="card-footer">
-            <a class="btn-opensea" href="${listing.link}" target="_blank">
-              View on OpenSea
-            </a>
+          <div class="card-buttons">
+            <a class="btn-view" href="${link}" target="_blank">View on OpenSea</a>
+            <a class="btn-buy" href="${link}" target="_blank">Buy Now</a>
           </div>
         </div>
       </div>`
   }
 
   function renderVisible() {
-    const el      = document.getElementById('listings')
-    const loadEl  = document.getElementById('load-more')
-    const visible = allListings.slice(0, visibleCount)
-
-    el.innerHTML = visible.map(renderCard).join('')
-
+    const el     = document.getElementById('listings')
+    const loadEl = document.getElementById('load-more')
+    el.innerHTML = allListings.slice(0, visibleCount).map(renderCard).join('')
     if (visibleCount < allListings.length) {
       loadEl.textContent = `Showing ${visibleCount} of ${allListings.length} — scroll for more`
     } else {
@@ -443,41 +422,34 @@
     }
   }
 
-  // ── Infinite scroll ───────────────────────────────────────
   window.addEventListener('scroll', () => {
     if (loading) return
-    const nearBottom = window.innerHeight + window.scrollY >= document.body.offsetHeight - 300
-    if (nearBottom && visibleCount < allListings.length) {
-      loading = true
-      visibleCount += PAGE_SIZE
-      renderVisible()
-      loading = false
+    if (window.innerHeight + window.scrollY >= document.body.offsetHeight - 300) {
+      if (visibleCount < allListings.length) {
+        loading = true
+        visibleCount += PAGE_SIZE
+        renderVisible()
+        loading = false
+      }
     }
   })
 
-  // ── Load listings ─────────────────────────────────────────
   async function loadListings() {
     try {
-      const resp = await fetch(`${ORACLE_URL}/listings?cb=${Date.now()}`)
+      const resp     = await fetch(`${ORACLE_URL}/listings?cb=${Date.now()}`)
       const listings = await resp.json()
-
       if (!listings || listings.length === 0) {
         document.getElementById('listings').innerHTML =
           `<div class="empty"><h2>No listings yet</h2><p>Watching for new Reddit Avatar listings...</p></div>`
         document.getElementById('status-text').textContent = 'Live — no listings yet'
         return
       }
-
       allListings = listings.slice().reverse()
-
       document.getElementById('status-text').textContent =
         `Live — ${allListings.length} listing${allListings.length !== 1 ? 's' : ''} — updates every 30s`
-
       document.getElementById('stats-bar').textContent =
         `${allListings.length} listing${allListings.length !== 1 ? 's' : ''} tracked today`
-
       renderVisible()
-
     } catch(e) {
       document.getElementById('listings').innerHTML =
         `<div class="empty"><h2>Could not load listings</h2><p>Check back soon</p></div>`
