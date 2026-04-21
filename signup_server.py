@@ -75,4 +75,4 @@ if __name__ == "__main__":
         '/etc/letsencrypt/live/rca-listings.duckdns.org/fullchain.pem',
         '/etc/letsencrypt/live/rca-listings.duckdns.org/privkey.pem'
     )
-    app.run(host="0.0.0.0", port=5000, ssl_context=context)
+    app.run(host="0.0.0.0", port=443, ssl_context=context)
