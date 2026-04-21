@@ -399,8 +399,9 @@
             <div class="card-price">${price}</div>
             <div class="card-meta">
               <span>${collName}</span>
-              <span>Seller: <a href="https://opensea.io/${listing.maker_full || listing.maker}" target="_blank" style="color:#2081e2; text-decoration:none;">${maker}</a></span>
-              <span>${timeStr}</span>
+              <span>Seller: ${listing.maker_full 
+                ? `<a href="https://opensea.io/${listing.maker_full}" target="_blank" style="color:#2081e2;text-decoration:none;">${maker}</a>`
+                : maker}</span>
             </div>
           </div>
           <div class="card-buttons">
