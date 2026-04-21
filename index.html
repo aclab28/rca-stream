@@ -138,60 +138,64 @@
     background: #1e1e1e;
     border: 1px solid #2a2a2a;
     border-radius: 12px;
-    padding: 14px;
+    overflow: hidden;
     margin-bottom: 10px;
     display: flex;
-    gap: 14px;
-    align-items: flex-start;
+    align-items: stretch;
     transition: border-color 0.2s;
   }
 
   .card:hover { border-color: #444; }
 
   .card-img {
-    width: 80px;
-    height: 80px;
-    border-radius: 10px;
+    width: 50%;
+    aspect-ratio: 1;
     object-fit: cover;
     flex-shrink: 0;
     background: #2a2a2a;
+    display: block;
   }
 
   .card-img-placeholder {
-    width: 80px;
-    height: 80px;
-    border-radius: 10px;
+    width: 50%;
+    aspect-ratio: 1;
     background: #2a2a2a;
     flex-shrink: 0;
     display: flex;
     align-items: center;
     justify-content: center;
-    font-size: 24px;
+    font-size: 48px;
   }
 
-  .card-body  { flex: 1; min-width: 0; }
+  .card-body {
+    width: 50%;
+    padding: 16px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    min-width: 0;
+  }
 
   .card-name {
-    font-size: 15px;
-    font-weight: 600;
+    font-size: 16px;
+    font-weight: 700;
     color: white;
-    margin-bottom: 4px;
-    white-space: nowrap;
-    overflow: hidden;
-    text-overflow: ellipsis;
+    margin-bottom: 6px;
+    line-height: 1.3;
   }
 
   .card-price {
-    font-size: 15px;
+    font-size: 18px;
     font-weight: 700;
     color: #2081e2;
-    margin-bottom: 8px;
+    margin-bottom: 10px;
   }
 
   .card-meta {
     font-size: 11px;
     color: #666;
-    line-height: 1.7;
+    line-height: 1.8;
+    margin-bottom: 12px;
   }
 
   .card-meta span {
@@ -201,7 +205,19 @@
     text-overflow: ellipsis;
   }
 
-  .card-footer { margin-top: 10px; }
+  .card-collection {
+    display: block;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    color: #2081e2;
+    text-decoration: none;
+    font-size: 11px;
+  }
+
+  .card-collection:hover { text-decoration: underline; }
+
+  .card-footer { margin-top: auto; }
 
   .btn-opensea {
     display: inline-flex;
@@ -209,24 +225,16 @@
     gap: 6px;
     background: #2081e2;
     color: white;
-    padding: 6px 14px;
+    padding: 8px 16px;
     border-radius: 8px;
     text-decoration: none;
     font-size: 12px;
     font-weight: 500;
+    width: 100%;
+    justify-content: center;
   }
 
   .btn-opensea:hover { background: #1a6fc4; }
-
-  .tag-catchup {
-    display: inline-block;
-    background: #2a2a00;
-    color: #fbbf24;
-    font-size: 10px;
-    padding: 2px 7px;
-    border-radius: 4px;
-    margin-bottom: 6px;
-  }
 
   .tag-new {
     display: inline-block;
@@ -235,7 +243,7 @@
     font-size: 10px;
     padding: 2px 7px;
     border-radius: 4px;
-    margin-bottom: 6px;
+    margin-bottom: 8px;
   }
 
   /* ── States ── */
@@ -287,7 +295,7 @@
 <div class="container">
 
   <div class="signup-box">
-    <h2>📬 Get listing alerts</h2>
+    <h2>Get listing alerts</h2>
     <p>Free email notifications when new Reddit Avatars are listed</p>
     <div class="signup-row">
       <input type="email" id="email-input" placeholder="you@email.com" />
@@ -305,7 +313,7 @@
 <footer>RCA Listings — Not affiliated with Reddit or OpenSea</footer>
 
 <script>
-  const ORACLE_IP = 'rca-listings.duckdns.org'
+  const ORACLE_URL = 'https://rca-listings.duckdns.org'
   const PAGE_SIZE  = 20
   let allListings  = []
   let visibleCount = PAGE_SIZE
@@ -326,7 +334,7 @@
     msg.textContent = 'Subscribing...'
 
     try {
-      const resp = await fetch(`https://${ORACLE_IP}/subscribe`, {
+      const resp = await fetch(`${ORACLE_URL}/subscribe`, {
         method:  'POST',
         headers: { 'Content-Type': 'application/json' },
         body:    JSON.stringify({ email })
@@ -367,7 +375,20 @@
 
   function isNew(isoString) {
     if (!isoString) return false
-    return (Date.now() - new Date(isoString)) < 3600000 // within 1 hour
+    return (Date.now() - new Date(isoString)) < 3600000
+  }
+
+  function collectionUrl(slug) {
+    return `https://opensea.io/collection/${slug}`
+  }
+
+  function formatSlug(slug) {
+    // Convert slug to readable name
+    return slug
+      .replace(/-x-reddit-collectible-avatars?/gi, '')
+      .replace(/-/g, ' ')
+      .replace(/\b\w/g, c => c.toUpperCase())
+      .trim()
   }
 
   function renderCard(listing) {
@@ -375,30 +396,33 @@
       ? `<img class="card-img" src="${listing.image_url}" alt="${listing.name}" onerror="this.outerHTML='<div class=card-img-placeholder>🎭</div>'">`
       : `<div class="card-img-placeholder">🎭</div>`
 
-    const tag = listing.catchup
-      ? `<div class="tag-catchup">📬 Catchup</div>`
-      : isNew(listing.listed_at)
-        ? `<div class="tag-new">🟢 New</div>`
-        : ''
+    const newTag = isNew(listing.listed_at)
+      ? `<div class="tag-new">New</div>` : ''
 
-    const ago = listing.listed_at ? `<span>🕐 ${timeAgo(listing.listed_at)}</span>` : ''
+    const ago = listing.listed_at
+      ? `<span>${timeAgo(listing.listed_at)}</span>` : ''
+
+    const collectionName = formatSlug(listing.slug)
+    const collectionLink = collectionUrl(listing.slug)
 
     return `
       <div class="card">
         ${img}
         <div class="card-body">
-          ${tag}
-          <div class="card-name">${listing.name}</div>
-          <div class="card-price">${listing.price}</div>
-          <div class="card-meta">
-            <span>📁 ${listing.slug}</span>
-            <span>💼 ${listing.maker}</span>
-            <span>⏰ Expires ${listing.expiry}</span>
-            ${ago}
+          <div>
+            ${newTag}
+            <div class="card-name">${listing.name}</div>
+            <div class="card-price">${listing.price}</div>
+            <div class="card-meta">
+              <a class="card-collection" href="${collectionLink}" target="_blank">${collectionName}</a>
+              <span>${listing.maker}</span>
+              <span>Expires ${listing.expiry}</span>
+              ${ago}
+            </div>
           </div>
           <div class="card-footer">
             <a class="btn-opensea" href="${listing.link}" target="_blank">
-              View on OpenSea ↗
+              View on OpenSea
             </a>
           </div>
         </div>
@@ -413,7 +437,7 @@
     el.innerHTML = visible.map(renderCard).join('')
 
     if (visibleCount < allListings.length) {
-      loadEl.textContent = `Showing ${visibleCount} of ${allListings.length} listings — scroll for more`
+      loadEl.textContent = `Showing ${visibleCount} of ${allListings.length} — scroll for more`
     } else {
       loadEl.textContent = `All ${allListings.length} listings shown`
     }
@@ -434,9 +458,7 @@
   // ── Load listings ─────────────────────────────────────────
   async function loadListings() {
     try {
-      const resp = await fetch(
-        `https://${ORACLE_IP}/listings?cb=${Date.now()}`
-      )
+      const resp = await fetch(`${ORACLE_URL}/listings?cb=${Date.now()}`)
       const listings = await resp.json()
 
       if (!listings || listings.length === 0) {
@@ -446,11 +468,10 @@
         return
       }
 
-      // Newest first
       allListings = listings.slice().reverse()
 
       document.getElementById('status-text').textContent =
-        `Live — ${allListings.length} listing${allListings.length !== 1 ? 's' : ''} • updates every 30s`
+        `Live — ${allListings.length} listing${allListings.length !== 1 ? 's' : ''} — updates every 30s`
 
       document.getElementById('stats-bar').textContent =
         `${allListings.length} listing${allListings.length !== 1 ? 's' : ''} tracked today`
