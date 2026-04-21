@@ -305,7 +305,7 @@
 <footer>RCA Listings — Not affiliated with Reddit or OpenSea</footer>
 
 <script>
-  const ORACLE_IP  = '129.158.249.252'
+  const ORACLE_IP = 'rca-listings.duckdns.org:5000'
   const PAGE_SIZE  = 20
   let allListings  = []
   let visibleCount = PAGE_SIZE
@@ -326,7 +326,7 @@
     msg.textContent = 'Subscribing...'
 
     try {
-      const resp = await fetch(`http://${ORACLE_IP}:5000/subscribe`, {
+      const resp = await fetch(`https://${ORACLE_IP}:5000/subscribe`, {
         method:  'POST',
         headers: { 'Content-Type': 'application/json' },
         body:    JSON.stringify({ email })
@@ -435,7 +435,7 @@
   async function loadListings() {
     try {
       const resp = await fetch(
-        `http://${ORACLE_IP}:5000/listings?cb=${Date.now()}`
+        `https://${ORACLE_IP}:5000/listings?cb=${Date.now()}`
       )
       const listings = await resp.json()
 
