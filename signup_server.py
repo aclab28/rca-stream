@@ -6,7 +6,7 @@ import ssl
 
 app = Flask(__name__)
 SUBSCRIBERS_FILE = "/home/ubuntu/subscribers.txt"
-LISTINGS_FILE = "/home/ubuntu/listings.json"
+LISTINGS_FILE    = "/home/ubuntu/listings.json"
 
 def valid_email(email):
     return re.match(r"[^@]+@[^@]+\.[^@]+", email) is not None
@@ -23,6 +23,16 @@ def save_subscriber(email):
         return False
     with open(SUBSCRIBERS_FILE, "a") as f:
         f.write(email + "\n")
+    return True
+
+def remove_subscriber(email):
+    subscribers = load_subscribers()
+    if email not in subscribers:
+        return False
+    with open(SUBSCRIBERS_FILE, "w") as f:
+        for s in subscribers:
+            if s != email:
+                f.write(s + "\n")
     return True
 
 @app.route("/listings", methods=["GET"])
@@ -58,6 +68,31 @@ def subscribe():
         response = jsonify({"status": "success", "message": "Subscribed successfully"})
     else:
         response = jsonify({"status": "already", "message": "Already subscribed"})
+
+    response.headers["Access-Control-Allow-Origin"] = "*"
+    return response
+
+@app.route("/unsubscribe", methods=["POST", "OPTIONS"])
+def unsubscribe():
+    if request.method == "OPTIONS":
+        response = jsonify({})
+        response.headers["Access-Control-Allow-Origin"] = "*"
+        response.headers["Access-Control-Allow-Headers"] = "Content-Type"
+        response.headers["Access-Control-Allow-Methods"] = "POST"
+        return response
+
+    data  = request.get_json(silent=True) or {}
+    email = data.get("email", "").strip().lower()
+
+    if not email or not valid_email(email):
+        response = jsonify({"status": "error", "message": "Invalid email address"})
+        response.headers["Access-Control-Allow-Origin"] = "*"
+        return response, 400
+
+    if remove_subscriber(email):
+        response = jsonify({"status": "success", "message": "Unsubscribed successfully"})
+    else:
+        response = jsonify({"status": "notfound", "message": "Email not found"})
 
     response.headers["Access-Control-Allow-Origin"] = "*"
     return response
