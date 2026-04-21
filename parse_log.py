@@ -47,7 +47,7 @@ for line in lines:
             elif 'expiry' not in current and 'Expires:' in clean:
                 current['expiry'] = clean.replace('Expires:', '').strip()
             elif 'link' not in current and 'https://' in clean:
-                current['link'] = clean
+                current['link'] = re.sub(r'[^\x00-\x7F]+', '', clean).strip()
 
 if current and current.get('link'):
     listings.append(current)
