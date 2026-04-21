@@ -6,7 +6,7 @@ import ssl
 
 app = Flask(__name__)
 SUBSCRIBERS_FILE = os.path.expanduser("~/subscribers.txt")
-LISTINGS_FILE    = os.path.expanduser("~/listings.json")
+LISTINGS_FILE = "/home/ubuntu/listings.json"
 
 def valid_email(email):
     return re.match(r"[^@]+@[^@]+\.[^@]+", email) is not None
