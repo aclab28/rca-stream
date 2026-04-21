@@ -100,20 +100,17 @@ def fmt_price(base_price, symbol="WETH"):
     except:
         return str(base_price)
 
-def fetch_image_url(nft_id):
+def fetch_image_url(metadata_url):
     try:
-        parts = nft_id.split("/")
-        if len(parts) != 3:
+        if not metadata_url:
             return ""
-        chain, contract, token = parts
-        url = f"https://api.opensea.io/api/v2/chain/{chain}/contract/{contract}/nfts/{token}"
         req = urllib.request.Request(
-            url,
-            headers={"accept": "application/json", "x-api-key": API_KEY}
+            metadata_url,
+            headers={"User-Agent": "Mozilla/5.0"}
         )
         with urllib.request.urlopen(req, timeout=10) as r:
             data = json.loads(r.read())
-        return data.get("nft", {}).get("image_url", "")
+        return data.get("image", data.get("image_url", ""))
     except:
         return ""
 
@@ -238,24 +235,23 @@ def handle_event(data):
         outer = data.get("payload", {})
         if outer.get("event_type") != "item_listed":
             return
-        p         = outer.get("payload", {})
-        slug      = p.get("collection", {}).get("slug", "")
+        p      = outer.get("payload", {})
+        slug   = p.get("collection", {}).get("slug", "")
         if not is_rca(slug):
             return
-        item      = p.get("item", {})
-        meta      = item.get("metadata", {})
-        name      = meta.get("name", "Unknown Avatar")
-        link      = item.get("permalink", "")
-        nft_id    = item.get("nft_id", "")
-        symbol    = p.get("payment_token", {}).get("symbol", "WETH")
-        price     = fmt_price(p.get("base_price", "0"), symbol)
-        maker     = p.get("maker", {}).get("address", "?")
-        expiry    = p.get("expiration_date", "?")[:10]
+        item   = p.get("item", {})
+        meta   = item.get("metadata", {})
+        name   = meta.get("name", "Unknown Avatar")
+        link   = item.get("permalink", "")
+        symbol = p.get("payment_token", {}).get("symbol", "WETH")
+        price  = fmt_price(p.get("base_price", "0"), symbol)
+        maker  = p.get("maker", {}).get("address", "?")
+        expiry = p.get("expiration_date", "?")[:10]
 
-        # Try image from metadata first, fall back to REST API lookup
         image_url = meta.get("image_url", "")
-        if not image_url and nft_id:
-            image_url = fetch_image_url(nft_id)
+        if not image_url:
+            metadata_url = meta.get("metadata_url", "")
+            image_url = fetch_image_url(metadata_url)
 
         log_and_email_listing(name, slug, price, maker, expiry,
                               link, image_url)
