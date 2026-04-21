@@ -4,15 +4,17 @@ import json
 import threading
 import time
 import os
+import subprocess
 import urllib.request
-from datetime import datetime, timezone
+from datetime import datetime
 
 API_KEY = "e42883f67023429590c1b7a8468eda67"
 LOG_FILE = os.path.expanduser("~/rca_listings.log")
+EMAIL_TO = "rca.lert1000@gmail.com"
 WETH_USD = None
 LISTING_COUNT = 0
 LAST_CONNECTED = None
-CATCHUP_SECONDS = 300  # look back 5 minutes on reconnect
+CATCHUP_SECONDS = 300
 
 def log(msg):
     ts = datetime.now().strftime("%H:%M:%S")
@@ -26,6 +28,16 @@ def log(msg):
 
 def is_rca(slug):
     return "reddit" in slug.lower()
+
+def send_email(subject, body):
+    try:
+        proc = subprocess.Popen(
+            ["mail", "-s", subject, EMAIL_TO],
+            stdin=subprocess.PIPE
+        )
+        proc.communicate(body.encode())
+    except Exception as e:
+        log(f"⚠️  Email failed: {e}")
 
 def fetch_weth():
     global WETH_USD
@@ -51,25 +63,51 @@ def fmt_price(base_price, symbol="WETH"):
     except:
         return str(base_price)
 
+def send_recent_listings():
+    try:
+        result = subprocess.run(
+            ["bash", "-c", "grep -A 6 'RCA LISTING' ~/rca_listings.log | tac"],
+            capture_output=True, text=True
+        )
+        body = result.stdout if result.stdout else "No listings found yet."
+        send_email("RCA Recent Listings", body)
+        log("📧 Recent listings emailed")
+    except Exception as e:
+        log(f"⚠️  Failed to send recent listings: {e}")
+
 def log_listing(name, slug, price, maker, expiry, link, prefix=""):
     global LISTING_COUNT
     LISTING_COUNT += 1
-    log("=" * 45)
-    log(f"{prefix}🆕 RCA LISTING #{LISTING_COUNT}")
-    log(f"🖼  {name}")
-    log(f"📁 {slug}")
-    log(f"💰 {price}")
-    log(f"💼 {maker[:10]}...{maker[-6:]}")
-    log(f"⏰ Expires: {expiry}")
-    log(f"🔗 {link}")
+    msg = (
+        f"{prefix}🆕 RCA LISTING #{LISTING_COUNT}\n"
+        f"🖼  {name}\n"
+        f"📁 {slug}\n"
+        f"💰 {price}\n"
+        f"💼 {maker[:10]}...{maker[-6:]}\n"
+        f"⏰ Expires: {expiry}\n"
+        f"🔗 {link}"
+    )
+    for line in msg.split("\n"):
+        log(line)
+
+    # Send email for new listing
+    send_email(
+        f"🆕 RCA Listed: {name} — {price}",
+        f"Name:    {name}\n"
+        f"Collection: {slug}\n"
+        f"Price:   {price}\n"
+        f"Seller:  {maker}\n"
+        f"Expires: {expiry}\n"
+        f"Link:    {link}"
+    )
 
 def rest_catchup(since_timestamp):
-    log(f"🔍 Catching up on missed listings since {datetime.fromtimestamp(since_timestamp).strftime('%H:%M:%S')}...")
+    log(f"🔍 Catching up on missed listings...")
     try:
         found = 0
         next_cursor = None
         while True:
-            url = "https://api.opensea.io/api/v2/events?event_type=listing&chain=matic&limit=50"
+            url = "https://api.opensea.io/api/v2/events?event_type=listing&limit=200"
             if next_cursor:
                 url += f"&next={next_cursor}"
             req = urllib.request.Request(
@@ -101,8 +139,8 @@ def rest_catchup(since_timestamp):
                 link   = event.get("asset", {}).get("opensea_url", "")
                 maker  = event.get("maker", "?")
                 expiry = event.get("closing_date", "?")
-                if expiry and len(expiry) >= 10:
-                    expiry = expiry[:10]
+                if expiry and len(str(expiry)) >= 10:
+                    expiry = str(expiry)[:10]
                 symbol = event.get("payment", {}).get("symbol", "WETH")
                 qty    = event.get("payment", {}).get("quantity", "0")
                 decs   = event.get("payment", {}).get("decimals", 18)
@@ -156,9 +194,8 @@ def on_open(ws):
     log("🔌 Connected!")
     log("👀 Watching for Reddit Avatar listings...")
 
-    # Run catchup if we were previously connected
     if LAST_CONNECTED is not None:
-        since = LAST_CONNECTED - 60  # overlap by 1 minute to avoid gaps
+        since = LAST_CONNECTED - 60
         threading.Thread(target=rest_catchup, args=(since,), daemon=True).start()
 
     LAST_CONNECTED = time.time()
