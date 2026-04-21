@@ -88,16 +88,18 @@ def broadcast_to_subscribers(name, price, link, image_url, slug, maker, expiry):
       <h3 style="margin:0 0 8px 0; color:white;">{name}</h3>
       <p style="font-size:16px; font-weight:700; color:#2081e2;">{price}</p>
       <p style="font-size:12px; color:#888;">{slug}</p>
-      <p style="font-size:12px; color:#888;">{maker}</p>
+            <p style="font-size:12px; color:#888;">Seller: <a href="https://opensea.io/{maker}" style="color:#2081e2;">{maker}</a></p>
+
       <div style="clear:both; margin-top:12px;">
         <a href="{link}" style="background:#2081e2; color:white; padding:8px 16px;
            border-radius:8px; text-decoration:none; font-size:13px; margin-right:8px;">
           View on OpenSea
         </a>
-        <a href="{link}" style="background:#2081e2; color:white; padding:8px 16px;
+                <a href="{link}" style="background:#2081e2; color:white; padding:8px 16px;
            border-radius:8px; text-decoration:none; font-size:13px;">
-          Buy Now
+          View on OpenSea
         </a>
+
       </div>
     </div>
     <p style="font-size:11px; color:#444; margin-top:16px;">
