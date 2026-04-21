@@ -100,18 +100,23 @@ def fmt_price(base_price, symbol="WETH"):
     except:
         return str(base_price)
 
-def fetch_image_url(metadata_url):
+def fetch_image_url(contract, token_id):
     try:
-        if not metadata_url:
+        if not contract or not token_id:
             return ""
+        url = f"https://api.opensea.io/api/v2/metadata/polygon/{contract}/{token_id}"
         req = urllib.request.Request(
-            metadata_url,
-            headers={"User-Agent": "Mozilla/5.0"}
+            url,
+            headers={
+                "accept": "*/*",
+                "x-api-key": API_KEY
+            }
         )
         with urllib.request.urlopen(req, timeout=10) as r:
             data = json.loads(r.read())
         return data.get("image", data.get("image_url", ""))
-    except:
+    except Exception as e:
+        log(f"⚠️  Image fetch failed: {e}")
         return ""
 
 def log_and_email_listing(name, slug, price, maker, expiry, link,
@@ -248,10 +253,15 @@ def handle_event(data):
         maker  = p.get("maker", {}).get("address", "?")
         expiry = p.get("expiration_date", "?")[:10]
 
+        # Extract contract and token from nft_id (format: matic/0xcontract/tokenid)
         image_url = meta.get("image_url", "")
         if not image_url:
-            metadata_url = meta.get("metadata_url", "")
-            image_url = fetch_image_url(metadata_url)
+            nft_id = item.get("nft_id", "")
+            if nft_id:
+                parts = nft_id.split("/")
+                if len(parts) == 3:
+                    _, contract, token_id = parts
+                    image_url = fetch_image_url(contract, token_id)
 
         log_and_email_listing(name, slug, price, maker, expiry,
                               link, image_url)
