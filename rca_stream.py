@@ -16,7 +16,7 @@ import pytz
 
 API_KEY        = "e42883f67023429590c1b7a8468eda67"
 LOG_FILE       = os.path.expanduser("~/rca_listings.log")
-LISTINGS_FILE  = os.path.expanduser("~/listings.json")
+LISTINGS_FILE  = "/home/ubuntu/listings.json"
 EMAIL_TO       = "rca.lert1000@gmail.com"
 EMAIL_FROM     = "rca.lert1000@gmail.com"
 EASTERN        = pytz.timezone("America/New_York")
@@ -34,6 +34,9 @@ GITHUB_TOKEN = os.environ.get("GITHUB_TOKEN", "")
 GITHUB_REPO  = "Aclab28/rca-stream"
 GITHUB_FILE  = "listings.json"
 
+def clean(s):
+    return re.sub(r'[^\x00-\x7F]+', '', str(s)).strip()
+
 def log(msg):
     ts   = datetime.now(pytz.utc).astimezone(EASTERN).strftime("%H:%M:%S %Z")
     line = f"[{ts}] {msg}"
@@ -47,7 +50,6 @@ def log(msg):
 def is_rca(slug):
     return "reddit" in slug.lower()
 
-# ── Email ─────────────────────────────────────────────────────
 def send_email(subject, html_body, to=None):
     try:
         msg = MIMEMultipart("alternative")
@@ -65,7 +67,7 @@ def send_email(subject, html_body, to=None):
         log(f"⚠️  Email failed: {e}")
 
 def load_subscribers():
-    path = os.path.expanduser("~/subscribers.txt")
+    path = "/home/ubuntu/subscribers.txt"
     if not os.path.exists(path):
         return []
     with open(path) as f:
@@ -79,19 +81,22 @@ def broadcast_to_subscribers(name, price, link, image_url, slug, maker, expiry):
     img_tag = f"<img src='{image_url}' style='width:120px;height:120px;object-fit:cover;border-radius:8px;float:right;margin-left:12px;'/>" if image_url else ""
     html = f"""
     <html><body style="background:#121212; padding:16px; font-family:sans-serif;">
-    <h2 style="color:#2081e2;">🆕 New Reddit Avatar Listed</h2>
+    <h2 style="color:#2081e2;">New Reddit Avatar Listed</h2>
     <div style="background:#1e1e1e; border:1px solid #2a2a2a; border-radius:12px;
                 padding:16px; max-width:500px; color:#e0e0e0;">
       {img_tag}
       <h3 style="margin:0 0 8px 0; color:white;">{name}</h3>
-      <p style="font-size:16px; font-weight:700; color:#2081e2;">💰 {price}</p>
-      <p style="font-size:12px; color:#888;">📁 {slug}</p>
-      <p style="font-size:12px; color:#888;">💼 {maker}</p>
-      <p style="font-size:12px; color:#888;">⏰ Expires: {expiry}</p>
+      <p style="font-size:16px; font-weight:700; color:#2081e2;">{price}</p>
+      <p style="font-size:12px; color:#888;">{slug}</p>
+      <p style="font-size:12px; color:#888;">{maker}</p>
       <div style="clear:both; margin-top:12px;">
         <a href="{link}" style="background:#2081e2; color:white; padding:8px 16px;
+           border-radius:8px; text-decoration:none; font-size:13px; margin-right:8px;">
+          View on OpenSea
+        </a>
+        <a href="{link}" style="background:#2081e2; color:white; padding:8px 16px;
            border-radius:8px; text-decoration:none; font-size:13px;">
-          View on OpenSea ↗
+          Buy Now
         </a>
       </div>
     </div>
@@ -101,7 +106,7 @@ def broadcast_to_subscribers(name, price, link, image_url, slug, maker, expiry):
     </p>
     </body></html>
     """
-    subject = f"🆕 RCA Listed: {name} — {price}"
+    subject = f"New RCA Listed: {name} — {price}"
     for email in subscribers:
         try:
             msg = MIMEMultipart("alternative")
@@ -124,23 +129,20 @@ def listing_html(name, slug, price, maker, expiry, link, image_url, prefix=""):
     <div style="font-family:sans-serif; background:#1e1e1e; border:1px solid #2a2a2a;
                 border-radius:12px; padding:16px; margin-bottom:16px;
                 max-width:500px; color:#e0e0e0;">
-      <div style="font-size:11px; color:#888; margin-bottom:8px;">{prefix}</div>
       {img_tag}
       <h3 style="margin:0 0 8px 0; color:white;">{name}</h3>
-      <p style="margin:4px 0; font-size:14px; color:#2081e2;">💰 <strong>{price}</strong></p>
-      <p style="margin:4px 0; font-size:12px; color:#888;">📁 {slug}</p>
-      <p style="margin:4px 0; font-size:12px; color:#888;">💼 {maker[:10]}...{maker[-6:]}</p>
-      <p style="margin:4px 0; font-size:12px; color:#888;">⏰ Expires: {expiry}</p>
+      <p style="margin:4px 0; font-size:14px; color:#2081e2;"><strong>{price}</strong></p>
+      <p style="margin:4px 0; font-size:12px; color:#888;">{slug}</p>
+      <p style="margin:4px 0; font-size:12px; color:#888;">{maker}</p>
       <div style="clear:both; margin-top:12px;">
         <a href="{link}" style="background:#2081e2; color:white; padding:8px 16px;
            border-radius:8px; text-decoration:none; font-size:13px;">
-          View on OpenSea ↗
+          View on OpenSea
         </a>
       </div>
     </div>
     """
 
-# ── WETH ──────────────────────────────────────────────────────
 def fetch_weth():
     global WETH_USD
     try:
@@ -165,7 +167,6 @@ def fmt_price(base_price, symbol="WETH"):
     except:
         return str(base_price)
 
-# ── Image ─────────────────────────────────────────────────────
 def fetch_image_url(contract, token_id):
     try:
         if not contract or not token_id:
@@ -181,7 +182,6 @@ def fetch_image_url(contract, token_id):
         log(f"⚠️  Image fetch failed: {e}")
         return ""
 
-# ── GitHub push ───────────────────────────────────────────────
 def push_to_github(listing):
     try:
         listings = []
@@ -222,7 +222,6 @@ def push_to_github(listing):
     except Exception as e:
         log(f"⚠️  GitHub push failed: {e}")
 
-# ── Recent listings email (your email only) ───────────────────
 def send_recent_listings_email():
     try:
         log("📧 Building recent listings email...")
@@ -243,25 +242,25 @@ def send_recent_listings_email():
 
         cards = ""
         for block in recent:
-            name   = next((l.split("🖼  ")[-1].strip() for l in block if "🖼" in l), "Unknown")
-            slug   = next((l.split("📁 ")[-1].strip() for l in block if "📁" in l), "")
-            price  = next((l.split("💰 ")[-1].strip() for l in block if "💰" in l), "")
-            maker  = next((l.split("💼 ")[-1].strip() for l in block if "💼" in l), "")
-            expiry = next((l.split("⏰ Expires: ")[-1].strip() for l in block if "⏰" in l), "")
+            name   = next((re.sub(r'[^\x00-\x7F]+','',l).split("  ")[-1].strip() for l in block if "\U0001f5bc" in l or "🖼" in l), "Unknown")
+            slug   = next((re.sub(r'[^\x00-\x7F]+','',l).split(" ")[-1].strip() for l in block if "\U0001f4c1" in l or "📁" in l), "")
+            price  = next((re.sub(r'[^\x00-\x7F]+','',l).split(" ")[-1].strip() for l in block if "\U0001f4b0" in l or "💰" in l), "")
+            maker  = next((re.sub(r'[^\x00-\x7F]+','',l).split(" ")[-1].strip() for l in block if "\U0001f4bc" in l or "💼" in l), "")
+            expiry = next((l.split("Expires:")[-1].strip() for l in block if "Expires:" in l), "")
             link   = next((re.search(r'https://\S+', l).group(0) for l in block if "https://" in l), "")
-            cards += listing_html(name, slug, price, maker, expiry, link, "")
+            cards += listing_html(clean(name), clean(slug), clean(price),
+                                  clean(maker), clean(expiry), link, "")
 
         html = f"""
         <html><body style="background:#121212; padding:16px;">
-        <h2 style="color:#2081e2; font-family:sans-serif;">📋 Recent RCA Listings (Last 20)</h2>
+        <h2 style="color:#2081e2; font-family:sans-serif;">Recent RCA Listings (Last 20)</h2>
         {cards if cards else "<p style='color:#888;'>No listings yet.</p>"}
         </body></html>
         """
-        send_email("📋 Recent RCA Listings", html)
+        send_email("Recent RCA Listings", html)
     except Exception as e:
         log(f"⚠️  Recent listings email failed: {e}")
 
-# ── Log and notify ────────────────────────────────────────────
 def log_and_email_listing(name, slug, price, maker, expiry, link,
                            image_url="", prefix="", listed_at=None):
     global LISTING_COUNT
@@ -276,38 +275,35 @@ def log_and_email_listing(name, slug, price, maker, expiry, link,
     log(f"🔗 {link}")
 
     listing = {
-        "name":      name,
-        "slug":      slug,
-        "price":     price,
-        "maker":     f"{maker[:10]}...{maker[-6:]}",
-        "expiry":    expiry,
-        "link":      link,
+        "name":      clean(name),
+        "slug":      clean(slug),
+        "price":     clean(price),
+        "maker":     clean(f"{maker[:10]}...{maker[-6:]}"),
+        "expiry":    clean(expiry),
+        "link":      clean(link),
         "image_url": image_url,
         "listed_at": listed_at or datetime.now(timezone.utc).isoformat(),
         "catchup":   bool(prefix)
     }
 
-    # Push to GitHub and local file
     threading.Thread(target=push_to_github, args=(listing,), daemon=True).start()
 
-    # Email to your address
     html = f"""
     <html><body style="background:#121212; padding:16px;">
-    <h2 style="color:#2081e2; font-family:sans-serif;">🆕 New Reddit Avatar Listed</h2>
-    {listing_html(name, slug, price, maker, expiry, link, image_url, prefix)}
+    <h2 style="color:#2081e2; font-family:sans-serif;">New Reddit Avatar Listed</h2>
+    {listing_html(clean(name), clean(slug), clean(price),
+                  clean(maker), clean(expiry), link, image_url, prefix)}
     </body></html>
     """
-    send_email(f"🆕 RCA: {name} — {price}", html)
+    send_email(f"New RCA: {clean(name)} — {clean(price)}", html)
 
-    # Broadcast to subscribers
     threading.Thread(
         target=broadcast_to_subscribers,
-        args=(name, price, link, image_url, slug,
-              f"{maker[:10]}...{maker[-6:]}", expiry),
+        args=(clean(name), clean(price), link, image_url,
+              clean(slug), clean(f"{maker[:10]}...{maker[-6:]}"), clean(expiry)),
         daemon=True
     ).start()
 
-# ── REST catchup ──────────────────────────────────────────────
 def rest_catchup(since_timestamp):
     log("🔍 Catching up on missed listings...")
     try:
@@ -370,7 +366,6 @@ def rest_catchup(since_timestamp):
     except Exception as e:
         log(f"⚠️  Catchup failed: {e}")
 
-# ── Stream handlers ───────────────────────────────────────────
 def handle_event(data):
     try:
         outer = data.get("payload", {})
