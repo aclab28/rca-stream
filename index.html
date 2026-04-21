@@ -1,157 +1,263 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
+<meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>RCA Stream</title>
+<title>RCA Listings — Reddit Collectible Avatars</title>
 <style>
   * { box-sizing: border-box; margin: 0; padding: 0; }
+
   body {
-    background: #111;
-    color: #eee;
-    font-family: monospace;
-    padding: 12px;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+    background: #f0f2f5;
+    color: #1a1a2e;
+    min-height: 100vh;
   }
-  #status {
+
+  header {
+    background: linear-gradient(135deg, #ff4500, #ff6534);
+    color: white;
+    padding: 24px 16px;
+    text-align: center;
+  }
+
+  header h1 {
+    font-size: 24px;
+    font-weight: 700;
+    margin-bottom: 4px;
+  }
+
+  header p {
     font-size: 13px;
+    opacity: 0.85;
+  }
+
+  #status {
+    text-align: center;
+    font-size: 12px;
+    color: #888;
+    padding: 10px;
+    background: white;
+    border-bottom: 1px solid #eee;
+  }
+
+  #status span {
+    display: inline-block;
+    width: 8px;
+    height: 8px;
+    border-radius: 50%;
+    background: #22c55e;
+    margin-right: 6px;
+    animation: pulse 2s infinite;
+  }
+
+  @keyframes pulse {
+    0%, 100% { opacity: 1; }
+    50% { opacity: 0.3; }
+  }
+
+  .container {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 16px;
+  }
+
+  .card {
+    background: white;
+    border-radius: 12px;
+    padding: 16px;
+    margin-bottom: 12px;
+    box-shadow: 0 1px 4px rgba(0,0,0,0.08);
+    display: flex;
+    gap: 14px;
+    align-items: flex-start;
+  }
+
+  .card img {
+    width: 80px;
+    height: 80px;
+    border-radius: 10px;
+    object-fit: cover;
+    flex-shrink: 0;
+    background: #f0f2f5;
+  }
+
+  .card-body {
+    flex: 1;
+    min-width: 0;
+  }
+
+  .card-name {
+    font-size: 15px;
+    font-weight: 600;
+    color: #1a1a2e;
+    margin-bottom: 4px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+  }
+
+  .card-price {
+    font-size: 16px;
+    font-weight: 700;
+    color: #ff4500;
+    margin-bottom: 6px;
+  }
+
+  .card-meta {
+    font-size: 11px;
+    color: #888;
+    line-height: 1.6;
+  }
+
+  .card-meta span {
+    display: block;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+  }
+
+  .card-footer {
+    margin-top: 10px;
+  }
+
+  .btn {
+    display: inline-block;
+    background: #2081e2;
+    color: white;
+    padding: 6px 14px;
+    border-radius: 6px;
+    text-decoration: none;
+    font-size: 12px;
+    font-weight: 500;
+  }
+
+  .tag-catchup {
+    display: inline-block;
+    background: #fef3c7;
+    color: #92400e;
+    font-size: 10px;
+    padding: 2px 6px;
+    border-radius: 4px;
+    margin-bottom: 4px;
+  }
+
+  .empty {
+    text-align: center;
+    padding: 60px 20px;
     color: #aaa;
-    padding: 8px 0;
-    border-bottom: 1px solid #333;
+  }
+
+  .empty h2 {
+    font-size: 18px;
     margin-bottom: 8px;
   }
-  #log {
-    font-size: 11px;
-    white-space: pre-wrap;
-    word-break: break-all;
-    line-height: 1.6;
+
+  #refresh-bar {
+    text-align: center;
+    font-size: 12px;
+    color: #aaa;
+    padding: 8px;
   }
 </style>
 </head>
 <body>
-<div id="status">Starting...</div>
-<pre id="log"></pre>
+
+<header>
+  <h1>🎭 RCA Listings</h1>
+  <p>Live Reddit Collectible Avatar listings from OpenSea</p>
+</header>
+
+<div id="status">
+  <span></span>Live — updating automatically
+</div>
+
+<div class="container">
+  <div id="listings">
+    <div class="empty">
+      <h2>Loading listings...</h2>
+    </div>
+  </div>
+  <div id="refresh-bar"></div>
+</div>
 
 <script>
-// ── Config ────────────────────────────────────────────────
-const WARMUP_LIMIT = 10
-const isRCA = slug => slug.includes('reddit')
+  const LISTINGS_URL = 'https://raw.githubusercontent.com/Aclab28/rca-stream/main/listings.json?cb=' + Date.now()
 
-// ── UI helpers ────────────────────────────────────────────
-const logEl  = document.getElementById('log')
-const statEl = document.getElementById('status')
-let totalListings = 0
-let rcaCount      = 0
-let warmupDone    = false
-
-function log(msg) {
-  logEl.textContent = msg + '\n' + logEl.textContent
-}
-
-function status(msg) {
-  statEl.textContent = msg
-}
-
-// ── Get OpenSea API key ───────────────────────────────────
-async function getApiKey() {
-  log('🔑 Fetching OpenSea API key...')
-  const resp = await fetch('https://api.opensea.io/api/v2/auth/keys', {
-    method:  'POST',
-    headers: { 'accept': 'application/json', 'content-type': 'application/json' }
-  })
-  const data = await resp.json()
-  log('✅ Got key, expires: ' + data.expires_at.substring(0, 10))
-  return data.api_key
-}
-
-// ── Connect to OpenSea stream ─────────────────────────────
-function connect(apiKey) {
-  log('\n📡 Connecting to OpenSea stream...')
-  status('Connecting...')
-
-  const ws = new WebSocket(
-    'wss://stream.openseabeta.com/socket/websocket?token=' + apiKey
-  )
-
-  ws.onopen = () => {
-    log('✅ Connected!\n')
-    status('🟢 Live | seen: ' + totalListings + ' | rca: ' + rcaCount)
-
-    // Heartbeat every 30s
-    setInterval(() => {
-      if (ws.readyState === WebSocket.OPEN) {
-        ws.send(JSON.stringify({
-          topic: 'phoenix', event: 'heartbeat', payload: {}, ref: 0
-        }))
-      }
-    }, 30000)
-
-    // Subscribe to all collections
-    ws.send(JSON.stringify({
-      topic: 'collection:*', event: 'phx_join', payload: {}, ref: 1
-    }))
-    log('📡 Subscribed — showing first ' + WARMUP_LIMIT + ' listings from any collection...\n')
+  function timeAgo(isoString) {
+    if (!isoString) return ''
+    const diff = Math.floor((Date.now() - new Date(isoString)) / 1000)
+    if (diff < 60) return `${diff}s ago`
+    if (diff < 3600) return `${Math.floor(diff/60)}m ago`
+    if (diff < 86400) return `${Math.floor(diff/3600)}h ago`
+    return `${Math.floor(diff/86400)}d ago`
   }
 
-  ws.onmessage = (e) => {
+  function renderCard(listing) {
+    const img = listing.image_url
+      ? `<img src="${listing.image_url}" alt="${listing.name}" onerror="this.style.display='none'">`
+      : `<div style="width:80px;height:80px;border-radius:10px;background:#f0f2f5;flex-shrink:0;"></div>`
+
+    const catchup = listing.catchup
+      ? `<div class="tag-catchup">📬 Caught up</div>`
+      : ''
+
+    return `
+      <div class="card">
+        ${img}
+        <div class="card-body">
+          ${catchup}
+          <div class="card-name">${listing.name}</div>
+          <div class="card-price">${listing.price}</div>
+          <div class="card-meta">
+            <span>📁 ${listing.slug}</span>
+            <span>💼 ${listing.maker}</span>
+            <span>⏰ Expires ${listing.expiry}</span>
+            <span>🕐 ${timeAgo(listing.listed_at)}</span>
+          </div>
+          <div class="card-footer">
+            <a class="btn" href="${listing.link}" target="_blank">View on OpenSea</a>
+          </div>
+        </div>
+      </div>
+    `
+  }
+
+  async function loadListings() {
     try {
-      const data  = JSON.parse(e.data)
-      const outer = data.payload || {}
-      if (outer.event_type !== 'item_listed') return
+      const url = 'https://raw.githubusercontent.com/Aclab28/rca-stream/main/listings.json?cb=' + Date.now()
+      const resp = await fetch(url)
+      const listings = await resp.json()
 
-      totalListings++
-      const p    = outer.payload || {}
-      const slug = (p.collection || {}).slug || ''
-      const name = ((p.item || {}).metadata || {}).name || 'Unknown'
-      const link = (p.item || {}).permalink || ''
-      const rca  = isRCA(slug)
-      if (rca) rcaCount++
+      const el = document.getElementById('listings')
+      const bar = document.getElementById('refresh-bar')
 
-      status('🟢 Live | seen: ' + totalListings + ' | rca: ' + rcaCount)
-
-      // Warmup: show all collections
-      if (!warmupDone) {
-        const tag = rca ? '🟢 RCA' : '⚪️ ANY'
-        log('[' + totalListings + '] ' + tag)
-        log('    ' + name)
-        log('    ' + slug)
-        log('')
-        if (totalListings >= WARMUP_LIMIT) {
-          warmupDone = true
-          log('━━━ Warmup done — RCA only from here ━━━\n')
-        }
+      if (!listings || listings.length === 0) {
+        el.innerHTML = `
+          <div class="empty">
+            <h2>No listings yet</h2>
+            <p>Watching for new Reddit Avatar listings...</p>
+          </div>`
         return
       }
 
-      // RCA only
-      if (!rca) return
+      el.innerHTML = listings
+        .slice()
+        .reverse()
+        .map(renderCard)
+        .join('')
 
-      log('[RCA #' + rcaCount + '] ' + name)
-      log('    ' + slug)
-      log('    ' + link)
-      log('')
+      bar.textContent = `${listings.length} listing${listings.length !== 1 ? 's' : ''} • refreshes every 30s`
 
-    } catch(err) {
-      // ignore parse errors
+    } catch(e) {
+      document.getElementById('listings').innerHTML = `
+        <div class="empty"><h2>Could not load listings</h2></div>`
     }
   }
 
-  ws.onerror = () => {
-    log('❌ WebSocket error')
-    status('🔴 Error — reload to retry')
-  }
-
-  ws.onclose = (e) => {
-    log('🔴 Disconnected (code: ' + e.code + ')')
-    status('🔴 Disconnected — reload to retry')
-  }
-}
-
-// ── Start ─────────────────────────────────────────────────
-getApiKey()
-  .then(key => connect(key))
-  .catch(err => {
-    log('❌ Failed to get API key: ' + err.message)
-    status('❌ Key fetch failed')
-  })
+  loadListings()
+  setInterval(loadListings, 30000)
 </script>
+
 </body>
 </html>
