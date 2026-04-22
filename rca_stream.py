@@ -95,16 +95,15 @@ def broadcast_to_subscribers(name, price, link, image_url, slug, maker, expiry):
            border-radius:8px; text-decoration:none; font-size:13px; margin-right:8px;">
           View on OpenSea
         </a>
-                <a href="{link}" style="background:#2081e2; color:white; padding:8px 16px;
-           border-radius:8px; text-decoration:none; font-size:13px;">
-          View on OpenSea
-        </a>
-
       </div>
+    </div>
+          </div>
     </div>
     <p style="font-size:11px; color:#444; margin-top:16px;">
       You are receiving this because you subscribed at
       <a href="https://aclab28.github.io/rca-stream" style="color:#2081e2;">RCA Listings</a>.
+      &nbsp;|&nbsp;
+      <a href="https://aclab28.github.io/rca-stream?unsub={email}" style="color:#666;">Unsubscribe</a>
     </p>
     </body></html>
     """
