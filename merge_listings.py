@@ -68,12 +68,21 @@ def fetch_image(link):
     try:
         m = re.search(r'opensea\.io/item/polygon/(0x[a-fA-F0-9]+)/(\d+)', link)
         if not m:
+            print(f"    No contract match in: {link}")
             return ''
         contract, token = m.group(1), m.group(2)
         url = f"https://api.opensea.io/api/v2/metadata/polygon/{contract}/{token}"
         r = requests.get(url, headers={"accept": "*/*", "x-api-key": API_KEY}, timeout=10)
-        return r.json().get("image", "")
-    except:
+        if r.status_code != 200:
+            print(f"    API error {r.status_code} for {contract}/{token}")
+            return ''
+        data = r.json()
+        img = data.get("image", "")
+        if not img:
+            print(f"    No image field for {contract}/{token}: {list(data.keys())}")
+        return img
+    except Exception as e:
+        print(f"    Exception: {e}")
         return ''
 
 for i, listing in enumerate(listings):
