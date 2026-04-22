@@ -279,14 +279,6 @@
       <button onclick="subscribe()">Subscribe</button>
     </div>
     <div id="signup-msg"></div>
-       <div id="unsub-section" style="margin-top:16px; border-top:1px solid #2a2a2a; padding-top:14px;">
-      <p style="font-size:12px; color:#555; margin-bottom:10px;">Already subscribed? Unsubscribe below.</p>
-      <div class="signup-row">
-        <input type="email" id="unsub-input" placeholder="your@email.com" />
-        <button onclick="unsubscribe()" style="background:#333;">Unsubscribe</button>
-      </div>
-      <div id="unsub-msg" style="margin-top:10px; font-size:12px; min-height:18px;"></div>
-    </div>
   </div>
 
   <div id="stats-bar"></div>
@@ -379,6 +371,29 @@
     document.getElementById('email-input').addEventListener('keydown', e => {
       if (e.key === 'Enter') subscribe()
     })
+  })
+    // Handle unsubscribe from email link
+  window.addEventListener('DOMContentLoaded', () => {
+    const params = new URLSearchParams(window.location.search)
+    const unsub  = params.get('unsub')
+    if (unsub) {
+      fetch(`${ORACLE_URL}/unsubscribe`, {
+        method:  'POST',
+        headers: { 'Content-Type': 'application/json' },
+        body:    JSON.stringify({ email: unsub })
+      })
+      .then(r => r.json())
+      .then(data => {
+        const msg = document.getElementById('signup-msg')
+        if (data.status === 'success') {
+          msg.className   = 'msg-success'
+          msg.textContent = '✅ You have been unsubscribed.'
+        } else {
+          msg.className   = 'msg-error'
+          msg.textContent = '❌ Could not unsubscribe: ' + data.message
+        }
+      })
+    }
   })
 
   // ── Helpers ───────────────────────────────────────────────
