@@ -9,7 +9,7 @@ print(f"Fetching images for {len(missing)} listings...")
 
 def fetch_image(link):
     try:
-        m = re.search(r'opensea\.io/item/polygon/(0x[a-fA-F0-9]+)/(\d+)', link)
+        m = re.search(r'opensea\.io/(?:item|assets)/polygon/(0x[a-fA-F0-9]+)/(\d+)', link)
         if not m:
             return ''
         contract, token = m.group(1), m.group(2)
