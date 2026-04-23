@@ -100,6 +100,38 @@
   .msg-success { color: #22c55e !important; }
   .msg-error   { color: #ef4444 !important; }
 
+  /* ── Tabs ── */
+  .tabs {
+    display: flex;
+    gap: 8px;
+    margin-bottom: 16px;
+  }
+
+  .tab {
+    flex: 1;
+    padding: 10px;
+    text-align: center;
+    border-radius: 8px;
+    font-size: 14px;
+    font-weight: 600;
+    cursor: pointer;
+    border: 1px solid #2a2a2a;
+    background: #1e1e1e;
+    color: #666;
+    transition: all 0.2s;
+  }
+
+  .tab.active {
+    background: #2081e2;
+    border-color: #2081e2;
+    color: white;
+  }
+
+  .tab:hover:not(.active) {
+    border-color: #444;
+    color: #aaa;
+  }
+
   /* ── Cards ── */
   .card {
     background: #1e1e1e;
@@ -185,14 +217,6 @@
 
   .card-collection:hover { text-decoration: underline; }
 
-   .card-time {
-    font-size: 11px;
-    color: #555;
-    margin-top: 8px;
-    margin-bottom: 10px;
-    font-style: italic;
-  }
-
   .tag-new {
     display: inline-block;
     background: #022c22;
@@ -211,21 +235,6 @@
     margin-top: auto;
   }
 
-    .btn-opensea {
-    display: block;
-    text-align: center;
-    background: #2081e2;
-    color: white;
-    border: 1px solid #2081e2;
-    padding: 6px 10px;
-    border-radius: 7px;
-    text-decoration: none;
-    font-size: 11px;
-    font-weight: 600;
-  }
-
-  .btn-opensea:hover { background: #1a6fc4; }
-
   .btn-collection {
     display: block;
     text-align: center;
@@ -240,6 +249,29 @@
   }
 
   .btn-collection:hover { background: #1a2a3a; }
+
+  .btn-opensea {
+    display: block;
+    text-align: center;
+    background: #2081e2;
+    color: white;
+    border: 1px solid #2081e2;
+    padding: 6px 10px;
+    border-radius: 7px;
+    text-decoration: none;
+    font-size: 11px;
+    font-weight: 600;
+  }
+
+  .btn-opensea:hover { background: #1a6fc4; }
+
+  .card-time {
+    font-size: 10px;
+    color: #444;
+    margin-top: 8px;
+    font-style: italic;
+    text-align: right;
+  }
 
   /* ── States ── */
   .empty { text-align: center; padding: 60px 20px; color: #555; }
@@ -289,6 +321,11 @@
     <div id="signup-msg"></div>
   </div>
 
+  <div class="tabs">
+    <div class="tab active" id="tab-rca" onclick="switchTab('rca')">Reddit Avatars</div>
+    <div class="tab" id="tab-mash" onclick="switchTab('mash')">Mash-It</div>
+  </div>
+
   <div id="stats-bar"></div>
   <div id="listings"></div>
   <div id="load-more"></div>
@@ -303,6 +340,7 @@
   let allListings  = []
   let visibleCount = PAGE_SIZE
   let loading      = false
+  let activeTab    = 'rca'
 
   // ── Subscribe ─────────────────────────────────────────────
   async function subscribe() {
@@ -338,57 +376,20 @@
       msg.textContent = 'Could not connect. Please try again.'
     }
   }
-  async function unsubscribe() {
-    const email = document.getElementById('unsub-input').value.trim()
-    const msg   = document.getElementById('unsub-msg')
-
-    if (!email || !email.includes('@')) {
-      msg.className = 'msg-error'
-      msg.textContent = 'Please enter a valid email address.'
-      return
-    }
-
-    msg.className = ''
-    msg.textContent = 'Processing...'
-
-    try {
-      const resp = await fetch(`${ORACLE_URL}/unsubscribe`, {
-        method:  'POST',
-        headers: { 'Content-Type': 'application/json' },
-        body:    JSON.stringify({ email })
-      })
-      const data = await resp.json()
-      if (data.status === 'success') {
-        msg.className   = 'msg-success'
-        msg.textContent = '✅ Unsubscribed successfully.'
-        document.getElementById('unsub-input').value = ''
-      } else if (data.status === 'notfound') {
-        msg.className   = 'msg-error'
-        msg.textContent = '❌ Email not found in subscriber list.'
-      } else {
-        msg.className   = 'msg-error'
-        msg.textContent = '❌ ' + data.message
-      }
-    } catch(e) {
-      msg.className   = 'msg-error'
-      msg.textContent = 'Could not connect. Please try again.'
-    }
-  }
 
   document.addEventListener('DOMContentLoaded', () => {
     document.getElementById('email-input').addEventListener('keydown', e => {
       if (e.key === 'Enter') subscribe()
     })
-  })
+
     // Handle unsubscribe from email link
-  window.addEventListener('DOMContentLoaded', () => {
     const params = new URLSearchParams(window.location.search)
     const unsub  = params.get('unsub')
     if (unsub) {
       fetch(`${ORACLE_URL}/unsubscribe`, {
-        method:  'POST',
+        method: 'POST',
         headers: { 'Content-Type': 'application/json' },
-        body:    JSON.stringify({ email: unsub })
+        body: JSON.stringify({ email: unsub })
       })
       .then(r => r.json())
       .then(data => {
@@ -404,6 +405,17 @@
     }
   })
 
+  // ── Tabs ──────────────────────────────────────────────────
+  function switchTab(tab) {
+    activeTab    = tab
+    visibleCount = PAGE_SIZE
+
+    document.getElementById('tab-rca').classList.toggle('active', tab === 'rca')
+    document.getElementById('tab-mash').classList.toggle('active', tab === 'mash')
+
+    loadListings()
+  }
+
   // ── Helpers ───────────────────────────────────────────────
   function formatTime(isoString) {
     if (!isoString) return ''
@@ -411,17 +423,20 @@
     const now  = new Date()
     const diff = Math.floor((now - date) / 1000)
 
-    if (diff < 60)    return `${diff}s ago`
-    if (diff < 3600)  return `${Math.floor(diff/60)}m ago`
-    if (diff < 86400) return `${Math.floor(diff/3600)}h ago`
+    let elapsed
+    if (diff < 60)         elapsed = `${diff} seconds ago`
+    else if (diff < 3600)  elapsed = `${Math.floor(diff/60)} minutes ago`
+    else if (diff < 86400) elapsed = `${Math.floor(diff/3600)} hours ago`
+    else                   elapsed = `${Math.floor(diff/86400)} days ago`
 
-    // Older than 24h — show date
-    return date.toLocaleDateString('en-US', {
-      month: 'short',
-      day:   'numeric',
-      hour:  'numeric',
-      minute:'2-digit'
+    const listedAt = date.toLocaleDateString('en-US', {
+      month:  'short',
+      day:    'numeric',
+      hour:   'numeric',
+      minute: '2-digit'
     })
+
+    return `Listed ${listedAt} · ${elapsed}`
   }
 
   function isNew(isoString) {
@@ -441,16 +456,20 @@
     return s ? s.replace(/[^\x00-\x7F]/g, '').trim() : ''
   }
 
-    function renderCard(listing) {
-    const name       = clean(listing.name)
-    const price      = clean(listing.price)
-    const maker      = clean(listing.maker)
-    const slug       = clean(listing.slug)
-    const link       = clean(listing.link)
-    const collName   = formatSlug(slug)
-    const collUrl    = `https://opensea.io/collection/${slug}`
-    const timeStr    = formatTime(listing.listed_at)
-    const newTag     = isNew(listing.listed_at) ? `<div class="tag-new">New</div>` : ''
+  function renderCard(listing) {
+    const name     = clean(listing.name)
+    const price    = clean(listing.price)
+    const maker    = clean(listing.maker)
+    const slug     = clean(listing.slug)
+    const link     = clean(listing.link)
+    const collName = formatSlug(slug)
+    const collUrl  = `https://opensea.io/collection/${slug}`
+    const timeStr  = formatTime(listing.listed_at)
+    const newTag   = isNew(listing.listed_at) ? `<div class="tag-new">New</div>` : ''
+
+    const sellerHtml = listing.maker_full
+      ? `<a href="https://opensea.io/${listing.maker_full}" target="_blank" style="color:#2081e2;text-decoration:none;">${maker}</a>`
+      : maker
 
     const img = listing.image_url
       ? `<img class="card-img" src="${listing.image_url}" alt="${name}" onerror="this.outerHTML='<div class=card-img-placeholder>🎭</div>'">`
@@ -466,16 +485,14 @@
             <div class="card-price">${price}</div>
             <div class="card-meta">
               <span>${collName}</span>
-              <span>Seller: ${listing.maker_full 
-                ? `<a href="https://opensea.io/${listing.maker_full}" target="_blank" style="color:#2081e2;text-decoration:none;">${maker}</a>`
-                : maker}</span>
+              <span>Seller: ${sellerHtml}</span>
             </div>
-            <div class="card-time">${timeStr}</div>
           </div>
           <div class="card-buttons">
             <a class="btn-collection" href="${collUrl}" target="_blank">Collection</a>
             <a class="btn-opensea" href="${link}" target="_blank">View on OpenSea</a>
           </div>
+          ${timeStr ? `<div class="card-time">${timeStr}</div>` : ''}
         </div>
       </div>`
   }
@@ -505,20 +522,30 @@
 
   async function loadListings() {
     try {
-      const resp     = await fetch(`${ORACLE_URL}/listings?cb=${Date.now()}`)
+      const endpoint = activeTab === 'rca' ? 'listings' : 'mash_listings'
+      const resp     = await fetch(`${ORACLE_URL}/${endpoint}?cb=${Date.now()}`)
       const listings = await resp.json()
+
+      const label = activeTab === 'rca' ? 'Reddit Avatar' : 'Mash-It'
+
       if (!listings || listings.length === 0) {
         document.getElementById('listings').innerHTML =
-          `<div class="empty"><h2>No listings yet</h2><p>Watching for new Reddit Avatar listings...</p></div>`
-        document.getElementById('status-text').textContent = 'Live — no listings yet'
+          `<div class="empty"><h2>No listings yet</h2><p>Watching for new ${label} listings...</p></div>`
+        document.getElementById('status-text').textContent = `Live — no ${label} listings yet`
+        document.getElementById('stats-bar').textContent = ''
         return
       }
+
       allListings = listings.slice().reverse()
+
       document.getElementById('status-text').textContent =
-        `Live — ${allListings.length} listing${allListings.length !== 1 ? 's' : ''} — updates every 30s`
+        `Live — ${allListings.length} ${label} listing${allListings.length !== 1 ? 's' : ''} — updates every 30s`
+
       document.getElementById('stats-bar').textContent =
-        `${allListings.length} listing${allListings.length !== 1 ? 's' : ''} tracked today`
+        `${allListings.length} listing${allListings.length !== 1 ? 's' : ''} tracked`
+
       renderVisible()
+
     } catch(e) {
       document.getElementById('listings').innerHTML =
         `<div class="empty"><h2>Could not load listings</h2><p>Check back soon</p></div>`
