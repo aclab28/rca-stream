@@ -23,7 +23,7 @@ EASTERN        = pytz.timezone("America/New_York")
 WETH_USD       = None
 LISTING_COUNT  = 0
 LAST_CONNECTED = None
-MAX_LISTINGS   = 200
+MAX_LISTINGS   = 500
 
 SMTP_HOST = "smtp.gmail.com"
 SMTP_PORT = 587
@@ -50,6 +50,7 @@ def log(msg):
 def is_rca(slug):
     return "reddit" in slug.lower()
 
+# ── Email ─────────────────────────────────────────────────────
 def send_email(subject, html_body, to=None):
     try:
         msg = MIMEMultipart("alternative")
@@ -73,12 +74,13 @@ def load_subscribers():
     with open(path) as f:
         return [line.strip() for line in f if line.strip()]
 
-def broadcast_to_subscribers(name, price, link, image_url, slug, maker, expiry):
+def broadcast_to_subscribers(name, price, link, image_url, slug, maker, maker_full, expiry):
     subscribers = load_subscribers()
     if not subscribers:
         log("📭 No subscribers to broadcast to")
         return
     img_tag = f"<img src='{image_url}' style='width:120px;height:120px;object-fit:cover;border-radius:8px;float:right;margin-left:12px;'/>" if image_url else ""
+    seller_link = f"https://opensea.io/{maker_full}" if maker_full else f"https://opensea.io/{maker}"
     html = f"""
     <html><body style="background:#121212; padding:16px; font-family:sans-serif;">
     <h2 style="color:#2081e2;">New Reddit Avatar Listed</h2>
@@ -88,7 +90,7 @@ def broadcast_to_subscribers(name, price, link, image_url, slug, maker, expiry):
       <h3 style="margin:0 0 8px 0; color:white;">{name}</h3>
       <p style="font-size:16px; font-weight:700; color:#2081e2;">{price}</p>
       <p style="font-size:12px; color:#888;">{slug}</p>
-      <p style="font-size:12px; color:#888;">Seller: <a href="https://opensea.io/{maker}" style="color:#2081e2;">{maker}</a></p>
+      <p style="font-size:12px; color:#888;">Seller: <a href="{seller_link}" style="color:#2081e2;">{maker}</a></p>
       <div style="clear:both; margin-top:12px;">
         <a href="{link}" style="background:#2081e2; color:white; padding:8px 16px;
            border-radius:8px; text-decoration:none; font-size:13px;">
@@ -100,7 +102,7 @@ def broadcast_to_subscribers(name, price, link, image_url, slug, maker, expiry):
       You are receiving this because you subscribed at
       <a href="https://aclab28.github.io/rca-stream" style="color:#2081e2;">RCA Listings</a>.
       &nbsp;|&nbsp;
-      <a href="https://aclab28.github.io/rca-stream?unsub={{}}" style="color:#666;">Unsubscribe</a>
+      <a href="https://aclab28.github.io/rca-stream?unsub={{email}}" style="color:#666;">Unsubscribe</a>
     </p>
     </body></html>
     """
@@ -116,7 +118,7 @@ def broadcast_to_subscribers(name, price, link, image_url, slug, maker, expiry):
                     msg["Subject"] = subject
                     msg["From"]    = EMAIL_FROM
                     msg["To"]      = email
-                    msg.attach(MIMEText(html.format(email), "html"))
+                    msg.attach(MIMEText(html.format(email=email), "html"))
                     server.sendmail(EMAIL_FROM, email, msg.as_string())
                     log(f"📨 Subscriber email sent to {email}")
                     time.sleep(1)
@@ -145,6 +147,7 @@ def listing_html(name, slug, price, maker, expiry, link, image_url, prefix=""):
     </div>
     """
 
+# ── WETH ──────────────────────────────────────────────────────
 def fetch_weth():
     global WETH_USD
     try:
@@ -169,6 +172,7 @@ def fmt_price(base_price, symbol="WETH"):
     except:
         return str(base_price)
 
+# ── Image ─────────────────────────────────────────────────────
 def fetch_image_url(contract, token_id):
     try:
         if not contract or not token_id:
@@ -184,6 +188,7 @@ def fetch_image_url(contract, token_id):
         log(f"⚠️  Image fetch failed: {e}")
         return ""
 
+# ── GitHub push ───────────────────────────────────────────────
 def push_to_github(listing):
     try:
         listings = []
@@ -191,7 +196,15 @@ def push_to_github(listing):
             with open(LISTINGS_FILE) as f:
                 listings = json.load(f)
 
-        listings.append(listing)
+        # Dedup by link + timestamp to prevent stream/catchup duplicates
+        dedup_key = f"{listing.get('link','')}_{listing.get('listed_at','')}"
+        existing_keys = {f"{l.get('link','')}_{l.get('listed_at','')}" for l in listings}
+        if dedup_key not in existing_keys:
+            listings.append(listing)
+        else:
+            log("⚠️  Duplicate listing skipped")
+            return
+
         listings = listings[-MAX_LISTINGS:]
 
         with open(LISTINGS_FILE, "w") as f:
@@ -224,6 +237,7 @@ def push_to_github(listing):
     except Exception as e:
         log(f"⚠️  GitHub push failed: {e}")
 
+# ── Recent listings email ─────────────────────────────────────
 def send_recent_listings_email():
     try:
         log("📧 Building recent listings email...")
@@ -263,7 +277,8 @@ def send_recent_listings_email():
     except Exception as e:
         log(f"⚠️  Recent listings email failed: {e}")
 
-def log_and_email_listing(name, slug, price, maker, expiry, link,
+# ── Log and notify ────────────────────────────────────────────
+def log_and_email_listing(name, slug, price, maker, maker_full, expiry, link,
                            image_url="", prefix="", listed_at=None):
     global LISTING_COUNT
     LISTING_COUNT += 1
@@ -277,16 +292,16 @@ def log_and_email_listing(name, slug, price, maker, expiry, link,
     log(f"🔗 {link}")
 
     listing = {
-        "name":      clean(name),
-        "slug":      clean(slug),
-        "price":     clean(price),
-        "maker":     clean(f"{maker[:10]}...{maker[-6:]}"),
-        "maker_full": clean(maker),
-        "expiry":    clean(expiry),
-        "link":      clean(link),
-        "image_url": image_url,
-        "listed_at": listed_at or datetime.now(timezone.utc).isoformat(),
-        "catchup":   bool(prefix)
+        "name":       clean(name),
+        "slug":       clean(slug),
+        "price":      clean(price),
+        "maker":      clean(f"{maker[:10]}...{maker[-6:]}"),
+        "maker_full": clean(maker_full or maker),
+        "expiry":     clean(expiry),
+        "link":       clean(link),
+        "image_url":  image_url,
+        "listed_at":  listed_at or datetime.now(timezone.utc).isoformat(),
+        "catchup":    bool(prefix)
     }
 
     threading.Thread(target=push_to_github, args=(listing,), daemon=True).start()
@@ -295,7 +310,7 @@ def log_and_email_listing(name, slug, price, maker, expiry, link,
     <html><body style="background:#121212; padding:16px;">
     <h2 style="color:#2081e2; font-family:sans-serif;">New Reddit Avatar Listed</h2>
     {listing_html(clean(name), clean(slug), clean(price),
-                  clean(maker), clean(expiry), link, image_url, prefix)}
+                  clean(f"{maker[:10]}...{maker[-6:]}"), clean(expiry), link, image_url, prefix)}
     </body></html>
     """
     send_email(f"New RCA: {clean(name)} — {clean(price)}", html)
@@ -303,10 +318,12 @@ def log_and_email_listing(name, slug, price, maker, expiry, link,
     threading.Thread(
         target=broadcast_to_subscribers,
         args=(clean(name), clean(price), link, image_url,
-              clean(slug), clean(f"{maker[:10]}...{maker[-6:]}"), clean(expiry)),
+              clean(slug), clean(f"{maker[:10]}...{maker[-6:]}"),
+              clean(maker_full or maker), clean(expiry)),
         daemon=True
     ).start()
 
+# ── REST catchup ──────────────────────────────────────────────
 def rest_catchup(since_timestamp):
     log("🔍 Catching up on missed listings...")
     try:
@@ -347,7 +364,7 @@ def rest_catchup(since_timestamp):
                 decs      = event.get("payment", {}).get("decimals", 18)
 
                 if not image_url:
-                    m = re.search(r'opensea\.io/item/polygon/(0x[a-fA-F0-9]+)/(\d+)', link)
+                    m = re.search(r'opensea\.io/(?:item|assets)/polygon/(0x[a-fA-F0-9]+)/(\d+)', link)
                     if m:
                         image_url = fetch_image_url(m.group(1), m.group(2))
 
@@ -357,8 +374,15 @@ def rest_catchup(since_timestamp):
                 except:
                     price = qty
 
-                log_and_email_listing(name, slug, price, maker, expiry,
-                                      link, image_url, prefix="[CATCHUP] ")
+                try:
+                    listed_at = datetime.fromtimestamp(ts, tz=timezone.utc).isoformat()
+                except:
+                    listed_at = datetime.now(timezone.utc).isoformat()
+
+                log_and_email_listing(name, slug, price, maker, maker,
+                                      expiry, link, image_url,
+                                      prefix="[CATCHUP] ",
+                                      listed_at=listed_at)
                 found += 1
 
             if done or not data.get("next"):
@@ -369,13 +393,14 @@ def rest_catchup(since_timestamp):
     except Exception as e:
         log(f"⚠️  Catchup failed: {e}")
 
+# ── Stream handlers ───────────────────────────────────────────
 def handle_event(data):
     try:
         outer = data.get("payload", {})
         if outer.get("event_type") != "item_listed":
             return
-        p      = outer.get("payload", {})
-        slug   = p.get("collection", {}).get("slug", "")
+        p         = outer.get("payload", {})
+        slug      = p.get("collection", {}).get("slug", "")
         if not is_rca(slug):
             return
         item      = p.get("item", {})
@@ -386,7 +411,15 @@ def handle_event(data):
         price     = fmt_price(p.get("base_price", "0"), symbol)
         maker     = p.get("maker", {}).get("address", "?")
         expiry    = p.get("expiration_date", "?")[:10]
-        listed_at = p.get("event_timestamp", "")
+
+        raw_ts = p.get("event_timestamp", "")
+        try:
+            if isinstance(raw_ts, (int, float)):
+                listed_at = datetime.fromtimestamp(raw_ts, tz=timezone.utc).isoformat()
+            else:
+                listed_at = raw_ts
+        except:
+            listed_at = datetime.now(timezone.utc).isoformat()
 
         image_url = meta.get("image_url", "")
         if not image_url:
@@ -397,8 +430,8 @@ def handle_event(data):
                     _, contract, token_id = parts
                     image_url = fetch_image_url(contract, token_id)
 
-        log_and_email_listing(name, slug, price, maker, expiry,
-                              link, image_url, listed_at=listed_at)
+        log_and_email_listing(name, slug, price, maker, maker,
+                              expiry, link, image_url, listed_at=listed_at)
     except:
         pass
 
