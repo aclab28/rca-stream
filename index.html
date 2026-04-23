@@ -185,6 +185,14 @@
 
   .card-collection:hover { text-decoration: underline; }
 
+   .card-time {
+    font-size: 11px;
+    color: #555;
+    margin-top: 8px;
+    margin-bottom: 10px;
+    font-style: italic;
+  }
+
   .tag-new {
     display: inline-block;
     background: #022c22;
@@ -462,6 +470,7 @@
                 ? `<a href="https://opensea.io/${listing.maker_full}" target="_blank" style="color:#2081e2;text-decoration:none;">${maker}</a>`
                 : maker}</span>
             </div>
+            <div class="card-time">${timeStr}</div>
           </div>
           <div class="card-buttons">
             <a class="btn-collection" href="${collUrl}" target="_blank">Collection</a>
