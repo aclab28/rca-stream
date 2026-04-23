@@ -97,6 +97,18 @@ def unsubscribe():
     response.headers["Access-Control-Allow-Origin"] = "*"
     return response
 
+@app.route("/mash_listings", methods=["GET"])
+def mash_listings():
+    try:
+        response = send_file("/home/ubuntu/mash_listings.json", mimetype="application/json")
+        response.headers["Access-Control-Allow-Origin"] = "*"
+        response.headers["Cache-Control"] = "no-cache"
+        return response
+    except:
+        response = jsonify([])
+        response.headers["Access-Control-Allow-Origin"] = "*"
+        return response
+
 @app.route("/health", methods=["GET"])
 def health():
     subs = load_subscribers()
