@@ -1,0 +1,348 @@
+#!/usr/bin/env python3
+import websocket
+import json
+import threading
+import time
+import os
+import urllib.request
+import requests
+import base64
+import re
+from datetime import datetime, timezone
+import pytz
+
+API_KEY        = "e42883f67023429590c1b7a8468eda67"
+LOG_FILE       = os.path.expanduser("~/mash_listings.log")
+LISTINGS_FILE  = "/home/ubuntu/mash_listings.json"
+EASTERN        = pytz.timezone("America/New_York")
+WETH_USD       = None
+LISTING_COUNT  = 0
+LAST_CONNECTED = None
+MAX_LISTINGS   = 500
+
+GITHUB_TOKEN = os.environ.get("GITHUB_TOKEN", "")
+GITHUB_REPO  = "Aclab28/rca-stream"
+GITHUB_FILE  = "mash_listings.json"
+
+def clean(s):
+    return re.sub(r'[^\x00-\x7F]+', '', str(s)).strip()
+
+def log(msg):
+    ts   = datetime.now(pytz.utc).astimezone(EASTERN).strftime("%H:%M:%S %Z")
+    line = f"[{ts}] {msg}"
+    print(line, flush=True)
+    try:
+        with open(LOG_FILE, "a") as f:
+            f.write(line + "\n")
+    except:
+        pass
+
+def is_mash(slug):
+    return "mash-it" in slug.lower()
+
+# ── WETH ──────────────────────────────────────────────────────
+def fetch_weth():
+    global WETH_USD
+    try:
+        url = "https://api.coingecko.com/api/v3/simple/price?ids=weth&vs_currencies=usd"
+        with urllib.request.urlopen(url, timeout=10) as r:
+            WETH_USD = json.loads(r.read())["weth"]["usd"]
+        log(f"💱 WETH = ${WETH_USD:,.2f}")
+    except Exception as e:
+        log(f"⚠️  WETH price failed: {e}")
+
+def weth_refresh_loop():
+    while True:
+        time.sleep(600)
+        fetch_weth()
+
+def fmt_price(base_price, symbol="WETH"):
+    try:
+        amount = int(base_price) / 1e18
+        if WETH_USD and symbol in ("WETH", "ETH"):
+            return f"${amount * WETH_USD:,.2f}  ({amount:.4f} {symbol})"
+        return f"{amount:.4f} {symbol}"
+    except:
+        return str(base_price)
+
+# ── Image ─────────────────────────────────────────────────────
+def fetch_image_url(contract, token_id):
+    try:
+        if not contract or not token_id:
+            return ""
+        url = f"https://api.opensea.io/api/v2/metadata/polygon/{contract}/{token_id}"
+        r = requests.get(url, headers={
+            "accept": "*/*",
+            "x-api-key": API_KEY
+        }, timeout=10)
+        data = r.json()
+        return data.get("image", data.get("image_url", ""))
+    except Exception as e:
+        log(f"⚠️  Image fetch failed: {e}")
+        return ""
+
+# ── GitHub push ───────────────────────────────────────────────
+def push_to_github(listing):
+    try:
+        listings = []
+        if os.path.exists(LISTINGS_FILE):
+            with open(LISTINGS_FILE) as f:
+                listings = json.load(f)
+
+        # Dedup by link + timestamp
+        dedup_key = f"{listing.get('link','')}_{listing.get('listed_at','')}"
+        existing_keys = {f"{l.get('link','')}_{l.get('listed_at','')}" for l in listings}
+        if dedup_key not in existing_keys:
+            listings.append(listing)
+        else:
+            log("⚠️  Duplicate listing skipped")
+            return
+
+        listings = listings[-MAX_LISTINGS:]
+
+        with open(LISTINGS_FILE, "w") as f:
+            json.dump(listings, f, indent=2)
+
+        if not GITHUB_TOKEN:
+            return
+
+        api_url = f"https://api.github.com/repos/{GITHUB_REPO}/contents/{GITHUB_FILE}"
+        r = requests.get(api_url, headers={
+            "Authorization": f"token {GITHUB_TOKEN}",
+            "Accept": "application/vnd.github.v3+json"
+        })
+        sha = r.json().get("sha", "")
+
+        content = base64.b64encode(
+            json.dumps(listings, indent=2).encode()
+        ).decode()
+
+        requests.put(api_url, headers={
+            "Authorization": f"token {GITHUB_TOKEN}",
+            "Accept": "application/vnd.github.v3+json"
+        }, json={
+            "message": f"New mash listing: {listing.get('name', 'Mash-It')}",
+            "content": content,
+            "sha": sha
+        })
+        log("📤 Pushed to GitHub")
+    except Exception as e:
+        log(f"⚠️  GitHub push failed: {e}")
+
+# ── REST catchup ──────────────────────────────────────────────
+def rest_catchup(since_timestamp):
+    log("🔍 Catching up on missed mash-it listings...")
+    try:
+        found = 0
+        next_cursor = None
+        while True:
+            url = "https://api.opensea.io/api/v2/events?event_type=listing&limit=200"
+            if next_cursor:
+                url += f"&next={next_cursor}"
+            r = requests.get(url, headers={
+                "accept": "application/json",
+                "x-api-key": API_KEY
+            }, timeout=15)
+            data = r.json()
+
+            events = data.get("asset_events", [])
+            if not events:
+                break
+
+            done = False
+            for event in events:
+                ts = event.get("event_timestamp", 0)
+                if ts < since_timestamp:
+                    done = True
+                    break
+
+                slug = event.get("asset", {}).get("collection", "")
+                if not is_mash(slug):
+                    continue
+
+                name      = event.get("asset", {}).get("name", "Unknown")
+                link      = event.get("asset", {}).get("opensea_url", "")
+                image_url = event.get("asset", {}).get("image_url", "")
+                maker     = event.get("maker", "?")
+                expiry    = str(event.get("closing_date", "?"))[:10]
+                symbol    = event.get("payment", {}).get("symbol", "WETH")
+                qty       = event.get("payment", {}).get("quantity", "0")
+                decs      = event.get("payment", {}).get("decimals", 18)
+
+                if not image_url:
+                    m = re.search(r'opensea\.io/(?:item|assets)/polygon/(0x[a-fA-F0-9]+)/(\d+)', link)
+                    if m:
+                        image_url = fetch_image_url(m.group(1), m.group(2))
+
+                try:
+                    amount = int(qty) / (10 ** decs)
+                    price  = f"${amount * WETH_USD:,.2f}  ({amount:.4f} {symbol})" if WETH_USD else f"{amount:.4f} {symbol}"
+                except:
+                    price = qty
+
+                try:
+                    listed_at = datetime.fromtimestamp(ts, tz=timezone.utc).isoformat()
+                except:
+                    listed_at = datetime.now(timezone.utc).isoformat()
+
+                listing = {
+                    "name":       clean(name),
+                    "slug":       clean(slug),
+                    "price":      clean(price),
+                    "maker":      clean(f"{maker[:10]}...{maker[-6:]}"),
+                    "maker_full": clean(maker),
+                    "expiry":     clean(expiry),
+                    "link":       clean(link),
+                    "image_url":  image_url,
+                    "listed_at":  listed_at,
+                    "catchup":    True
+                }
+
+                log(f"[CATCHUP] 🆕 {name} — {price}")
+                threading.Thread(target=push_to_github, args=(listing,), daemon=True).start()
+                found += 1
+
+            if done or not data.get("next"):
+                break
+            next_cursor = data.get("next")
+
+        log(f"✅ Caught up {found} mash-it listing(s)" if found else "✅ No missed mash-it listings")
+    except Exception as e:
+        log(f"⚠️  Catchup failed: {e}")
+
+# ── Stream handlers ───────────────────────────────────────────
+def handle_event(data):
+    global LISTING_COUNT
+    try:
+        outer = data.get("payload", {})
+        if outer.get("event_type") != "item_listed":
+            return
+        p         = outer.get("payload", {})
+        slug      = p.get("collection", {}).get("slug", "")
+        if not is_mash(slug):
+            return
+
+        item      = p.get("item", {})
+        meta      = item.get("metadata", {})
+        name      = meta.get("name", "Unknown")
+        link      = item.get("permalink", "")
+        symbol    = p.get("payment_token", {}).get("symbol", "WETH")
+        price     = fmt_price(p.get("base_price", "0"), symbol)
+        maker     = p.get("maker", {}).get("address", "?")
+        expiry    = p.get("expiration_date", "?")[:10]
+
+        raw_ts = p.get("event_timestamp", "")
+        try:
+            if isinstance(raw_ts, (int, float)):
+                listed_at = datetime.fromtimestamp(raw_ts, tz=timezone.utc).isoformat()
+            else:
+                listed_at = raw_ts
+        except:
+            listed_at = datetime.now(timezone.utc).isoformat()
+
+        image_url = meta.get("image_url", "")
+        if not image_url:
+            nft_id = item.get("nft_id", "")
+            if nft_id:
+                parts = nft_id.split("/")
+                if len(parts) == 3:
+                    _, contract, token_id = parts
+                    image_url = fetch_image_url(contract, token_id)
+
+        LISTING_COUNT += 1
+        log("=" * 45)
+        log(f"🆕 MASH-IT LISTING #{LISTING_COUNT}")
+        log(f"🖼  {name}")
+        log(f"📁 {slug}")
+        log(f"💰 {price}")
+        log(f"💼 {maker[:10]}...{maker[-6:]}")
+        log(f"⏰ Expires: {expiry}")
+        log(f"🔗 {link}")
+
+        listing = {
+            "name":       clean(name),
+            "slug":       clean(slug),
+            "price":      clean(price),
+            "maker":      clean(f"{maker[:10]}...{maker[-6:]}"),
+            "maker_full": clean(maker),
+            "expiry":     clean(expiry),
+            "link":       clean(link),
+            "image_url":  image_url,
+            "listed_at":  listed_at,
+            "catchup":    False
+        }
+
+        threading.Thread(target=push_to_github, args=(listing,), daemon=True).start()
+
+    except:
+        pass
+
+def on_open(ws):
+    global LAST_CONNECTED
+    log("🔌 Connected! Watching for Mash-It listings...")
+
+    if LAST_CONNECTED is not None:
+        since = LAST_CONNECTED - 60
+        threading.Thread(target=rest_catchup, args=(since,), daemon=True).start()
+
+    LAST_CONNECTED = time.time()
+
+    def heartbeat():
+        i = 0
+        while True:
+            time.sleep(25)
+            try:
+                ws.send(json.dumps({
+                    "topic": "phoenix", "event": "heartbeat",
+                    "payload": {}, "ref": i
+                }))
+                i += 1
+            except:
+                break
+
+    threading.Thread(target=heartbeat, daemon=True).start()
+    ws.send(json.dumps({
+        "topic": "collection:*", "event": "phx_join",
+        "payload": {}, "ref": 1
+    }))
+    log("📡 Subscribed to global stream")
+    log("⏳ Waiting for Mash-It listings...\n")
+
+def on_message(ws, msg):
+    try:
+        handle_event(json.loads(msg))
+    except:
+        pass
+
+def on_error(ws, err):
+    log(f"❌ Error: {err}")
+
+def on_close(ws, code, msg):
+    log(f"🔴 Disconnected ({code})")
+
+def connect():
+    url = f"wss://stream.openseabeta.com/socket/websocket?token={API_KEY}"
+    ws  = websocket.WebSocketApp(
+        url,
+        on_open=on_open,
+        on_message=on_message,
+        on_error=on_error,
+        on_close=on_close,
+    )
+    ws.run_forever()
+
+if __name__ == "__main__":
+    log("🚀 Mash-It Stream Listener starting...")
+    log(f"📝 Log: {LOG_FILE}")
+    fetch_weth()
+    threading.Thread(target=weth_refresh_loop, daemon=True).start()
+    while True:
+        try:
+            connect()
+        except KeyboardInterrupt:
+            log("👋 Stopped")
+            break
+        except Exception as e:
+            log(f"⚠️  Crash: {e}")
+        log("⏳ Reconnecting in 3s...")
+        time.sleep(3)
