@@ -14,25 +14,27 @@ from email.mime.multipart import MIMEMultipart
 from email.mime.text import MIMEText
 import pytz
 
-API_KEY        = "e42883f67023429590c1b7a8468eda67"
-LOG_FILE       = os.path.expanduser("~/rca_listings.log")
-LISTINGS_FILE  = "/home/ubuntu/listings.json"
-EMAIL_TO       = "rca.lert1000@gmail.com"
-EMAIL_FROM     = "rca.lert1000@gmail.com"
-EASTERN        = pytz.timezone("America/New_York")
-WETH_USD       = None
-LISTING_COUNT  = 0
-LAST_CONNECTED = None
-MAX_LISTINGS   = 500
+API_KEY            = "e42883f67023429590c1b7a8468eda67"
+LOG_FILE           = os.path.expanduser("~/rca_listings.log")
+LISTINGS_FILE      = "/home/ubuntu/listings.json"
+MASH_LISTINGS_FILE = "/home/ubuntu/mash_listings.json"
+EMAIL_TO           = "rca.lert1000@gmail.com"
+EMAIL_FROM         = "rca.lert1000@gmail.com"
+EASTERN            = pytz.timezone("America/New_York")
+WETH_USD           = None
+LISTING_COUNT      = 0
+LAST_CONNECTED     = None
+MAX_LISTINGS       = 500
 
 SMTP_HOST = "smtp.gmail.com"
 SMTP_PORT = 587
 SMTP_USER = "rca.lert1000@gmail.com"
 SMTP_PASS = "pbgq axma hbxa moii"
 
-GITHUB_TOKEN = os.environ.get("GITHUB_TOKEN", "")
-GITHUB_REPO  = "Aclab28/rca-stream"
-GITHUB_FILE  = "listings.json"
+GITHUB_TOKEN     = os.environ.get("GITHUB_TOKEN", "")
+GITHUB_REPO      = "Aclab28/rca-stream"
+GITHUB_FILE      = "listings.json"
+MASH_GITHUB_FILE = "mash_listings.json"
 
 def clean(s):
     return re.sub(r'[^\x00-\x7F]+', '', str(s)).strip()
@@ -49,6 +51,9 @@ def log(msg):
 
 def is_rca(slug):
     return "reddit" in slug.lower()
+
+def is_mash(slug):
+    return "mash-it" in slug.lower()
 
 # ── Email ─────────────────────────────────────────────────────
 def send_email(subject, html_body, to=None):
@@ -188,7 +193,7 @@ def fetch_image_url(contract, token_id):
         log(f"⚠️  Image fetch failed: {e}")
         return ""
 
-# ── GitHub push ───────────────────────────────────────────────
+# ── RCA GitHub push ───────────────────────────────────────────
 def push_to_github(listing):
     try:
         listings = []
@@ -196,7 +201,6 @@ def push_to_github(listing):
             with open(LISTINGS_FILE) as f:
                 listings = json.load(f)
 
-        # Dedup by link + timestamp to prevent stream/catchup duplicates
         dedup_key = f"{listing.get('link','')}_{listing.get('listed_at','')}"
         existing_keys = {f"{l.get('link','')}_{l.get('listed_at','')}" for l in listings}
         if dedup_key not in existing_keys:
@@ -236,6 +240,53 @@ def push_to_github(listing):
         log("📤 Pushed to GitHub")
     except Exception as e:
         log(f"⚠️  GitHub push failed: {e}")
+
+# ── Mash-It GitHub push ───────────────────────────────────────
+def push_mash_to_github(listing):
+    try:
+        listings = []
+        if os.path.exists(MASH_LISTINGS_FILE):
+            with open(MASH_LISTINGS_FILE) as f:
+                listings = json.load(f)
+
+        dedup_key = f"{listing.get('link','')}_{listing.get('listed_at','')}"
+        existing_keys = {f"{l.get('link','')}_{l.get('listed_at','')}" for l in listings}
+        if dedup_key not in existing_keys:
+            listings.append(listing)
+        else:
+            log("⚠️  Duplicate mash listing skipped")
+            return
+
+        listings = listings[-MAX_LISTINGS:]
+
+        with open(MASH_LISTINGS_FILE, "w") as f:
+            json.dump(listings, f, indent=2)
+
+        if not GITHUB_TOKEN:
+            return
+
+        api_url = f"https://api.github.com/repos/{GITHUB_REPO}/contents/{MASH_GITHUB_FILE}"
+        r = requests.get(api_url, headers={
+            "Authorization": f"token {GITHUB_TOKEN}",
+            "Accept": "application/vnd.github.v3+json"
+        })
+        sha = r.json().get("sha", "")
+
+        content = base64.b64encode(
+            json.dumps(listings, indent=2).encode()
+        ).decode()
+
+        requests.put(api_url, headers={
+            "Authorization": f"token {GITHUB_TOKEN}",
+            "Accept": "application/vnd.github.v3+json"
+        }, json={
+            "message": f"New mash listing: {listing.get('name', 'Mash-It')}",
+            "content": content,
+            "sha": sha
+        })
+        log("📤 Mash listing pushed to GitHub")
+    except Exception as e:
+        log(f"⚠️  Mash GitHub push failed: {e}")
 
 # ── Recent listings email ─────────────────────────────────────
 def send_recent_listings_email():
@@ -351,10 +402,7 @@ def rest_catchup(since_timestamp):
                     break
 
                 slug = event.get("asset", {}).get("collection", "")
-                if not is_rca(slug):
-                    continue
-
-                name      = event.get("asset", {}).get("name", "Unknown Avatar")
+                name      = event.get("asset", {}).get("name", "Unknown")
                 link      = event.get("asset", {}).get("opensea_url", "")
                 image_url = event.get("asset", {}).get("image_url", "")
                 maker     = event.get("maker", "?")
@@ -379,17 +427,35 @@ def rest_catchup(since_timestamp):
                 except:
                     listed_at = datetime.now(timezone.utc).isoformat()
 
-                log_and_email_listing(name, slug, price, maker, maker,
-                                      expiry, link, image_url,
-                                      prefix="[CATCHUP] ",
-                                      listed_at=listed_at)
-                found += 1
+                if is_rca(slug):
+                    log_and_email_listing(name, slug, price, maker, maker,
+                                          expiry, link, image_url,
+                                          prefix="[CATCHUP] ",
+                                          listed_at=listed_at)
+                    found += 1
+
+                elif is_mash(slug):
+                    log(f"[CATCHUP] MASH-IT: {name}")
+                    listing = {
+                        "name":       clean(name),
+                        "slug":       clean(slug),
+                        "price":      clean(price),
+                        "maker":      clean(f"{maker[:10]}...{maker[-6:]}"),
+                        "maker_full": clean(maker),
+                        "expiry":     clean(expiry),
+                        "link":       clean(link),
+                        "image_url":  image_url,
+                        "listed_at":  listed_at,
+                        "catchup":    True
+                    }
+                    threading.Thread(target=push_mash_to_github, args=(listing,), daemon=True).start()
+                    found += 1
 
             if done or not data.get("next"):
                 break
             next_cursor = data.get("next")
 
-        log(f"✅ Caught up {found} missed listing(s)" if found else "✅ No missed listings")
+        log(f"✅ Caught up {found} listing(s)" if found else "✅ No missed listings")
     except Exception as e:
         log(f"⚠️  Catchup failed: {e}")
 
@@ -401,8 +467,6 @@ def handle_event(data):
             return
         p         = outer.get("payload", {})
         slug      = p.get("collection", {}).get("slug", "")
-        if not is_rca(slug):
-            return
         item      = p.get("item", {})
         meta      = item.get("metadata", {})
         name      = meta.get("name", "Unknown Avatar")
@@ -430,15 +494,35 @@ def handle_event(data):
                     _, contract, token_id = parts
                     image_url = fetch_image_url(contract, token_id)
 
-        log_and_email_listing(name, slug, price, maker, maker,
-                              expiry, link, image_url, listed_at=listed_at)
+        # ── RCA ───────────────────────────────────────────────
+        if is_rca(slug):
+            log_and_email_listing(name, slug, price, maker, maker,
+                                  expiry, link, image_url, listed_at=listed_at)
+
+        # ── Mash-It (no email) ────────────────────────────────
+        elif is_mash(slug):
+            log(f"🆕 MASH-IT: {clean(name)} — {clean(price)}")
+            listing = {
+                "name":       clean(name),
+                "slug":       clean(slug),
+                "price":      clean(price),
+                "maker":      clean(f"{maker[:10]}...{maker[-6:]}"),
+                "maker_full": clean(maker),
+                "expiry":     clean(expiry),
+                "link":       clean(link),
+                "image_url":  image_url,
+                "listed_at":  listed_at,
+                "catchup":    False
+            }
+            threading.Thread(target=push_mash_to_github, args=(listing,), daemon=True).start()
+
     except:
         pass
 
 def on_open(ws):
     global LAST_CONNECTED
     log("🔌 Connected!")
-    log("👀 Watching for Reddit Avatar listings...")
+    log("👀 Watching for RCA and Mash-It listings...")
 
     if LAST_CONNECTED is not None:
         since = LAST_CONNECTED - 60
@@ -451,13 +535,19 @@ def on_open(ws):
         while True:
             time.sleep(25)
             try:
-                ws.send(json.dumps({"topic": "phoenix", "event": "heartbeat", "payload": {}, "ref": i}))
+                ws.send(json.dumps({
+                    "topic": "phoenix", "event": "heartbeat",
+                    "payload": {}, "ref": i
+                }))
                 i += 1
             except:
                 break
 
     threading.Thread(target=heartbeat, daemon=True).start()
-    ws.send(json.dumps({"topic": "collection:*", "event": "phx_join", "payload": {}, "ref": 1}))
+    ws.send(json.dumps({
+        "topic": "collection:*", "event": "phx_join",
+        "payload": {}, "ref": 1
+    }))
     log("📡 Subscribed to global stream")
     log("⏳ Waiting for listings...\n")
 
@@ -485,7 +575,7 @@ def connect():
     ws.run_forever()
 
 if __name__ == "__main__":
-    log("🚀 RCA Stream Listener starting...")
+    log("🚀 RCA + Mash-It Stream Listener starting...")
     log(f"📝 Log: {LOG_FILE}")
     fetch_weth()
     threading.Thread(target=weth_refresh_loop, daemon=True).start()
