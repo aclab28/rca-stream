@@ -88,41 +88,42 @@ def broadcast_to_subscribers(name, price, link, image_url, slug, maker, expiry):
       <h3 style="margin:0 0 8px 0; color:white;">{name}</h3>
       <p style="font-size:16px; font-weight:700; color:#2081e2;">{price}</p>
       <p style="font-size:12px; color:#888;">{slug}</p>
-            <p style="font-size:12px; color:#888;">Seller: <a href="https://opensea.io/{maker}" style="color:#2081e2;">{maker}</a></p>
-
+      <p style="font-size:12px; color:#888;">Seller: <a href="https://opensea.io/{maker}" style="color:#2081e2;">{maker}</a></p>
       <div style="clear:both; margin-top:12px;">
         <a href="{link}" style="background:#2081e2; color:white; padding:8px 16px;
-           border-radius:8px; text-decoration:none; font-size:13px; margin-right:8px;">
+           border-radius:8px; text-decoration:none; font-size:13px;">
           View on OpenSea
         </a>
       </div>
-    </div>
-          </div>
     </div>
     <p style="font-size:11px; color:#444; margin-top:16px;">
       You are receiving this because you subscribed at
       <a href="https://aclab28.github.io/rca-stream" style="color:#2081e2;">RCA Listings</a>.
       &nbsp;|&nbsp;
-      <a href="https://aclab28.github.io/rca-stream?unsub={email}" style="color:#666;">Unsubscribe</a>
+      <a href="https://aclab28.github.io/rca-stream?unsub={{}}" style="color:#666;">Unsubscribe</a>
     </p>
     </body></html>
     """
     subject = f"New RCA Listed: {name} — {price}"
-    for email in subscribers:
-        try:
-            msg = MIMEMultipart("alternative")
-            msg["Subject"] = subject
-            msg["From"]    = EMAIL_FROM
-            msg["To"]      = email
-            msg.attach(MIMEText(html, "html"))
-            with smtplib.SMTP(SMTP_HOST, SMTP_PORT) as server:
-                server.ehlo()
-                server.starttls()
-                server.login(SMTP_USER, SMTP_PASS)
-                server.sendmail(EMAIL_FROM, email, msg.as_string())
-            log(f"📨 Subscriber email sent to {email}")
-        except Exception as e:
-            log(f"⚠️  Subscriber email failed for {email}: {e}")
+    try:
+        with smtplib.SMTP(SMTP_HOST, SMTP_PORT) as server:
+            server.ehlo()
+            server.starttls()
+            server.login(SMTP_USER, SMTP_PASS)
+            for email in subscribers:
+                try:
+                    msg = MIMEMultipart("alternative")
+                    msg["Subject"] = subject
+                    msg["From"]    = EMAIL_FROM
+                    msg["To"]      = email
+                    msg.attach(MIMEText(html.format(email), "html"))
+                    server.sendmail(EMAIL_FROM, email, msg.as_string())
+                    log(f"📨 Subscriber email sent to {email}")
+                    time.sleep(1)
+                except Exception as e:
+                    log(f"⚠️  Subscriber email failed for {email}: {e}")
+    except Exception as e:
+        log(f"⚠️  SMTP connection failed: {e}")
 
 def listing_html(name, slug, price, maker, expiry, link, image_url, prefix=""):
     img_tag = f"<img src='{image_url}' style='width:120px;height:120px;object-fit:cover;border-radius:8px;float:right;margin-left:12px;'/>" if image_url else ""
