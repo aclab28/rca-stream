@@ -406,5 +406,17 @@
     "image_url": "https://i2c.seadn.io/polygon/0x37db2523d221d19838632eb62d1af911e52632c3/29dd3f25fe0d91653f6f0300ab827f/0f29dd3f25fe0d91653f6f0300ab827f.png",
     "listed_at": "2026-04-24T12:28:16+00:00",
     "catchup": true
+  },
+  {
+    "name": "EYE OF THE BEHOLDER #110",
+    "slug": "spooky-season-bodegacatceo-x-reddit-collectible-av",
+    "price": "0.0017 WETH",
+    "maker": "0x9e1ee93d...515854",
+    "maker_full": "0x9e1ee93d5f94d6428be6c7d3ca5ef00a4b515854",
+    "expiry": "?",
+    "link": "https://opensea.io/assets/polygon/0x7e680862c572e4b945cf45912130c8d884109b59/559",
+    "image_url": "https://i2c.seadn.io/polygon/0x7e680862c572e4b945cf45912130c8d884109b59/6e78b888caf60bb231e8d61ba4befa/716e78b888caf60bb231e8d61ba4befa.png",
+    "listed_at": "2026-04-24T12:28:16+00:00",
+    "catchup": true
   }
 ]
