@@ -312,27 +312,15 @@
     "catchup": true
   },
   {
-    "name": "Sun Sun #14",
-    "slug": "sun-sun-by-lynyara-x-reddit-collectible-avatars",
-    "price": "$19.56  (0.0084 WETH)",
-    "maker": "0x8815c840...863cbf",
-    "maker_full": "0x8815c840321ce565852275ef1bc55e5f75863cbf",
-    "expiry": "2026-06-23",
-    "link": "https://opensea.io/item/polygon/0x461a69c36b110077e5e84a7400de496180d4c195/13",
-    "image_url": "https://i2c.seadn.io/polygon/0x461a69c36b110077e5e84a7400de496180d4c195/fcedf1a440aea9a86f1f5dd819f49d/45fcedf1a440aea9a86f1f5dd819f49d.png",
-    "listed_at": "2026-04-24T13:16:02.945000Z",
-    "catchup": false
-  },
-  {
-    "name": "Sun Sun #14",
-    "slug": "sun-sun-by-lynyara-x-reddit-collectible-avatars",
-    "price": "0.0084 WETH",
-    "maker": "0x8815c840...863cbf",
-    "maker_full": "0x8815c840321ce565852275ef1bc55e5f75863cbf",
+    "name": "Eternal #30",
+    "slug": "eternal-by-rylar-x-reddit-collectible-avatars",
+    "price": "0.0065 WETH",
+    "maker": "0x9e1ee93d...515854",
+    "maker_full": "0x9e1ee93d5f94d6428be6c7d3ca5ef00a4b515854",
     "expiry": "?",
-    "link": "https://opensea.io/assets/polygon/0x461a69c36b110077e5e84a7400de496180d4c195/13",
-    "image_url": "https://i2c.seadn.io/polygon/0x461a69c36b110077e5e84a7400de496180d4c195/fcedf1a440aea9a86f1f5dd819f49d/45fcedf1a440aea9a86f1f5dd819f49d.png",
-    "listed_at": "2026-04-24T13:16:02+00:00",
+    "link": "https://opensea.io/assets/polygon/0x4b1e0b6adb6ed0ca9227ee7ac76a481138c24b1f/29",
+    "image_url": "https://i2c.seadn.io/polygon/0x4b1e0b6adb6ed0ca9227ee7ac76a481138c24b1f/fcdb2a0d8c476546ca006850e228bb/effcdb2a0d8c476546ca006850e228bb.png",
+    "listed_at": "2026-04-24T12:38:49+00:00",
     "catchup": true
   }
 ]
