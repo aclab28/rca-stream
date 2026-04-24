@@ -322,5 +322,17 @@
     "image_url": "https://i2c.seadn.io/polygon/0x4b1e0b6adb6ed0ca9227ee7ac76a481138c24b1f/fcdb2a0d8c476546ca006850e228bb/effcdb2a0d8c476546ca006850e228bb.png",
     "listed_at": "2026-04-24T12:38:49+00:00",
     "catchup": true
+  },
+  {
+    "name": "Funny Pages #20",
+    "slug": "retro-reimagined-canetoonist-x-reddit-collectible",
+    "price": "0.0045 WETH",
+    "maker": "0x9e1ee93d...515854",
+    "maker_full": "0x9e1ee93d5f94d6428be6c7d3ca5ef00a4b515854",
+    "expiry": "?",
+    "link": "https://opensea.io/assets/polygon/0xf2a6f2b02cee70f81b5b8fd8e695b12e0583ac7e/919",
+    "image_url": "https://i2c.seadn.io/polygon/0xf2a6f2b02cee70f81b5b8fd8e695b12e0583ac7e/fb89b86ccd7c9d3ec5949e916544db/44fb89b86ccd7c9d3ec5949e916544db.png",
+    "listed_at": "2026-04-24T12:38:06+00:00",
+    "catchup": true
   }
 ]
