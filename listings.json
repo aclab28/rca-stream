@@ -382,5 +382,17 @@
     "image_url": "https://i2c.seadn.io/polygon/0xf2a6f2b02cee70f81b5b8fd8e695b12e0583ac7e/9068c28a2ac33fc0271d62c57cfab7/579068c28a2ac33fc0271d62c57cfab7.png",
     "listed_at": "2026-04-24T12:35:34+00:00",
     "catchup": true
+  },
+  {
+    "name": "Garth Guardian #62",
+    "slug": "spooky-season-dubbl3bee-x-reddit-collectible-avata",
+    "price": "0.0017 WETH",
+    "maker": "0x9e1ee93d...515854",
+    "maker_full": "0x9e1ee93d5f94d6428be6c7d3ca5ef00a4b515854",
+    "expiry": "?",
+    "link": "https://opensea.io/assets/polygon/0xd5ae5a16fbaf964f96e242645a4a6f10b98fd0c4/1161",
+    "image_url": "https://i2c.seadn.io/polygon/0xd5ae5a16fbaf964f96e242645a4a6f10b98fd0c4/a319ef33414767e9e286a1153da7cb/9aa319ef33414767e9e286a1153da7cb.png",
+    "listed_at": "2026-04-24T12:28:16+00:00",
+    "catchup": true
   }
 ]
