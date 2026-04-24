@@ -334,5 +334,17 @@
     "image_url": "https://i2c.seadn.io/polygon/0xf2a6f2b02cee70f81b5b8fd8e695b12e0583ac7e/fb89b86ccd7c9d3ec5949e916544db/44fb89b86ccd7c9d3ec5949e916544db.png",
     "listed_at": "2026-04-24T12:38:06+00:00",
     "catchup": true
+  },
+  {
+    "name": "Resplendent #64",
+    "slug": "future-realities-tomlabaff-x-reddit-collectible-av",
+    "price": "0.0045 WETH",
+    "maker": "0x9e1ee93d...515854",
+    "maker_full": "0x9e1ee93d5f94d6428be6c7d3ca5ef00a4b515854",
+    "expiry": "?",
+    "link": "https://opensea.io/assets/polygon/0x2400fc8417a12c1a483d8923f61019f4bd86db30/288",
+    "image_url": "https://i2c.seadn.io/polygon/0x2400fc8417a12c1a483d8923f61019f4bd86db30/de5c5d707edccef1810b40e6f83034/30de5c5d707edccef1810b40e6f83034.png",
+    "listed_at": "2026-04-24T12:38:06+00:00",
+    "catchup": true
   }
 ]
