@@ -328,6 +328,13 @@
     <div class="tab" id="tab-mash" onclick="switchTab('mash')">Mash-It</div>
   </div>
 
+    <div style="display:flex;align-items:center;gap:8px;margin-bottom:12px;padding:10px 12px;background:#1e1e1e;border:1px solid #2a2a2a;border-radius:8px;">
+    <input type="checkbox" id="premium-filter" onchange="renderVisible()" 
+           style="width:16px;height:16px;cursor:pointer;accent-color:#2081e2;">
+    <label for="premium-filter" style="font-size:13px;color:#aaa;cursor:pointer;user-select:none;">
+      Premium only
+    </label>
+  </div>
   <div id="stats-bar"></div>
   <div id="listings"></div>
   <div id="load-more"></div>
@@ -343,6 +350,12 @@
   let visibleCount = PAGE_SIZE
   let loading      = false
   let activeTab    = 'rca'
+  const EXCLUDED_SLUGS = new Set([
+  'reddit-recap-2022-x-reddit-collectible-avatars',
+  'reddit-rabbids-x-reddit-collectible-avatars',
+  'reddit-starter-pack-x-reddit-collectible-avatars',
+  'reddit-cup-2022-x-reddit-collectible-avatars'
+])
 
   // ── Subscribe ─────────────────────────────────────────────
   async function subscribe() {
@@ -488,16 +501,26 @@
       </div>`
   }
 
-  function renderVisible() {
-    const el     = document.getElementById('listings')
-    const loadEl = document.getElementById('load-more')
-    el.innerHTML = allListings.slice(0, visibleCount).map(renderCard).join('')
-    if (visibleCount < allListings.length) {
-      loadEl.textContent = `Showing ${visibleCount} of ${allListings.length} — scroll for more`
+    function renderVisible() {
+    const el          = document.getElementById('listings')
+    const loadEl      = document.getElementById('load-more')
+    const premiumOnly = document.getElementById('premium-filter')?.checked
+    const filtered    = premiumOnly
+      ? allListings.filter(l => !EXCLUDED_SLUGS.has(cleanStr(l.slug)))
+      : allListings
+    const slice = filtered.slice(0, visibleCount)
+
+    el.innerHTML = slice.length
+      ? slice.map(renderCard).join('')
+      : `<div class="empty"><h2>No listings yet</h2><p>Watching for new listings...</p></div>`
+
+    if (visibleCount < filtered.length) {
+      loadEl.textContent = `Showing ${Math.min(visibleCount, filtered.length)} of ${filtered.length} — scroll for more`
     } else {
-      loadEl.textContent = `All ${allListings.length} listings shown`
+      loadEl.textContent = filtered.length > 0 ? `All ${filtered.length} listings shown` : ''
     }
   }
+
 
   window.addEventListener('scroll', () => {
     if (loading) return
