@@ -506,7 +506,7 @@
     const loadEl      = document.getElementById('load-more')
     const premiumOnly = document.getElementById('premium-filter')?.checked
     const filtered    = premiumOnly
-      ? allListings.filter(l => !EXCLUDED_SLUGS.has(cleanStr(l.slug)))
+      ? allListings.filter(l => !EXCLUDED_SLUGS.has(l.slug))
       : allListings
     const slice = filtered.slice(0, visibleCount)
 
