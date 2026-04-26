@@ -24,7 +24,7 @@ EASTERN            = pytz.timezone("America/New_York")
 WETH_USD           = None
 LISTING_COUNT      = 0
 LAST_CONNECTED     = None
-MAX_LISTINGS       = 500
+MAX_LISTINGS       = 10000
 
 SMTP_HOST = "smtp.gmail.com"
 SMTP_PORT = 587
