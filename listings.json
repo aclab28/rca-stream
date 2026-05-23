@@ -33312,14 +33312,26 @@
     "catchup": true
   },
   {
-    "name": "Psychopurr #18",
-    "slug": "psychopurr-by-alekban-x-reddit-collectible-avatars",
-    "price": "$2.06  (0.0010 WETH)",
+    "name": "Teehee! Reading is fun! #85",
+    "slug": "teehee-reading-is-fun-by-kinnester-x-reddit-collec",
+    "price": "$18.54  (0.0090 WETH)",
     "maker": "0xd87de5c9...f5407e",
     "maker_full": "0xd87de5c97cc2ba41197dbcc3e818877799f5407e",
     "expiry": "?",
-    "link": "https://opensea.io/assets/polygon/0x0bfc208c5e6b5b800c565e8cc23cf94948b14eb7/17",
-    "image_url": "https://i2c.seadn.io/polygon/0x0bfc208c5e6b5b800c565e8cc23cf94948b14eb7/673d4aa1d3a06d9d9204e636246116/77673d4aa1d3a06d9d9204e636246116.png",
+    "link": "https://opensea.io/assets/polygon/0xf697dd195ca804805bf60fc898fdb15938b023d5/84",
+    "image_url": "https://i2c.seadn.io/polygon/0xf697dd195ca804805bf60fc898fdb15938b023d5/5d3f9d40385f892098cf079de6db3b/d35d3f9d40385f892098cf079de6db3b.png",
+    "listed_at": "2026-05-23T17:09:05+00:00",
+    "catchup": true
+  },
+  {
+    "name": "Spore Force #4",
+    "slug": "spore-force-stoneface-by-kirtash93-x-reddit-collec",
+    "price": "$3.09  (0.0015 WETH)",
+    "maker": "0xd87de5c9...f5407e",
+    "maker_full": "0xd87de5c97cc2ba41197dbcc3e818877799f5407e",
+    "expiry": "?",
+    "link": "https://opensea.io/assets/polygon/0x238632c3858371d96ddf63d0e141f5d1407ddaf9/3",
+    "image_url": "https://i2c.seadn.io/polygon/0x238632c3858371d96ddf63d0e141f5d1407ddaf9/8b8671e0a5100d4012eee8468af6b6/8d8b8671e0a5100d4012eee8468af6b6.png",
     "listed_at": "2026-05-23T17:09:05+00:00",
     "catchup": true
   }
