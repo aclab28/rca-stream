@@ -33130,5 +33130,17 @@
     "image_url": "https://i2c.seadn.io/polygon/0x155ee142261f48c4e0e712c06a85ae585e27c3d1/3d165feca35cdf7397d96119810b8c/c83d165feca35cdf7397d96119810b8c.png",
     "listed_at": "2026-05-23T16:21:47+00:00",
     "catchup": true
+  },
+  {
+    "name": "Yuki #33",
+    "slug": "yuki-by-chrono-x-reddit-collectible-avatars",
+    "price": "$71.98  (0.0350 WETH)",
+    "maker": "0x781fef65...9f7e68",
+    "maker_full": "0x781fef6505271f6a9a658ceff81d0712569f7e68",
+    "expiry": "?",
+    "link": "https://opensea.io/assets/polygon/0x3cda566ed408f424451eb93b2541e701451afd30/32",
+    "image_url": "https://i2c.seadn.io/polygon/0x3cda566ed408f424451eb93b2541e701451afd30/c7512b3e72d63fe39523e9c01019bd/12c7512b3e72d63fe39523e9c01019bd.png",
+    "listed_at": "2026-05-23T16:21:11+00:00",
+    "catchup": true
   }
 ]
