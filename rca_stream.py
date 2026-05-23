@@ -48,7 +48,7 @@ def dedup_key_for(listing):
     token_id = m.group(2)
     ts = listing.get('listed_at', '') or ''
     try:
-        ts_norm = int(datetime.fromisoformat(ts.replace('Z', '+00:00')).timestamp())
+        ts_norm = int(datetime.fromisoformat(ts.replace('Z', '+00:00')).timestamp()) // 300
     except Exception:
         ts_norm = ts
     return f"{contract}_{token_id}_{ts_norm}"
