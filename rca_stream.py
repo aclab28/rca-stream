@@ -228,8 +228,10 @@ def push_to_github(listing):
 
         listings = listings[-MAX_LISTINGS:]
 
-        with open(LISTINGS_FILE, "w") as f:
+        tmp = LISTINGS_FILE + ".tmp"
+        with open(tmp, "w") as f:
             json.dump(listings, f, indent=2)
+        os.replace(tmp, LISTINGS_FILE)
 
         if not GITHUB_TOKEN:
             log("⚠️  No GitHub token — skipping GitHub push")
@@ -276,8 +278,10 @@ def push_mash_to_github(listing):
 
         listings = listings[-MAX_LISTINGS:]
 
-        with open(MASH_LISTINGS_FILE, "w") as f:
+        tmp = MASH_LISTINGS_FILE + ".tmp"
+        with open(tmp, "w") as f:
             json.dump(listings, f, indent=2)
+        os.replace(tmp, MASH_LISTINGS_FILE)
 
         if not GITHUB_TOKEN:
             return
@@ -492,7 +496,8 @@ def handle_event(data):
         symbol    = p.get("payment_token", {}).get("symbol", "WETH")
         price     = fmt_price(p.get("base_price", "0"), symbol)
         maker     = p.get("maker", {}).get("address", "?")
-        expiry    = p.get("expiration_date", "?")[:10]
+        exp_raw   = p.get("expiration_date") or "?"
+        expiry    = exp_raw[:10] if isinstance(exp_raw, str) else "?"
 
         raw_ts = p.get("event_timestamp", "")
         try:
@@ -535,8 +540,8 @@ def handle_event(data):
             }
             threading.Thread(target=push_mash_to_github, args=(listing,), daemon=True).start()
 
-    except:
-        pass
+    except Exception as e:
+        log(f"⚠️  handle_event error: {type(e).__name__}: {e}")
 
 def on_open(ws):
     global LAST_CONNECTED
