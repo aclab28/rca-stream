@@ -33646,5 +33646,17 @@
     "image_url": "https://i2c.seadn.io/polygon/0x91ac106090fe2b0fa7d01efdf4487a5bfafad7fa/5636e272dc9db997e53d05699e35ce/175636e272dc9db997e53d05699e35ce.png",
     "listed_at": "2026-05-23T20:01:28+00:00",
     "catchup": true
+  },
+  {
+    "name": "Glowstickman #655",
+    "slug": "spooky-season-fmarxy-x-reddit-collectible-avatars",
+    "price": "$1.43  (0.0007 WETH)",
+    "maker": "0xc7e817e5...1af1cb",
+    "maker_full": "0xc7e817e5970e294e269ff63214393747cc1af1cb",
+    "expiry": "?",
+    "link": "https://opensea.io/assets/polygon/0xfec90bc707fc93aefeb0c18c2eb56bc79d32163e/1254",
+    "image_url": "https://i2c.seadn.io/polygon/0xfec90bc707fc93aefeb0c18c2eb56bc79d32163e/c448803c1cc62b7d03bf7ea300f6f3/73c448803c1cc62b7d03bf7ea300f6f3.png",
+    "listed_at": "2026-05-23T19:59:32+00:00",
+    "catchup": true
   }
 ]
