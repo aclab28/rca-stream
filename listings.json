@@ -33778,5 +33778,17 @@
     "image_url": "https://i2c.seadn.io/polygon/0x2ef91c5520467e9aebc6bb77ce3ad6a0e373320b/6fd252824225377a8c512a1a7237f5/826fd252824225377a8c512a1a7237f5.png",
     "listed_at": "2026-05-23T21:35:29+00:00",
     "catchup": true
+  },
+  {
+    "name": "17: A Gift from Oana #45",
+    "slug": "17-a-gift-from-oana-by-oanav-x-reddit-collectible",
+    "price": "$2.43  (0.0011 WETH)",
+    "maker": "0x97637f77...d31755",
+    "maker_full": "0x97637f77691a52958a12fc8ac0945b28dad31755",
+    "expiry": "2026-11-19",
+    "link": "https://opensea.io/item/polygon/0xcda2f553a395bd4fc4391e79729f773d6745759a/44",
+    "image_url": "https://i2c.seadn.io/polygon/0xcda2f553a395bd4fc4391e79729f773d6745759a/b46729489fcae03014a4c1c1f15f68/f5b46729489fcae03014a4c1c1f15f68.png",
+    "listed_at": "2026-05-23T22:20:24.033000Z",
+    "catchup": false
   }
 ]
