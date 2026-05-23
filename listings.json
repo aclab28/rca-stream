@@ -33742,5 +33742,17 @@
     "image_url": "https://i2c.seadn.io/polygon/0xde00bdbde52ebaad16e3c5822e5f59903c22dffe/ac8d846c9135b5ed8fa2ecbf46d1a6/17ac8d846c9135b5ed8fa2ecbf46d1a6.png",
     "listed_at": "2026-05-23T21:12:36+00:00",
     "catchup": true
+  },
+  {
+    "name": "Speech Is Silver #3",
+    "slug": "speech-is-silver-by-unknown-x-reddit-collectible-a",
+    "price": "$1.65  (0.0008 WETH)",
+    "maker": "0xc7e817e5...1af1cb",
+    "maker_full": "0xc7e817e5970e294e269ff63214393747cc1af1cb",
+    "expiry": "2026-11-19",
+    "link": "https://opensea.io/item/polygon/0xaf0969ee31c7e1a49eba6c7810bc3db324b2a0ac/2",
+    "image_url": "https://i2c.seadn.io/polygon/0xaf0969ee31c7e1a49eba6c7810bc3db324b2a0ac/80eb45e21f87d08aa5513c7266e053/4180eb45e21f87d08aa5513c7266e053.png",
+    "listed_at": "2026-05-23T21:31:42.343000Z",
+    "catchup": false
   }
 ]
