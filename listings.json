@@ -43390,5 +43390,17 @@
     "image_url": "https://i2c.seadn.io/polygon/0x6acb8fb82880d39c2b8446f8778a14d34ee6cfb7/2913fdd61f2f8ece244eead68b717c/102913fdd61f2f8ece244eead68b717c.png",
     "listed_at": "2026-05-23T05:39:53+00:00",
     "catchup": true
+  },
+  {
+    "name": "Hellbent Over Pizza #470",
+    "slug": "spooky-season-tirli-x-reddit-collectible-avatars",
+    "price": "$1.86  (0.0009 WETH)",
+    "maker": "0x9e1ee93d...515854",
+    "maker_full": "0x9e1ee93d5f94d6428be6c7d3ca5ef00a4b515854",
+    "expiry": "2026-08-21",
+    "link": "https://opensea.io/item/polygon/0x45ee1caed83525673843321107bccadecb9065d7/1519",
+    "image_url": "https://i2c.seadn.io/polygon/0x45ee1caed83525673843321107bccadecb9065d7/33013a9a14ffdd5b8b4cdf5d929a54/6933013a9a14ffdd5b8b4cdf5d929a54.png",
+    "listed_at": "2026-05-23T06:25:13.064000Z",
+    "catchup": false
   }
 ]
