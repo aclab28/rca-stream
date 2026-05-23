@@ -33526,5 +33526,17 @@
     "image_url": "https://i2c.seadn.io/polygon/0xfcc6a9a8c25ece89cf222944b313ff140d26894f/73be77a3cd86c34a93f7ee30624ae9/d373be77a3cd86c34a93f7ee30624ae9.png",
     "listed_at": "2026-05-23T08:16:41.315000Z",
     "catchup": false
+  },
+  {
+    "name": "Award Hoarders #8017",
+    "slug": "expressions-collection-x-reddit-collectible-avatar",
+    "price": "$1.62  (0.0008 WETH)",
+    "maker": "0x9e1ee93d...515854",
+    "maker_full": "0x9e1ee93d5f94d6428be6c7d3ca5ef00a4b515854",
+    "expiry": "2026-08-21",
+    "link": "https://opensea.io/item/polygon/0x4169ff4d31502cb1d09b8504a00a8a632fb0848f/8016",
+    "image_url": "https://i2c.seadn.io/polygon/0x4169ff4d31502cb1d09b8504a00a8a632fb0848f/a5ceca7225d74c1ecaee7dbe9a0e50/99a5ceca7225d74c1ecaee7dbe9a0e50.png",
+    "listed_at": "2026-05-23T08:17:41.046000Z",
+    "catchup": false
   }
 ]
