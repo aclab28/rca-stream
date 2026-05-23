@@ -33240,14 +33240,38 @@
     "catchup": true
   },
   {
-    "name": "Rudy #425",
-    "slug": "retro-reimagined-ships-x-reddit-collectible-avatar",
-    "price": "$0.82  (0.0004 WETH)",
+    "name": "Glass Foustling #724",
+    "slug": "future-realities-tfoust10-x-reddit-collectible-ava",
+    "price": "$1.03  (0.0005 WETH)",
     "maker": "0xd87de5c9...f5407e",
     "maker_full": "0xd87de5c97cc2ba41197dbcc3e818877799f5407e",
     "expiry": "?",
-    "link": "https://opensea.io/assets/polygon/0xf6d634527c6454cecf242e43aec59c50f8e79b73/424",
-    "image_url": "https://i2c.seadn.io/polygon/0xf6d634527c6454cecf242e43aec59c50f8e79b73/ff3e97f4b4916472bb7116fab4d3e1/8aff3e97f4b4916472bb7116fab4d3e1.png",
+    "link": "https://opensea.io/assets/polygon/0xefded257ca71b9e3bbc9c0959a1ef4ad494c8897/723",
+    "image_url": "https://i2c.seadn.io/polygon/0xefded257ca71b9e3bbc9c0959a1ef4ad494c8897/9051e91c96bc7499f3e4d4870db47d/c69051e91c96bc7499f3e4d4870db47d.png",
+    "listed_at": "2026-05-23T17:09:05+00:00",
+    "catchup": true
+  },
+  {
+    "name": "Naps #35",
+    "slug": "naps-by-rylar-x-reddit-collectible-avatars",
+    "price": "$8.24  (0.0040 WETH)",
+    "maker": "0xd87de5c9...f5407e",
+    "maker_full": "0xd87de5c97cc2ba41197dbcc3e818877799f5407e",
+    "expiry": "?",
+    "link": "https://opensea.io/assets/polygon/0xc66c27fcdf7f68e0e5789b53725951c2f8dd100f/34",
+    "image_url": "https://i2c.seadn.io/polygon/0xc66c27fcdf7f68e0e5789b53725951c2f8dd100f/c9c985a5087a01a70d4cc261b55dba/0ac9c985a5087a01a70d4cc261b55dba.png",
+    "listed_at": "2026-05-23T17:09:05+00:00",
+    "catchup": true
+  },
+  {
+    "name": "CUPCAKE #1",
+    "slug": "cupcake-by-art-by-accident-x-reddit-collectible-av",
+    "price": "$2.06  (0.0010 WETH)",
+    "maker": "0xd87de5c9...f5407e",
+    "maker_full": "0xd87de5c97cc2ba41197dbcc3e818877799f5407e",
+    "expiry": "?",
+    "link": "https://opensea.io/assets/polygon/0x06c1d268b82a4bf3c583f502967fac611e036845/0",
+    "image_url": "https://i2c.seadn.io/polygon/0x06c1d268b82a4bf3c583f502967fac611e036845/d6592057f617730cfd47990e290f6e/34d6592057f617730cfd47990e290f6e.png",
     "listed_at": "2026-05-23T17:09:05+00:00",
     "catchup": true
   }
