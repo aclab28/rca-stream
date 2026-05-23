@@ -43426,5 +43426,17 @@
     "image_url": "https://i2c.seadn.io/polygon/0xfec90bc707fc93aefeb0c18c2eb56bc79d32163e/c448803c1cc62b7d03bf7ea300f6f3/73c448803c1cc62b7d03bf7ea300f6f3.png",
     "listed_at": "2026-05-23T06:47:27+00:00",
     "catchup": true
+  },
+  {
+    "name": "Heat Streak #8976",
+    "slug": "trophy-hunters-x-reddit-collectible-avatars",
+    "price": "$1.11  (0.0005 WETH)",
+    "maker": "0x9e1ee93d...515854",
+    "maker_full": "0x9e1ee93d5f94d6428be6c7d3ca5ef00a4b515854",
+    "expiry": "?",
+    "link": "https://opensea.io/assets/polygon/0xe64bb7dd0a13af622e0de6456d1bbadc8d1ec09d/83975",
+    "image_url": "https://i2c.seadn.io/matic/0xe64bb7dd0a13af622e0de6456d1bbadc8d1ec09d/c15da390b18698c48b56009ae3c6d8/11c15da390b18698c48b56009ae3c6d8.png",
+    "listed_at": "2026-05-23T06:45:00+00:00",
+    "catchup": true
   }
 ]
