@@ -36,6 +36,23 @@ GITHUB_REPO      = "Aclab28/rca-stream"
 GITHUB_FILE      = "listings.json"
 MASH_GITHUB_FILE = "mash_listings.json"
 
+def dedup_key_for(listing):
+    """Build a duplicate-safe key from contract+token_id+unix-second timestamp.
+    Handles the OpenSea quirk where stream uses /item/ URLs with microsecond
+    timestamps and catchup uses /assets/ URLs with second-precision timestamps."""
+    link = listing.get('link', '') or ''
+    m = re.search(r'/polygon/(0x[a-fA-F0-9]+)/(\d+)', link)
+    if not m:
+        return link
+    contract = m.group(1).lower()
+    token_id = m.group(2)
+    ts = listing.get('listed_at', '') or ''
+    try:
+        ts_norm = int(datetime.fromisoformat(ts.replace('Z', '+00:00')).timestamp())
+    except Exception:
+        ts_norm = ts
+    return f"{contract}_{token_id}_{ts_norm}"
+
 def clean(s):
     return re.sub(r'[^\x00-\x7F]+', '', str(s)).strip()
 
@@ -201,8 +218,8 @@ def push_to_github(listing):
             with open(LISTINGS_FILE) as f:
                 listings = json.load(f)
 
-        dedup_key = f"{listing.get('link','')}_{listing.get('listed_at','')}"
-        existing_keys = {f"{l.get('link','')}_{l.get('listed_at','')}" for l in listings}
+        dedup_key = dedup_key_for(listing)
+        existing_keys = {dedup_key_for(l) for l in listings}
         if dedup_key not in existing_keys:
             listings.append(listing)
         else:
@@ -249,8 +266,8 @@ def push_mash_to_github(listing):
             with open(MASH_LISTINGS_FILE) as f:
                 listings = json.load(f)
 
-        dedup_key = f"{listing.get('link','')}_{listing.get('listed_at','')}"
-        existing_keys = {f"{l.get('link','')}_{l.get('listed_at','')}" for l in listings}
+        dedup_key = dedup_key_for(listing)
+        existing_keys = {dedup_key_for(l) for l in listings}
         if dedup_key not in existing_keys:
             listings.append(listing)
         else:
