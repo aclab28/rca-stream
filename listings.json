@@ -33094,5 +33094,17 @@
     "image_url": "https://i2c.seadn.io/polygon/0x07f5437ff648a0554c4fae110ade5adccb6bd36b/320e25604d9b26a92b00b3979bcb99/25320e25604d9b26a92b00b3979bcb99.png",
     "listed_at": "2026-05-23T16:18:00.394000Z",
     "catchup": false
+  },
+  {
+    "name": "Upstate NY Cosplay #43",
+    "slug": "upstate-ny-cosplay-by-rocketmoonape-x-reddit-colle",
+    "price": "$3.29  (0.0016 WETH)",
+    "maker": "0x781fef65...9f7e68",
+    "maker_full": "0x781fef6505271f6a9a658ceff81d0712569f7e68",
+    "expiry": "2026-11-19",
+    "link": "https://opensea.io/item/polygon/0xea168c6bb535fa9fc78b97b204460e91133de211/42",
+    "image_url": "https://i2c.seadn.io/matic/0xea168c6bb535fa9fc78b97b204460e91133de211/64ac709b4215e587d281dc0d79bca4/7764ac709b4215e587d281dc0d79bca4.png",
+    "listed_at": "2026-05-23T16:18:42.915000Z",
+    "catchup": false
   }
 ]
