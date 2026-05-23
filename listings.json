@@ -33514,5 +33514,17 @@
     "image_url": "https://i2c.seadn.io/polygon/0xe8cf2b0d40edc78b7adcf35483bd437f5d3a1ac6/10463f5e211baf4008ab3ed3cea639/e510463f5e211baf4008ab3ed3cea639.png",
     "listed_at": "2026-05-23T17:22:01+00:00",
     "catchup": true
+  },
+  {
+    "name": "The Imprisoned #59",
+    "slug": "spooky-season-conall-in-space-x-reddit-collectible",
+    "price": "$24.82  (0.0120 WETH)",
+    "maker": "0x97637f77...d31755",
+    "maker_full": "0x97637f77691a52958a12fc8ac0945b28dad31755",
+    "expiry": "?",
+    "link": "https://opensea.io/assets/polygon/0x3458161f2dc5d7eafa48e7c8d9acd7f415cf6da6/1608",
+    "image_url": "https://i2c.seadn.io/polygon/0x3458161f2dc5d7eafa48e7c8d9acd7f415cf6da6/c5a0348fba8fb6c2a34b9281d4ec15/26c5a0348fba8fb6c2a34b9281d4ec15.png",
+    "listed_at": "2026-05-23T17:10:56+00:00",
+    "catchup": true
   }
 ]
