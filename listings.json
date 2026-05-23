@@ -33406,5 +33406,29 @@
     "image_url": "https://i2c.seadn.io/polygon/0xb09dedce6f82accf0f00848a8cf55bbb2bc88383/4ad75660910eecb34287f63bdfc07e/924ad75660910eecb34287f63bdfc07e.png",
     "listed_at": "2026-05-23T17:22:01.491000Z",
     "catchup": false
+  },
+  {
+    "name": "Nether Ooze #13",
+    "slug": "nether-ooze-by-ervindas-x-reddit-collectible-avata",
+    "price": "$1.03  (0.0005 WETH)",
+    "maker": "0x96e7c3db...e10742",
+    "maker_full": "0x96e7c3db11c2956754e5adcf102f6c1828e10742",
+    "expiry": "2026-11-19",
+    "link": "https://opensea.io/item/polygon/0x4b837c39634c2a02ac9ab5b57804ac5717b05b72/12",
+    "image_url": "https://i2c.seadn.io/polygon/0x4b837c39634c2a02ac9ab5b57804ac5717b05b72/590e360174489272d234878ac4cb0c/38590e360174489272d234878ac4cb0c.png",
+    "listed_at": "2026-05-23T17:22:01.398000Z",
+    "catchup": false
+  },
+  {
+    "name": "Just Nuts #48",
+    "slug": "just-nuts-by-unknown-x-reddit-collectible-avatars",
+    "price": "$2.06  (0.0010 WETH)",
+    "maker": "0x96e7c3db...e10742",
+    "maker_full": "0x96e7c3db11c2956754e5adcf102f6c1828e10742",
+    "expiry": "2026-11-19",
+    "link": "https://opensea.io/item/polygon/0x4881e388585a9add3b462b13aa9e046474c3fa0d/47",
+    "image_url": "https://i2c.seadn.io/polygon/0x4881e388585a9add3b462b13aa9e046474c3fa0d/58a7a384fec8af5b1afe3203ab4c97/4158a7a384fec8af5b1afe3203ab4c97.png",
+    "listed_at": "2026-05-23T17:22:01.627000Z",
+    "catchup": false
   }
 ]
