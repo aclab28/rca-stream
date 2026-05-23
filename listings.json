@@ -33622,5 +33622,17 @@
     "image_url": "https://i2c.seadn.io/polygon/0x91ac106090fe2b0fa7d01efdf4487a5bfafad7fa/ef6b5095b69d00987ff6a130b4a1b7/91ef6b5095b69d00987ff6a130b4a1b7.png",
     "listed_at": "2026-05-23T19:45:11.759000Z",
     "catchup": false
+  },
+  {
+    "name": "Raving Rabbid #4397",
+    "slug": "reddit-rabbids-x-reddit-collectible-avatars",
+    "price": "$1.04  (0.0005 WETH)",
+    "maker": "0xc7e817e5...1af1cb",
+    "maker_full": "0xc7e817e5970e294e269ff63214393747cc1af1cb",
+    "expiry": "?",
+    "link": "https://opensea.io/assets/polygon/0x5066c0934632bcc2902d139d7c875cbd295429f8/129596",
+    "image_url": "https://i2c.seadn.io/polygon/0x5066c0934632bcc2902d139d7c875cbd295429f8/e0bebb4c15b3e73e8cd3e8d6526ba4/00e0bebb4c15b3e73e8cd3e8d6526ba4.png",
+    "listed_at": "2026-05-23T20:01:51+00:00",
+    "catchup": true
   }
 ]
