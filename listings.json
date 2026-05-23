@@ -33670,5 +33670,17 @@
     "image_url": "https://i2c.seadn.io/polygon/0x07f5437ff648a0554c4fae110ade5adccb6bd36b/e014bfb7395ed6e4dc6e5d93ce2dd8/4ae014bfb7395ed6e4dc6e5d93ce2dd8.png",
     "listed_at": "2026-05-23T20:09:10.379000Z",
     "catchup": false
+  },
+  {
+    "name": "The Moon #521",
+    "slug": "spooky-season-rojom-x-reddit-collectible-avatars",
+    "price": "$8.30  (0.0040 WETH)",
+    "maker": "0xa6bd5c1a...276429",
+    "maker_full": "0xa6bd5c1af723b907e33bd5ef3a2d16c2d1276429",
+    "expiry": "2026-11-19",
+    "link": "https://opensea.io/item/polygon/0x3e4627665bf2e52c69be03788e664ab545f2be71/1620",
+    "image_url": "https://i2c.seadn.io/polygon/0x3e4627665bf2e52c69be03788e664ab545f2be71/8a4577c7fda1d77115655b473e33ec/648a4577c7fda1d77115655b473e33ec.png",
+    "listed_at": "2026-05-23T20:09:37.875000Z",
+    "catchup": false
   }
 ]
