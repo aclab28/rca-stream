@@ -33706,5 +33706,17 @@
     "image_url": "https://i2c.seadn.io/polygon/0xcda2f553a395bd4fc4391e79729f773d6745759a/b46729489fcae03014a4c1c1f15f68/f5b46729489fcae03014a4c1c1f15f68.png",
     "listed_at": "2026-05-23T20:47:58+00:00",
     "catchup": true
+  },
+  {
+    "name": "Extraverted #66",
+    "slug": "extraverted-by-bitcone-lol-x-reddit-collectible-av",
+    "price": "$2.62  (0.0012 WETH)",
+    "maker": "0xc7e817e5...1af1cb",
+    "maker_full": "0xc7e817e5970e294e269ff63214393747cc1af1cb",
+    "expiry": "?",
+    "link": "https://opensea.io/assets/polygon/0x2706dad592544ae11eb1e9dfa47c2015727fb55e/65",
+    "image_url": "https://i2c.seadn.io/matic/0x2706dad592544ae11eb1e9dfa47c2015727fb55e/7b0147872ab49f6b5cad3a630055b587.png",
+    "listed_at": "2026-05-23T20:38:32+00:00",
+    "catchup": true
   }
 ]
