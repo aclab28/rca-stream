@@ -33298,5 +33298,29 @@
     "image_url": "https://i2c.seadn.io/polygon/0xa121cfbcd6357e73b40c7cacc891633583e3e82f/22aa3f18bc52723c76681317d0b730/ee22aa3f18bc52723c76681317d0b730.png",
     "listed_at": "2026-05-23T17:09:05+00:00",
     "catchup": true
+  },
+  {
+    "name": "fuze #23",
+    "slug": "fuze-by-fearsmile-x-reddit-collectible-avatars",
+    "price": "$1.96  (0.0009 WETH)",
+    "maker": "0xd87de5c9...f5407e",
+    "maker_full": "0xd87de5c97cc2ba41197dbcc3e818877799f5407e",
+    "expiry": "?",
+    "link": "https://opensea.io/assets/polygon/0xeab91b6eb1f5cda9fa3ef575707fe6151f0b09b0/22",
+    "image_url": "https://i2c.seadn.io/polygon/0xeab91b6eb1f5cda9fa3ef575707fe6151f0b09b0/90c7e3b37abb5cb4902c28bd2cc2cd/8690c7e3b37abb5cb4902c28bd2cc2cd.png",
+    "listed_at": "2026-05-23T17:09:05+00:00",
+    "catchup": true
+  },
+  {
+    "name": "Psychopurr #18",
+    "slug": "psychopurr-by-alekban-x-reddit-collectible-avatars",
+    "price": "$2.06  (0.0010 WETH)",
+    "maker": "0xd87de5c9...f5407e",
+    "maker_full": "0xd87de5c97cc2ba41197dbcc3e818877799f5407e",
+    "expiry": "?",
+    "link": "https://opensea.io/assets/polygon/0x0bfc208c5e6b5b800c565e8cc23cf94948b14eb7/17",
+    "image_url": "https://i2c.seadn.io/polygon/0x0bfc208c5e6b5b800c565e8cc23cf94948b14eb7/673d4aa1d3a06d9d9204e636246116/77673d4aa1d3a06d9d9204e636246116.png",
+    "listed_at": "2026-05-23T17:09:05+00:00",
+    "catchup": true
   }
 ]
