@@ -33682,5 +33682,17 @@
     "image_url": "https://i2c.seadn.io/polygon/0x3e4627665bf2e52c69be03788e664ab545f2be71/8a4577c7fda1d77115655b473e33ec/648a4577c7fda1d77115655b473e33ec.png",
     "listed_at": "2026-05-23T20:09:37.875000Z",
     "catchup": false
+  },
+  {
+    "name": "rogre #114",
+    "slug": "rogre-by-fearsmile-x-reddit-collectible-avatars",
+    "price": "$1.00  (0.0005 WETH)",
+    "maker": "0xc7e817e5...1af1cb",
+    "maker_full": "0xc7e817e5970e294e269ff63214393747cc1af1cb",
+    "expiry": "?",
+    "link": "https://opensea.io/assets/polygon/0x4bdf98db83e4e19092ee6ca8287c414fcd6428d1/113",
+    "image_url": "https://i2c.seadn.io/polygon/0x4bdf98db83e4e19092ee6ca8287c414fcd6428d1/428bba62ae949f8ff143cc51c738a8/2c428bba62ae949f8ff143cc51c738a8.png",
+    "listed_at": "2026-05-23T20:50:33+00:00",
+    "catchup": true
   }
 ]
