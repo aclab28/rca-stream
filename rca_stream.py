@@ -428,6 +428,7 @@ def rest_catchup(since_timestamp):
                     listed_at = datetime.now(timezone.utc).isoformat()
 
                 if is_rca(slug):
+                    log(f"REST RAW: {json.dumps(event)[:500]}")
                     log_and_email_listing(name, slug, price, maker, maker,
                                           expiry, link, image_url,
                                           prefix="[CATCHUP] ",
@@ -496,6 +497,7 @@ def handle_event(data):
 
         # ── RCA ───────────────────────────────────────────────
         if is_rca(slug):
+            log(f"STREAM RAW: {json.dumps(p)[:500]}") 
             log_and_email_listing(name, slug, price, maker, maker,
                                   expiry, link, image_url, listed_at=listed_at)
 
