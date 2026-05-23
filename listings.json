@@ -33718,5 +33718,17 @@
     "image_url": "https://i2c.seadn.io/matic/0x2706dad592544ae11eb1e9dfa47c2015727fb55e/7b0147872ab49f6b5cad3a630055b587.png",
     "listed_at": "2026-05-23T20:38:32+00:00",
     "catchup": true
+  },
+  {
+    "name": "Cloud X Lightning #49",
+    "slug": "cloud-x-lightning-by-giftedocean-x-reddit-collecti",
+    "price": "$1.49  (0.0007 WETH)",
+    "maker": "0xc7e817e5...1af1cb",
+    "maker_full": "0xc7e817e5970e294e269ff63214393747cc1af1cb",
+    "expiry": "2026-11-19",
+    "link": "https://opensea.io/item/polygon/0x1429c7a141c4075469c4e95dbfed01d1f8d1761f/48",
+    "image_url": "https://i2c.seadn.io/polygon/0x1429c7a141c4075469c4e95dbfed01d1f8d1761f/7b4bd40dfb6089e01712c117503c92/1f7b4bd40dfb6089e01712c117503c92.png",
+    "listed_at": "2026-05-23T20:53:48.566000Z",
+    "catchup": false
   }
 ]
