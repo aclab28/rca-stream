@@ -33742,5 +33742,17 @@
     "image_url": "https://i2c.seadn.io/matic/0xe64bb7dd0a13af622e0de6456d1bbadc8d1ec09d/c15da390b18698c48b56009ae3c6d8/11c15da390b18698c48b56009ae3c6d8.png",
     "listed_at": "2026-05-23T10:33:59+00:00",
     "catchup": true
+  },
+  {
+    "name": "LVII Super Fans #381055",
+    "slug": "super-bowl-lvii-x-reddit-collectible-avatars",
+    "price": "$0.02  (0.0000 WETH)",
+    "maker": "0x16e4e6dc...d95bf8",
+    "maker_full": "0x16e4e6dc8bd561a0a90e3429f69b30ec89d95bf8",
+    "expiry": "?",
+    "link": "https://opensea.io/assets/polygon/0x3b477a6b1be236628b08839e1e8cf8ba8d93589a/2381154",
+    "image_url": "https://i2c.seadn.io/polygon/0x3b477a6b1be236628b08839e1e8cf8ba8d93589a/27be929021580389d8747cff92da9c/2d27be929021580389d8747cff92da9c.png",
+    "listed_at": "2026-05-23T10:58:57+00:00",
+    "catchup": true
   }
 ]
