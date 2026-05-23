@@ -33502,5 +33502,17 @@
     "image_url": "https://i2c.seadn.io/polygon/0x056ae1758077013f3b20f371649071630b8e1e62/b54490a24d188924c773aad3f037ae/68b54490a24d188924c773aad3f037ae.png",
     "listed_at": "2026-05-23T17:22:01+00:00",
     "catchup": true
+  },
+  {
+    "name": "Substance #61",
+    "slug": "substance-by-rylar-x-reddit-collectible-avatars",
+    "price": "$0.21  (0.0001 WETH)",
+    "maker": "0x96e7c3db...e10742",
+    "maker_full": "0x96e7c3db11c2956754e5adcf102f6c1828e10742",
+    "expiry": "?",
+    "link": "https://opensea.io/assets/polygon/0xe8cf2b0d40edc78b7adcf35483bd437f5d3a1ac6/60",
+    "image_url": "https://i2c.seadn.io/polygon/0xe8cf2b0d40edc78b7adcf35483bd437f5d3a1ac6/10463f5e211baf4008ab3ed3cea639/e510463f5e211baf4008ab3ed3cea639.png",
+    "listed_at": "2026-05-23T17:22:01+00:00",
+    "catchup": true
   }
 ]
