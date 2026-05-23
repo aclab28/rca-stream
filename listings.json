@@ -33718,5 +33718,17 @@
     "image_url": "https://i2c.seadn.io/polygon/0x2fffcfaa9f64132ad7c39b2cbb2a579b05f927b3/2e2438d0fa9b3dbbf6876e70ae6d2c/f92e2438d0fa9b3dbbf6876e70ae6d2c.png",
     "listed_at": "2026-05-23T10:33:59+00:00",
     "catchup": true
+  },
+  {
+    "name": "Smokey #6",
+    "slug": "smokey-by-bye-x-reddit-collectible-avatars",
+    "price": "$3.14  (0.0015 WETH)",
+    "maker": "0x1e363f3c...038252",
+    "maker_full": "0x1e363f3ce415ed099a622211386c3de1b5038252",
+    "expiry": "?",
+    "link": "https://opensea.io/assets/polygon/0xdd3d8674b66fc984756632cfc0e5ded6be72d5d6/5",
+    "image_url": "https://i2c.seadn.io/polygon/0xdd3d8674b66fc984756632cfc0e5ded6be72d5d6/2074341d06b83bfb9284416a41c174/fa2074341d06b83bfb9284416a41c174.png",
+    "listed_at": "2026-05-23T10:33:59+00:00",
+    "catchup": true
   }
 ]
