@@ -24,16 +24,16 @@
     "catchup": true
   },
   {
-    "name": "Kid Mashi #542 by Hammer",
+    "name": "GODDESS 000 #9 by XXX",
     "slug": "mash-it",
-    "price": "$1.41  (0.0006 WETH)",
-    "maker": "0xcad2b36f...9c1939",
-    "maker_full": "0xcad2b36f3380ec6583949bbc15230762509c1939",
-    "expiry": "?",
-    "link": "https://opensea.io/assets/polygon/0x6d74e823e3cfb94a4a395b74b1e7b0f5ca5596a3/5550",
-    "image_url": "https://i2c.seadn.io/polygon/0x6d74e823e3cfb94a4a395b74b1e7b0f5ca5596a3/95c0bae2304db2f64cedf235c598d3/1495c0bae2304db2f64cedf235c598d3.png",
-    "listed_at": "2026-04-23T06:01:39+00:00",
-    "catchup": true
+    "price": "$28.90  (0.0125 WETH)",
+    "maker": "0xac73aca1...4057ae",
+    "maker_full": "0xac73aca1205aff5dfc5e31223c33a970854057ae",
+    "expiry": "2026-07-22",
+    "link": "https://opensea.io/item/polygon/0x6d74e823e3cfb94a4a395b74b1e7b0f5ca5596a3/11759",
+    "image_url": "https://i2c.seadn.io/polygon/0x6d74e823e3cfb94a4a395b74b1e7b0f5ca5596a3/6efc69f7f89f22bd0fbd3d8b0d511a/ff6efc69f7f89f22bd0fbd3d8b0d511a.png",
+    "listed_at": "2026-04-23T18:22:11.552000Z",
+    "catchup": false
   },
   {
     "name": "Air Dev 333 #14 by XXX",
@@ -48,39 +48,15 @@
     "catchup": true
   },
   {
-    "name": "GODDESS 000 #9 by XXX",
+    "name": "Casius #26 by Hoppy Doodle",
     "slug": "mash-it",
-    "price": "$28.94  (0.0125 WETH)",
-    "maker": "0xac73aca1...4057ae",
-    "maker_full": "0xac73aca1205aff5dfc5e31223c33a970854057ae",
-    "expiry": "?",
-    "link": "https://opensea.io/assets/polygon/0x6d74e823e3cfb94a4a395b74b1e7b0f5ca5596a3/11759",
-    "image_url": "https://i2c.seadn.io/polygon/0x6d74e823e3cfb94a4a395b74b1e7b0f5ca5596a3/6efc69f7f89f22bd0fbd3d8b0d511a/ff6efc69f7f89f22bd0fbd3d8b0d511a.png",
-    "listed_at": "2026-04-23T18:22:11+00:00",
-    "catchup": true
-  },
-  {
-    "name": "GODDESS 000 #9 by XXX",
-    "slug": "mash-it",
-    "price": "$28.90  (0.0125 WETH)",
-    "maker": "0xac73aca1...4057ae",
-    "maker_full": "0xac73aca1205aff5dfc5e31223c33a970854057ae",
-    "expiry": "2026-07-22",
-    "link": "https://opensea.io/item/polygon/0x6d74e823e3cfb94a4a395b74b1e7b0f5ca5596a3/11759",
-    "image_url": "https://i2c.seadn.io/polygon/0x6d74e823e3cfb94a4a395b74b1e7b0f5ca5596a3/6efc69f7f89f22bd0fbd3d8b0d511a/ff6efc69f7f89f22bd0fbd3d8b0d511a.png",
-    "listed_at": "2026-04-23T18:22:11.552000Z",
-    "catchup": false
-  },
-  {
-    "name": "Hammer Head #12 by Hammer",
-    "slug": "mash-it",
-    "price": "$3.00  (0.0013 WETH)",
+    "price": "$4.62  (0.0020 WETH)",
     "maker": "0x87ce5ae6...91ed6d",
     "maker_full": "0x87ce5ae644c67a180c65d18671065ae82b91ed6d",
     "expiry": "?",
-    "link": "https://opensea.io/assets/polygon/0x6d74e823e3cfb94a4a395b74b1e7b0f5ca5596a3/11444",
-    "image_url": "https://i2c.seadn.io/polygon/0x6d74e823e3cfb94a4a395b74b1e7b0f5ca5596a3/df00ecdc0c2b9f8da5246ace487aed/c3df00ecdc0c2b9f8da5246ace487aed.png",
-    "listed_at": "2026-04-23T19:20:57+00:00",
+    "link": "https://opensea.io/assets/polygon/0x6d74e823e3cfb94a4a395b74b1e7b0f5ca5596a3/12569",
+    "image_url": "https://i2c.seadn.io/polygon/0x6d74e823e3cfb94a4a395b74b1e7b0f5ca5596a3/4cf7f4f2ad341e45e7a143567b4095/c34cf7f4f2ad341e45e7a143567b4095.png",
+    "listed_at": "2026-04-23T19:19:50+00:00",
     "catchup": true
   },
   {
@@ -96,15 +72,15 @@
     "catchup": true
   },
   {
-    "name": "Casius #26 by Hoppy Doodle",
+    "name": "Hammer Head #12 by Hammer",
     "slug": "mash-it",
-    "price": "$4.62  (0.0020 WETH)",
+    "price": "$3.00  (0.0013 WETH)",
     "maker": "0x87ce5ae6...91ed6d",
     "maker_full": "0x87ce5ae644c67a180c65d18671065ae82b91ed6d",
     "expiry": "?",
-    "link": "https://opensea.io/assets/polygon/0x6d74e823e3cfb94a4a395b74b1e7b0f5ca5596a3/12569",
-    "image_url": "https://i2c.seadn.io/polygon/0x6d74e823e3cfb94a4a395b74b1e7b0f5ca5596a3/4cf7f4f2ad341e45e7a143567b4095/c34cf7f4f2ad341e45e7a143567b4095.png",
-    "listed_at": "2026-04-23T19:19:50+00:00",
+    "link": "https://opensea.io/assets/polygon/0x6d74e823e3cfb94a4a395b74b1e7b0f5ca5596a3/11444",
+    "image_url": "https://i2c.seadn.io/polygon/0x6d74e823e3cfb94a4a395b74b1e7b0f5ca5596a3/df00ecdc0c2b9f8da5246ace487aed/c3df00ecdc0c2b9f8da5246ace487aed.png",
+    "listed_at": "2026-04-23T19:20:57+00:00",
     "catchup": true
   },
   {
@@ -204,6 +180,18 @@
     "catchup": false
   },
   {
+    "name": "Sho #14 by xlate",
+    "slug": "mash-it",
+    "price": "$1.39  (0.0006 WETH)",
+    "maker": "0x87ce5ae6...91ed6d",
+    "maker_full": "0x87ce5ae644c67a180c65d18671065ae82b91ed6d",
+    "expiry": "?",
+    "link": "https://opensea.io/assets/polygon/0x6d74e823e3cfb94a4a395b74b1e7b0f5ca5596a3/2812",
+    "image_url": "https://i2c.seadn.io/polygon/0x6d74e823e3cfb94a4a395b74b1e7b0f5ca5596a3/aa121b0b58e8d3c8491858f0b988ec/a5aa121b0b58e8d3c8491858f0b988ec.png",
+    "listed_at": "2026-04-23T19:25:49+00:00",
+    "catchup": true
+  },
+  {
     "name": "Calamity #18 by Feral",
     "slug": "mash-it",
     "price": "$3.91  (0.0017 WETH)",
@@ -240,6 +228,18 @@
     "catchup": false
   },
   {
+    "name": "Thunderhowl #29 by KirtVerse",
+    "slug": "mash-it",
+    "price": "$1.85  (0.0008 WETH)",
+    "maker": "0x87ce5ae6...91ed6d",
+    "maker_full": "0x87ce5ae644c67a180c65d18671065ae82b91ed6d",
+    "expiry": "?",
+    "link": "https://opensea.io/assets/polygon/0x6d74e823e3cfb94a4a395b74b1e7b0f5ca5596a3/2291",
+    "image_url": "https://i2c.seadn.io/polygon/0x6d74e823e3cfb94a4a395b74b1e7b0f5ca5596a3/6c17c11783786520cf6419e715aff3/456c17c11783786520cf6419e715aff3.png",
+    "listed_at": "2026-04-23T19:27:07+00:00",
+    "catchup": true
+  },
+  {
     "name": "Amber #17 by LauraDimma",
     "slug": "mash-it",
     "price": "$1.62  (0.0007 WETH)",
@@ -264,27 +264,15 @@
     "catchup": false
   },
   {
-    "name": "Shirayuki #17 by Hofmaurerad",
+    "name": "Bon Bon #3 by Qugmo",
     "slug": "mash-it",
-    "price": "$3.47  (0.0015 WETH)",
-    "maker": "0x87ce5ae6...91ed6d",
-    "maker_full": "0x87ce5ae644c67a180c65d18671065ae82b91ed6d",
-    "expiry": "2026-05-23",
-    "link": "https://opensea.io/item/polygon/0x6d74e823e3cfb94a4a395b74b1e7b0f5ca5596a3/252",
-    "image_url": "https://i2c.seadn.io/polygon/0x6d74e823e3cfb94a4a395b74b1e7b0f5ca5596a3/302ff7538a0330ff999ec3108e9c82/5f302ff7538a0330ff999ec3108e9c82.png",
-    "listed_at": "2026-04-23T19:28:43.564000Z",
-    "catchup": false
-  },
-  {
-    "name": "Shirayuki #17 by Hofmaurerad",
-    "slug": "mash-it",
-    "price": "$3.47  (0.0015 WETH)",
+    "price": "$2.08  (0.0009 WETH)",
     "maker": "0x87ce5ae6...91ed6d",
     "maker_full": "0x87ce5ae644c67a180c65d18671065ae82b91ed6d",
     "expiry": "?",
-    "link": "https://opensea.io/assets/polygon/0x6d74e823e3cfb94a4a395b74b1e7b0f5ca5596a3/252",
-    "image_url": "https://i2c.seadn.io/polygon/0x6d74e823e3cfb94a4a395b74b1e7b0f5ca5596a3/302ff7538a0330ff999ec3108e9c82/5f302ff7538a0330ff999ec3108e9c82.png",
-    "listed_at": "2026-04-23T19:28:43+00:00",
+    "link": "https://opensea.io/assets/polygon/0x6d74e823e3cfb94a4a395b74b1e7b0f5ca5596a3/838",
+    "image_url": "https://i2c.seadn.io/polygon/0x6d74e823e3cfb94a4a395b74b1e7b0f5ca5596a3/432378b36c5e7935eff0319ff00a38/23432378b36c5e7935eff0319ff00a38.png",
+    "listed_at": "2026-04-23T19:28:09+00:00",
     "catchup": true
   },
   {
@@ -300,196 +288,16 @@
     "catchup": true
   },
   {
-    "name": "Bon Bon #3 by Qugmo",
-    "slug": "mash-it",
-    "price": "$2.08  (0.0009 WETH)",
-    "maker": "0x87ce5ae6...91ed6d",
-    "maker_full": "0x87ce5ae644c67a180c65d18671065ae82b91ed6d",
-    "expiry": "?",
-    "link": "https://opensea.io/assets/polygon/0x6d74e823e3cfb94a4a395b74b1e7b0f5ca5596a3/838",
-    "image_url": "https://i2c.seadn.io/polygon/0x6d74e823e3cfb94a4a395b74b1e7b0f5ca5596a3/432378b36c5e7935eff0319ff00a38/23432378b36c5e7935eff0319ff00a38.png",
-    "listed_at": "2026-04-23T19:28:09+00:00",
-    "catchup": true
-  },
-  {
-    "name": "Re:Born #20 by KirtVerse",
-    "slug": "mash-it",
-    "price": "$3.70  (0.0016 WETH)",
-    "maker": "0x87ce5ae6...91ed6d",
-    "maker_full": "0x87ce5ae644c67a180c65d18671065ae82b91ed6d",
-    "expiry": "?",
-    "link": "https://opensea.io/assets/polygon/0x6d74e823e3cfb94a4a395b74b1e7b0f5ca5596a3/1755",
-    "image_url": "https://i2c.seadn.io/polygon/0x6d74e823e3cfb94a4a395b74b1e7b0f5ca5596a3/bc4d9987e07a56f7db6bb8a6e74a93/f8bc4d9987e07a56f7db6bb8a6e74a93.png",
-    "listed_at": "2026-04-23T19:27:46+00:00",
-    "catchup": true
-  },
-  {
-    "name": "Amber #17 by LauraDimma",
-    "slug": "mash-it",
-    "price": "$1.62  (0.0007 WETH)",
-    "maker": "0x87ce5ae6...91ed6d",
-    "maker_full": "0x87ce5ae644c67a180c65d18671065ae82b91ed6d",
-    "expiry": "?",
-    "link": "https://opensea.io/assets/polygon/0x6d74e823e3cfb94a4a395b74b1e7b0f5ca5596a3/2255",
-    "image_url": "https://i2c.seadn.io/polygon/0x6d74e823e3cfb94a4a395b74b1e7b0f5ca5596a3/5febdaa375125991206734bbd64b02/b65febdaa375125991206734bbd64b02.png",
-    "listed_at": "2026-04-23T19:27:21+00:00",
-    "catchup": true
-  },
-  {
-    "name": "Thunderhowl #29 by KirtVerse",
-    "slug": "mash-it",
-    "price": "$1.85  (0.0008 WETH)",
-    "maker": "0x87ce5ae6...91ed6d",
-    "maker_full": "0x87ce5ae644c67a180c65d18671065ae82b91ed6d",
-    "expiry": "?",
-    "link": "https://opensea.io/assets/polygon/0x6d74e823e3cfb94a4a395b74b1e7b0f5ca5596a3/2291",
-    "image_url": "https://i2c.seadn.io/polygon/0x6d74e823e3cfb94a4a395b74b1e7b0f5ca5596a3/6c17c11783786520cf6419e715aff3/456c17c11783786520cf6419e715aff3.png",
-    "listed_at": "2026-04-23T19:27:07+00:00",
-    "catchup": true
-  },
-  {
-    "name": "Rzen #4 by Rinni",
-    "slug": "mash-it",
-    "price": "$2.77  (0.0012 WETH)",
-    "maker": "0x87ce5ae6...91ed6d",
-    "maker_full": "0x87ce5ae644c67a180c65d18671065ae82b91ed6d",
-    "expiry": "?",
-    "link": "https://opensea.io/assets/polygon/0x6d74e823e3cfb94a4a395b74b1e7b0f5ca5596a3/2563",
-    "image_url": "https://i2c.seadn.io/polygon/0x6d74e823e3cfb94a4a395b74b1e7b0f5ca5596a3/e8cecbbc01100aa8faa5c5203eee98/1be8cecbbc01100aa8faa5c5203eee98.png",
-    "listed_at": "2026-04-23T19:26:50+00:00",
-    "catchup": true
-  },
-  {
-    "name": "Rzuko #3 by Rinni",
-    "slug": "mash-it",
-    "price": "$2.68  (0.0012 WETH)",
-    "maker": "0x87ce5ae6...91ed6d",
-    "maker_full": "0x87ce5ae644c67a180c65d18671065ae82b91ed6d",
-    "expiry": "?",
-    "link": "https://opensea.io/assets/polygon/0x6d74e823e3cfb94a4a395b74b1e7b0f5ca5596a3/2556",
-    "image_url": "https://i2c.seadn.io/polygon/0x6d74e823e3cfb94a4a395b74b1e7b0f5ca5596a3/dbf121e43e4430b3dcfe0542496b70/dcdbf121e43e4430b3dcfe0542496b70.png",
-    "listed_at": "2026-04-23T19:26:35+00:00",
-    "catchup": true
-  },
-  {
-    "name": "Calamity #18 by Feral",
-    "slug": "mash-it",
-    "price": "$3.91  (0.0017 WETH)",
-    "maker": "0x87ce5ae6...91ed6d",
-    "maker_full": "0x87ce5ae644c67a180c65d18671065ae82b91ed6d",
-    "expiry": "?",
-    "link": "https://opensea.io/assets/polygon/0x6d74e823e3cfb94a4a395b74b1e7b0f5ca5596a3/2740",
-    "image_url": "https://i2c.seadn.io/polygon/0x6d74e823e3cfb94a4a395b74b1e7b0f5ca5596a3/cece63636f33e55d2fd78eb5ea5f53/75cece63636f33e55d2fd78eb5ea5f53.png",
-    "listed_at": "2026-04-23T19:26:21+00:00",
-    "catchup": true
-  },
-  {
-    "name": "Sho #14 by xlate",
-    "slug": "mash-it",
-    "price": "$1.39  (0.0006 WETH)",
-    "maker": "0x87ce5ae6...91ed6d",
-    "maker_full": "0x87ce5ae644c67a180c65d18671065ae82b91ed6d",
-    "expiry": "?",
-    "link": "https://opensea.io/assets/polygon/0x6d74e823e3cfb94a4a395b74b1e7b0f5ca5596a3/2812",
-    "image_url": "https://i2c.seadn.io/polygon/0x6d74e823e3cfb94a4a395b74b1e7b0f5ca5596a3/aa121b0b58e8d3c8491858f0b988ec/a5aa121b0b58e8d3c8491858f0b988ec.png",
-    "listed_at": "2026-04-23T19:25:49+00:00",
-    "catchup": true
-  },
-  {
-    "name": "Sol #3 by Zuccyn",
+    "name": "Shirayuki #17 by Hofmaurerad",
     "slug": "mash-it",
     "price": "$3.47  (0.0015 WETH)",
     "maker": "0x87ce5ae6...91ed6d",
     "maker_full": "0x87ce5ae644c67a180c65d18671065ae82b91ed6d",
-    "expiry": "?",
-    "link": "https://opensea.io/assets/polygon/0x6d74e823e3cfb94a4a395b74b1e7b0f5ca5596a3/2878",
-    "image_url": "https://i2c.seadn.io/polygon/0x6d74e823e3cfb94a4a395b74b1e7b0f5ca5596a3/028be45f5f2e8f1b45c9bb80ab6dd7/91028be45f5f2e8f1b45c9bb80ab6dd7.png",
-    "listed_at": "2026-04-23T19:25:35+00:00",
-    "catchup": true
-  },
-  {
-    "name": "Portrait King #27 by Rojom",
-    "slug": "mash-it",
-    "price": "$2.31  (0.0010 WETH)",
-    "maker": "0x87ce5ae6...91ed6d",
-    "maker_full": "0x87ce5ae644c67a180c65d18671065ae82b91ed6d",
-    "expiry": "?",
-    "link": "https://opensea.io/assets/polygon/0x6d74e823e3cfb94a4a395b74b1e7b0f5ca5596a3/3121",
-    "image_url": "https://i2c.seadn.io/polygon/0x6d74e823e3cfb94a4a395b74b1e7b0f5ca5596a3/60ccfe7173021bc685222888daae0e/b060ccfe7173021bc685222888daae0e.png",
-    "listed_at": "2026-04-23T19:24:58+00:00",
-    "catchup": true
-  },
-  {
-    "name": "Brindille #6 by Powart",
-    "slug": "mash-it",
-    "price": "$1.85  (0.0008 WETH)",
-    "maker": "0x87ce5ae6...91ed6d",
-    "maker_full": "0x87ce5ae644c67a180c65d18671065ae82b91ed6d",
-    "expiry": "?",
-    "link": "https://opensea.io/assets/polygon/0x6d74e823e3cfb94a4a395b74b1e7b0f5ca5596a3/3228",
-    "image_url": "https://i2c.seadn.io/polygon/0x6d74e823e3cfb94a4a395b74b1e7b0f5ca5596a3/7e628490ed276196c3ac007c135f37/547e628490ed276196c3ac007c135f37.png",
-    "listed_at": "2026-04-23T19:24:46+00:00",
-    "catchup": true
-  },
-  {
-    "name": "Nori-Nori #11 by artofmajon",
-    "slug": "mash-it",
-    "price": "$1.85  (0.0008 WETH)",
-    "maker": "0x87ce5ae6...91ed6d",
-    "maker_full": "0x87ce5ae644c67a180c65d18671065ae82b91ed6d",
-    "expiry": "?",
-    "link": "https://opensea.io/assets/polygon/0x6d74e823e3cfb94a4a395b74b1e7b0f5ca5596a3/3261",
-    "image_url": "https://i2c.seadn.io/polygon/0x6d74e823e3cfb94a4a395b74b1e7b0f5ca5596a3/403674be2e982e86beb7ecdcbc27b6/70403674be2e982e86beb7ecdcbc27b6.png",
-    "listed_at": "2026-04-23T19:24:33+00:00",
-    "catchup": true
-  },
-  {
-    "name": "ICARUS #18 by joethekappaguy",
-    "slug": "mash-it",
-    "price": "$2.77  (0.0012 WETH)",
-    "maker": "0x87ce5ae6...91ed6d",
-    "maker_full": "0x87ce5ae644c67a180c65d18671065ae82b91ed6d",
-    "expiry": "?",
-    "link": "https://opensea.io/assets/polygon/0x6d74e823e3cfb94a4a395b74b1e7b0f5ca5596a3/3593",
-    "image_url": "https://i2c.seadn.io/polygon/0x6d74e823e3cfb94a4a395b74b1e7b0f5ca5596a3/014a07fd8a7a87440e5bacfa080b2f/e4014a07fd8a7a87440e5bacfa080b2f.png",
-    "listed_at": "2026-04-23T19:24:20+00:00",
-    "catchup": true
-  },
-  {
-    "name": "Kori #3 by Rinni",
-    "slug": "mash-it",
-    "price": "$2.31  (0.0010 WETH)",
-    "maker": "0x87ce5ae6...91ed6d",
-    "maker_full": "0x87ce5ae644c67a180c65d18671065ae82b91ed6d",
-    "expiry": "?",
-    "link": "https://opensea.io/assets/polygon/0x6d74e823e3cfb94a4a395b74b1e7b0f5ca5596a3/3900",
-    "image_url": "https://i2c.seadn.io/polygon/0x6d74e823e3cfb94a4a395b74b1e7b0f5ca5596a3/db233b360c2a3d4ef067b457be4a22/7edb233b360c2a3d4ef067b457be4a22.png",
-    "listed_at": "2026-04-23T19:24:11+00:00",
-    "catchup": true
-  },
-  {
-    "name": "Lamplighter #5 by Feral",
-    "slug": "mash-it",
-    "price": "$3.93  (0.0017 WETH)",
-    "maker": "0x87ce5ae6...91ed6d",
-    "maker_full": "0x87ce5ae644c67a180c65d18671065ae82b91ed6d",
-    "expiry": "?",
-    "link": "https://opensea.io/assets/polygon/0x6d74e823e3cfb94a4a395b74b1e7b0f5ca5596a3/813",
-    "image_url": "https://i2c.seadn.io/polygon/0x6d74e823e3cfb94a4a395b74b1e7b0f5ca5596a3/389c2a9a3c1aa91d151e633b06ff2b/0c389c2a9a3c1aa91d151e633b06ff2b.png",
-    "listed_at": "2026-04-23T19:24:00+00:00",
-    "catchup": true
-  },
-  {
-    "name": "Tea Party #6 by KKeist",
-    "slug": "mash-it",
-    "price": "$1.62  (0.0007 WETH)",
-    "maker": "0x87ce5ae6...91ed6d",
-    "maker_full": "0x87ce5ae644c67a180c65d18671065ae82b91ed6d",
-    "expiry": "?",
-    "link": "https://opensea.io/assets/polygon/0x6d74e823e3cfb94a4a395b74b1e7b0f5ca5596a3/4356",
-    "image_url": "https://i2c.seadn.io/polygon/0x6d74e823e3cfb94a4a395b74b1e7b0f5ca5596a3/8207441f2510a17c61816e033d366d/768207441f2510a17c61816e033d366d.png",
-    "listed_at": "2026-04-23T19:23:39+00:00",
-    "catchup": true
+    "expiry": "2026-05-23",
+    "link": "https://opensea.io/item/polygon/0x6d74e823e3cfb94a4a395b74b1e7b0f5ca5596a3/252",
+    "image_url": "https://i2c.seadn.io/polygon/0x6d74e823e3cfb94a4a395b74b1e7b0f5ca5596a3/302ff7538a0330ff999ec3108e9c82/5f302ff7538a0330ff999ec3108e9c82.png",
+    "listed_at": "2026-04-23T19:28:43.564000Z",
+    "catchup": false
   },
   {
     "name": "Be mine! 100100100 #93 by XXX",
@@ -552,27 +360,15 @@
     "catchup": false
   },
   {
-    "name": "Final Form FFF #12 by XXX",
+    "name": "Kyubi 818181 #6 by XXX",
     "slug": "mash-it",
-    "price": "$19.63  (0.0085 WETH)",
+    "price": "$80.84  (0.0350 WETH)",
     "maker": "0xac73aca1...4057ae",
     "maker_full": "0xac73aca1205aff5dfc5e31223c33a970854057ae",
     "expiry": "?",
-    "link": "https://opensea.io/assets/polygon/0x6d74e823e3cfb94a4a395b74b1e7b0f5ca5596a3/14338",
-    "image_url": "https://i2c.seadn.io/polygon/0x6d74e823e3cfb94a4a395b74b1e7b0f5ca5596a3/f7bb03c715aec9cc5258e980e6a5ef/dcf7bb03c715aec9cc5258e980e6a5ef.png",
-    "listed_at": "2026-04-24T09:58:11+00:00",
-    "catchup": true
-  },
-  {
-    "name": "Air Dev 333 #9 by XXX",
-    "slug": "mash-it",
-    "price": "$18.48  (0.0080 WETH)",
-    "maker": "0xac73aca1...4057ae",
-    "maker_full": "0xac73aca1205aff5dfc5e31223c33a970854057ae",
-    "expiry": "?",
-    "link": "https://opensea.io/assets/polygon/0x6d74e823e3cfb94a4a395b74b1e7b0f5ca5596a3/2830",
-    "image_url": "https://i2c.seadn.io/polygon/0x6d74e823e3cfb94a4a395b74b1e7b0f5ca5596a3/c9d7a483c2a4dbb209f22ccf3fe04b/29c9d7a483c2a4dbb209f22ccf3fe04b.png",
-    "listed_at": "2026-04-24T09:57:42+00:00",
+    "link": "https://opensea.io/assets/polygon/0x6d74e823e3cfb94a4a395b74b1e7b0f5ca5596a3/15161",
+    "image_url": "https://i2c.seadn.io/polygon/0x6d74e823e3cfb94a4a395b74b1e7b0f5ca5596a3/9d8496f19b74ac90d192623e3b0bc2/9c9d8496f19b74ac90d192623e3b0bc2.png",
+    "listed_at": "2026-04-24T09:52:53+00:00",
     "catchup": true
   },
   {
@@ -588,27 +384,27 @@
     "catchup": true
   },
   {
-    "name": "Kyubi 818181 #6 by XXX",
+    "name": "Air Dev 333 #9 by XXX",
     "slug": "mash-it",
-    "price": "$80.84  (0.0350 WETH)",
+    "price": "$18.48  (0.0080 WETH)",
     "maker": "0xac73aca1...4057ae",
     "maker_full": "0xac73aca1205aff5dfc5e31223c33a970854057ae",
     "expiry": "?",
-    "link": "https://opensea.io/assets/polygon/0x6d74e823e3cfb94a4a395b74b1e7b0f5ca5596a3/15161",
-    "image_url": "https://i2c.seadn.io/polygon/0x6d74e823e3cfb94a4a395b74b1e7b0f5ca5596a3/9d8496f19b74ac90d192623e3b0bc2/9c9d8496f19b74ac90d192623e3b0bc2.png",
-    "listed_at": "2026-04-24T09:52:53+00:00",
+    "link": "https://opensea.io/assets/polygon/0x6d74e823e3cfb94a4a395b74b1e7b0f5ca5596a3/2830",
+    "image_url": "https://i2c.seadn.io/polygon/0x6d74e823e3cfb94a4a395b74b1e7b0f5ca5596a3/c9d7a483c2a4dbb209f22ccf3fe04b/29c9d7a483c2a4dbb209f22ccf3fe04b.png",
+    "listed_at": "2026-04-24T09:57:42+00:00",
     "catchup": true
   },
   {
-    "name": "Yuri 181818 #3 by XXX",
+    "name": "Final Form FFF #12 by XXX",
     "slug": "mash-it",
-    "price": "$50.82  (0.0220 WETH)",
+    "price": "$19.63  (0.0085 WETH)",
     "maker": "0xac73aca1...4057ae",
     "maker_full": "0xac73aca1205aff5dfc5e31223c33a970854057ae",
     "expiry": "?",
-    "link": "https://opensea.io/assets/polygon/0x6d74e823e3cfb94a4a395b74b1e7b0f5ca5596a3/14684",
-    "image_url": "https://i2c.seadn.io/polygon/0x6d74e823e3cfb94a4a395b74b1e7b0f5ca5596a3/6b4ab3415fa0088aa77b2bf63d6d9c/6a6b4ab3415fa0088aa77b2bf63d6d9c.png",
-    "listed_at": "2026-04-24T09:49:57+00:00",
+    "link": "https://opensea.io/assets/polygon/0x6d74e823e3cfb94a4a395b74b1e7b0f5ca5596a3/14338",
+    "image_url": "https://i2c.seadn.io/polygon/0x6d74e823e3cfb94a4a395b74b1e7b0f5ca5596a3/f7bb03c715aec9cc5258e980e6a5ef/dcf7bb03c715aec9cc5258e980e6a5ef.png",
+    "listed_at": "2026-04-24T09:58:11+00:00",
     "catchup": true
   },
   {
@@ -696,15 +492,15 @@
     "catchup": false
   },
   {
-    "name": "Eternal ETH Essence #1 by XXX",
+    "name": "Pure Power #6 by XXX",
     "slug": "mash-it",
-    "price": "$763.16  (0.3330 WETH)",
+    "price": "$75.63  (0.0330 WETH)",
     "maker": "0x40f32180...c04b16",
     "maker_full": "0x40f32180110d8e797e2e650e473658e7d9c04b16",
     "expiry": "?",
-    "link": "https://opensea.io/assets/polygon/0x6d74e823e3cfb94a4a395b74b1e7b0f5ca5596a3/15870",
-    "image_url": "https://i2c.seadn.io/polygon/0x6d74e823e3cfb94a4a395b74b1e7b0f5ca5596a3/cdfd47e7946788b7fa6029d0cf723f/e3cdfd47e7946788b7fa6029d0cf723f.png",
-    "listed_at": "2026-04-27T21:02:20+00:00",
+    "link": "https://opensea.io/assets/polygon/0x6d74e823e3cfb94a4a395b74b1e7b0f5ca5596a3/16157",
+    "image_url": "https://i2c.seadn.io/polygon/0x6d74e823e3cfb94a4a395b74b1e7b0f5ca5596a3/c3e8ec65c704833cc69a8b9bacf5a9/e5c3e8ec65c704833cc69a8b9bacf5a9.png",
+    "listed_at": "2026-04-27T21:00:27+00:00",
     "catchup": true
   },
   {
@@ -720,15 +516,15 @@
     "catchup": true
   },
   {
-    "name": "Pure Power #6 by XXX",
+    "name": "Eternal ETH Essence #1 by XXX",
     "slug": "mash-it",
-    "price": "$75.63  (0.0330 WETH)",
+    "price": "$763.16  (0.3330 WETH)",
     "maker": "0x40f32180...c04b16",
     "maker_full": "0x40f32180110d8e797e2e650e473658e7d9c04b16",
     "expiry": "?",
-    "link": "https://opensea.io/assets/polygon/0x6d74e823e3cfb94a4a395b74b1e7b0f5ca5596a3/16157",
-    "image_url": "https://i2c.seadn.io/polygon/0x6d74e823e3cfb94a4a395b74b1e7b0f5ca5596a3/c3e8ec65c704833cc69a8b9bacf5a9/e5c3e8ec65c704833cc69a8b9bacf5a9.png",
-    "listed_at": "2026-04-27T21:00:27+00:00",
+    "link": "https://opensea.io/assets/polygon/0x6d74e823e3cfb94a4a395b74b1e7b0f5ca5596a3/15870",
+    "image_url": "https://i2c.seadn.io/polygon/0x6d74e823e3cfb94a4a395b74b1e7b0f5ca5596a3/cdfd47e7946788b7fa6029d0cf723f/e3cdfd47e7946788b7fa6029d0cf723f.png",
+    "listed_at": "2026-04-27T21:02:20+00:00",
     "catchup": true
   },
   {
@@ -741,6 +537,18 @@
     "link": "https://opensea.io/assets/polygon/0x6d74e823e3cfb94a4a395b74b1e7b0f5ca5596a3/16429",
     "image_url": "https://i2c.seadn.io/polygon/0x6d74e823e3cfb94a4a395b74b1e7b0f5ca5596a3/7af29ab49acf0862e215b11940614b/c27af29ab49acf0862e215b11940614b.png",
     "listed_at": "2026-05-23T06:30:41+00:00",
+    "catchup": true
+  },
+  {
+    "name": "ASPEN LEISURE UNIT #10 by fearsmile",
+    "slug": "mash-it-comics",
+    "price": "$1.01  (0.0005 WETH)",
+    "maker": "0xe306caca...e47bb6",
+    "maker_full": "0xe306caca97f92cd566f5fc91121b26a296e47bb6",
+    "expiry": "?",
+    "link": "https://opensea.io/assets/polygon/0x599e5ceeca244cc09032828407c929a23bbaf976/299",
+    "image_url": "https://i2c.seadn.io/polygon/0x599e5ceeca244cc09032828407c929a23bbaf976/9ee70548267fb5eaee0523049d1c9f/f29ee70548267fb5eaee0523049d1c9f.png",
+    "listed_at": "2026-05-23T09:55:21+00:00",
     "catchup": true
   }
 ]
