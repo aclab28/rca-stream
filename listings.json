@@ -33070,5 +33070,17 @@
     "image_url": "https://i2c.seadn.io/polygon/0x2b485a4f45447339ca85cfa181d94c354dd0447d/a10fdd4e4a2a86990a1143bf9fd239/fda10fdd4e4a2a86990a1143bf9fd239.png",
     "listed_at": "2026-05-23T16:17:33.071000Z",
     "catchup": false
+  },
+  {
+    "name": "Shimmer #40",
+    "slug": "shimmer-by-tmarim-x-reddit-collectible-avatars",
+    "price": "$20.57  (0.0100 WETH)",
+    "maker": "0x781fef65...9f7e68",
+    "maker_full": "0x781fef6505271f6a9a658ceff81d0712569f7e68",
+    "expiry": "2026-11-19",
+    "link": "https://opensea.io/item/polygon/0x9538a1c4dba4d6bb29b57d437744e437208a74c8/39",
+    "image_url": "https://i2c.seadn.io/polygon/0x9538a1c4dba4d6bb29b57d437744e437208a74c8/99094ff63ec71061a1a05af4e88568/3e99094ff63ec71061a1a05af4e88568.png",
+    "listed_at": "2026-05-23T16:17:42.871000Z",
+    "catchup": false
   }
 ]
