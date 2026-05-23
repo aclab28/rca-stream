@@ -33166,5 +33166,17 @@
     "image_url": "https://i2c.seadn.io/polygon/0x067731337979a36e5692da1e5a9996977febcd00/88724c1b6bc21ac94604bb88461e9f/da88724c1b6bc21ac94604bb88461e9f.png",
     "listed_at": "2026-05-23T16:20:18+00:00",
     "catchup": true
+  },
+  {
+    "name": "The Demoness Queen #45",
+    "slug": "retro-reimagined-saiyre-art-official-x-reddit-coll",
+    "price": "$51.41  (0.0250 WETH)",
+    "maker": "0x781fef65...9f7e68",
+    "maker_full": "0x781fef6505271f6a9a658ceff81d0712569f7e68",
+    "expiry": "?",
+    "link": "https://opensea.io/assets/polygon/0x8ed11ae32ae005cc9f66d4cc3f01467d14bd8142/794",
+    "image_url": "https://i2c.seadn.io/polygon/0x8ed11ae32ae005cc9f66d4cc3f01467d14bd8142/41764804e0a24a37aa9ec57a4c6b6f/6a41764804e0a24a37aa9ec57a4c6b6f.png",
+    "listed_at": "2026-05-23T16:19:33+00:00",
+    "catchup": true
   }
 ]
