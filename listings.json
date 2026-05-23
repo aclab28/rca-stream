@@ -33228,14 +33228,26 @@
     "catchup": true
   },
   {
-    "name": "Crimson Seraph #5",
-    "slug": "crimson-seraph-by-ervindas-x-reddit-collectible-av",
-    "price": "$6.18  (0.0030 WETH)",
+    "name": "Moon Spirit #143",
+    "slug": "moon-spirit-by-ervindas-x-reddit-collectible-avata",
+    "price": "$2.06  (0.0010 WETH)",
     "maker": "0xd87de5c9...f5407e",
     "maker_full": "0xd87de5c97cc2ba41197dbcc3e818877799f5407e",
     "expiry": "?",
-    "link": "https://opensea.io/assets/polygon/0x9d71374e831a4f6bb5d1f46285e9a3460bb10816/4",
-    "image_url": "https://i2c.seadn.io/polygon/0x9d71374e831a4f6bb5d1f46285e9a3460bb10816/b1b62806851c7c9ebc4d49ad774a86/6fb1b62806851c7c9ebc4d49ad774a86.png",
+    "link": "https://opensea.io/assets/polygon/0xe7a6ac1dd0cbb7733d657ef49b4b635464a2e151/142",
+    "image_url": "https://i2c.seadn.io/polygon/0xe7a6ac1dd0cbb7733d657ef49b4b635464a2e151/ad851b316d81c00b1167127ec71eb0/58ad851b316d81c00b1167127ec71eb0.png",
+    "listed_at": "2026-05-23T17:09:05+00:00",
+    "catchup": true
+  },
+  {
+    "name": "Rudy #425",
+    "slug": "retro-reimagined-ships-x-reddit-collectible-avatar",
+    "price": "$0.82  (0.0004 WETH)",
+    "maker": "0xd87de5c9...f5407e",
+    "maker_full": "0xd87de5c97cc2ba41197dbcc3e818877799f5407e",
+    "expiry": "?",
+    "link": "https://opensea.io/assets/polygon/0xf6d634527c6454cecf242e43aec59c50f8e79b73/424",
+    "image_url": "https://i2c.seadn.io/polygon/0xf6d634527c6454cecf242e43aec59c50f8e79b73/ff3e97f4b4916472bb7116fab4d3e1/8aff3e97f4b4916472bb7116fab4d3e1.png",
     "listed_at": "2026-05-23T17:09:05+00:00",
     "catchup": true
   }
