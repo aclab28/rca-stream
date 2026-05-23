@@ -33610,5 +33610,17 @@
     "image_url": "https://i2c.seadn.io/polygon/0x150afa2dfcaaada471472dfa6ad4b79e718a197c/95d29698a2a5c740f669af5a6a9862/d695d29698a2a5c740f669af5a6a9862.png",
     "listed_at": "2026-05-23T19:40:37.176000Z",
     "catchup": false
+  },
+  {
+    "name": "Night Guard #536",
+    "slug": "spooky-season-poieeeyee-x-reddit-collectible-avata",
+    "price": "$3.53  (0.0017 WETH)",
+    "maker": "0x347188c5...8f7aa6",
+    "maker_full": "0x347188c51af781a0170ac8d1db8e4b4fe38f7aa6",
+    "expiry": "2026-11-19",
+    "link": "https://opensea.io/item/polygon/0x91ac106090fe2b0fa7d01efdf4487a5bfafad7fa/535",
+    "image_url": "https://i2c.seadn.io/polygon/0x91ac106090fe2b0fa7d01efdf4487a5bfafad7fa/ef6b5095b69d00987ff6a130b4a1b7/91ef6b5095b69d00987ff6a130b4a1b7.png",
+    "listed_at": "2026-05-23T19:45:11.759000Z",
+    "catchup": false
   }
 ]
