@@ -33154,5 +33154,17 @@
     "image_url": "https://i2c.seadn.io/polygon/0x2128c27d9d5095ce730465636f0adecd32fc886e/2820d4f041274f77763d0d88231545/bf2820d4f041274f77763d0d88231545.png",
     "listed_at": "2026-05-23T16:20:44+00:00",
     "catchup": true
+  },
+  {
+    "name": "Yama #8",
+    "slug": "yama-by-chrono-x-reddit-collectible-avatars",
+    "price": "$45.24  (0.0220 WETH)",
+    "maker": "0x781fef65...9f7e68",
+    "maker_full": "0x781fef6505271f6a9a658ceff81d0712569f7e68",
+    "expiry": "?",
+    "link": "https://opensea.io/assets/polygon/0x067731337979a36e5692da1e5a9996977febcd00/7",
+    "image_url": "https://i2c.seadn.io/polygon/0x067731337979a36e5692da1e5a9996977febcd00/88724c1b6bc21ac94604bb88461e9f/da88724c1b6bc21ac94604bb88461e9f.png",
+    "listed_at": "2026-05-23T16:20:18+00:00",
+    "catchup": true
   }
 ]
