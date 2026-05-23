@@ -43450,5 +43450,17 @@
     "image_url": "https://i2c.seadn.io/polygon/0x45ee1caed83525673843321107bccadecb9065d7/33013a9a14ffdd5b8b4cdf5d929a54/6933013a9a14ffdd5b8b4cdf5d929a54.png",
     "listed_at": "2026-05-23T06:25:13+00:00",
     "catchup": true
+  },
+  {
+    "name": "Downdrips #26522",
+    "slug": "expressions-collection-x-reddit-collectible-avatar",
+    "price": "$2.06  (0.0010 WETH)",
+    "maker": "0x9e1ee93d...515854",
+    "maker_full": "0x9e1ee93d5f94d6428be6c7d3ca5ef00a4b515854",
+    "expiry": "?",
+    "link": "https://opensea.io/assets/polygon/0x4169ff4d31502cb1d09b8504a00a8a632fb0848f/4026521",
+    "image_url": "https://i2c.seadn.io/polygon/0x4169ff4d31502cb1d09b8504a00a8a632fb0848f/9abf7a77e0f03e5d548f2fde0362b5/a89abf7a77e0f03e5d548f2fde0362b5.png",
+    "listed_at": "2026-05-23T06:20:29+00:00",
+    "catchup": true
   }
 ]
