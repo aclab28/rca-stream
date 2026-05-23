@@ -33346,5 +33346,17 @@
     "image_url": "https://i2c.seadn.io/polygon/0x6f0862944c1b86307ec556ee99454c6e4dc0b5f6/45e14df04a0760774f56c846667caa/6045e14df04a0760774f56c846667caa.png",
     "listed_at": "2026-05-23T16:52:02+00:00",
     "catchup": true
+  },
+  {
+    "name": "Bauble #18",
+    "slug": "bauble-by-13productions-x-reddit-collectible-avata",
+    "price": "$2.06  (0.0010 WETH)",
+    "maker": "0x96e7c3db...e10742",
+    "maker_full": "0x96e7c3db11c2956754e5adcf102f6c1828e10742",
+    "expiry": "2026-11-19",
+    "link": "https://opensea.io/item/polygon/0xdaa4456aba337423e4121e312905033b668a9ea7/17",
+    "image_url": "https://i2c.seadn.io/polygon/0xdaa4456aba337423e4121e312905033b668a9ea7/82802af51d767cd7b994f4ef51bd8b/2082802af51d767cd7b994f4ef51bd8b.png",
+    "listed_at": "2026-05-23T17:22:01.308000Z",
+    "catchup": false
   }
 ]
