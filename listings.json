@@ -33610,5 +33610,17 @@
     "image_url": "https://i2c.seadn.io/polygon/0xa245c8845f661bf004055c0ffca68b7d7ba3f377/bb6b65caed43684c934fd19e60d770/69bb6b65caed43684c934fd19e60d770.png",
     "listed_at": "2026-05-23T10:34:22+00:00",
     "catchup": true
+  },
+  {
+    "name": "Black Background #44",
+    "slug": "black-background-by-dogfart6942-x-reddit-collectib",
+    "price": "$3.75  (0.0018 WETH)",
+    "maker": "0x1e363f3c...038252",
+    "maker_full": "0x1e363f3ce415ed099a622211386c3de1b5038252",
+    "expiry": "?",
+    "link": "https://opensea.io/assets/polygon/0x7cfa434d8e3af5ca73e1a78a600c5400e5bda672/43",
+    "image_url": "https://i2c.seadn.io/polygon/0x7cfa434d8e3af5ca73e1a78a600c5400e5bda672/cb13968c77c0473715b021fda3b987/2bcb13968c77c0473715b021fda3b987.png",
+    "listed_at": "2026-05-23T10:34:22+00:00",
+    "catchup": true
   }
 ]
