@@ -33574,5 +33574,17 @@
     "image_url": "https://i2c.seadn.io/polygon/0x622d8fea4603ba9edaf1084b407052d8b0a9bed7/277cf4c2d5c102061b21e21847338b/2b277cf4c2d5c102061b21e21847338b.png",
     "listed_at": "2026-05-23T08:29:48+00:00",
     "catchup": true
+  },
+  {
+    "name": "Vision Seeker #19",
+    "slug": "vision-seeker-by-performance-subpar-x-reddit-colle",
+    "price": "$2.13  (0.0010 WETH)",
+    "maker": "0x1e363f3c...038252",
+    "maker_full": "0x1e363f3ce415ed099a622211386c3de1b5038252",
+    "expiry": "?",
+    "link": "https://opensea.io/assets/polygon/0xf926986ef59fb1101e81da479a5df846f920776a/18",
+    "image_url": "https://i2c.seadn.io/polygon/0xf926986ef59fb1101e81da479a5df846f920776a/776fb471e51edd4c2390a1d52c779d/f6776fb471e51edd4c2390a1d52c779d.png",
+    "listed_at": "2026-05-23T10:34:22+00:00",
+    "catchup": true
   }
 ]
