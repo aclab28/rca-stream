@@ -14,7 +14,7 @@ from email.mime.multipart import MIMEMultipart
 from email.mime.text import MIMEText
 import pytz
 
-API_KEY            = "e42883f67023429590c1b7a8468eda67"
+API_KEY            = os.environ.get("OPENSEA_API_KEY", "")
 LOG_FILE           = os.path.expanduser("~/rca_listings.log")
 LISTINGS_FILE      = "/home/ubuntu/listings.json"
 MASH_LISTINGS_FILE = "/home/ubuntu/mash_listings.json"
@@ -29,7 +29,7 @@ MAX_LISTINGS       = 10000
 SMTP_HOST = "smtp.gmail.com"
 SMTP_PORT = 587
 SMTP_USER = "rca.lert1000@gmail.com"
-SMTP_PASS = "pbgq axma hbxa moii"
+SMTP_PASS = os.environ.get("GMAIL_APP_PASSWORD", "")
 
 GITHUB_TOKEN     = os.environ.get("GITHUB_TOKEN", "")
 GITHUB_REPO      = "Aclab28/rca-stream"
