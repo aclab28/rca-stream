@@ -33334,5 +33334,17 @@
     "image_url": "https://i2c.seadn.io/polygon/0x238632c3858371d96ddf63d0e141f5d1407ddaf9/8b8671e0a5100d4012eee8468af6b6/8d8b8671e0a5100d4012eee8468af6b6.png",
     "listed_at": "2026-05-23T17:09:05+00:00",
     "catchup": true
+  },
+  {
+    "name": "Jilted #46",
+    "slug": "jilted-by-wispywillow-x-reddit-collectible-avatars",
+    "price": "$12.36  (0.0060 WETH)",
+    "maker": "0x1c504915...7583b6",
+    "maker_full": "0x1c5049159bcd7c6f5dc366e272acf7b9a27583b6",
+    "expiry": "?",
+    "link": "https://opensea.io/assets/polygon/0x6f0862944c1b86307ec556ee99454c6e4dc0b5f6/45",
+    "image_url": "https://i2c.seadn.io/polygon/0x6f0862944c1b86307ec556ee99454c6e4dc0b5f6/45e14df04a0760774f56c846667caa/6045e14df04a0760774f56c846667caa.png",
+    "listed_at": "2026-05-23T16:52:02+00:00",
+    "catchup": true
   }
 ]
