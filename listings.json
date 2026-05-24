@@ -34366,5 +34366,17 @@
     "image_url": "https://i2c.seadn.io/polygon/0xdb1b68ca3c6ff91266b845f0bdf2a22fb243ac6e/957d03d6124701838974ff24373c8c/c7957d03d6124701838974ff24373c8c.png",
     "listed_at": "2026-05-24T11:03:34+00:00",
     "catchup": true
+  },
+  {
+    "name": "Terracotta Tempest #79",
+    "slug": "terracotta-tempest-by-rojom-x-reddit-collectible-a",
+    "price": "$19.92  (0.0094 WETH)",
+    "maker": "0x14447318...c7e077",
+    "maker_full": "0x144473186eb4726577dbb94a06690c97edc7e077",
+    "expiry": "?",
+    "link": "https://opensea.io/assets/polygon/0x216c8a17c2bfc8086f92dfc8ad29c9256c843145/78",
+    "image_url": "https://i2c.seadn.io/polygon/0x216c8a17c2bfc8086f92dfc8ad29c9256c843145/6bfc612aa3e3d7df1121578e9a2058/486bfc612aa3e3d7df1121578e9a2058.png",
+    "listed_at": "2026-05-24T11:00:39+00:00",
+    "catchup": true
   }
 ]
