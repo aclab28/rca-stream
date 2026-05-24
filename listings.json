@@ -34234,5 +34234,17 @@
     "image_url": "https://i2c.seadn.io/polygon/0xfcc6a9a8c25ece89cf222944b313ff140d26894f/73be77a3cd86c34a93f7ee30624ae9/d373be77a3cd86c34a93f7ee30624ae9.png",
     "listed_at": "2026-05-24T08:18:30+00:00",
     "catchup": true
+  },
+  {
+    "name": "Saxsquatch #407",
+    "slug": "future-realities-therealsaxsquatch-x-reddit-collec",
+    "price": "$1.78  (0.0008 WETH)",
+    "maker": "0xa6bd5c1a...276429",
+    "maker_full": "0xa6bd5c1af723b907e33bd5ef3a2d16c2d1276429",
+    "expiry": "?",
+    "link": "https://opensea.io/assets/polygon/0x1a5dec5283a686a7efead3f25e407e7da7fb4b5f/406",
+    "image_url": "https://i2c.seadn.io/polygon/0x1a5dec5283a686a7efead3f25e407e7da7fb4b5f/ba34fef1ca6713a21c8d47c6f486ac/ddba34fef1ca6713a21c8d47c6f486ac.png",
+    "listed_at": "2026-05-24T09:37:37+00:00",
+    "catchup": true
   }
 ]
