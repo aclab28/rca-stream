@@ -814,5 +814,17 @@
     "image_url": "https://i2c.seadn.io/polygon/0x6d74e823e3cfb94a4a395b74b1e7b0f5ca5596a3/8c993d89efa7b410feb8981e37381c/418c993d89efa7b410feb8981e37381c.png",
     "listed_at": "2026-05-24T14:05:12+00:00",
     "catchup": true
+  },
+  {
+    "name": "AUBERGINE DREAMS #26 by joethekappaguy",
+    "slug": "mash-it",
+    "price": "$0.84  (0.0004 WETH)",
+    "maker": "0x97637f77...d31755",
+    "maker_full": "0x97637f77691a52958a12fc8ac0945b28dad31755",
+    "expiry": "?",
+    "link": "https://opensea.io/assets/polygon/0x6d74e823e3cfb94a4a395b74b1e7b0f5ca5596a3/4551",
+    "image_url": "https://i2c.seadn.io/polygon/0x6d74e823e3cfb94a4a395b74b1e7b0f5ca5596a3/998bc8d93e5f8e7b0f6f041301d841/51998bc8d93e5f8e7b0f6f041301d841.png",
+    "listed_at": "2026-05-24T14:04:39+00:00",
+    "catchup": true
   }
 ]
