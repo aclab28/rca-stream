@@ -754,5 +754,17 @@
     "image_url": "https://i2c.seadn.io/polygon/0x6d74e823e3cfb94a4a395b74b1e7b0f5ca5596a3/3f99f081705ad00e6d9c3ebba9ee8c/fe3f99f081705ad00e6d9c3ebba9ee8c.png",
     "listed_at": "2026-05-24T11:03:07+00:00",
     "catchup": true
+  },
+  {
+    "name": "Valkyrie #18 by Ervindas",
+    "slug": "mash-it",
+    "price": "$2.12  (0.0010 WETH)",
+    "maker": "0x87ce5ae6...91ed6d",
+    "maker_full": "0x87ce5ae644c67a180c65d18671065ae82b91ed6d",
+    "expiry": "?",
+    "link": "https://opensea.io/assets/polygon/0x6d74e823e3cfb94a4a395b74b1e7b0f5ca5596a3/11281",
+    "image_url": "https://i2c.seadn.io/polygon/0x6d74e823e3cfb94a4a395b74b1e7b0f5ca5596a3/e344cc3a0b2b3c79f295ba053551c2/96e344cc3a0b2b3c79f295ba053551c2.png",
+    "listed_at": "2026-05-24T11:02:56+00:00",
+    "catchup": true
   }
 ]
