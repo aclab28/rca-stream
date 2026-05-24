@@ -34102,5 +34102,17 @@
     "image_url": "https://i2c.seadn.io/polygon/0x4670e4890bc1b76f3ae5c7660aa98e0b6668c6f3/14d0a89053eea2827d17546faf4e5d/7e14d0a89053eea2827d17546faf4e5d.png",
     "listed_at": "2026-05-24T03:12:25+00:00",
     "catchup": true
+  },
+  {
+    "name": "Silver Age Comics #553",
+    "slug": "old-school-cool-x-reddit-collectible-avatars",
+    "price": "$1.69  (0.0008 WETH)",
+    "maker": "0xa6bd5c1a...276429",
+    "maker_full": "0xa6bd5c1af723b907e33bd5ef3a2d16c2d1276429",
+    "expiry": "2026-11-20",
+    "link": "https://opensea.io/item/polygon/0x4670e4890bc1b76f3ae5c7660aa98e0b6668c6f3/552",
+    "image_url": "https://i2c.seadn.io/polygon/0x4670e4890bc1b76f3ae5c7660aa98e0b6668c6f3/14d0a89053eea2827d17546faf4e5d/7e14d0a89053eea2827d17546faf4e5d.png",
+    "listed_at": "2026-05-24T04:36:54.087000Z",
+    "catchup": false
   }
 ]
