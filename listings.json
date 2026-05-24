@@ -34546,5 +34546,17 @@
     "image_url": "https://i2c.seadn.io/polygon/0x2ef91c5520467e9aebc6bb77ce3ad6a0e373320b/6fd252824225377a8c512a1a7237f5/826fd252824225377a8c512a1a7237f5.png",
     "listed_at": "2026-05-24T15:19:03+00:00",
     "catchup": true
+  },
+  {
+    "name": "Spooky Spaghetti #645",
+    "slug": "spooky-season-canetoonist-x-reddit-collectible-ava",
+    "price": "$4.83  (0.0023 WETH)",
+    "maker": "0x101eb380...90d8c7",
+    "maker_full": "0x101eb380d06e443c7d456aed63961b16e290d8c7",
+    "expiry": "?",
+    "link": "https://opensea.io/assets/polygon/0x04f7a676af597f847053b6c02ed42d02fa4046aa/1744",
+    "image_url": "https://i2c.seadn.io/polygon/0x04f7a676af597f847053b6c02ed42d02fa4046aa/5d154f275c5ac088c56c896c284a3e/0c5d154f275c5ac088c56c896c284a3e.png",
+    "listed_at": "2026-05-24T16:07:20+00:00",
+    "catchup": true
   }
 ]
