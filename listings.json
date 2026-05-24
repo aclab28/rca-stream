@@ -34558,5 +34558,17 @@
     "image_url": "https://i2c.seadn.io/polygon/0x04f7a676af597f847053b6c02ed42d02fa4046aa/5d154f275c5ac088c56c896c284a3e/0c5d154f275c5ac088c56c896c284a3e.png",
     "listed_at": "2026-05-24T16:07:20+00:00",
     "catchup": true
+  },
+  {
+    "name": "Dedtone #126",
+    "slug": "retro-reimagined-redhalftone-x-reddit-collectible",
+    "price": "$4.83  (0.0023 WETH)",
+    "maker": "0x101eb380...90d8c7",
+    "maker_full": "0x101eb380d06e443c7d456aed63961b16e290d8c7",
+    "expiry": "?",
+    "link": "https://opensea.io/assets/polygon/0x13bef354789314b2e70af1dca78bf17bcc3d5334/3875",
+    "image_url": "https://i2c.seadn.io/polygon/0x13bef354789314b2e70af1dca78bf17bcc3d5334/8b8aa9a3c74a7be852a9e2905284fb/528b8aa9a3c74a7be852a9e2905284fb.png",
+    "listed_at": "2026-05-24T16:07:20+00:00",
+    "catchup": true
   }
 ]
