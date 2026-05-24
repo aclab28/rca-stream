@@ -802,5 +802,17 @@
     "image_url": "https://i2c.seadn.io/polygon/0x6d74e823e3cfb94a4a395b74b1e7b0f5ca5596a3/400d5df95cae98e27fb44bb82f9aad/f2400d5df95cae98e27fb44bb82f9aad.png",
     "listed_at": "2026-05-24T11:12:55.849000Z",
     "catchup": false
+  },
+  {
+    "name": "SuperGlizzy Ape #17 by RocketMoonApe",
+    "slug": "mash-it",
+    "price": "$4.11  (0.0019 WETH)",
+    "maker": "0x97637f77...d31755",
+    "maker_full": "0x97637f77691a52958a12fc8ac0945b28dad31755",
+    "expiry": "?",
+    "link": "https://opensea.io/assets/polygon/0x6d74e823e3cfb94a4a395b74b1e7b0f5ca5596a3/2020",
+    "image_url": "https://i2c.seadn.io/polygon/0x6d74e823e3cfb94a4a395b74b1e7b0f5ca5596a3/8c993d89efa7b410feb8981e37381c/418c993d89efa7b410feb8981e37381c.png",
+    "listed_at": "2026-05-24T14:05:12+00:00",
+    "catchup": true
   }
 ]
