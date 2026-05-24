@@ -34198,5 +34198,17 @@
     "image_url": "https://i2c.seadn.io/polygon/0x196b56992701dfd459c5501cc3b9ce463baa11ed/f45a3864df287b668db30c9704384b/28f45a3864df287b668db30c9704384b.png",
     "listed_at": "2026-05-24T07:56:10+00:00",
     "catchup": true
+  },
+  {
+    "name": "Cordyceps #241",
+    "slug": "abeekatie-reddit-collectible-avatars-gen-3",
+    "price": "$5.48  (0.0026 WETH)",
+    "maker": "0x14447318...c7e077",
+    "maker_full": "0x144473186eb4726577dbb94a06690c97edc7e077",
+    "expiry": "?",
+    "link": "https://opensea.io/assets/polygon/0x9f5dcd096e85accecf7f2b2ec0a132cf44fe7996/240",
+    "image_url": "https://i2c.seadn.io/polygon/0x9f5dcd096e85accecf7f2b2ec0a132cf44fe7996/be7894bb62c825af91b20c42af823a/65be7894bb62c825af91b20c42af823a.png",
+    "listed_at": "2026-05-24T07:56:00+00:00",
+    "catchup": true
   }
 ]
