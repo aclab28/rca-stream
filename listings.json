@@ -34582,5 +34582,17 @@
     "image_url": "https://i2c.seadn.io/polygon/0x8264e2bad3d2f7afd72a00233b9f841fe4b388cd/61e216b6c2ad1104ecdca1865a4221/5c61e216b6c2ad1104ecdca1865a4221.png",
     "listed_at": "2026-05-24T17:01:29.124000Z",
     "catchup": false
+  },
+  {
+    "name": "Cosmic Abyss #138",
+    "slug": "spooky-season-rojom-x-reddit-collectible-avatars",
+    "price": "$210.11  (0.1000 WETH)",
+    "maker": "0xcf8f3cc2...70d3fd",
+    "maker_full": "0xcf8f3cc23d5374dde9f9667eeac66513ed70d3fd",
+    "expiry": "?",
+    "link": "https://opensea.io/assets/polygon/0x3e4627665bf2e52c69be03788e664ab545f2be71/2037",
+    "image_url": "https://i2c.seadn.io/polygon/0x3e4627665bf2e52c69be03788e664ab545f2be71/e12717fc64e8540d844441f3860a19/afe12717fc64e8540d844441f3860a19.png",
+    "listed_at": "2026-05-24T18:21:34+00:00",
+    "catchup": true
   }
 ]
