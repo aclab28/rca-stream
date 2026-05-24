@@ -34390,5 +34390,17 @@
     "image_url": "https://i2c.seadn.io/polygon/0x69ab43dcadfd4afe1fae5b4242ae7540c0b07a0c/22fddaba0e1b832cd4cf3389651c6a/5d22fddaba0e1b832cd4cf3389651c6a.png",
     "listed_at": "2026-05-24T11:13:32.271000Z",
     "catchup": false
+  },
+  {
+    "name": "Guardian of The Cemetery #58",
+    "slug": "future-realities-playdapptown-x-reddit-collectible",
+    "price": "$2.12  (0.0010 WETH)",
+    "maker": "0x87ce5ae6...91ed6d",
+    "maker_full": "0x87ce5ae644c67a180c65d18671065ae82b91ed6d",
+    "expiry": "2026-06-23",
+    "link": "https://opensea.io/item/polygon/0x0f4ea45f6b9828ba6ac7400504a66d93f4c93c25/934",
+    "image_url": "https://i2c.seadn.io/polygon/0x0f4ea45f6b9828ba6ac7400504a66d93f4c93c25/de983d08e42b7bec7cb60ad68a8a9e/a0de983d08e42b7bec7cb60ad68a8a9e.png",
+    "listed_at": "2026-05-24T11:14:22.058000Z",
+    "catchup": false
   }
 ]
