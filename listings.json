@@ -34618,5 +34618,17 @@
     "image_url": "https://i2c.seadn.io/polygon/0xc94e1be3ae0200be6d55da9473b127f7c0d9beeb/d4998dd891651891ccc828518fcdf3/2fd4998dd891651891ccc828518fcdf3.png",
     "listed_at": "2026-05-24T18:56:57.855000Z",
     "catchup": false
+  },
+  {
+    "name": "Bananas #5",
+    "slug": "bananas-by-joeviani-x-reddit-collectible-avatars",
+    "price": "$9.87  (0.0047 WETH)",
+    "maker": "0xe6da4a49...87b802",
+    "maker_full": "0xe6da4a4930e896c7e1ff590779b4046d7587b802",
+    "expiry": "2026-11-20",
+    "link": "https://opensea.io/item/polygon/0x9bb58cbd24d0d94084d2e0b1c376995f360998ed/4",
+    "image_url": "https://i2c.seadn.io/polygon/0x9bb58cbd24d0d94084d2e0b1c376995f360998ed/ae25555c909cadd59b48835697326c/36ae25555c909cadd59b48835697326c.png",
+    "listed_at": "2026-05-24T18:57:48.237000Z",
+    "catchup": false
   }
 ]
