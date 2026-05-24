@@ -34534,5 +34534,17 @@
     "image_url": "https://i2c.seadn.io/polygon/0x3e4627665bf2e52c69be03788e664ab545f2be71/8a4577c7fda1d77115655b473e33ec/648a4577c7fda1d77115655b473e33ec.png",
     "listed_at": "2026-05-24T13:23:13.866000Z",
     "catchup": false
+  },
+  {
+    "name": "Zap #6",
+    "slug": "zap-by-pippytherobot-x-reddit-collectible-avatars",
+    "price": "$10.48  (0.0050 WETH)",
+    "maker": "0x1c504915...7583b6",
+    "maker_full": "0x1c5049159bcd7c6f5dc366e272acf7b9a27583b6",
+    "expiry": "?",
+    "link": "https://opensea.io/assets/polygon/0x2ef91c5520467e9aebc6bb77ce3ad6a0e373320b/5",
+    "image_url": "https://i2c.seadn.io/polygon/0x2ef91c5520467e9aebc6bb77ce3ad6a0e373320b/6fd252824225377a8c512a1a7237f5/826fd252824225377a8c512a1a7237f5.png",
+    "listed_at": "2026-05-24T15:19:03+00:00",
+    "catchup": true
   }
 ]
