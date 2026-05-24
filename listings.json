@@ -33838,5 +33838,17 @@
     "image_url": "https://i2c.seadn.io/polygon/0xc366ab9fdc0bfb40537cba3249bcfb94a5fd6214/ba6919e29c67be8f1721e074d83e74/1cba6919e29c67be8f1721e074d83e74.png",
     "listed_at": "2026-05-23T23:44:13+00:00",
     "catchup": true
+  },
+  {
+    "name": "Avataur #159",
+    "slug": "creatures-without-pants-x-reddit-collectible-avata",
+    "price": "$1.78  (0.0008 WETH)",
+    "maker": "0xfca0feb3...b8277e",
+    "maker_full": "0xfca0feb35677867e5c790eb9324c16962bb8277e",
+    "expiry": "?",
+    "link": "https://opensea.io/assets/polygon/0x838c1cd42929543daf9c3ef294fee8c1b3224b37/158",
+    "image_url": "https://i2c.seadn.io/polygon/0x838c1cd42929543daf9c3ef294fee8c1b3224b37/d3b642dc05f296172cbdc825f3062f/2fd3b642dc05f296172cbdc825f3062f.png",
+    "listed_at": "2026-05-24T00:31:30+00:00",
+    "catchup": true
   }
 ]
