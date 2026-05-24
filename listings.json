@@ -34330,5 +34330,17 @@
     "image_url": "https://i2c.seadn.io/polygon/0xd25f80559b03ae21c2ebbbc9a7c174fbb534089a/3b5e5c35bb71b6cd4b0d7889d5ba0a/9e3b5e5c35bb71b6cd4b0d7889d5ba0a.png",
     "listed_at": "2026-05-24T11:05:19+00:00",
     "catchup": true
+  },
+  {
+    "name": "Sherbet #12",
+    "slug": "sherbet-by-qugmo-x-reddit-collectible-avatars",
+    "price": "$5.73  (0.0027 WETH)",
+    "maker": "0x87ce5ae6...91ed6d",
+    "maker_full": "0x87ce5ae644c67a180c65d18671065ae82b91ed6d",
+    "expiry": "?",
+    "link": "https://opensea.io/assets/polygon/0x37840b84948a963352cabab956f4faf42eb7ab0b/11",
+    "image_url": "https://i2c.seadn.io/polygon/0x37840b84948a963352cabab956f4faf42eb7ab0b/ff6c65382c1c13a9a9bcc15195af3a/3cff6c65382c1c13a9a9bcc15195af3a.png",
+    "listed_at": "2026-05-24T11:04:10+00:00",
+    "catchup": true
   }
 ]
