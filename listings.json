@@ -33862,5 +33862,17 @@
     "image_url": "https://i2c.seadn.io/polygon/0xb685bf3ba9376119b2b3fbdba71622552fd3c045/88aa0523c738743b69b4fba4aff9e7/d888aa0523c738743b69b4fba4aff9e7.png",
     "listed_at": "2026-05-24T00:19:52+00:00",
     "catchup": true
+  },
+  {
+    "name": "Uruguay #1172",
+    "slug": "reddit-cup-2022-x-reddit-collectible-avatars",
+    "price": "$2,331.73  (1.1000 WETH)",
+    "maker": "0x4cdb7a6f...d1f34d",
+    "maker_full": "0x4cdb7a6f50e84b4e226d11f6162f323cbcd1f34d",
+    "expiry": "?",
+    "link": "https://opensea.io/assets/polygon/0x622d8fea4603ba9edaf1084b407052d8b0a9bed7/6804171",
+    "image_url": "https://i2c.seadn.io/polygon/0x622d8fea4603ba9edaf1084b407052d8b0a9bed7/18a2ab660a3c6aebdb1144238a5ac3/4518a2ab660a3c6aebdb1144238a5ac3.png",
+    "listed_at": "2026-05-24T03:00:29+00:00",
+    "catchup": true
   }
 ]
