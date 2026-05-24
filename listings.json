@@ -34258,5 +34258,17 @@
     "image_url": "https://i2c.seadn.io/polygon/0x6dc402c0a881f668eef0728b0928c179befad3b3/372a59e155cee0b6b67936723a904f/4d372a59e155cee0b6b67936723a904f.png",
     "listed_at": "2026-05-24T09:33:38+00:00",
     "catchup": true
+  },
+  {
+    "name": "DRAMA #52",
+    "slug": "drama-by-jessica-hansen-x-reddit-collectible-avata",
+    "price": "$8.47  (0.0040 WETH)",
+    "maker": "0x2aa67ec5...a85f95",
+    "maker_full": "0x2aa67ec5dfa4febdaa735b942b99b88565a85f95",
+    "expiry": "?",
+    "link": "https://opensea.io/assets/polygon/0xff6474701d68215eb6a7c7fa945d2a8636652df3/51",
+    "image_url": "https://i2c.seadn.io/polygon/0xff6474701d68215eb6a7c7fa945d2a8636652df3/6e0f14c818c9b48470f3ea84b9dd86/0c6e0f14c818c9b48470f3ea84b9dd86.png",
+    "listed_at": "2026-05-24T10:36:36+00:00",
+    "catchup": true
   }
 ]
