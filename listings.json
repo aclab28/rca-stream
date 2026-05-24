@@ -33826,5 +33826,17 @@
     "image_url": "https://i2c.seadn.io/polygon/0x07f5437ff648a0554c4fae110ade5adccb6bd36b/e014bfb7395ed6e4dc6e5d93ce2dd8/4ae014bfb7395ed6e4dc6e5d93ce2dd8.png",
     "listed_at": "2026-05-23T23:09:35+00:00",
     "catchup": true
+  },
+  {
+    "name": "Angel 555 #35",
+    "slug": "angel-555-by-xxx-x-reddit-collectible-avatars",
+    "price": "$42.26  (0.0200 WETH)",
+    "maker": "0xeda125de...e45f26",
+    "maker_full": "0xeda125de176fb11fdd218d1a604a5a6596e45f26",
+    "expiry": "?",
+    "link": "https://opensea.io/assets/polygon/0xc366ab9fdc0bfb40537cba3249bcfb94a5fd6214/34",
+    "image_url": "https://i2c.seadn.io/polygon/0xc366ab9fdc0bfb40537cba3249bcfb94a5fd6214/ba6919e29c67be8f1721e074d83e74/1cba6919e29c67be8f1721e074d83e74.png",
+    "listed_at": "2026-05-23T23:44:13+00:00",
+    "catchup": true
   }
 ]
