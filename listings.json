@@ -34570,5 +34570,17 @@
     "image_url": "https://i2c.seadn.io/polygon/0x13bef354789314b2e70af1dca78bf17bcc3d5334/8b8aa9a3c74a7be852a9e2905284fb/528b8aa9a3c74a7be852a9e2905284fb.png",
     "listed_at": "2026-05-24T16:07:20+00:00",
     "catchup": true
+  },
+  {
+    "name": "AWAKEN #74",
+    "slug": "spooky-season-earthtoplanet-x-reddit-collectible-a",
+    "price": "$56.77  (0.0270 WETH)",
+    "maker": "0x9a57f83d...157150",
+    "maker_full": "0x9a57f83dcc4afa5d9c09721273508104de157150",
+    "expiry": "2026-11-20",
+    "link": "https://opensea.io/item/polygon/0x8264e2bad3d2f7afd72a00233b9f841fe4b388cd/1573",
+    "image_url": "https://i2c.seadn.io/polygon/0x8264e2bad3d2f7afd72a00233b9f841fe4b388cd/61e216b6c2ad1104ecdca1865a4221/5c61e216b6c2ad1104ecdca1865a4221.png",
+    "listed_at": "2026-05-24T17:01:29.124000Z",
+    "catchup": false
   }
 ]
