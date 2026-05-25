@@ -34822,5 +34822,29 @@
     "image_url": "https://i2c.seadn.io/polygon/0x21e9a3845f9375b0bd9a78cbcf585192b5dc054d/ed3ab60a6ac0990fe087a4cc17f4b0/46ed3ab60a6ac0990fe087a4cc17f4b0.png",
     "listed_at": "2026-05-25T06:17:01.794000Z",
     "catchup": false
+  },
+  {
+    "name": "Freed #28",
+    "slug": "freed-by-basket-x-reddit-collectible-avatars",
+    "price": "$10.51  (0.0050 WETH)",
+    "maker": "0xeacec320...62c242",
+    "maker_full": "0xeacec320f6f3f5ef81f522067737502b2162c242",
+    "expiry": "2026-08-23",
+    "link": "https://opensea.io/item/polygon/0xf3c6e577dc98760bccd91b2a45cd2b2b7fdeffef/27",
+    "image_url": "https://i2c.seadn.io/polygon/0xf3c6e577dc98760bccd91b2a45cd2b2b7fdeffef/49e6f587f8af4b92922dde4efba5ac/4f49e6f587f8af4b92922dde4efba5ac.png",
+    "listed_at": "2026-05-25T06:17:01.760000Z",
+    "catchup": false
+  },
+  {
+    "name": "Tomoe [aries] #51",
+    "slug": "tomoe-aries-by-emanuela-bosnjak-x-reddit-collectib",
+    "price": "$8.41  (0.0040 WETH)",
+    "maker": "0xeacec320...62c242",
+    "maker_full": "0xeacec320f6f3f5ef81f522067737502b2162c242",
+    "expiry": "2026-08-23",
+    "link": "https://opensea.io/item/polygon/0x58b58f5f66beac4adb4626baa6762d28d4f89a2d/50",
+    "image_url": "https://i2c.seadn.io/polygon/0x58b58f5f66beac4adb4626baa6762d28d4f89a2d/c085a6d2e4d0ff7312128c29d8c6c2/72c085a6d2e4d0ff7312128c29d8c6c2.png",
+    "listed_at": "2026-05-25T06:17:01.778000Z",
+    "catchup": false
   }
 ]
