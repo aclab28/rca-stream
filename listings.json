@@ -35818,5 +35818,17 @@
     "image_url": "https://i2c.seadn.io/polygon/0x248e6d478578216822635b95c7a1970a16223836/8aa79bdaab3d80e3033bc46bcbb6ff/f18aa79bdaab3d80e3033bc46bcbb6ff.png",
     "listed_at": "2026-05-25T17:56:33.876000Z",
     "catchup": false
+  },
+  {
+    "name": "M03 #94",
+    "slug": "future-realities-machakumagai-x-reddit-collectible",
+    "price": "$2.98  (0.0014 WETH)",
+    "maker": "0xa6bd5c1a...276429",
+    "maker_full": "0xa6bd5c1af723b907e33bd5ef3a2d16c2d1276429",
+    "expiry": "2026-11-21",
+    "link": "https://opensea.io/item/polygon/0x5669e294dcc7a0ceae4bfbb00a68c1dbca2d45c0/1193",
+    "image_url": "https://i2c.seadn.io/polygon/0x5669e294dcc7a0ceae4bfbb00a68c1dbca2d45c0/87e1f4abf623bb55a5abd2bbee0778/5887e1f4abf623bb55a5abd2bbee0778.png",
+    "listed_at": "2026-05-25T17:56:36.301000Z",
+    "catchup": false
   }
 ]
