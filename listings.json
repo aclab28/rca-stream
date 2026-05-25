@@ -35086,5 +35086,29 @@
     "image_url": "https://i2c.seadn.io/polygon/0xf0988a3560c23367969d9115ddda7b7af7526d02/923016f94f79c481ffc5ffed1c77bf/01923016f94f79c481ffc5ffed1c77bf.png",
     "listed_at": "2026-05-25T06:24:48+00:00",
     "catchup": true
+  },
+  {
+    "name": "Divine Menace #19",
+    "slug": "divine-menace-by-feral-x-reddit-collectible-avatar",
+    "price": "$8.40  (0.0040 WETH)",
+    "maker": "0xeacec320...62c242",
+    "maker_full": "0xeacec320f6f3f5ef81f522067737502b2162c242",
+    "expiry": "?",
+    "link": "https://opensea.io/assets/polygon/0x64686610c73895b294c82e6a6a382351c22a541b/18",
+    "image_url": "https://i2c.seadn.io/polygon/0x64686610c73895b294c82e6a6a382351c22a541b/436f57aa842b34ff661ec7e2aea1a1/3f436f57aa842b34ff661ec7e2aea1a1.png",
+    "listed_at": "2026-05-25T06:24:48+00:00",
+    "catchup": true
+  },
+  {
+    "name": "Seraphim #14",
+    "slug": "seraphim-by-basket-x-reddit-collectible-avatars",
+    "price": "$8.40  (0.0040 WETH)",
+    "maker": "0xeacec320...62c242",
+    "maker_full": "0xeacec320f6f3f5ef81f522067737502b2162c242",
+    "expiry": "?",
+    "link": "https://opensea.io/assets/polygon/0x413a36075c3f9875acf2494c5d40754f9fee3571/13",
+    "image_url": "https://i2c.seadn.io/polygon/0x413a36075c3f9875acf2494c5d40754f9fee3571/c66ee87699fb04ed804ec0b32ba940/f7c66ee87699fb04ed804ec0b32ba940.png",
+    "listed_at": "2026-05-25T06:24:48+00:00",
+    "catchup": true
   }
 ]
