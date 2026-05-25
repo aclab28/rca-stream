@@ -35974,5 +35974,17 @@
     "image_url": "https://i2c.seadn.io/matic/0x59bfb8a8f1169bb135139cadd4813ec386a2d2c7/96e1dd45b3fba685eff2e61e1132cc/7a96e1dd45b3fba685eff2e61e1132cc.png",
     "listed_at": "2026-05-25T22:55:48.838000Z",
     "catchup": false
+  },
+  {
+    "name": "Mother #48",
+    "slug": "retro-reimagined-tinymischiefs-x-reddit-collectibl",
+    "price": "$3.16  (0.0015 WETH)",
+    "maker": "0xad860336...986867",
+    "maker_full": "0xad860336c26458d9ef37dd741e7cfe9874986867",
+    "expiry": "2026-11-21",
+    "link": "https://opensea.io/item/polygon/0x3e72cfc26e23d00130da802a29fc7f421c5bf847/1268",
+    "image_url": "https://i2c.seadn.io/polygon/0x3e72cfc26e23d00130da802a29fc7f421c5bf847/bfddcaf32859e3cb8872cdbb80767b/6bbfddcaf32859e3cb8872cdbb80767b.png",
+    "listed_at": "2026-05-25T22:59:07.142000Z",
+    "catchup": false
   }
 ]
