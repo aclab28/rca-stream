@@ -35398,5 +35398,17 @@
     "image_url": "https://i2c.seadn.io/polygon/0xd8c960fb98cfdeb4a482392742812c38c801c933/db5842e26c009f1fae5002b8ea1350/fbdb5842e26c009f1fae5002b8ea1350.png",
     "listed_at": "2026-05-25T16:51:58+00:00",
     "catchup": true
+  },
+  {
+    "name": "Cat Fish #167",
+    "slug": "cute-cool-and-creepy-x-reddit-collectible-avatars",
+    "price": "$8.43  (0.0039 WETH)",
+    "maker": "0x97637f77...d31755",
+    "maker_full": "0x97637f77691a52958a12fc8ac0945b28dad31755",
+    "expiry": "?",
+    "link": "https://opensea.io/assets/polygon/0x47749c5b970e63f3a0ed57cd6cef773e74fafe9d/166",
+    "image_url": "https://i2c.seadn.io/polygon/0x47749c5b970e63f3a0ed57cd6cef773e74fafe9d/8cac7cac8b8c835aba895cbb294935/7b8cac7cac8b8c835aba895cbb294935.png",
+    "listed_at": "2026-05-25T16:42:25+00:00",
+    "catchup": true
   }
 ]
