@@ -34762,5 +34762,29 @@
     "image_url": "https://i2c.seadn.io/polygon/0xf06929441b56c856d21ac3ee314fdf64c3af29c4/a397a802371bf3565ccf2b51d12ddb/2fa397a802371bf3565ccf2b51d12ddb.png",
     "listed_at": "2026-05-25T06:17:01.538000Z",
     "catchup": false
+  },
+  {
+    "name": "Seer #11",
+    "slug": "seer-by-itsnotyourfault-x-reddit-collectible-avata",
+    "price": "$10.51  (0.0050 WETH)",
+    "maker": "0xeacec320...62c242",
+    "maker_full": "0xeacec320f6f3f5ef81f522067737502b2162c242",
+    "expiry": "2026-08-23",
+    "link": "https://opensea.io/item/polygon/0xd9f04dbf61eeed6492d056d45c55ca7db2b11cda/10",
+    "image_url": "https://i2c.seadn.io/polygon/0xd9f04dbf61eeed6492d056d45c55ca7db2b11cda/1b8090cf6c68bdc0fe3f99dff80ba9/011b8090cf6c68bdc0fe3f99dff80ba9.png",
+    "listed_at": "2026-05-25T06:17:01.640000Z",
+    "catchup": false
+  },
+  {
+    "name": "Nahla #24",
+    "slug": "nahla-by-laura-d-x-reddit-collectible-avatars",
+    "price": "$6.31  (0.0030 WETH)",
+    "maker": "0xeacec320...62c242",
+    "maker_full": "0xeacec320f6f3f5ef81f522067737502b2162c242",
+    "expiry": "2026-08-23",
+    "link": "https://opensea.io/item/polygon/0x7dbc85bf294b068e92c0aa04dc728d10523cdc6a/23",
+    "image_url": "https://i2c.seadn.io/matic/0x7dbc85bf294b068e92c0aa04dc728d10523cdc6a/69982b295df8d0be806b7e4248db63/ac69982b295df8d0be806b7e4248db63.png",
+    "listed_at": "2026-05-25T06:17:01.624000Z",
+    "catchup": false
   }
 ]
