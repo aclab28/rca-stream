@@ -35062,5 +35062,29 @@
     "image_url": "https://i2c.seadn.io/polygon/0xe8e603851f5d9b762b2b4b3b481366c67a1d9650/0fcab73f4e8ebdff92bb37a38a86bb/cb0fcab73f4e8ebdff92bb37a38a86bb.png",
     "listed_at": "2026-05-25T06:24:48+00:00",
     "catchup": true
+  },
+  {
+    "name": "Ulula #56",
+    "slug": "ulula-by-ervindas-x-reddit-collectible-avatars",
+    "price": "$7.35  (0.0035 WETH)",
+    "maker": "0xeacec320...62c242",
+    "maker_full": "0xeacec320f6f3f5ef81f522067737502b2162c242",
+    "expiry": "?",
+    "link": "https://opensea.io/assets/polygon/0x1635bc0ef78d31bca2eec996052ce32b05af4594/55",
+    "image_url": "https://i2c.seadn.io/polygon/0x1635bc0ef78d31bca2eec996052ce32b05af4594/f27a00d5c7c117b07f1572ac5aa46a/78f27a00d5c7c117b07f1572ac5aa46a.png",
+    "listed_at": "2026-05-25T06:24:48+00:00",
+    "catchup": true
+  },
+  {
+    "name": "Void #77",
+    "slug": "void-by-ervindas-x-reddit-collectible-avatars",
+    "price": "$8.40  (0.0040 WETH)",
+    "maker": "0xeacec320...62c242",
+    "maker_full": "0xeacec320f6f3f5ef81f522067737502b2162c242",
+    "expiry": "?",
+    "link": "https://opensea.io/assets/polygon/0xf0988a3560c23367969d9115ddda7b7af7526d02/76",
+    "image_url": "https://i2c.seadn.io/polygon/0xf0988a3560c23367969d9115ddda7b7af7526d02/923016f94f79c481ffc5ffed1c77bf/01923016f94f79c481ffc5ffed1c77bf.png",
+    "listed_at": "2026-05-25T06:24:48+00:00",
+    "catchup": true
   }
 ]
