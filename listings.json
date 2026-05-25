@@ -35530,5 +35530,17 @@
     "image_url": "https://i2c.seadn.io/polygon/0xf49d52c662511cf4ed1b5bdb673e30a58ea8e374/870e1e2b4f72dee8498be79569df93/6f870e1e2b4f72dee8498be79569df93.png",
     "listed_at": "2026-05-25T17:49:03+00:00",
     "catchup": true
+  },
+  {
+    "name": "Florida Sunset #22",
+    "slug": "florida-sunset-by-theamazingsparky-x-reddit-collec",
+    "price": "$2.13  (0.0010 WETH)",
+    "maker": "0x97637f77...d31755",
+    "maker_full": "0x97637f77691a52958a12fc8ac0945b28dad31755",
+    "expiry": "?",
+    "link": "https://opensea.io/assets/polygon/0x3e1f2dfcf6f099c4b3d0cbb2c636d0b0c4b00350/21",
+    "image_url": "https://i2c.seadn.io/polygon/0x3e1f2dfcf6f099c4b3d0cbb2c636d0b0c4b00350/8c27e04d3407c4b42bbc3af46adf00/098c27e04d3407c4b42bbc3af46adf00.png",
+    "listed_at": "2026-05-25T17:46:45+00:00",
+    "catchup": true
   }
 ]
