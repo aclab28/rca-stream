@@ -35002,5 +35002,17 @@
     "image_url": "https://i2c.seadn.io/polygon/0x605fd016b81727dac85a7603083315726fb10463/d75a119322d750c1e73ceb8293a03d/72d75a119322d750c1e73ceb8293a03d.png",
     "listed_at": "2026-05-25T06:32:05+00:00",
     "catchup": true
+  },
+  {
+    "name": "Dahlia #11",
+    "slug": "dahlia-by-lucifeena-x-reddit-collectible-avatars",
+    "price": "$8.40  (0.0040 WETH)",
+    "maker": "0xeacec320...62c242",
+    "maker_full": "0xeacec320f6f3f5ef81f522067737502b2162c242",
+    "expiry": "?",
+    "link": "https://opensea.io/assets/polygon/0x34e9482bb4c383cb80213485f2ca7b043594e895/10",
+    "image_url": "https://i2c.seadn.io/polygon/0x34e9482bb4c383cb80213485f2ca7b043594e895/3f79b0d978e0efb5e3560566af120f/1b3f79b0d978e0efb5e3560566af120f.png",
+    "listed_at": "2026-05-25T06:32:05+00:00",
+    "catchup": true
   }
 ]
