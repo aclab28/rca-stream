@@ -35242,5 +35242,17 @@
     "image_url": "https://i2c.seadn.io/polygon/0xff0e19671d68c01f343cba826c5d8fc9e354276d/992b9f947e6ce182b0edc8e6ed733a/26992b9f947e6ce182b0edc8e6ed733a.png",
     "listed_at": "2026-05-25T07:29:59.103000Z",
     "catchup": false
+  },
+  {
+    "name": "Cod3r #13",
+    "slug": "cod3r-by-x-x-reddit-collectible-avatars",
+    "price": "$4.11  (0.0019 WETH)",
+    "maker": "0x97637f77...d31755",
+    "maker_full": "0x97637f77691a52958a12fc8ac0945b28dad31755",
+    "expiry": "2026-11-21",
+    "link": "https://opensea.io/item/polygon/0x4d739eb6223cacbc5b16d850cbab5e63a572481d/12",
+    "image_url": "https://i2c.seadn.io/polygon/0x4d739eb6223cacbc5b16d850cbab5e63a572481d/4ea8b6749e9e6df86b3c25e003ee24/ff4ea8b6749e9e6df86b3c25e003ee24.png",
+    "listed_at": "2026-05-25T07:30:54.198000Z",
+    "catchup": false
   }
 ]
