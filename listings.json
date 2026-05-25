@@ -35842,5 +35842,17 @@
     "image_url": "https://i2c.seadn.io/polygon/0x267609e4e1535501b490d7c52fb795f1934ad154/3a0905720649711a362100569ffc81/953a0905720649711a362100569ffc81.png",
     "listed_at": "2026-05-25T17:56:44.577000Z",
     "catchup": false
+  },
+  {
+    "name": "Koori & Kidd #15",
+    "slug": "koori-kidd-by-r-u-d-i-x-reddit-collectible-avatars",
+    "price": "$2.24  (0.0010 WETH)",
+    "maker": "0x97637f77...d31755",
+    "maker_full": "0x97637f77691a52958a12fc8ac0945b28dad31755",
+    "expiry": "2026-11-21",
+    "link": "https://opensea.io/item/polygon/0x669138647ec263c4e6231f3c034e164fdf9ea972/14",
+    "image_url": "https://i2c.seadn.io/polygon/0x669138647ec263c4e6231f3c034e164fdf9ea972/a931712facfadb7b158569f95ef104/bca931712facfadb7b158569f95ef104.png",
+    "listed_at": "2026-05-25T17:56:58.509000Z",
+    "catchup": false
   }
 ]
