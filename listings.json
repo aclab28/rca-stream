@@ -35950,5 +35950,17 @@
     "image_url": "https://i2c.seadn.io/polygon/0xcbe6cbd8c3e73d0a3e2cd4f24e4c0dbb61299643/55e7c47834908a022d61354bb43365/1255e7c47834908a022d61354bb43365.png",
     "listed_at": "2026-05-25T21:52:20+00:00",
     "catchup": true
+  },
+  {
+    "name": "FIRED FROM REDDIT CLUB #193",
+    "slug": "fired-from-reddit-club",
+    "price": "$4.21  (0.0020 ETH)",
+    "maker": "0x76b4b184...fb374b",
+    "maker_full": "0x76b4b1841c4ea22f3b224296a4a430ffdffb374b",
+    "expiry": "?",
+    "link": "https://opensea.io/assets/ethereum/0x6b4277c12d43e4fd55fa05f47f5fc68a0f7bdb17/193",
+    "image_url": "https://i2c.seadn.io/ethereum/0x6b4277c12d43e4fd55fa05f47f5fc68a0f7bdb17/22d79733c88300279c17af7e770187e3.png",
+    "listed_at": "2026-05-25T22:45:35+00:00",
+    "catchup": true
   }
 ]
