@@ -34846,5 +34846,17 @@
     "image_url": "https://i2c.seadn.io/polygon/0x58b58f5f66beac4adb4626baa6762d28d4f89a2d/c085a6d2e4d0ff7312128c29d8c6c2/72c085a6d2e4d0ff7312128c29d8c6c2.png",
     "listed_at": "2026-05-25T06:17:01.778000Z",
     "catchup": false
+  },
+  {
+    "name": "Beth #43",
+    "slug": "beth-by-entropyre-x-reddit-collectible-avatars",
+    "price": "$4.18  (0.0020 WETH)",
+    "maker": "0xeacec320...62c242",
+    "maker_full": "0xeacec320f6f3f5ef81f522067737502b2162c242",
+    "expiry": "?",
+    "link": "https://opensea.io/assets/polygon/0x81fd59cb95634c63839ddd6d1370f73213fa159f/42",
+    "image_url": "https://i2c.seadn.io/polygon/0x81fd59cb95634c63839ddd6d1370f73213fa159f/703561af42e4846a1a85bc49f8a8e0/72703561af42e4846a1a85bc49f8a8e0.png",
+    "listed_at": "2026-05-25T06:32:06+00:00",
+    "catchup": true
   }
 ]
