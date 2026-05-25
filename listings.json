@@ -35110,5 +35110,17 @@
     "image_url": "https://i2c.seadn.io/polygon/0x413a36075c3f9875acf2494c5d40754f9fee3571/c66ee87699fb04ed804ec0b32ba940/f7c66ee87699fb04ed804ec0b32ba940.png",
     "listed_at": "2026-05-25T06:24:48+00:00",
     "catchup": true
+  },
+  {
+    "name": "Sunny #62",
+    "slug": "sunny-by-wispywi11ow-x-reddit-collectible-avatars",
+    "price": "$8.40  (0.0040 WETH)",
+    "maker": "0xeacec320...62c242",
+    "maker_full": "0xeacec320f6f3f5ef81f522067737502b2162c242",
+    "expiry": "?",
+    "link": "https://opensea.io/assets/polygon/0xdb4badd1284fa0f3c7dab7edbe9432594aa8fa8f/61",
+    "image_url": "https://i2c.seadn.io/matic/0xdb4badd1284fa0f3c7dab7edbe9432594aa8fa8f/5b6fec7dd637889a9ec4d16d3662f2/075b6fec7dd637889a9ec4d16d3662f2.png",
+    "listed_at": "2026-05-25T06:24:48+00:00",
+    "catchup": true
   }
 ]
