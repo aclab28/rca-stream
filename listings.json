@@ -35794,5 +35794,17 @@
     "image_url": "https://i2c.seadn.io/polygon/0xe374e399f165ef029c9c127fb8c2531cd993f77b/79b222055a59fdad9300d4bdf013c5/8c79b222055a59fdad9300d4bdf013c5.png",
     "listed_at": "2026-05-25T17:55:44.424000Z",
     "catchup": false
+  },
+  {
+    "name": "Shipwright Lykoi #18",
+    "slug": "shipwright-lykoi-by-wurlawyrm-x-reddit-collectible",
+    "price": "$2.24  (0.0010 WETH)",
+    "maker": "0x97637f77...d31755",
+    "maker_full": "0x97637f77691a52958a12fc8ac0945b28dad31755",
+    "expiry": "2026-11-21",
+    "link": "https://opensea.io/item/polygon/0x97fd76d6db7e0afd2aab3c46b471780cfb4496c0/17",
+    "image_url": "https://i2c.seadn.io/matic/0x97fd76d6db7e0afd2aab3c46b471780cfb4496c0/5805f4049e7d4670a4c16a8709df784e.png",
+    "listed_at": "2026-05-25T17:56:25.216000Z",
+    "catchup": false
   }
 ]
