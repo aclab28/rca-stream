@@ -35446,5 +35446,17 @@
     "image_url": "https://i2c.seadn.io/polygon/0x9f0ffba410d9899c0ed5b3d1e9c96710fffccc85/07f116d08ad7c3d61eb05bd4e68dfb/9107f116d08ad7c3d61eb05bd4e68dfb.png",
     "listed_at": "2026-05-25T17:07:01.564000Z",
     "catchup": false
+  },
+  {
+    "name": "Bath of Riches #87",
+    "slug": "bath-of-riches-by-jquasar-x-reddit-collectible-ava",
+    "price": "$4.05  (0.0019 WETH)",
+    "maker": "0x347188c5...8f7aa6",
+    "maker_full": "0x347188c51af781a0170ac8d1db8e4b4fe38f7aa6",
+    "expiry": "?",
+    "link": "https://opensea.io/assets/polygon/0x75dd105642f3b492367a9aad46107138b9e71e69/86",
+    "image_url": "https://i2c.seadn.io/polygon/0x75dd105642f3b492367a9aad46107138b9e71e69/4e0a97e9b86ba99f97ab4259c67e79/f64e0a97e9b86ba99f97ab4259c67e79.png",
+    "listed_at": "2026-05-25T17:22:39+00:00",
+    "catchup": true
   }
 ]
