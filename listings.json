@@ -35614,5 +35614,17 @@
     "image_url": "https://i2c.seadn.io/polygon/0x30cd4c4546d5413b61dbd791ec5f88bdff785d12/aee5876dbd604186d0ef4bea508926/28aee5876dbd604186d0ef4bea508926.png",
     "listed_at": "2026-05-25T17:53:34.809000Z",
     "catchup": false
+  },
+  {
+    "name": "Skullky #1",
+    "slug": "skullky-by-r-u-d-i-x-reddit-collectible-avatars",
+    "price": "$6.29  (0.0029 WETH)",
+    "maker": "0x97637f77...d31755",
+    "maker_full": "0x97637f77691a52958a12fc8ac0945b28dad31755",
+    "expiry": "?",
+    "link": "https://opensea.io/assets/polygon/0x75610a352da97262070d4db811826dcc24e54af1/0",
+    "image_url": "https://i2c.seadn.io/polygon/0x75610a352da97262070d4db811826dcc24e54af1/58bc149dbb1d427dccb1f024844255/b558bc149dbb1d427dccb1f024844255.png",
+    "listed_at": "2026-05-25T17:42:20+00:00",
+    "catchup": true
   }
 ]
