@@ -35758,5 +35758,17 @@
     "image_url": "https://i2c.seadn.io/polygon/0x3b0ead4934ff3ce73388d055811dd0bffd93d67b/93acc7a8c4d3ace05dc0f05bf947f8/7e93acc7a8c4d3ace05dc0f05bf947f8.png",
     "listed_at": "2026-05-25T17:55:38.929000Z",
     "catchup": false
+  },
+  {
+    "name": "Modern Casanova #85",
+    "slug": "modern-casanova-by-canetoonist-x-reddit-collectibl",
+    "price": "$1.70  (0.0008 WETH)",
+    "maker": "0xa0115902...9717bb",
+    "maker_full": "0xa01159027832bc2185c9e6579a285124609717bb",
+    "expiry": "2026-11-21",
+    "link": "https://opensea.io/item/polygon/0xe5dcd886d21728bbb4897398e3eeb25d6e0fde5b/84",
+    "image_url": "https://i2c.seadn.io/polygon/0xe5dcd886d21728bbb4897398e3eeb25d6e0fde5b/a23d72653687d4a31ed39231d9852b/f7a23d72653687d4a31ed39231d9852b.png",
+    "listed_at": "2026-05-25T17:55:42.703000Z",
+    "catchup": false
   }
 ]
