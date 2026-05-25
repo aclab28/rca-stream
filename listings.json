@@ -35434,5 +35434,17 @@
     "image_url": "https://i2c.seadn.io/polygon/0x8f46c1d3e28dc91977c0c3ab373cd0259309d0fe/309cc8f7a3d7c26bc3d84a3781303d/32309cc8f7a3d7c26bc3d84a3781303d.png",
     "listed_at": "2026-05-25T17:07:01.547000Z",
     "catchup": false
+  },
+  {
+    "name": "How #77",
+    "slug": "how-by-laura-d-x-reddit-collectible-avatars",
+    "price": "$106.70  (0.0500 WETH)",
+    "maker": "0x9a57f83d...157150",
+    "maker_full": "0x9a57f83dcc4afa5d9c09721273508104de157150",
+    "expiry": "2026-11-21",
+    "link": "https://opensea.io/item/polygon/0x9f0ffba410d9899c0ed5b3d1e9c96710fffccc85/76",
+    "image_url": "https://i2c.seadn.io/polygon/0x9f0ffba410d9899c0ed5b3d1e9c96710fffccc85/07f116d08ad7c3d61eb05bd4e68dfb/9107f116d08ad7c3d61eb05bd4e68dfb.png",
+    "listed_at": "2026-05-25T17:07:01.564000Z",
+    "catchup": false
   }
 ]
