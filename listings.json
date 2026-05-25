@@ -34702,5 +34702,17 @@
     "image_url": "https://i2c.seadn.io/polygon/0x1ef6f9379aa228e08507f53e70c109979a35e512/335329c267a763da5fc77a4751bb46/15335329c267a763da5fc77a4751bb46.png",
     "listed_at": "2026-05-25T05:12:51+00:00",
     "catchup": true
+  },
+  {
+    "name": "Maupe #155",
+    "slug": "spooky-sequel-rojom-x-reddit-collectible-avatars",
+    "price": "$5.58  (0.0026 WETH)",
+    "maker": "0x97637f77...d31755",
+    "maker_full": "0x97637f77691a52958a12fc8ac0945b28dad31755",
+    "expiry": "?",
+    "link": "https://opensea.io/assets/polygon/0x6fcf4dc7f2d3de2551479d10f7b0e0bba4282c30/154",
+    "image_url": "https://i2c.seadn.io/polygon/0x6fcf4dc7f2d3de2551479d10f7b0e0bba4282c30/a96132c5fcd56cf4a4179bab208df2/25a96132c5fcd56cf4a4179bab208df2.png",
+    "listed_at": "2026-05-25T05:09:33+00:00",
+    "catchup": true
   }
 ]
