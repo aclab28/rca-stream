@@ -35542,5 +35542,17 @@
     "image_url": "https://i2c.seadn.io/polygon/0x3e1f2dfcf6f099c4b3d0cbb2c636d0b0c4b00350/8c27e04d3407c4b42bbc3af46adf00/098c27e04d3407c4b42bbc3af46adf00.png",
     "listed_at": "2026-05-25T17:46:45+00:00",
     "catchup": true
+  },
+  {
+    "name": "Crunchy Delivery #68",
+    "slug": "crunchy-delivery-by-sending-tacoz-x-reddit-collect",
+    "price": "$2.13  (0.0010 WETH)",
+    "maker": "0x97637f77...d31755",
+    "maker_full": "0x97637f77691a52958a12fc8ac0945b28dad31755",
+    "expiry": "2026-11-21",
+    "link": "https://opensea.io/item/polygon/0xa44674ff018d8ce45a77e24ea3bb2e0da958a832/67",
+    "image_url": "https://i2c.seadn.io/polygon/0xa44674ff018d8ce45a77e24ea3bb2e0da958a832/b1803309113bb6d5adb6097df294bc/c1b1803309113bb6d5adb6097df294bc.png",
+    "listed_at": "2026-05-25T17:53:18.829000Z",
+    "catchup": false
   }
 ]
