@@ -34954,5 +34954,17 @@
     "image_url": "https://i2c.seadn.io/polygon/0x585fa14f036cafdac6be9486d3895dd563666d99/4294bda616b2e2d5c37b2dafc848d4/0e4294bda616b2e2d5c37b2dafc848d4.png",
     "listed_at": "2026-05-25T06:32:05+00:00",
     "catchup": true
+  },
+  {
+    "name": "Lime Splash #90",
+    "slug": "lime-splash-by-jenniichii-x-reddit-collectible-ava",
+    "price": "$8.40  (0.0040 WETH)",
+    "maker": "0xeacec320...62c242",
+    "maker_full": "0xeacec320f6f3f5ef81f522067737502b2162c242",
+    "expiry": "?",
+    "link": "https://opensea.io/assets/polygon/0xfd6ad0ae5ada0ca0f1fcc320df6b5ef57d0a7885/89",
+    "image_url": "https://i2c.seadn.io/polygon/0xfd6ad0ae5ada0ca0f1fcc320df6b5ef57d0a7885/8191687e22a54e99d26ad8ace4435c/d88191687e22a54e99d26ad8ace4435c.png",
+    "listed_at": "2026-05-25T06:32:05+00:00",
+    "catchup": true
   }
 ]
