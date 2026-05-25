@@ -34882,5 +34882,29 @@
     "image_url": "https://i2c.seadn.io/polygon/0x5ec99be5424c922e8ae39313bc1384f841e4cdf6/009610c735ecd61f11b0fa6c353ebd/e7009610c735ecd61f11b0fa6c353ebd.png",
     "listed_at": "2026-05-25T06:32:05+00:00",
     "catchup": true
+  },
+  {
+    "name": "Eirlys #36",
+    "slug": "eirlys-by-powart-x-reddit-collectible-avatars",
+    "price": "$10.48  (0.0050 WETH)",
+    "maker": "0xeacec320...62c242",
+    "maker_full": "0xeacec320f6f3f5ef81f522067737502b2162c242",
+    "expiry": "?",
+    "link": "https://opensea.io/assets/polygon/0xa25304da0d0b9e3988c03a41454dc92c7b49be34/35",
+    "image_url": "https://i2c.seadn.io/polygon/0xa25304da0d0b9e3988c03a41454dc92c7b49be34/4248f8718ee180706b8fbcd4c72a81/ad4248f8718ee180706b8fbcd4c72a81.png",
+    "listed_at": "2026-05-25T06:32:05+00:00",
+    "catchup": true
+  },
+  {
+    "name": "Crimson #2",
+    "slug": "crimson-by-feder-x-reddit-collectible-avatars",
+    "price": "$10.50  (0.0050 WETH)",
+    "maker": "0xeacec320...62c242",
+    "maker_full": "0xeacec320f6f3f5ef81f522067737502b2162c242",
+    "expiry": "?",
+    "link": "https://opensea.io/assets/polygon/0x62b48e83008ae750225ee09302ed69924ddeace1/1",
+    "image_url": "https://i2c.seadn.io/polygon/0x62b48e83008ae750225ee09302ed69924ddeace1/d551a2f0a81f6377ba44e4e23adcfe/dfd551a2f0a81f6377ba44e4e23adcfe.png",
+    "listed_at": "2026-05-25T06:32:05+00:00",
+    "catchup": true
   }
 ]
