@@ -34978,5 +34978,29 @@
     "image_url": "https://i2c.seadn.io/polygon/0x3a0cf14297f3e6c4fbfe6855ef5caac641977590/7618b862801e10346235153777f192/3a7618b862801e10346235153777f192.png",
     "listed_at": "2026-05-25T06:32:05+00:00",
     "catchup": true
+  },
+  {
+    "name": "Cosmikitten #31",
+    "slug": "cosmikitten-by-joe-the-kappa-guy-x-reddit-collecti",
+    "price": "$7.35  (0.0035 WETH)",
+    "maker": "0xeacec320...62c242",
+    "maker_full": "0xeacec320f6f3f5ef81f522067737502b2162c242",
+    "expiry": "?",
+    "link": "https://opensea.io/assets/polygon/0x9fd5fdef060c6a96352af1453cf6787840144d4a/30",
+    "image_url": "https://i2c.seadn.io/polygon/0x9fd5fdef060c6a96352af1453cf6787840144d4a/5419d4e5a5ccad8f7d7123c29680a3/995419d4e5a5ccad8f7d7123c29680a3.png",
+    "listed_at": "2026-05-25T06:32:05+00:00",
+    "catchup": true
+  },
+  {
+    "name": "Besties #8",
+    "slug": "besties-by-basket-x-reddit-collectible-avatars",
+    "price": "$8.40  (0.0040 WETH)",
+    "maker": "0xeacec320...62c242",
+    "maker_full": "0xeacec320f6f3f5ef81f522067737502b2162c242",
+    "expiry": "?",
+    "link": "https://opensea.io/assets/polygon/0x605fd016b81727dac85a7603083315726fb10463/7",
+    "image_url": "https://i2c.seadn.io/polygon/0x605fd016b81727dac85a7603083315726fb10463/d75a119322d750c1e73ceb8293a03d/72d75a119322d750c1e73ceb8293a03d.png",
+    "listed_at": "2026-05-25T06:32:05+00:00",
+    "catchup": true
   }
 ]
