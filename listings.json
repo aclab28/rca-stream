@@ -35770,5 +35770,17 @@
     "image_url": "https://i2c.seadn.io/polygon/0xe5dcd886d21728bbb4897398e3eeb25d6e0fde5b/a23d72653687d4a31ed39231d9852b/f7a23d72653687d4a31ed39231d9852b.png",
     "listed_at": "2026-05-25T17:55:42.703000Z",
     "catchup": false
+  },
+  {
+    "name": "adversary #14",
+    "slug": "adversary-by-oue-x-reddit-collectible-avatars",
+    "price": "$2.13  (0.0010 WETH)",
+    "maker": "0x97637f77...d31755",
+    "maker_full": "0x97637f77691a52958a12fc8ac0945b28dad31755",
+    "expiry": "2026-11-21",
+    "link": "https://opensea.io/item/polygon/0xa9cf4216022c0684acbac3dc331465d79508b7d7/13",
+    "image_url": "https://i2c.seadn.io/polygon/0xa9cf4216022c0684acbac3dc331465d79508b7d7/b28cbaab89924ad009ba3760c3157d/88b28cbaab89924ad009ba3760c3157d.png",
+    "listed_at": "2026-05-25T17:55:43.117000Z",
+    "catchup": false
   }
 ]
