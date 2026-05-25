@@ -35650,5 +35650,17 @@
     "image_url": "https://i2c.seadn.io/polygon/0xdc5f3291319a4a5de4dd1917c6ced502a8b57651/9943f052b2e1cf2c3aeb9144adff03/519943f052b2e1cf2c3aeb9144adff03.png",
     "listed_at": "2026-05-25T17:42:00+00:00",
     "catchup": true
+  },
+  {
+    "name": "Glorpnok #1",
+    "slug": "glorpnok-by-baggedmilk-x-reddit-collectible-avatar",
+    "price": "$6.29  (0.0029 WETH)",
+    "maker": "0x97637f77...d31755",
+    "maker_full": "0x97637f77691a52958a12fc8ac0945b28dad31755",
+    "expiry": "?",
+    "link": "https://opensea.io/assets/polygon/0xb3f81fcef0eef69b009e6ee1ee637d1645ed5079/0",
+    "image_url": "https://i2c.seadn.io/polygon/0xb3f81fcef0eef69b009e6ee1ee637d1645ed5079/3b213fc31c47179f670eb1ae7e723f/203b213fc31c47179f670eb1ae7e723f.png",
+    "listed_at": "2026-05-25T17:41:48+00:00",
+    "catchup": true
   }
 ]
