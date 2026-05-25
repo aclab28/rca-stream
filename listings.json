@@ -34918,5 +34918,17 @@
     "image_url": "https://i2c.seadn.io/polygon/0xc2964167152fe9b236aa512e739906d6434fc87c/665a88a8d7d3a87d7c56bb5384de79/ec665a88a8d7d3a87d7c56bb5384de79.png",
     "listed_at": "2026-05-25T06:32:05+00:00",
     "catchup": true
+  },
+  {
+    "name": "Morgan #77",
+    "slug": "morgan-by-powart-x-reddit-collectible-avatars",
+    "price": "$8.40  (0.0040 WETH)",
+    "maker": "0xeacec320...62c242",
+    "maker_full": "0xeacec320f6f3f5ef81f522067737502b2162c242",
+    "expiry": "?",
+    "link": "https://opensea.io/assets/polygon/0x53197bc30887b32569c628cbaf1807790ffcbc14/76",
+    "image_url": "https://i2c.seadn.io/polygon/0x53197bc30887b32569c628cbaf1807790ffcbc14/e14d1c9503431c300e3906ba882490/b0e14d1c9503431c300e3906ba882490.png",
+    "listed_at": "2026-05-25T06:32:05+00:00",
+    "catchup": true
   }
 ]
