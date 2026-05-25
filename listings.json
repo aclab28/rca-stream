@@ -35422,5 +35422,17 @@
     "image_url": "https://i2c.seadn.io/polygon/0x216c8a17c2bfc8086f92dfc8ad29c9256c843145/6bfc612aa3e3d7df1121578e9a2058/486bfc612aa3e3d7df1121578e9a2058.png",
     "listed_at": "2026-05-25T16:31:54+00:00",
     "catchup": true
+  },
+  {
+    "name": "Molten Gold #46",
+    "slug": "molten-gold-by-jules-x-reddit-collectible-avatars",
+    "price": "$106.70  (0.0500 WETH)",
+    "maker": "0x9a57f83d...157150",
+    "maker_full": "0x9a57f83dcc4afa5d9c09721273508104de157150",
+    "expiry": "2026-11-21",
+    "link": "https://opensea.io/item/polygon/0x8f46c1d3e28dc91977c0c3ab373cd0259309d0fe/45",
+    "image_url": "https://i2c.seadn.io/polygon/0x8f46c1d3e28dc91977c0c3ab373cd0259309d0fe/309cc8f7a3d7c26bc3d84a3781303d/32309cc8f7a3d7c26bc3d84a3781303d.png",
+    "listed_at": "2026-05-25T17:07:01.547000Z",
+    "catchup": false
   }
 ]
