@@ -34750,5 +34750,17 @@
     "image_url": "https://i2c.seadn.io/polygon/0x6a26b4847f37de3d673aad33e9a75bd587800842/f50b3ee8eeefe59454198b47cc47f2/1cf50b3ee8eeefe59454198b47cc47f2.png",
     "listed_at": "2026-05-25T06:17:01.586000Z",
     "catchup": false
+  },
+  {
+    "name": "Siarel #28",
+    "slug": "siarel-by-rinni-x-reddit-collectible-avatars",
+    "price": "$6.31  (0.0030 WETH)",
+    "maker": "0xeacec320...62c242",
+    "maker_full": "0xeacec320f6f3f5ef81f522067737502b2162c242",
+    "expiry": "2026-08-23",
+    "link": "https://opensea.io/item/polygon/0xf06929441b56c856d21ac3ee314fdf64c3af29c4/27",
+    "image_url": "https://i2c.seadn.io/polygon/0xf06929441b56c856d21ac3ee314fdf64c3af29c4/a397a802371bf3565ccf2b51d12ddb/2fa397a802371bf3565ccf2b51d12ddb.png",
+    "listed_at": "2026-05-25T06:17:01.538000Z",
+    "catchup": false
   }
 ]
