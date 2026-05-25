@@ -35374,5 +35374,17 @@
     "image_url": "https://i2c.seadn.io/polygon/0x3e4627665bf2e52c69be03788e664ab545f2be71/c4857ee76c3ef7c306a22e730d1d50/3ac4857ee76c3ef7c306a22e730d1d50.png",
     "listed_at": "2026-05-25T15:08:07.433000Z",
     "catchup": false
+  },
+  {
+    "name": "Giant Softshell Turtles #11203",
+    "slug": "endangered_animals_x_reddit_collectible_avatars",
+    "price": "$0.07  (0.0000 WETH)",
+    "maker": "0xaf425263...fa8b2a",
+    "maker_full": "0xaf425263fdfd83dea4751a257e271b4594fa8b2a",
+    "expiry": "?",
+    "link": "https://opensea.io/assets/polygon/0xf33ad86bb54a278a6c9f9c076f4ed5a34c531967/491602",
+    "image_url": "https://i2c.seadn.io/polygon/0xf33ad86bb54a278a6c9f9c076f4ed5a34c531967/fff8a9bc1772d3bb7a0c904adde346/7afff8a9bc1772d3bb7a0c904adde346.png",
+    "listed_at": "2026-05-25T16:24:09+00:00",
+    "catchup": true
   }
 ]
