@@ -34786,5 +34786,29 @@
     "image_url": "https://i2c.seadn.io/matic/0x7dbc85bf294b068e92c0aa04dc728d10523cdc6a/69982b295df8d0be806b7e4248db63/ac69982b295df8d0be806b7e4248db63.png",
     "listed_at": "2026-05-25T06:17:01.624000Z",
     "catchup": false
+  },
+  {
+    "name": "Mrs. Gloamire #9",
+    "slug": "mrs-gloamire-by-laura-d-x-reddit-collectible-avata",
+    "price": "$4.20  (0.0020 WETH)",
+    "maker": "0xeacec320...62c242",
+    "maker_full": "0xeacec320f6f3f5ef81f522067737502b2162c242",
+    "expiry": "2026-08-23",
+    "link": "https://opensea.io/item/polygon/0xa31c34dc20a15ab19d2a179512bc564700f44f35/8",
+    "image_url": "https://i2c.seadn.io/polygon/0xa31c34dc20a15ab19d2a179512bc564700f44f35/11c83288953e0401d95532dbc43ac2/e611c83288953e0401d95532dbc43ac2.png",
+    "listed_at": "2026-05-25T06:17:01.606000Z",
+    "catchup": false
+  },
+  {
+    "name": "The Empress #9",
+    "slug": "the-empress-by-rinni-x-reddit-collectible-avatars",
+    "price": "$10.51  (0.0050 WETH)",
+    "maker": "0xeacec320...62c242",
+    "maker_full": "0xeacec320f6f3f5ef81f522067737502b2162c242",
+    "expiry": "2026-08-23",
+    "link": "https://opensea.io/item/polygon/0x79740bb69ff3621021aa0178824acfa8c7440c54/8",
+    "image_url": "https://i2c.seadn.io/polygon/0x79740bb69ff3621021aa0178824acfa8c7440c54/de7dd7c403f4f3617c6a1da11b42aa/68de7dd7c403f4f3617c6a1da11b42aa.png",
+    "listed_at": "2026-05-25T06:17:01.809000Z",
+    "catchup": false
   }
 ]
