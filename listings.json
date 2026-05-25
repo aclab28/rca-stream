@@ -35146,5 +35146,29 @@
     "image_url": "https://i2c.seadn.io/polygon/0x0da08d426f8b95719004ca776a6988453d210e94/52e0d0a76c6fa9336425758205ecfb/6252e0d0a76c6fa9336425758205ecfb.png",
     "listed_at": "2026-05-25T06:24:48+00:00",
     "catchup": true
+  },
+  {
+    "name": "Lunawhisper #16",
+    "slug": "lunawhisper-by-feder-x-reddit-collectible-avatars",
+    "price": "$8.40  (0.0040 WETH)",
+    "maker": "0xeacec320...62c242",
+    "maker_full": "0xeacec320f6f3f5ef81f522067737502b2162c242",
+    "expiry": "?",
+    "link": "https://opensea.io/assets/polygon/0x01293f9cee7c0e1a718fdae6b202d78a32047a87/15",
+    "image_url": "https://i2c.seadn.io/polygon/0x01293f9cee7c0e1a718fdae6b202d78a32047a87/73f9b69924612c9199342462bed433/de73f9b69924612c9199342462bed433.png",
+    "listed_at": "2026-05-25T06:24:48+00:00",
+    "catchup": true
+  },
+  {
+    "name": "Akari #41",
+    "slug": "akari-by-koyangi-x-reddit-collectible-avatars",
+    "price": "$6.32  (0.0030 WETH)",
+    "maker": "0xeacec320...62c242",
+    "maker_full": "0xeacec320f6f3f5ef81f522067737502b2162c242",
+    "expiry": "?",
+    "link": "https://opensea.io/assets/polygon/0xcad59e9e9cc2f5c18439c905205d953b04a7c7c3/40",
+    "image_url": "https://i2c.seadn.io/polygon/0xcad59e9e9cc2f5c18439c905205d953b04a7c7c3/99ac6a84e36431bc820005723391bd/6399ac6a84e36431bc820005723391bd.png",
+    "listed_at": "2026-05-25T06:10:34+00:00",
+    "catchup": true
   }
 ]
