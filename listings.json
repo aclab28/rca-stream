@@ -35590,5 +35590,17 @@
     "image_url": "https://i2c.seadn.io/polygon/0x01eac805597ccb253bfa5cd8e560a4fb0f2aed82/7f382d723f82378b91a4b7a43014c7/947f382d723f82378b91a4b7a43014c7.png",
     "listed_at": "2026-05-25T17:45:02+00:00",
     "catchup": true
+  },
+  {
+    "name": "Lune #40",
+    "slug": "lune-by-boerenbrok-x-reddit-collectible-avatars",
+    "price": "$2.13  (0.0010 WETH)",
+    "maker": "0x97637f77...d31755",
+    "maker_full": "0x97637f77691a52958a12fc8ac0945b28dad31755",
+    "expiry": "?",
+    "link": "https://opensea.io/assets/polygon/0xe374e399f165ef029c9c127fb8c2531cd993f77b/39",
+    "image_url": "https://i2c.seadn.io/polygon/0xe374e399f165ef029c9c127fb8c2531cd993f77b/79b222055a59fdad9300d4bdf013c5/8c79b222055a59fdad9300d4bdf013c5.png",
+    "listed_at": "2026-05-25T17:43:49+00:00",
+    "catchup": true
   }
 ]
