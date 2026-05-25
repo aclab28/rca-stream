@@ -35962,5 +35962,17 @@
     "image_url": "https://i2c.seadn.io/ethereum/0x6b4277c12d43e4fd55fa05f47f5fc68a0f7bdb17/22d79733c88300279c17af7e770187e3.png",
     "listed_at": "2026-05-25T22:45:35+00:00",
     "catchup": true
+  },
+  {
+    "name": "Sprout #97",
+    "slug": "sprout-by-wispywi11ow-x-reddit-collectible-avatars",
+    "price": "$10.53  (0.0050 WETH)",
+    "maker": "0xad860336...986867",
+    "maker_full": "0xad860336c26458d9ef37dd741e7cfe9874986867",
+    "expiry": "2026-11-21",
+    "link": "https://opensea.io/item/polygon/0x59bfb8a8f1169bb135139cadd4813ec386a2d2c7/96",
+    "image_url": "https://i2c.seadn.io/matic/0x59bfb8a8f1169bb135139cadd4813ec386a2d2c7/96e1dd45b3fba685eff2e61e1132cc/7a96e1dd45b3fba685eff2e61e1132cc.png",
+    "listed_at": "2026-05-25T22:55:48.838000Z",
+    "catchup": false
   }
 ]
