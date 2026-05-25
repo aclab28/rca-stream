@@ -35602,5 +35602,17 @@
     "image_url": "https://i2c.seadn.io/polygon/0xe374e399f165ef029c9c127fb8c2531cd993f77b/79b222055a59fdad9300d4bdf013c5/8c79b222055a59fdad9300d4bdf013c5.png",
     "listed_at": "2026-05-25T17:43:49+00:00",
     "catchup": true
+  },
+  {
+    "name": "Spots #22",
+    "slug": "spots-by-kardooma-x-reddit-collectible-avatars",
+    "price": "$4.15  (0.0019 WETH)",
+    "maker": "0x97637f77...d31755",
+    "maker_full": "0x97637f77691a52958a12fc8ac0945b28dad31755",
+    "expiry": "2026-11-21",
+    "link": "https://opensea.io/item/polygon/0x30cd4c4546d5413b61dbd791ec5f88bdff785d12/21",
+    "image_url": "https://i2c.seadn.io/polygon/0x30cd4c4546d5413b61dbd791ec5f88bdff785d12/aee5876dbd604186d0ef4bea508926/28aee5876dbd604186d0ef4bea508926.png",
+    "listed_at": "2026-05-25T17:53:34.809000Z",
+    "catchup": false
   }
 ]
