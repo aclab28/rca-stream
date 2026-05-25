@@ -34858,5 +34858,29 @@
     "image_url": "https://i2c.seadn.io/polygon/0x81fd59cb95634c63839ddd6d1370f73213fa159f/703561af42e4846a1a85bc49f8a8e0/72703561af42e4846a1a85bc49f8a8e0.png",
     "listed_at": "2026-05-25T06:32:06+00:00",
     "catchup": true
+  },
+  {
+    "name": "Evil Cupid #120",
+    "slug": "evil-cupid-by-joe-the-kappa-guy-x-reddit-collectib",
+    "price": "$4.20  (0.0020 WETH)",
+    "maker": "0xeacec320...62c242",
+    "maker_full": "0xeacec320f6f3f5ef81f522067737502b2162c242",
+    "expiry": "?",
+    "link": "https://opensea.io/assets/polygon/0xdc094f70cefcd49e191795ea5703e0a8a0f8a34b/119",
+    "image_url": "https://i2c.seadn.io/polygon/0xdc094f70cefcd49e191795ea5703e0a8a0f8a34b/0024940806cc1b4e40f2cd58ae30c3/e40024940806cc1b4e40f2cd58ae30c3.png",
+    "listed_at": "2026-05-25T06:32:06+00:00",
+    "catchup": true
+  },
+  {
+    "name": "Myrrine #14",
+    "slug": "myrrine-by-powart-x-reddit-collectible-avatars",
+    "price": "$8.40  (0.0040 WETH)",
+    "maker": "0xeacec320...62c242",
+    "maker_full": "0xeacec320f6f3f5ef81f522067737502b2162c242",
+    "expiry": "?",
+    "link": "https://opensea.io/assets/polygon/0x5ec99be5424c922e8ae39313bc1384f841e4cdf6/13",
+    "image_url": "https://i2c.seadn.io/polygon/0x5ec99be5424c922e8ae39313bc1384f841e4cdf6/009610c735ecd61f11b0fa6c353ebd/e7009610c735ecd61f11b0fa6c353ebd.png",
+    "listed_at": "2026-05-25T06:32:05+00:00",
+    "catchup": true
   }
 ]
