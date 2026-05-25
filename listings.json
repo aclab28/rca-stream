@@ -35038,5 +35038,29 @@
     "image_url": "https://i2c.seadn.io/polygon/0x142c255e6c8532ef631643bca8dd0bd148088ec5/2b985fffbe6029f95f08de92449025/382b985fffbe6029f95f08de92449025.png",
     "listed_at": "2026-05-25T06:32:05+00:00",
     "catchup": true
+  },
+  {
+    "name": "Nyx #25",
+    "slug": "nyx-by-feder-x-reddit-collectible-avatars",
+    "price": "$4.20  (0.0020 WETH)",
+    "maker": "0xeacec320...62c242",
+    "maker_full": "0xeacec320f6f3f5ef81f522067737502b2162c242",
+    "expiry": "?",
+    "link": "https://opensea.io/assets/polygon/0x399ea828bcde607d3f01804c033280eaf1115b3f/24",
+    "image_url": "https://i2c.seadn.io/polygon/0x399ea828bcde607d3f01804c033280eaf1115b3f/c1986b3a299d64ada209e6432c222c/b2c1986b3a299d64ada209e6432c222c.png",
+    "listed_at": "2026-05-25T06:32:05+00:00",
+    "catchup": true
+  },
+  {
+    "name": "Lunar Sprite #64",
+    "slug": "lunar-sprite-by-feder-x-reddit-collectible-avatars",
+    "price": "$10.50  (0.0050 WETH)",
+    "maker": "0xeacec320...62c242",
+    "maker_full": "0xeacec320f6f3f5ef81f522067737502b2162c242",
+    "expiry": "?",
+    "link": "https://opensea.io/assets/polygon/0xe8e603851f5d9b762b2b4b3b481366c67a1d9650/63",
+    "image_url": "https://i2c.seadn.io/polygon/0xe8e603851f5d9b762b2b4b3b481366c67a1d9650/0fcab73f4e8ebdff92bb37a38a86bb/cb0fcab73f4e8ebdff92bb37a38a86bb.png",
+    "listed_at": "2026-05-25T06:24:48+00:00",
+    "catchup": true
   }
 ]
