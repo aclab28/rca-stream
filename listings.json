@@ -35230,5 +35230,17 @@
     "image_url": "https://i2c.seadn.io/polygon/0x622d8fea4603ba9edaf1084b407052d8b0a9bed7/044409e525b3a59b390ee8b92001a0/ba044409e525b3a59b390ee8b92001a0.png",
     "listed_at": "2026-05-25T07:29:51.176000Z",
     "catchup": false
+  },
+  {
+    "name": "Roderik Grimsley #58",
+    "slug": "roderik-grimsley-by-averagenoodler-x-reddit-collec",
+    "price": "$4.11  (0.0019 WETH)",
+    "maker": "0x97637f77...d31755",
+    "maker_full": "0x97637f77691a52958a12fc8ac0945b28dad31755",
+    "expiry": "2026-11-21",
+    "link": "https://opensea.io/item/polygon/0xff0e19671d68c01f343cba826c5d8fc9e354276d/57",
+    "image_url": "https://i2c.seadn.io/polygon/0xff0e19671d68c01f343cba826c5d8fc9e354276d/992b9f947e6ce182b0edc8e6ed733a/26992b9f947e6ce182b0edc8e6ed733a.png",
+    "listed_at": "2026-05-25T07:29:59.103000Z",
+    "catchup": false
   }
 ]
