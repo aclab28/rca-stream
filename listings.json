@@ -35518,5 +35518,17 @@
     "image_url": "https://i2c.seadn.io/polygon/0xcca55139b37c4e10238186fdc90c44aabab989f1/5db323fabbd503f4327f02f9e30339/4b5db323fabbd503f4327f02f9e30339.png",
     "listed_at": "2026-05-25T17:49:18+00:00",
     "catchup": true
+  },
+  {
+    "name": "Telephone #23",
+    "slug": "telephone-by-baggedmilk-x-reddit-collectible-avata",
+    "price": "$4.15  (0.0019 WETH)",
+    "maker": "0x97637f77...d31755",
+    "maker_full": "0x97637f77691a52958a12fc8ac0945b28dad31755",
+    "expiry": "?",
+    "link": "https://opensea.io/assets/polygon/0xf49d52c662511cf4ed1b5bdb673e30a58ea8e374/22",
+    "image_url": "https://i2c.seadn.io/polygon/0xf49d52c662511cf4ed1b5bdb673e30a58ea8e374/870e1e2b4f72dee8498be79569df93/6f870e1e2b4f72dee8498be79569df93.png",
+    "listed_at": "2026-05-25T17:49:03+00:00",
+    "catchup": true
   }
 ]
