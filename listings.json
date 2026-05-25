@@ -35014,5 +35014,29 @@
     "image_url": "https://i2c.seadn.io/polygon/0x34e9482bb4c383cb80213485f2ca7b043594e895/3f79b0d978e0efb5e3560566af120f/1b3f79b0d978e0efb5e3560566af120f.png",
     "listed_at": "2026-05-25T06:32:05+00:00",
     "catchup": true
+  },
+  {
+    "name": "Gateway Dreamer #14",
+    "slug": "gateway-dreamer-by-feral-x-reddit-collectible-avat",
+    "price": "$7.35  (0.0035 WETH)",
+    "maker": "0xeacec320...62c242",
+    "maker_full": "0xeacec320f6f3f5ef81f522067737502b2162c242",
+    "expiry": "?",
+    "link": "https://opensea.io/assets/polygon/0x3c067070781d33410e0107b7724976d2fdf5138f/13",
+    "image_url": "https://i2c.seadn.io/polygon/0x3c067070781d33410e0107b7724976d2fdf5138f/216326cd56af1076484c7e5fe6b416/49216326cd56af1076484c7e5fe6b416.png",
+    "listed_at": "2026-05-25T06:32:05+00:00",
+    "catchup": true
+  },
+  {
+    "name": "Soraya #48",
+    "slug": "soraya-by-basket-x-reddit-collectible-avatars",
+    "price": "$8.40  (0.0040 WETH)",
+    "maker": "0xeacec320...62c242",
+    "maker_full": "0xeacec320f6f3f5ef81f522067737502b2162c242",
+    "expiry": "?",
+    "link": "https://opensea.io/assets/polygon/0x142c255e6c8532ef631643bca8dd0bd148088ec5/47",
+    "image_url": "https://i2c.seadn.io/polygon/0x142c255e6c8532ef631643bca8dd0bd148088ec5/2b985fffbe6029f95f08de92449025/382b985fffbe6029f95f08de92449025.png",
+    "listed_at": "2026-05-25T06:32:05+00:00",
+    "catchup": true
   }
 ]
