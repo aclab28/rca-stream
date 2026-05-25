@@ -35194,5 +35194,17 @@
     "image_url": "https://i2c.seadn.io/polygon/0x611598c45d781e848b73bcf65fdb6f8a6c47bc59/f6ca187063e209b6e3ece908a059d4/38f6ca187063e209b6e3ece908a059d4.png",
     "listed_at": "2026-05-25T06:10:34+00:00",
     "catchup": true
+  },
+  {
+    "name": "Timmie #22",
+    "slug": "timmie-by-lord-808-big-4l-x-reddit-collectible-ava",
+    "price": "$0.95  (0.0004 WETH)",
+    "maker": "0x97637f77...d31755",
+    "maker_full": "0x97637f77691a52958a12fc8ac0945b28dad31755",
+    "expiry": "?",
+    "link": "https://opensea.io/assets/polygon/0xd8c960fb98cfdeb4a482392742812c38c801c933/21",
+    "image_url": "https://i2c.seadn.io/polygon/0xd8c960fb98cfdeb4a482392742812c38c801c933/db5842e26c009f1fae5002b8ea1350/fbdb5842e26c009f1fae5002b8ea1350.png",
+    "listed_at": "2026-05-25T07:28:05+00:00",
+    "catchup": true
   }
 ]
