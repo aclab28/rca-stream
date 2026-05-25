@@ -35302,5 +35302,17 @@
     "image_url": "https://i2c.seadn.io/polygon/0x9f5dcd096e85accecf7f2b2ec0a132cf44fe7996/be7894bb62c825af91b20c42af823a/65be7894bb62c825af91b20c42af823a.png",
     "listed_at": "2026-05-25T07:48:18+00:00",
     "catchup": true
+  },
+  {
+    "name": "Portugal #38642",
+    "slug": "reddit-cup-2022-x-reddit-collectible-avatars",
+    "price": "$2.11  (0.0010 WETH)",
+    "maker": "0xbd453a97...c74970",
+    "maker_full": "0xbd453a97bcd9fe08c3fb7ab12b86ef36b0c74970",
+    "expiry": "?",
+    "link": "https://opensea.io/assets/polygon/0x622d8fea4603ba9edaf1084b407052d8b0a9bed7/5240841",
+    "image_url": "https://i2c.seadn.io/polygon/0x622d8fea4603ba9edaf1084b407052d8b0a9bed7/5ffab7704422027735fe6dd1b3e77f/1b5ffab7704422027735fe6dd1b3e77f.png",
+    "listed_at": "2026-05-25T07:33:10+00:00",
+    "catchup": true
   }
 ]
