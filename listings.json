@@ -35506,5 +35506,17 @@
     "image_url": "https://i2c.seadn.io/polygon/0xfdba313e9d2e52299ec317a6fa05a141767e61b4/06f7d9d7233e996c99094311a94617/2406f7d9d7233e996c99094311a94617.png",
     "listed_at": "2026-05-25T17:50:21+00:00",
     "catchup": true
+  },
+  {
+    "name": "It Gets Better #12",
+    "slug": "it-gets-better-by-ryehardydesigns-x-reddit-collect",
+    "price": "$2.13  (0.0010 WETH)",
+    "maker": "0x97637f77...d31755",
+    "maker_full": "0x97637f77691a52958a12fc8ac0945b28dad31755",
+    "expiry": "?",
+    "link": "https://opensea.io/assets/polygon/0xcca55139b37c4e10238186fdc90c44aabab989f1/11",
+    "image_url": "https://i2c.seadn.io/polygon/0xcca55139b37c4e10238186fdc90c44aabab989f1/5db323fabbd503f4327f02f9e30339/4b5db323fabbd503f4327f02f9e30339.png",
+    "listed_at": "2026-05-25T17:49:18+00:00",
+    "catchup": true
   }
 ]
