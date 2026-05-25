@@ -34810,5 +34810,17 @@
     "image_url": "https://i2c.seadn.io/polygon/0x79740bb69ff3621021aa0178824acfa8c7440c54/de7dd7c403f4f3617c6a1da11b42aa/68de7dd7c403f4f3617c6a1da11b42aa.png",
     "listed_at": "2026-05-25T06:17:01.809000Z",
     "catchup": false
+  },
+  {
+    "name": "Lovey Dovey Duelist #28",
+    "slug": "lovey-dovey-duelist-by-glowymushroom-x-reddit-coll",
+    "price": "$14.72  (0.0070 WETH)",
+    "maker": "0xeacec320...62c242",
+    "maker_full": "0xeacec320f6f3f5ef81f522067737502b2162c242",
+    "expiry": "2026-08-23",
+    "link": "https://opensea.io/item/polygon/0x21e9a3845f9375b0bd9a78cbcf585192b5dc054d/27",
+    "image_url": "https://i2c.seadn.io/polygon/0x21e9a3845f9375b0bd9a78cbcf585192b5dc054d/ed3ab60a6ac0990fe087a4cc17f4b0/46ed3ab60a6ac0990fe087a4cc17f4b0.png",
+    "listed_at": "2026-05-25T06:17:01.794000Z",
+    "catchup": false
   }
 ]
