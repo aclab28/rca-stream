@@ -35578,5 +35578,17 @@
     "image_url": "https://i2c.seadn.io/polygon/0xd41abd3f053b6225347bb4ecfe3444846b64c191/6291ffdb369a9e7f2745b99b0bcfb0/ae6291ffdb369a9e7f2745b99b0bcfb0.png",
     "listed_at": "2026-05-25T17:45:33+00:00",
     "catchup": true
+  },
+  {
+    "name": "Grand Adventure #66",
+    "slug": "grand-adventure-by-i-forgot-x-reddit-collectible-a",
+    "price": "$0.43  (0.0002 WETH)",
+    "maker": "0x97637f77...d31755",
+    "maker_full": "0x97637f77691a52958a12fc8ac0945b28dad31755",
+    "expiry": "?",
+    "link": "https://opensea.io/assets/polygon/0x01eac805597ccb253bfa5cd8e560a4fb0f2aed82/65",
+    "image_url": "https://i2c.seadn.io/polygon/0x01eac805597ccb253bfa5cd8e560a4fb0f2aed82/7f382d723f82378b91a4b7a43014c7/947f382d723f82378b91a4b7a43014c7.png",
+    "listed_at": "2026-05-25T17:45:02+00:00",
+    "catchup": true
   }
 ]
