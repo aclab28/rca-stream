@@ -36406,5 +36406,17 @@
     "image_url": "https://i2c.seadn.io/polygon/0x2ef91c5520467e9aebc6bb77ce3ad6a0e373320b/6fd252824225377a8c512a1a7237f5/826fd252824225377a8c512a1a7237f5.png",
     "listed_at": "2026-05-26T13:32:10+00:00",
     "catchup": true
+  },
+  {
+    "name": "Fake Foustling #39",
+    "slug": "spooky-season-tfoust10-x-reddit-collectible-avatar",
+    "price": "$8.33  (0.0039 WETH)",
+    "maker": "0x97637f77...d31755",
+    "maker_full": "0x97637f77691a52958a12fc8ac0945b28dad31755",
+    "expiry": "2026-11-22",
+    "link": "https://opensea.io/item/polygon/0xe1b5e23fdbc003aec16e6e79726a0b5f75ff93f5/1138",
+    "image_url": "https://i2c.seadn.io/polygon/0xe1b5e23fdbc003aec16e6e79726a0b5f75ff93f5/3e4376da09e25f63c5289bf7bfe57b/c73e4376da09e25f63c5289bf7bfe57b.png",
+    "listed_at": "2026-05-26T14:38:44.829000Z",
+    "catchup": false
   }
 ]
