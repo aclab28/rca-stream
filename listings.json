@@ -36682,5 +36682,17 @@
     "image_url": "https://i2c.seadn.io/polygon/0x6dc402c0a881f668eef0728b0928c179befad3b3/9cd9249ee166345ecd99ffee6915d7/689cd9249ee166345ecd99ffee6915d7.png",
     "listed_at": "2026-05-26T16:33:20+00:00",
     "catchup": true
+  },
+  {
+    "name": "S'moore #99",
+    "slug": "doodle-collection-x-reddit-collectible-avatars",
+    "price": "$3.63  (0.0017 WETH)",
+    "maker": "0x97637f77...d31755",
+    "maker_full": "0x97637f77691a52958a12fc8ac0945b28dad31755",
+    "expiry": "?",
+    "link": "https://opensea.io/assets/polygon/0x45308788743bbdae5de7ba9e565c0502d0ebb81f/1598",
+    "image_url": "https://i2c.seadn.io/polygon/0x45308788743bbdae5de7ba9e565c0502d0ebb81f/fedae45e7c339216972031850f8cc4/75fedae45e7c339216972031850f8cc4.png",
+    "listed_at": "2026-05-26T16:10:13+00:00",
+    "catchup": true
   }
 ]
