@@ -36418,5 +36418,17 @@
     "image_url": "https://i2c.seadn.io/polygon/0xe1b5e23fdbc003aec16e6e79726a0b5f75ff93f5/3e4376da09e25f63c5289bf7bfe57b/c73e4376da09e25f63c5289bf7bfe57b.png",
     "listed_at": "2026-05-26T14:38:44.829000Z",
     "catchup": false
+  },
+  {
+    "name": "Aww Friends #954205",
+    "slug": "aww-friends-x-reddit-collectible-avatars",
+    "price": "$9.93  (0.0047 WETH)",
+    "maker": "0x97637f77...d31755",
+    "maker_full": "0x97637f77691a52958a12fc8ac0945b28dad31755",
+    "expiry": "2026-11-22",
+    "link": "https://opensea.io/item/polygon/0x6acb8fb82880d39c2b8446f8778a14d34ee6cfb7/954204",
+    "image_url": "https://i2c.seadn.io/polygon/0x6acb8fb82880d39c2b8446f8778a14d34ee6cfb7/dc1bb0cfd62b95b49cc5e05e08600f/bddc1bb0cfd62b95b49cc5e05e08600f.png",
+    "listed_at": "2026-05-26T15:47:06.122000Z",
+    "catchup": false
   }
 ]
