@@ -36130,5 +36130,17 @@
     "image_url": "https://i2c.seadn.io/polygon/0x3d0ad4b7c5fa66bc359675f0c5556f261d42dbc3/73c1290902e8534d4edd767ecc8a66/e273c1290902e8534d4edd767ecc8a66.png",
     "listed_at": "2026-05-26T02:23:48+00:00",
     "catchup": true
+  },
+  {
+    "name": "Fawn #61",
+    "slug": "fawn-by-wispywi11ow-x-reddit-collectible-avatars",
+    "price": "$2.09  (0.0010 WETH)",
+    "maker": "0x87ce5ae6...91ed6d",
+    "maker_full": "0x87ce5ae644c67a180c65d18671065ae82b91ed6d",
+    "expiry": "?",
+    "link": "https://opensea.io/assets/polygon/0xac5192eae02f168361f5c70986ac28f38c5a6c3e/60",
+    "image_url": "https://i2c.seadn.io/polygon/0xac5192eae02f168361f5c70986ac28f38c5a6c3e/fb109551fad40a62ba81d8eee66089/78fb109551fad40a62ba81d8eee66089.png",
+    "listed_at": "2026-05-26T02:23:34+00:00",
+    "catchup": true
   }
 ]
