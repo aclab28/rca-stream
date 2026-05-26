@@ -958,5 +958,17 @@
     "image_url": "https://i2c.seadn.io/polygon/0x6d74e823e3cfb94a4a395b74b1e7b0f5ca5596a3/dbf121e43e4430b3dcfe0542496b70/dcdbf121e43e4430b3dcfe0542496b70.png",
     "listed_at": "2026-05-26T01:59:25+00:00",
     "catchup": true
+  },
+  {
+    "name": "Jay and pets #76 by Satoshi KappaMoto",
+    "slug": "mash-it",
+    "price": "$0.83  (0.0004 WETH)",
+    "maker": "0x4b9aabed...c5955c",
+    "maker_full": "0x4b9aabede9e5ac0d2a761a0a8aa1291001c5955c",
+    "expiry": "?",
+    "link": "https://opensea.io/assets/polygon/0x6d74e823e3cfb94a4a395b74b1e7b0f5ca5596a3/12816",
+    "image_url": "https://i2c.seadn.io/polygon/0x6d74e823e3cfb94a4a395b74b1e7b0f5ca5596a3/7e7882d873ed3c820d0b7c99a47b77/317e7882d873ed3c820d0b7c99a47b77.png",
+    "listed_at": "2026-05-26T05:07:17+00:00",
+    "catchup": true
   }
 ]
