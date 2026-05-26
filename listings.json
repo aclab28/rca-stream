@@ -36454,5 +36454,29 @@
     "image_url": "https://i2c.seadn.io/polygon/0xbfd670667053e517a97afe56c91e4f83f1160bd3/f648cfe64726508a3bdc50f8e797b9/6ef648cfe64726508a3bdc50f8e797b9.png",
     "listed_at": "2026-05-26T15:49:15.913000Z",
     "catchup": false
+  },
+  {
+    "name": "Drip Squad #349470",
+    "slug": "drip-squad-x-reddit-collectible-avatars",
+    "price": "$5.00  (0.0024 WETH)",
+    "maker": "0x97637f77...d31755",
+    "maker_full": "0x97637f77691a52958a12fc8ac0945b28dad31755",
+    "expiry": "2026-11-22",
+    "link": "https://opensea.io/item/polygon/0xbfd670667053e517a97afe56c91e4f83f1160bd3/349469",
+    "image_url": "https://i2c.seadn.io/polygon/0xbfd670667053e517a97afe56c91e4f83f1160bd3/c4069ae6aaf7204c151becbad2bec8/44c4069ae6aaf7204c151becbad2bec8.png",
+    "listed_at": "2026-05-26T15:49:15.878000Z",
+    "catchup": false
+  },
+  {
+    "name": "Drip Squad #429920",
+    "slug": "drip-squad-x-reddit-collectible-avatars",
+    "price": "$5.00  (0.0024 WETH)",
+    "maker": "0x97637f77...d31755",
+    "maker_full": "0x97637f77691a52958a12fc8ac0945b28dad31755",
+    "expiry": "2026-11-22",
+    "link": "https://opensea.io/item/polygon/0xbfd670667053e517a97afe56c91e4f83f1160bd3/429919",
+    "image_url": "https://i2c.seadn.io/polygon/0xbfd670667053e517a97afe56c91e4f83f1160bd3/d4307d04494cb04eed5c69408d7113/afd4307d04494cb04eed5c69408d7113.png",
+    "listed_at": "2026-05-26T15:49:15.898000Z",
+    "catchup": false
   }
 ]
