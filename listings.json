@@ -36574,5 +36574,17 @@
     "image_url": "https://i2c.seadn.io/polygon/0xb9c042c3275bc49799688eea1a29b1405d02946b/25f7173aa371d0e52b466fb73a5199/4c25f7173aa371d0e52b466fb73a5199.png",
     "listed_at": "2026-05-26T15:52:40.333000Z",
     "catchup": false
+  },
+  {
+    "name": "Ancestral Tree #68",
+    "slug": "cute-cool-and-creepy-x-reddit-collectible-avatars",
+    "price": "$41.73  (0.0200 WETH)",
+    "maker": "0x97637f77...d31755",
+    "maker_full": "0x97637f77691a52958a12fc8ac0945b28dad31755",
+    "expiry": "?",
+    "link": "https://opensea.io/assets/polygon/0x47749c5b970e63f3a0ed57cd6cef773e74fafe9d/817",
+    "image_url": "https://i2c.seadn.io/polygon/0x47749c5b970e63f3a0ed57cd6cef773e74fafe9d/f9c3b4cd90e12892e96d57b7f7b1fb/ccf9c3b4cd90e12892e96d57b7f7b1fb.png",
+    "listed_at": "2026-05-26T16:06:52+00:00",
+    "catchup": true
   }
 ]
