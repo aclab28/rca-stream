@@ -36106,5 +36106,17 @@
     "image_url": "https://i2c.seadn.io/matic/0xdb4badd1284fa0f3c7dab7edbe9432594aa8fa8f/5b6fec7dd637889a9ec4d16d3662f2/075b6fec7dd637889a9ec4d16d3662f2.png",
     "listed_at": "2026-05-26T02:24:23+00:00",
     "catchup": true
+  },
+  {
+    "name": "Freed #39",
+    "slug": "freed-by-basket-x-reddit-collectible-avatars",
+    "price": "$4.80  (0.0023 WETH)",
+    "maker": "0x87ce5ae6...91ed6d",
+    "maker_full": "0x87ce5ae644c67a180c65d18671065ae82b91ed6d",
+    "expiry": "?",
+    "link": "https://opensea.io/assets/polygon/0xf3c6e577dc98760bccd91b2a45cd2b2b7fdeffef/38",
+    "image_url": "https://i2c.seadn.io/polygon/0xf3c6e577dc98760bccd91b2a45cd2b2b7fdeffef/49e6f587f8af4b92922dde4efba5ac/4f49e6f587f8af4b92922dde4efba5ac.png",
+    "listed_at": "2026-05-26T02:24:02+00:00",
+    "catchup": true
   }
 ]
