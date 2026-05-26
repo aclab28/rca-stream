@@ -36358,5 +36358,17 @@
     "image_url": "https://i2c.seadn.io/polygon/0xfca2fb2629b077f52b238eb04405d57c811dca8f/3242b37d8c727c7aae06b92a289aac/8c3242b37d8c727c7aae06b92a289aac.png",
     "listed_at": "2026-05-26T11:10:40+00:00",
     "catchup": true
+  },
+  {
+    "name": "Nova #1",
+    "slug": "nova-abee-katie-x-reddit-collectible-avatars",
+    "price": "$127.58  (0.0600 WETH)",
+    "maker": "0x0867e359...e6aa5b",
+    "maker_full": "0x0867e359ef8cc0a862f245991a3d4c87d4e6aa5b",
+    "expiry": "?",
+    "link": "https://opensea.io/assets/polygon/0xe1c95306ca11b96e79c4c91ce5a4c419f36348ca/0",
+    "image_url": "https://i2c.seadn.io/polygon/0xe1c95306ca11b96e79c4c91ce5a4c419f36348ca/b96f5ca973e555c8ca055da1d31dcd/c0b96f5ca973e555c8ca055da1d31dcd.png",
+    "listed_at": "2026-05-26T11:10:33+00:00",
+    "catchup": true
   }
 ]
