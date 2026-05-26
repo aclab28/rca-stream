@@ -36718,5 +36718,17 @@
     "image_url": "https://i2c.seadn.io/polygon/0x8584ce7c5cf5c69e91b55d5593f24b66725c1fbe/e33ce6c69364558b0ddafa155af213/61e33ce6c69364558b0ddafa155af213.png",
     "listed_at": "2026-05-26T21:07:46+00:00",
     "catchup": true
+  },
+  {
+    "name": "1.0.1 #13",
+    "slug": "1-0-1-by-spaceoddity-x-reddit-collectible-avatars",
+    "price": "$10.35  (0.0050 WETH)",
+    "maker": "0x8872471a...34bc89",
+    "maker_full": "0x8872471ae98de05f3bae23df35045f108f34bc89",
+    "expiry": "?",
+    "link": "https://opensea.io/assets/polygon/0x3dfc1c50e45795442019a564ead84ffeb5a0b3e8/12",
+    "image_url": "https://i2c.seadn.io/polygon/0x3dfc1c50e45795442019a564ead84ffeb5a0b3e8/07e95bddf677bf7094c20e2fa98092/5907e95bddf677bf7094c20e2fa98092.png",
+    "listed_at": "2026-05-26T21:06:41+00:00",
+    "catchup": true
   }
 ]
