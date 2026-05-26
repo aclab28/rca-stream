@@ -36322,5 +36322,17 @@
     "image_url": "https://i2c.seadn.io/polygon/0x3b63f358165d773008cb4ca4e60452510c037e79/55ffbcf1cb354b49d28e3a7d0759da/0855ffbcf1cb354b49d28e3a7d0759da.png",
     "listed_at": "2026-05-26T11:11:06+00:00",
     "catchup": true
+  },
+  {
+    "name": "Alphy #1",
+    "slug": "alphy-by-jackdaniel8008-x-reddit-collectible-avata",
+    "price": "$127.58  (0.0600 WETH)",
+    "maker": "0x0867e359...e6aa5b",
+    "maker_full": "0x0867e359ef8cc0a862f245991a3d4c87d4e6aa5b",
+    "expiry": "?",
+    "link": "https://opensea.io/assets/polygon/0x48bd48a9226c3d0a6f45d5ed4ecdd4396e16fc26/0",
+    "image_url": "https://i2c.seadn.io/polygon/0x48bd48a9226c3d0a6f45d5ed4ecdd4396e16fc26/41b067643ce7841570de2871f6bc76/6741b067643ce7841570de2871f6bc76.png",
+    "listed_at": "2026-05-26T11:10:57+00:00",
+    "catchup": true
   }
 ]
