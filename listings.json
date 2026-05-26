@@ -36334,5 +36334,17 @@
     "image_url": "https://i2c.seadn.io/polygon/0x48bd48a9226c3d0a6f45d5ed4ecdd4396e16fc26/41b067643ce7841570de2871f6bc76/6741b067643ce7841570de2871f6bc76.png",
     "listed_at": "2026-05-26T11:10:57+00:00",
     "catchup": true
+  },
+  {
+    "name": "Sun-chan #1",
+    "slug": "sun-chan-by-rojom-x-reddit-collectible-avatars",
+    "price": "$170.11  (0.0800 WETH)",
+    "maker": "0x0867e359...e6aa5b",
+    "maker_full": "0x0867e359ef8cc0a862f245991a3d4c87d4e6aa5b",
+    "expiry": "?",
+    "link": "https://opensea.io/assets/polygon/0x6ef3529dd44edda593ffde095241967c2364b385/0",
+    "image_url": "https://i2c.seadn.io/polygon/0x6ef3529dd44edda593ffde095241967c2364b385/61863a1dcf7d29c946c8e8e352e572/b961863a1dcf7d29c946c8e8e352e572.png",
+    "listed_at": "2026-05-26T11:10:50+00:00",
+    "catchup": true
   }
 ]
