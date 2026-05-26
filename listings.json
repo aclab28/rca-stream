@@ -36610,5 +36610,17 @@
     "image_url": "https://i2c.seadn.io/polygon/0xee1ee80338958fa596471ceb70f0177daff80323/1e734ebd01bfa9b588becf1d11ff16/841e734ebd01bfa9b588becf1d11ff16.png",
     "listed_at": "2026-05-26T16:04:46+00:00",
     "catchup": true
+  },
+  {
+    "name": "Mutant Monarch #15",
+    "slug": "the-butterfly-garden-x-reddit-collectible-avatars",
+    "price": "$41.73  (0.0200 WETH)",
+    "maker": "0x97637f77...d31755",
+    "maker_full": "0x97637f77691a52958a12fc8ac0945b28dad31755",
+    "expiry": "?",
+    "link": "https://opensea.io/assets/polygon/0xfbed9640e37666fe2ac78e1d263670976354cb69/2414",
+    "image_url": "https://i2c.seadn.io/polygon/0xfbed9640e37666fe2ac78e1d263670976354cb69/af929b571a347a5925366f94e0e912/69af929b571a347a5925366f94e0e912.png",
+    "listed_at": "2026-05-26T16:03:56+00:00",
+    "catchup": true
   }
 ]
