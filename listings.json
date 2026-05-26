@@ -36730,5 +36730,17 @@
     "image_url": "https://i2c.seadn.io/polygon/0x3dfc1c50e45795442019a564ead84ffeb5a0b3e8/07e95bddf677bf7094c20e2fa98092/5907e95bddf677bf7094c20e2fa98092.png",
     "listed_at": "2026-05-26T21:06:41+00:00",
     "catchup": true
+  },
+  {
+    "name": "Neko boy Sam #3",
+    "slug": "neko-boy-sam-by-awkwardthief-x-reddit-collectible",
+    "price": "$20.70  (0.0100 WETH)",
+    "maker": "0x8872471a...34bc89",
+    "maker_full": "0x8872471ae98de05f3bae23df35045f108f34bc89",
+    "expiry": "?",
+    "link": "https://opensea.io/assets/polygon/0xb279acfd18c4d0a9660dd23c911f34995f2b56b0/2",
+    "image_url": "https://i2c.seadn.io/polygon/0xb279acfd18c4d0a9660dd23c911f34995f2b56b0/e698eb23380c7c274ced0ca2b1f052/bae698eb23380c7c274ced0ca2b1f052.png",
+    "listed_at": "2026-05-26T21:06:04+00:00",
+    "catchup": true
   }
 ]
