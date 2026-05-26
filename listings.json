@@ -36118,5 +36118,17 @@
     "image_url": "https://i2c.seadn.io/polygon/0xf3c6e577dc98760bccd91b2a45cd2b2b7fdeffef/49e6f587f8af4b92922dde4efba5ac/4f49e6f587f8af4b92922dde4efba5ac.png",
     "listed_at": "2026-05-26T02:24:02+00:00",
     "catchup": true
+  },
+  {
+    "name": "Dolly #45",
+    "slug": "dolly-by-basket-x-reddit-collectible-avatars",
+    "price": "$4.17  (0.0020 WETH)",
+    "maker": "0x87ce5ae6...91ed6d",
+    "maker_full": "0x87ce5ae644c67a180c65d18671065ae82b91ed6d",
+    "expiry": "?",
+    "link": "https://opensea.io/assets/polygon/0x3d0ad4b7c5fa66bc359675f0c5556f261d42dbc3/44",
+    "image_url": "https://i2c.seadn.io/polygon/0x3d0ad4b7c5fa66bc359675f0c5556f261d42dbc3/73c1290902e8534d4edd767ecc8a66/e273c1290902e8534d4edd767ecc8a66.png",
+    "listed_at": "2026-05-26T02:23:48+00:00",
+    "catchup": true
   }
 ]
