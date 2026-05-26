@@ -36082,5 +36082,17 @@
     "image_url": "https://i2c.seadn.io/polygon/0x278d802b554f4af935c401520d252895f33d605a/baaa6bbde3f8e0df4993a56ca2a2b5/42baaa6bbde3f8e0df4993a56ca2a2b5.png",
     "listed_at": "2026-05-26T02:24:58+00:00",
     "catchup": true
+  },
+  {
+    "name": "Seraphim #48",
+    "slug": "seraphim-by-basket-x-reddit-collectible-avatars",
+    "price": "$4.80  (0.0023 WETH)",
+    "maker": "0x87ce5ae6...91ed6d",
+    "maker_full": "0x87ce5ae644c67a180c65d18671065ae82b91ed6d",
+    "expiry": "?",
+    "link": "https://opensea.io/assets/polygon/0x413a36075c3f9875acf2494c5d40754f9fee3571/47",
+    "image_url": "https://i2c.seadn.io/polygon/0x413a36075c3f9875acf2494c5d40754f9fee3571/c66ee87699fb04ed804ec0b32ba940/f7c66ee87699fb04ed804ec0b32ba940.png",
+    "listed_at": "2026-05-26T02:24:39+00:00",
+    "catchup": true
   }
 ]
