@@ -36142,5 +36142,17 @@
     "image_url": "https://i2c.seadn.io/polygon/0xac5192eae02f168361f5c70986ac28f38c5a6c3e/fb109551fad40a62ba81d8eee66089/78fb109551fad40a62ba81d8eee66089.png",
     "listed_at": "2026-05-26T02:23:34+00:00",
     "catchup": true
+  },
+  {
+    "name": "Akari #76",
+    "slug": "akari-by-abee-katie-x-reddit-collectible-avatars",
+    "price": "$13.57  (0.0065 WETH)",
+    "maker": "0x87ce5ae6...91ed6d",
+    "maker_full": "0x87ce5ae644c67a180c65d18671065ae82b91ed6d",
+    "expiry": "?",
+    "link": "https://opensea.io/assets/polygon/0x502204290ba840a5e7d6763934d848736606999e/75",
+    "image_url": "https://i2c.seadn.io/polygon/0x502204290ba840a5e7d6763934d848736606999e/88ab47a6e7d1ef47728387818c96cc/bd88ab47a6e7d1ef47728387818c96cc.png",
+    "listed_at": "2026-05-26T02:21:50+00:00",
+    "catchup": true
   }
 ]
