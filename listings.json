@@ -36154,5 +36154,17 @@
     "image_url": "https://i2c.seadn.io/polygon/0x502204290ba840a5e7d6763934d848736606999e/88ab47a6e7d1ef47728387818c96cc/bd88ab47a6e7d1ef47728387818c96cc.png",
     "listed_at": "2026-05-26T02:21:50+00:00",
     "catchup": true
+  },
+  {
+    "name": "Kora #8",
+    "slug": "kora-by-abee-katie-x-reddit-collectible-avatars",
+    "price": "$14.61  (0.0070 WETH)",
+    "maker": "0x87ce5ae6...91ed6d",
+    "maker_full": "0x87ce5ae644c67a180c65d18671065ae82b91ed6d",
+    "expiry": "?",
+    "link": "https://opensea.io/assets/polygon/0xfca2fb2629b077f52b238eb04405d57c811dca8f/7",
+    "image_url": "https://i2c.seadn.io/polygon/0xfca2fb2629b077f52b238eb04405d57c811dca8f/3242b37d8c727c7aae06b92a289aac/8c3242b37d8c727c7aae06b92a289aac.png",
+    "listed_at": "2026-05-26T02:09:45+00:00",
+    "catchup": true
   }
 ]
