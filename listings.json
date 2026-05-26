@@ -36634,5 +36634,17 @@
     "image_url": "https://i2c.seadn.io/polygon/0x4670e4890bc1b76f3ae5c7660aa98e0b6668c6f3/a1a8497cf8dab1ef1ad58dda5fcb7b/3da1a8497cf8dab1ef1ad58dda5fcb7b.png",
     "listed_at": "2026-05-26T16:03:17+00:00",
     "catchup": true
+  },
+  {
+    "name": "ECLIPSE #337",
+    "slug": "spooky-season-earthtoplanet-x-reddit-collectible-a",
+    "price": "$5.53  (0.0026 WETH)",
+    "maker": "0x97637f77...d31755",
+    "maker_full": "0x97637f77691a52958a12fc8ac0945b28dad31755",
+    "expiry": "?",
+    "link": "https://opensea.io/assets/polygon/0x8264e2bad3d2f7afd72a00233b9f841fe4b388cd/336",
+    "image_url": "https://i2c.seadn.io/polygon/0x8264e2bad3d2f7afd72a00233b9f841fe4b388cd/11add464f75c61e35b983bd4b05d17/7611add464f75c61e35b983bd4b05d17.png",
+    "listed_at": "2026-05-26T16:01:05+00:00",
+    "catchup": true
   }
 ]
