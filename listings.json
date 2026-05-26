@@ -36478,5 +36478,17 @@
     "image_url": "https://i2c.seadn.io/polygon/0xbfd670667053e517a97afe56c91e4f83f1160bd3/d4307d04494cb04eed5c69408d7113/afd4307d04494cb04eed5c69408d7113.png",
     "listed_at": "2026-05-26T15:49:15.898000Z",
     "catchup": false
+  },
+  {
+    "name": "Drip Squad #429920",
+    "slug": "drip-squad-x-reddit-collectible-avatars",
+    "price": "$4.79  (0.0023 WETH)",
+    "maker": "0x97637f77...d31755",
+    "maker_full": "0x97637f77691a52958a12fc8ac0945b28dad31755",
+    "expiry": "2026-11-22",
+    "link": "https://opensea.io/item/polygon/0xbfd670667053e517a97afe56c91e4f83f1160bd3/429919",
+    "image_url": "https://i2c.seadn.io/polygon/0xbfd670667053e517a97afe56c91e4f83f1160bd3/d4307d04494cb04eed5c69408d7113/afd4307d04494cb04eed5c69408d7113.png",
+    "listed_at": "2026-05-26T15:50:19.455000Z",
+    "catchup": false
   }
 ]
