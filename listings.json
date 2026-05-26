@@ -36586,5 +36586,17 @@
     "image_url": "https://i2c.seadn.io/polygon/0x47749c5b970e63f3a0ed57cd6cef773e74fafe9d/f9c3b4cd90e12892e96d57b7f7b1fb/ccf9c3b4cd90e12892e96d57b7f7b1fb.png",
     "listed_at": "2026-05-26T16:06:52+00:00",
     "catchup": true
+  },
+  {
+    "name": "Birdie #53",
+    "slug": "protectors-of-the-forest-x-reddit-collectible-avat",
+    "price": "$31.30  (0.0150 WETH)",
+    "maker": "0x97637f77...d31755",
+    "maker_full": "0x97637f77691a52958a12fc8ac0945b28dad31755",
+    "expiry": "?",
+    "link": "https://opensea.io/assets/polygon/0x2956409293da98603025cc0121c06a4244752039/2452",
+    "image_url": "https://i2c.seadn.io/polygon/0x2956409293da98603025cc0121c06a4244752039/443cc3ed72f49e2d17edcd08523dcc/24443cc3ed72f49e2d17edcd08523dcc.png",
+    "listed_at": "2026-05-26T16:05:21+00:00",
+    "catchup": true
   }
 ]
