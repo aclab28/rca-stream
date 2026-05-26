@@ -36022,5 +36022,17 @@
     "image_url": "https://i2c.seadn.io/matic/0x1b22b3c7419ab81f1273a925f20d627133a66508/9e1c2fb17b7eabc2222d56e00e51f3/029e1c2fb17b7eabc2222d56e00e51f3.png",
     "listed_at": "2026-05-26T01:59:04+00:00",
     "catchup": true
+  },
+  {
+    "name": "BOO! #64",
+    "slug": "boo-by-wispywi11ow-x-reddit-collectible-avatars",
+    "price": "$9.41  (0.0045 WETH)",
+    "maker": "0x87ce5ae6...91ed6d",
+    "maker_full": "0x87ce5ae644c67a180c65d18671065ae82b91ed6d",
+    "expiry": "?",
+    "link": "https://opensea.io/assets/polygon/0xa28d263448308355a50f9d798bdee60b5903efd6/63",
+    "image_url": "https://i2c.seadn.io/matic/0xa28d263448308355a50f9d798bdee60b5903efd6/916fe0729cecdaa69131b69b30ce06/fc916fe0729cecdaa69131b69b30ce06.png",
+    "listed_at": "2026-05-26T01:57:56+00:00",
+    "catchup": true
   }
 ]
