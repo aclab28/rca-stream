@@ -35998,5 +35998,17 @@
     "image_url": "https://i2c.seadn.io/polygon/0xb9fca5dfd017b59523fe894e3f810080494733ae/5d440e223943b79e136cb2d2865ba8/9e5d440e223943b79e136cb2d2865ba8.png",
     "listed_at": "2026-05-25T22:59:32+00:00",
     "catchup": true
+  },
+  {
+    "name": "Moon-chan #73",
+    "slug": "moon-chan-by-rojom-x-reddit-collectible-avatars",
+    "price": "$6.27  (0.0030 WETH)",
+    "maker": "0x87ce5ae6...91ed6d",
+    "maker_full": "0x87ce5ae644c67a180c65d18671065ae82b91ed6d",
+    "expiry": "?",
+    "link": "https://opensea.io/assets/polygon/0x164e2f39a4f857759c02c534df636c8720f30032/72",
+    "image_url": "https://i2c.seadn.io/polygon/0x164e2f39a4f857759c02c534df636c8720f30032/ddb7f5a7831a5d4567164e0be4f5f2/26ddb7f5a7831a5d4567164e0be4f5f2.png",
+    "listed_at": "2026-05-26T02:07:19+00:00",
+    "catchup": true
   }
 ]
