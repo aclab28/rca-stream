@@ -36310,5 +36310,17 @@
     "image_url": "https://i2c.seadn.io/polygon/0x216c8a17c2bfc8086f92dfc8ad29c9256c843145/6bfc612aa3e3d7df1121578e9a2058/486bfc612aa3e3d7df1121578e9a2058.png",
     "listed_at": "2026-05-26T11:11:49+00:00",
     "catchup": true
+  },
+  {
+    "name": "The Fingers #1",
+    "slug": "the-fingers-by-salt-the-wizard-x-reddit-collectibl",
+    "price": "$318.95  (0.1500 WETH)",
+    "maker": "0x0867e359...e6aa5b",
+    "maker_full": "0x0867e359ef8cc0a862f245991a3d4c87d4e6aa5b",
+    "expiry": "?",
+    "link": "https://opensea.io/assets/polygon/0x3b63f358165d773008cb4ca4e60452510c037e79/0",
+    "image_url": "https://i2c.seadn.io/polygon/0x3b63f358165d773008cb4ca4e60452510c037e79/55ffbcf1cb354b49d28e3a7d0759da/0855ffbcf1cb354b49d28e3a7d0759da.png",
+    "listed_at": "2026-05-26T11:11:06+00:00",
+    "catchup": true
   }
 ]
