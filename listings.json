@@ -36838,5 +36838,17 @@
     "image_url": "https://i2c.seadn.io/polygon/0x622d8fea4603ba9edaf1084b407052d8b0a9bed7/277cf4c2d5c102061b21e21847338b/2b277cf4c2d5c102061b21e21847338b.png",
     "listed_at": "2026-05-27T04:36:21.291000Z",
     "catchup": false
+  },
+  {
+    "name": "Meme Team #439287",
+    "slug": "meme-team-x-reddit-collectible-avatars",
+    "price": "$2.38  (0.0011 WETH)",
+    "maker": "0x97637f77...d31755",
+    "maker_full": "0x97637f77691a52958a12fc8ac0945b28dad31755",
+    "expiry": "2026-11-23",
+    "link": "https://opensea.io/item/polygon/0xb9c042c3275bc49799688eea1a29b1405d02946b/439286",
+    "image_url": "https://i2c.seadn.io/polygon/0xb9c042c3275bc49799688eea1a29b1405d02946b/f74b12319f5fbbb5b5f245bf547f14/7af74b12319f5fbbb5b5f245bf547f14.png",
+    "listed_at": "2026-05-27T04:48:48.798000Z",
+    "catchup": false
   }
 ]
