@@ -36826,5 +36826,17 @@
     "image_url": "https://i2c.seadn.io/polygon/0xb685bf3ba9376119b2b3fbdba71622552fd3c045/88aa0523c738743b69b4fba4aff9e7/d888aa0523c738743b69b4fba4aff9e7.png",
     "listed_at": "2026-05-27T01:37:34+00:00",
     "catchup": true
+  },
+  {
+    "name": "France #28622",
+    "slug": "reddit-cup-2022-x-reddit-collectible-avatars",
+    "price": "$10.28  (0.0050 WETH)",
+    "maker": "0xa20e8120...c337da",
+    "maker_full": "0xa20e81203c7aa3c020ee66cb3c244ad521c337da",
+    "expiry": "2026-11-23",
+    "link": "https://opensea.io/item/polygon/0x622d8fea4603ba9edaf1084b407052d8b0a9bed7/2229721",
+    "image_url": "https://i2c.seadn.io/polygon/0x622d8fea4603ba9edaf1084b407052d8b0a9bed7/277cf4c2d5c102061b21e21847338b/2b277cf4c2d5c102061b21e21847338b.png",
+    "listed_at": "2026-05-27T04:36:21.291000Z",
+    "catchup": false
   }
 ]
