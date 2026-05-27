@@ -36994,5 +36994,17 @@
     "image_url": "https://i2c.seadn.io/polygon/0xf33ad86bb54a278a6c9f9c076f4ed5a34c531967/8e9b53cdb07bf5d9542daa6b56567e/b88e9b53cdb07bf5d9542daa6b56567e.png",
     "listed_at": "2026-05-27T12:19:24.259000Z",
     "catchup": false
+  },
+  {
+    "name": "California Condors #16421",
+    "slug": "endangered_animals_x_reddit_collectible_avatars",
+    "price": "$0.21  (0.0001 WETH)",
+    "maker": "0x8f717961...1ec3b4",
+    "maker_full": "0x8f717961758c94cc6b6668277926391a041ec3b4",
+    "expiry": "2026-11-23",
+    "link": "https://opensea.io/item/polygon/0xf33ad86bb54a278a6c9f9c076f4ed5a34c531967/256620",
+    "image_url": "https://i2c.seadn.io/polygon/0xf33ad86bb54a278a6c9f9c076f4ed5a34c531967/c4b0d68b02341748406aca0fd5d096/48c4b0d68b02341748406aca0fd5d096.png",
+    "listed_at": "2026-05-27T12:19:24.371000Z",
+    "catchup": false
   }
 ]
