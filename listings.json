@@ -36970,5 +36970,29 @@
     "image_url": "https://i2c.seadn.io/polygon/0xf33ad86bb54a278a6c9f9c076f4ed5a34c531967/a2fa03b7257d70c78fc5cefc2e3ffd/e0a2fa03b7257d70c78fc5cefc2e3ffd.png",
     "listed_at": "2026-05-27T12:19:24.347000Z",
     "catchup": false
+  },
+  {
+    "name": "Aye-ayes #41312",
+    "slug": "endangered_animals_x_reddit_collectible_avatars",
+    "price": "$0.21  (0.0001 WETH)",
+    "maker": "0x8f717961...1ec3b4",
+    "maker_full": "0x8f717961758c94cc6b6668277926391a041ec3b4",
+    "expiry": "2026-11-23",
+    "link": "https://opensea.io/item/polygon/0xf33ad86bb54a278a6c9f9c076f4ed5a34c531967/401611",
+    "image_url": "https://i2c.seadn.io/polygon/0xf33ad86bb54a278a6c9f9c076f4ed5a34c531967/8549021ee0b386df78813262eeffac/d18549021ee0b386df78813262eeffac.png",
+    "listed_at": "2026-05-27T12:19:24.281000Z",
+    "catchup": false
+  },
+  {
+    "name": "Saigas #13032",
+    "slug": "endangered_animals_x_reddit_collectible_avatars",
+    "price": "$0.21  (0.0001 WETH)",
+    "maker": "0x8f717961...1ec3b4",
+    "maker_full": "0x8f717961758c94cc6b6668277926391a041ec3b4",
+    "expiry": "2026-11-23",
+    "link": "https://opensea.io/item/polygon/0xf33ad86bb54a278a6c9f9c076f4ed5a34c531967/613531",
+    "image_url": "https://i2c.seadn.io/polygon/0xf33ad86bb54a278a6c9f9c076f4ed5a34c531967/8e9b53cdb07bf5d9542daa6b56567e/b88e9b53cdb07bf5d9542daa6b56567e.png",
+    "listed_at": "2026-05-27T12:19:24.259000Z",
+    "catchup": false
   }
 ]
