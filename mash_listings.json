@@ -1080,15 +1080,27 @@
     "catchup": true
   },
   {
-    "name": "Hellfire #15 by i&t",
+    "name": "Party #18 by rylar",
     "slug": "mash-it",
-    "price": "$4.17  (0.0020 WETH)",
+    "price": "$1.67  (0.0008 WETH)",
     "maker": "0x7385dbeb...6a459b",
     "maker_full": "0x7385dbebbdc08b8ff69af3f924710258fe6a459b",
     "expiry": "?",
-    "link": "https://opensea.io/assets/polygon/0x6d74e823e3cfb94a4a395b74b1e7b0f5ca5596a3/14201",
-    "image_url": "https://i2c.seadn.io/polygon/0x6d74e823e3cfb94a4a395b74b1e7b0f5ca5596a3/ad05d935fa1267ad373c8b77eb3bc3/a5ad05d935fa1267ad373c8b77eb3bc3.png",
+    "link": "https://opensea.io/assets/polygon/0x6d74e823e3cfb94a4a395b74b1e7b0f5ca5596a3/12272",
+    "image_url": "https://i2c.seadn.io/polygon/0x6d74e823e3cfb94a4a395b74b1e7b0f5ca5596a3/87172bc8ae4a7a5b2bec624fdf779b/7c87172bc8ae4a7a5b2bec624fdf779b.png",
     "listed_at": "2026-05-26T15:55:11+00:00",
+    "catchup": true
+  },
+  {
+    "name": "Portrait King #27 by Rojom",
+    "slug": "mash-it",
+    "price": "$26.70  (0.0130 WETH)",
+    "maker": "0xac73aca1...4057ae",
+    "maker_full": "0xac73aca1205aff5dfc5e31223c33a970854057ae",
+    "expiry": "?",
+    "link": "https://opensea.io/assets/polygon/0x6d74e823e3cfb94a4a395b74b1e7b0f5ca5596a3/3121",
+    "image_url": "https://i2c.seadn.io/polygon/0x6d74e823e3cfb94a4a395b74b1e7b0f5ca5596a3/60ccfe7173021bc685222888daae0e/b060ccfe7173021bc685222888daae0e.png",
+    "listed_at": "2026-05-27T18:55:28+00:00",
     "catchup": true
   }
 ]
