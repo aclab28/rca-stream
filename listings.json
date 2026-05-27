@@ -36946,5 +36946,29 @@
     "image_url": "https://i2c.seadn.io/polygon/0xf33ad86bb54a278a6c9f9c076f4ed5a34c531967/cdc9ecbc5cd10ecf8fcefdcbd9e97a/accdc9ecbc5cd10ecf8fcefdcbd9e97a.png",
     "listed_at": "2026-05-27T12:19:24.227000Z",
     "catchup": false
+  },
+  {
+    "name": "Giant Softshell Turtles #23698",
+    "slug": "endangered_animals_x_reddit_collectible_avatars",
+    "price": "$0.21  (0.0001 WETH)",
+    "maker": "0x8f717961...1ec3b4",
+    "maker_full": "0x8f717961758c94cc6b6668277926391a041ec3b4",
+    "expiry": "2026-11-23",
+    "link": "https://opensea.io/item/polygon/0xf33ad86bb54a278a6c9f9c076f4ed5a34c531967/504097",
+    "image_url": "https://i2c.seadn.io/polygon/0xf33ad86bb54a278a6c9f9c076f4ed5a34c531967/fff8a9bc1772d3bb7a0c904adde346/7afff8a9bc1772d3bb7a0c904adde346.png",
+    "listed_at": "2026-05-27T12:19:24.243000Z",
+    "catchup": false
+  },
+  {
+    "name": "Hog-nosed Bats #119958",
+    "slug": "endangered_animals_x_reddit_collectible_avatars",
+    "price": "$0.21  (0.0001 WETH)",
+    "maker": "0x8f717961...1ec3b4",
+    "maker_full": "0x8f717961758c94cc6b6668277926391a041ec3b4",
+    "expiry": "2026-11-23",
+    "link": "https://opensea.io/item/polygon/0xf33ad86bb54a278a6c9f9c076f4ed5a34c531967/240057",
+    "image_url": "https://i2c.seadn.io/polygon/0xf33ad86bb54a278a6c9f9c076f4ed5a34c531967/a2fa03b7257d70c78fc5cefc2e3ffd/e0a2fa03b7257d70c78fc5cefc2e3ffd.png",
+    "listed_at": "2026-05-27T12:19:24.347000Z",
+    "catchup": false
   }
 ]
