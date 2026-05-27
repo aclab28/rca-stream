@@ -37018,5 +37018,17 @@
     "image_url": "https://i2c.seadn.io/polygon/0x5fd4d6fef3b87b91c7df8658727b5edd7210cf5a/19c88440f6cc6e6101ce348ebb63cb/e019c88440f6cc6e6101ce348ebb63cb.png",
     "listed_at": "2026-05-27T12:58:11+00:00",
     "catchup": true
+  },
+  {
+    "name": "He #36",
+    "slug": "spooky-sequel-shleepyshnorlax-x-reddit-collectible",
+    "price": "$2.88  (0.0014 WETH)",
+    "maker": "0x101eb380...90d8c7",
+    "maker_full": "0x101eb380d06e443c7d456aed63961b16e290d8c7",
+    "expiry": "2026-11-23",
+    "link": "https://opensea.io/item/polygon/0x44e7036d7763dd2aa10c7b3e83798c16534b1089/785",
+    "image_url": "https://i2c.seadn.io/polygon/0x44e7036d7763dd2aa10c7b3e83798c16534b1089/a0b0a88e1b789d892f0404a731cc56/a6a0b0a88e1b789d892f0404a731cc56.png",
+    "listed_at": "2026-05-27T14:51:41.897000Z",
+    "catchup": false
   }
 ]
