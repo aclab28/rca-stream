@@ -36934,5 +36934,17 @@
     "image_url": "https://i2c.seadn.io/polygon/0x216c8a17c2bfc8086f92dfc8ad29c9256c843145/6bfc612aa3e3d7df1121578e9a2058/486bfc612aa3e3d7df1121578e9a2058.png",
     "listed_at": "2026-05-27T11:12:05+00:00",
     "catchup": true
+  },
+  {
+    "name": "Axolotls #83135",
+    "slug": "endangered_animals_x_reddit_collectible_avatars",
+    "price": "$0.21  (0.0001 WETH)",
+    "maker": "0x8f717961...1ec3b4",
+    "maker_full": "0x8f717961758c94cc6b6668277926391a041ec3b4",
+    "expiry": "2026-11-23",
+    "link": "https://opensea.io/item/polygon/0xf33ad86bb54a278a6c9f9c076f4ed5a34c531967/83134",
+    "image_url": "https://i2c.seadn.io/polygon/0xf33ad86bb54a278a6c9f9c076f4ed5a34c531967/cdc9ecbc5cd10ecf8fcefdcbd9e97a/accdc9ecbc5cd10ecf8fcefdcbd9e97a.png",
+    "listed_at": "2026-05-27T12:19:24.227000Z",
+    "catchup": false
   }
 ]
