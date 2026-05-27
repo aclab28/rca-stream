@@ -37042,5 +37042,17 @@
     "image_url": "https://i2c.seadn.io/polygon/0x5fd4d6fef3b87b91c7df8658727b5edd7210cf5a/8f81d2930669aae29dfb6d2abcb51b/ba8f81d2930669aae29dfb6d2abcb51b.png",
     "listed_at": "2026-05-27T15:20:13+00:00",
     "catchup": true
+  },
+  {
+    "name": "Lenore #110",
+    "slug": "retro-reimagined-aliciafreemandesigns-x-reddit-col",
+    "price": "$5.18  (0.0025 WETH)",
+    "maker": "0x97637f77...d31755",
+    "maker_full": "0x97637f77691a52958a12fc8ac0945b28dad31755",
+    "expiry": "2026-11-23",
+    "link": "https://opensea.io/item/polygon/0x3cb7a1d4880e1d5479d3a708880cf4dd2bc7d2d0/1159",
+    "image_url": "https://i2c.seadn.io/polygon/0x3cb7a1d4880e1d5479d3a708880cf4dd2bc7d2d0/60c8d60a697f6eef34c8250a828226/9460c8d60a697f6eef34c8250a828226.png",
+    "listed_at": "2026-05-27T16:01:21.159000Z",
+    "catchup": false
   }
 ]
