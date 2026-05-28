@@ -37546,5 +37546,17 @@
     "image_url": "https://i2c.seadn.io/matic/0x1b22b3c7419ab81f1273a925f20d627133a66508/9e1c2fb17b7eabc2222d56e00e51f3/029e1c2fb17b7eabc2222d56e00e51f3.png",
     "listed_at": "2026-05-28T20:56:28+00:00",
     "catchup": true
+  },
+  {
+    "name": "Hydrogen Purroxide #23",
+    "slug": "drag-queens-of-big-gay-baby-x-reddit-collectible",
+    "price": "$30.20  (0.0150 WETH)",
+    "maker": "0x97637f77...d31755",
+    "maker_full": "0x97637f77691a52958a12fc8ac0945b28dad31755",
+    "expiry": "?",
+    "link": "https://opensea.io/assets/polygon/0xe0743141df04a6b9f3df890429cc994e46db03d9/2422",
+    "image_url": "https://i2c.seadn.io/polygon/0xe0743141df04a6b9f3df890429cc994e46db03d9/06d27fb0825a086512d12bcada5ff0/8606d27fb0825a086512d12bcada5ff0.png",
+    "listed_at": "2026-05-28T21:03:18+00:00",
+    "catchup": true
   }
 ]
