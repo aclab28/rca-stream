@@ -37294,5 +37294,17 @@
     "image_url": "https://i2c.seadn.io/polygon/0x502204290ba840a5e7d6763934d848736606999e/88ab47a6e7d1ef47728387818c96cc/bd88ab47a6e7d1ef47728387818c96cc.png",
     "listed_at": "2026-05-28T13:39:37+00:00",
     "catchup": true
+  },
+  {
+    "name": "Wander #60",
+    "slug": "wander-by-nerril-x-reddit-collectible-avatars",
+    "price": "$5.95  (0.0030 WETH)",
+    "maker": "0x87ce5ae6...91ed6d",
+    "maker_full": "0x87ce5ae644c67a180c65d18671065ae82b91ed6d",
+    "expiry": "?",
+    "link": "https://opensea.io/assets/polygon/0xfc631a7a0f3a5a5a0f4683bfc6683d3d266560e0/59",
+    "image_url": "https://i2c.seadn.io/polygon/0xfc631a7a0f3a5a5a0f4683bfc6683d3d266560e0/c9d8c5a0051bb273ad64dde8afc023/91c9d8c5a0051bb273ad64dde8afc023.png",
+    "listed_at": "2026-05-28T14:14:25+00:00",
+    "catchup": true
   }
 ]
