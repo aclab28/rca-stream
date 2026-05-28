@@ -37390,5 +37390,17 @@
     "image_url": "https://i2c.seadn.io/polygon/0x3458161f2dc5d7eafa48e7c8d9acd7f415cf6da6/6c14f56071e57a6ab9a68ea6b5cbae/f86c14f56071e57a6ab9a68ea6b5cbae.png",
     "listed_at": "2026-05-28T15:10:46.477000Z",
     "catchup": false
+  },
+  {
+    "name": "Ooni Roo #179",
+    "slug": "spooky-season-hoppy-doodle-x-reddit-collectible-av",
+    "price": "$7.85  (0.0039 WETH)",
+    "maker": "0x97637f77...d31755",
+    "maker_full": "0x97637f77691a52958a12fc8ac0945b28dad31755",
+    "expiry": "2026-11-24",
+    "link": "https://opensea.io/item/polygon/0x83feea011baeb1c6d1df7d23903efad83d3c781f/178",
+    "image_url": "https://i2c.seadn.io/polygon/0x83feea011baeb1c6d1df7d23903efad83d3c781f/a76829cb5231397d0f5d813b0b25fd/27a76829cb5231397d0f5d813b0b25fd.png",
+    "listed_at": "2026-05-28T15:13:13.993000Z",
+    "catchup": false
   }
 ]
