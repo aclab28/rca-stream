@@ -37702,5 +37702,17 @@
     "image_url": "https://i2c.seadn.io/polygon/0xf89c5cadc653201e88454c8488f1eda8e3ec28d3/ba9edeeb10ab2366d2a87a33e5c9f6/38ba9edeeb10ab2366d2a87a33e5c9f6.png",
     "listed_at": "2026-05-28T23:01:41+00:00",
     "catchup": true
+  },
+  {
+    "name": "The High Priestess #52",
+    "slug": "the-high-priestess-by-feder-x-reddit-collectible-a",
+    "price": "$8.02  (0.0040 WETH)",
+    "maker": "0xeacec320...62c242",
+    "maker_full": "0xeacec320f6f3f5ef81f522067737502b2162c242",
+    "expiry": "?",
+    "link": "https://opensea.io/assets/polygon/0x713f91c9e669fbdf6e1af2cf902d3acd936c5e6c/51",
+    "image_url": "https://i2c.seadn.io/polygon/0x713f91c9e669fbdf6e1af2cf902d3acd936c5e6c/305ec4108d9b643ec7d60c0518ac24/35305ec4108d9b643ec7d60c0518ac24.png",
+    "listed_at": "2026-05-28T23:01:41+00:00",
+    "catchup": true
   }
 ]
