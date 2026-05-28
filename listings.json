@@ -37714,5 +37714,29 @@
     "image_url": "https://i2c.seadn.io/polygon/0x713f91c9e669fbdf6e1af2cf902d3acd936c5e6c/305ec4108d9b643ec7d60c0518ac24/35305ec4108d9b643ec7d60c0518ac24.png",
     "listed_at": "2026-05-28T23:01:41+00:00",
     "catchup": true
+  },
+  {
+    "name": "Anima #78",
+    "slug": "anima-by-ervindas-x-reddit-collectible-avatars",
+    "price": "$6.02  (0.0030 WETH)",
+    "maker": "0xeacec320...62c242",
+    "maker_full": "0xeacec320f6f3f5ef81f522067737502b2162c242",
+    "expiry": "?",
+    "link": "https://opensea.io/assets/polygon/0x278d802b554f4af935c401520d252895f33d605a/77",
+    "image_url": "https://i2c.seadn.io/polygon/0x278d802b554f4af935c401520d252895f33d605a/baaa6bbde3f8e0df4993a56ca2a2b5/42baaa6bbde3f8e0df4993a56ca2a2b5.png",
+    "listed_at": "2026-05-28T23:01:41+00:00",
+    "catchup": true
+  },
+  {
+    "name": "Maple #46",
+    "slug": "maple-by-wispywi11ow-x-reddit-collectible-avatars",
+    "price": "$19.85  (0.0099 WETH)",
+    "maker": "0xeacec320...62c242",
+    "maker_full": "0xeacec320f6f3f5ef81f522067737502b2162c242",
+    "expiry": "?",
+    "link": "https://opensea.io/assets/polygon/0xc9317f5a9496970822f65047fd6eff0e0247012e/45",
+    "image_url": "https://i2c.seadn.io/matic/0xc9317f5a9496970822f65047fd6eff0e0247012e/08ef1770dcbd74a29e65f8856b6645/0f08ef1770dcbd74a29e65f8856b6645.png",
+    "listed_at": "2026-05-28T23:12:51+00:00",
+    "catchup": true
   }
 ]
