@@ -37354,5 +37354,17 @@
     "image_url": "https://i2c.seadn.io/polygon/0x91ac106090fe2b0fa7d01efdf4487a5bfafad7fa/5636e272dc9db997e53d05699e35ce/175636e272dc9db997e53d05699e35ce.png",
     "listed_at": "2026-05-28T15:02:15+00:00",
     "catchup": true
+  },
+  {
+    "name": "Alt Account #50",
+    "slug": "spooky-season-sys32template-x-reddit-collectible-a",
+    "price": "$19.02  (0.0095 WETH)",
+    "maker": "0x97637f77...d31755",
+    "maker_full": "0x97637f77691a52958a12fc8ac0945b28dad31755",
+    "expiry": "?",
+    "link": "https://opensea.io/assets/polygon/0xdaa6e4ba2d4022ed820460bb501b9e061d9614fb/49",
+    "image_url": "https://i2c.seadn.io/polygon/0xdaa6e4ba2d4022ed820460bb501b9e061d9614fb/8f169180b77f4a53c15d53d591d8ee/d88f169180b77f4a53c15d53d591d8ee.png",
+    "listed_at": "2026-05-28T14:57:16+00:00",
+    "catchup": true
   }
 ]
