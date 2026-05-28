@@ -37846,5 +37846,29 @@
     "image_url": "https://i2c.seadn.io/polygon/0xcf93c8a7903fa128ffe03b7834d6e5cb87948ae1/a655a9c1aa63cbd6759c425d66a3d2/96a655a9c1aa63cbd6759c425d66a3d2.png",
     "listed_at": "2026-05-28T23:15:39+00:00",
     "catchup": true
+  },
+  {
+    "name": "Rosa #36",
+    "slug": "rosa-by-riley-x-reddit-collectible-avatars",
+    "price": "$6.01  (0.0030 WETH)",
+    "maker": "0xeacec320...62c242",
+    "maker_full": "0xeacec320f6f3f5ef81f522067737502b2162c242",
+    "expiry": "?",
+    "link": "https://opensea.io/assets/polygon/0x97ee1e15b16ada5002ffe2036a76109046060713/35",
+    "image_url": "https://i2c.seadn.io/polygon/0x97ee1e15b16ada5002ffe2036a76109046060713/65aa4a14f69470bb3f323da3b717fc/aa65aa4a14f69470bb3f323da3b717fc.png",
+    "listed_at": "2026-05-28T23:15:39+00:00",
+    "catchup": true
+  },
+  {
+    "name": "Rose #3",
+    "slug": "rose-by-wispywi11ow-x-reddit-collectible-avatars",
+    "price": "$10.02  (0.0050 WETH)",
+    "maker": "0xeacec320...62c242",
+    "maker_full": "0xeacec320f6f3f5ef81f522067737502b2162c242",
+    "expiry": "?",
+    "link": "https://opensea.io/assets/polygon/0xa0e59419793615bc67b6f2cd0500f82f881efff4/2",
+    "image_url": "https://i2c.seadn.io/matic/0xa0e59419793615bc67b6f2cd0500f82f881efff4/7ad5157426ca9043cd5fde59210a52/b67ad5157426ca9043cd5fde59210a52.png",
+    "listed_at": "2026-05-28T23:13:46+00:00",
+    "catchup": true
   }
 ]
