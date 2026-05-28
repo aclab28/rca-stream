@@ -37690,5 +37690,17 @@
     "image_url": "https://i2c.seadn.io/polygon/0x4b8fe9b3914c6355528237b9ce2db80b977c0f0e/03318eb6a720c52ba30001b472d0b0/1303318eb6a720c52ba30001b472d0b0.png",
     "listed_at": "2026-05-28T23:01:41+00:00",
     "catchup": true
+  },
+  {
+    "name": "Hazel #44",
+    "slug": "hazel-by-powart-x-reddit-collectible-avatars",
+    "price": "$6.02  (0.0030 WETH)",
+    "maker": "0xeacec320...62c242",
+    "maker_full": "0xeacec320f6f3f5ef81f522067737502b2162c242",
+    "expiry": "?",
+    "link": "https://opensea.io/assets/polygon/0xf89c5cadc653201e88454c8488f1eda8e3ec28d3/43",
+    "image_url": "https://i2c.seadn.io/polygon/0xf89c5cadc653201e88454c8488f1eda8e3ec28d3/ba9edeeb10ab2366d2a87a33e5c9f6/38ba9edeeb10ab2366d2a87a33e5c9f6.png",
+    "listed_at": "2026-05-28T23:01:41+00:00",
+    "catchup": true
   }
 ]
