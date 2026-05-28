@@ -37510,5 +37510,29 @@
     "image_url": "https://i2c.seadn.io/matic/0x1b22b3c7419ab81f1273a925f20d627133a66508/9e1c2fb17b7eabc2222d56e00e51f3/029e1c2fb17b7eabc2222d56e00e51f3.png",
     "listed_at": "2026-05-28T20:41:55+00:00",
     "catchup": true
+  },
+  {
+    "name": "Untethered #50",
+    "slug": "untethered-by-joe-the-kappa-guy-x-reddit-collectib",
+    "price": "$1,007.97  (0.5000 WETH)",
+    "maker": "0xf471f6af...075668",
+    "maker_full": "0xf471f6af49f0729d86fe9fdbf1532da91e075668",
+    "expiry": "?",
+    "link": "https://opensea.io/assets/polygon/0x1b22b3c7419ab81f1273a925f20d627133a66508/49",
+    "image_url": "https://i2c.seadn.io/matic/0x1b22b3c7419ab81f1273a925f20d627133a66508/9e1c2fb17b7eabc2222d56e00e51f3/029e1c2fb17b7eabc2222d56e00e51f3.png",
+    "listed_at": "2026-05-28T20:41:55+00:00",
+    "catchup": true
+  },
+  {
+    "name": "Untethered #50",
+    "slug": "untethered-by-joe-the-kappa-guy-x-reddit-collectib",
+    "price": "$4,027.26  (2.0000 WETH)",
+    "maker": "0xf471f6af...075668",
+    "maker_full": "0xf471f6af49f0729d86fe9fdbf1532da91e075668",
+    "expiry": "?",
+    "link": "https://opensea.io/assets/polygon/0x1b22b3c7419ab81f1273a925f20d627133a66508/49",
+    "image_url": "https://i2c.seadn.io/matic/0x1b22b3c7419ab81f1273a925f20d627133a66508/9e1c2fb17b7eabc2222d56e00e51f3/029e1c2fb17b7eabc2222d56e00e51f3.png",
+    "listed_at": "2026-05-28T20:57:14+00:00",
+    "catchup": true
   }
 ]
