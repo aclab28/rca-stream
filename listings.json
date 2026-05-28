@@ -37798,5 +37798,29 @@
     "image_url": "https://i2c.seadn.io/polygon/0x8d9335365f64b118c5b486fca170a56e24522c92/19934fc8f7a8ea33428106db2c1d3c/5419934fc8f7a8ea33428106db2c1d3c.png",
     "listed_at": "2026-05-28T23:15:39+00:00",
     "catchup": true
+  },
+  {
+    "name": "Nina #17",
+    "slug": "nina-by-powart-x-reddit-collectible-avatars",
+    "price": "$8.02  (0.0040 WETH)",
+    "maker": "0xeacec320...62c242",
+    "maker_full": "0xeacec320f6f3f5ef81f522067737502b2162c242",
+    "expiry": "?",
+    "link": "https://opensea.io/assets/polygon/0x090762802cb5b55f5a7d8d1be7f6b5b66427415d/16",
+    "image_url": "https://i2c.seadn.io/polygon/0x090762802cb5b55f5a7d8d1be7f6b5b66427415d/6c90e7ba859b992ad02bb8d1271c02/f76c90e7ba859b992ad02bb8d1271c02.png",
+    "listed_at": "2026-05-28T23:15:39+00:00",
+    "catchup": true
+  },
+  {
+    "name": "Aware #3",
+    "slug": "aware-by-riley-x-reddit-collectible-avatars",
+    "price": "$6.01  (0.0030 WETH)",
+    "maker": "0xeacec320...62c242",
+    "maker_full": "0xeacec320f6f3f5ef81f522067737502b2162c242",
+    "expiry": "?",
+    "link": "https://opensea.io/assets/polygon/0x4b4325db897f6360537054a225ee59fa7bcfcb15/2",
+    "image_url": "https://i2c.seadn.io/polygon/0x4b4325db897f6360537054a225ee59fa7bcfcb15/52f69342f74939044cb73251622906/f452f69342f74939044cb73251622906.png",
+    "listed_at": "2026-05-28T23:15:39+00:00",
+    "catchup": true
   }
 ]
