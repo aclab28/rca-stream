@@ -37426,5 +37426,17 @@
     "image_url": "https://i2c.seadn.io/polygon/0x150afa2dfcaaada471472dfa6ad4b79e718a197c/932cbf578c266a7e04776769cac7e1/4c932cbf578c266a7e04776769cac7e1.png",
     "listed_at": "2026-05-28T15:14:31.883000Z",
     "catchup": false
+  },
+  {
+    "name": "Mars #52",
+    "slug": "spooky-season-substantial-law-910-x-reddit-collect",
+    "price": "$18.97  (0.0095 WETH)",
+    "maker": "0x97637f77...d31755",
+    "maker_full": "0x97637f77691a52958a12fc8ac0945b28dad31755",
+    "expiry": "?",
+    "link": "https://opensea.io/assets/polygon/0x5fd4d6fef3b87b91c7df8658727b5edd7210cf5a/373",
+    "image_url": "https://i2c.seadn.io/polygon/0x5fd4d6fef3b87b91c7df8658727b5edd7210cf5a/8f81d2930669aae29dfb6d2abcb51b/ba8f81d2930669aae29dfb6d2abcb51b.png",
+    "listed_at": "2026-05-28T15:18:20+00:00",
+    "catchup": true
   }
 ]
