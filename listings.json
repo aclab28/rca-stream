@@ -37474,5 +37474,17 @@
     "image_url": "https://i2c.seadn.io/polygon/0x3458161f2dc5d7eafa48e7c8d9acd7f415cf6da6/cd661bdda5e1c176613e44dc91bf08/6dcd661bdda5e1c176613e44dc91bf08.png",
     "listed_at": "2026-05-28T15:10:30+00:00",
     "catchup": true
+  },
+  {
+    "name": "Maia #121",
+    "slug": "aylia-x-reddit-collectible-avatars",
+    "price": "$1.29  (0.0006 WETH)",
+    "maker": "0x97637f77...d31755",
+    "maker_full": "0x97637f77691a52958a12fc8ac0945b28dad31755",
+    "expiry": "?",
+    "link": "https://opensea.io/assets/polygon/0x2d58a44d6c0a355de25761fb33a1f6269a97e2c5/120",
+    "image_url": "https://i2c.seadn.io/polygon/0x2d58a44d6c0a355de25761fb33a1f6269a97e2c5/e2416ca4b9ba7192739aa0e8fde144/2ee2416ca4b9ba7192739aa0e8fde144.png",
+    "listed_at": "2026-05-28T15:07:08+00:00",
+    "catchup": true
   }
 ]
