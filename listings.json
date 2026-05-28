@@ -37822,5 +37822,29 @@
     "image_url": "https://i2c.seadn.io/polygon/0x4b4325db897f6360537054a225ee59fa7bcfcb15/52f69342f74939044cb73251622906/f452f69342f74939044cb73251622906.png",
     "listed_at": "2026-05-28T23:15:39+00:00",
     "catchup": true
+  },
+  {
+    "name": "Vesper #64",
+    "slug": "vesper-by-riley-x-reddit-collectible-avatars",
+    "price": "$6.01  (0.0030 WETH)",
+    "maker": "0xeacec320...62c242",
+    "maker_full": "0xeacec320f6f3f5ef81f522067737502b2162c242",
+    "expiry": "?",
+    "link": "https://opensea.io/assets/polygon/0xe8051b887d75558c48757634d5b6faf7eed36c3b/63",
+    "image_url": "https://i2c.seadn.io/polygon/0xe8051b887d75558c48757634d5b6faf7eed36c3b/4d7566a36d33dd4a7b76488ab0dc0f/854d7566a36d33dd4a7b76488ab0dc0f.png",
+    "listed_at": "2026-05-28T23:15:39+00:00",
+    "catchup": true
+  },
+  {
+    "name": "Untethered #59",
+    "slug": "untethered-by-riley-x-reddit-collectible-avatars",
+    "price": "$6.01  (0.0030 WETH)",
+    "maker": "0xeacec320...62c242",
+    "maker_full": "0xeacec320f6f3f5ef81f522067737502b2162c242",
+    "expiry": "?",
+    "link": "https://opensea.io/assets/polygon/0xcf93c8a7903fa128ffe03b7834d6e5cb87948ae1/58",
+    "image_url": "https://i2c.seadn.io/polygon/0xcf93c8a7903fa128ffe03b7834d6e5cb87948ae1/a655a9c1aa63cbd6759c425d66a3d2/96a655a9c1aa63cbd6759c425d66a3d2.png",
+    "listed_at": "2026-05-28T23:15:39+00:00",
+    "catchup": true
   }
 ]
