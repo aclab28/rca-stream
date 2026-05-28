@@ -37870,5 +37870,17 @@
     "image_url": "https://i2c.seadn.io/matic/0xa0e59419793615bc67b6f2cd0500f82f881efff4/7ad5157426ca9043cd5fde59210a52/b67ad5157426ca9043cd5fde59210a52.png",
     "listed_at": "2026-05-28T23:13:46+00:00",
     "catchup": true
+  },
+  {
+    "name": "Nyxie #15",
+    "slug": "nyxie-by-just-a-potato-x-reddit-collectible-avatar",
+    "price": "$9.42  (0.0047 WETH)",
+    "maker": "0xeacec320...62c242",
+    "maker_full": "0xeacec320f6f3f5ef81f522067737502b2162c242",
+    "expiry": "?",
+    "link": "https://opensea.io/assets/polygon/0x8f3243273badd77effaa73bdd55ccbcf2c929614/14",
+    "image_url": "https://i2c.seadn.io/polygon/0x8f3243273badd77effaa73bdd55ccbcf2c929614/a37365bdb8d9ac0e40f32d925d888e/25a37365bdb8d9ac0e40f32d925d888e.png",
+    "listed_at": "2026-05-28T23:33:08+00:00",
+    "catchup": true
   }
 ]
