@@ -37438,5 +37438,17 @@
     "image_url": "https://i2c.seadn.io/polygon/0x5fd4d6fef3b87b91c7df8658727b5edd7210cf5a/8f81d2930669aae29dfb6d2abcb51b/ba8f81d2930669aae29dfb6d2abcb51b.png",
     "listed_at": "2026-05-28T15:18:20+00:00",
     "catchup": true
+  },
+  {
+    "name": "Sebastian, the Blood Moon #101",
+    "slug": "spooky-season-genuineardvark-x-reddit-collectible",
+    "price": "$7.85  (0.0039 WETH)",
+    "maker": "0x97637f77...d31755",
+    "maker_full": "0x97637f77691a52958a12fc8ac0945b28dad31755",
+    "expiry": "?",
+    "link": "https://opensea.io/assets/polygon/0xc70a7496716b3e25546901fe88215531abbd5a10/1200",
+    "image_url": "https://i2c.seadn.io/polygon/0xc70a7496716b3e25546901fe88215531abbd5a10/3233d5293486ec9d7bee0436176ab0/3c3233d5293486ec9d7bee0436176ab0.png",
+    "listed_at": "2026-05-28T15:15:05+00:00",
+    "catchup": true
   }
 ]
