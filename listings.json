@@ -37450,5 +37450,17 @@
     "image_url": "https://i2c.seadn.io/polygon/0xc70a7496716b3e25546901fe88215531abbd5a10/3233d5293486ec9d7bee0436176ab0/3c3233d5293486ec9d7bee0436176ab0.png",
     "listed_at": "2026-05-28T15:15:05+00:00",
     "catchup": true
+  },
+  {
+    "name": "The Vessel #979",
+    "slug": "spooky-season-thefattybagz-x-reddit-collectible-av",
+    "price": "$1.29  (0.0006 WETH)",
+    "maker": "0x97637f77...d31755",
+    "maker_full": "0x97637f77691a52958a12fc8ac0945b28dad31755",
+    "expiry": "?",
+    "link": "https://opensea.io/assets/polygon/0x0985cb10c5d57dbf44aa473f33839ed38d80f111/978",
+    "image_url": "https://i2c.seadn.io/polygon/0x0985cb10c5d57dbf44aa473f33839ed38d80f111/1510a72438f1c49840d6207771d903/6d1510a72438f1c49840d6207771d903.png",
+    "listed_at": "2026-05-28T15:11:34+00:00",
+    "catchup": true
   }
 ]
