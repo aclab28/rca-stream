@@ -37618,5 +37618,29 @@
     "image_url": "https://i2c.seadn.io/polygon/0xc4016172fd7b4ead9c24b6563ee99f8d49b24076/cf6b1f938b57e29c28cbc0a4a09f54/87cf6b1f938b57e29c28cbc0a4a09f54.png",
     "listed_at": "2026-05-28T23:01:41+00:00",
     "catchup": true
+  },
+  {
+    "name": "Marionette #68",
+    "slug": "marionette-by-basket-x-reddit-collectible-avatars",
+    "price": "$6.02  (0.0030 WETH)",
+    "maker": "0xeacec320...62c242",
+    "maker_full": "0xeacec320f6f3f5ef81f522067737502b2162c242",
+    "expiry": "?",
+    "link": "https://opensea.io/assets/polygon/0xc2344e5d06fd7dd2ab009a6fa1af3b2406ff8c95/67",
+    "image_url": "https://i2c.seadn.io/polygon/0xc2344e5d06fd7dd2ab009a6fa1af3b2406ff8c95/041ee9e1fd71e5a524d8cf44418a45/0d041ee9e1fd71e5a524d8cf44418a45.png",
+    "listed_at": "2026-05-28T23:01:41+00:00",
+    "catchup": true
+  },
+  {
+    "name": "Americana #88",
+    "slug": "americana-by-basket-x-reddit-collectible-avatars",
+    "price": "$3.91  (0.0019 WETH)",
+    "maker": "0xeacec320...62c242",
+    "maker_full": "0xeacec320f6f3f5ef81f522067737502b2162c242",
+    "expiry": "?",
+    "link": "https://opensea.io/assets/polygon/0x1866bc69dc1934bb998e725902be271034864821/87",
+    "image_url": "https://i2c.seadn.io/polygon/0x1866bc69dc1934bb998e725902be271034864821/a3d4c8736780668a3dd2be92298145/3da3d4c8736780668a3dd2be92298145.png",
+    "listed_at": "2026-05-28T23:01:41+00:00",
+    "catchup": true
   }
 ]
