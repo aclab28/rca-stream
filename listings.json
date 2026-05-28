@@ -37582,5 +37582,17 @@
     "image_url": "https://i2c.seadn.io/polygon/0x6dc402c0a881f668eef0728b0928c179befad3b3/9cd9249ee166345ecd99ffee6915d7/689cd9249ee166345ecd99ffee6915d7.png",
     "listed_at": "2026-05-28T22:34:47+00:00",
     "catchup": true
+  },
+  {
+    "name": "Bulktron #95",
+    "slug": "retro-reimagined-kinnester-x-reddit-collectible-av",
+    "price": "$2.91  (0.0014 WETH)",
+    "maker": "0x97637f77...d31755",
+    "maker_full": "0x97637f77691a52958a12fc8ac0945b28dad31755",
+    "expiry": "?",
+    "link": "https://opensea.io/assets/polygon/0xfeb47aad920b537f3f00913528ab13551bab7c18/394",
+    "image_url": "https://i2c.seadn.io/polygon/0xfeb47aad920b537f3f00913528ab13551bab7c18/b30d899a627fc95a8d775c64824585/04b30d899a627fc95a8d775c64824585.png",
+    "listed_at": "2026-05-28T23:01:45+00:00",
+    "catchup": true
   }
 ]
