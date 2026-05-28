@@ -37342,5 +37342,17 @@
     "image_url": "https://i2c.seadn.io/polygon/0x8264e2bad3d2f7afd72a00233b9f841fe4b388cd/11add464f75c61e35b983bd4b05d17/7611add464f75c61e35b983bd4b05d17.png",
     "listed_at": "2026-05-28T15:05:39+00:00",
     "catchup": true
+  },
+  {
+    "name": "Hybrid 693 #691",
+    "slug": "spooky-season-poieeeyee-x-reddit-collectible-avata",
+    "price": "$3.39  (0.0017 WETH)",
+    "maker": "0x97637f77...d31755",
+    "maker_full": "0x97637f77691a52958a12fc8ac0945b28dad31755",
+    "expiry": "?",
+    "link": "https://opensea.io/assets/polygon/0x91ac106090fe2b0fa7d01efdf4487a5bfafad7fa/1790",
+    "image_url": "https://i2c.seadn.io/polygon/0x91ac106090fe2b0fa7d01efdf4487a5bfafad7fa/5636e272dc9db997e53d05699e35ce/175636e272dc9db997e53d05699e35ce.png",
+    "listed_at": "2026-05-28T15:02:15+00:00",
+    "catchup": true
   }
 ]
