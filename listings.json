@@ -37138,5 +37138,17 @@
     "image_url": "https://i2c.seadn.io/polygon/0x45308788743bbdae5de7ba9e565c0502d0ebb81f/5ade4974bbb0184011cfa2b43c92e7/0c5ade4974bbb0184011cfa2b43c92e7.png",
     "listed_at": "2026-05-28T02:07:22+00:00",
     "catchup": true
+  },
+  {
+    "name": "Blue Cat and Chugs #2003",
+    "slug": "coolcats-x-reddit",
+    "price": "$8.07  (0.0040 WETH)",
+    "maker": "0xa6bd5c1a...276429",
+    "maker_full": "0xa6bd5c1af723b907e33bd5ef3a2d16c2d1276429",
+    "expiry": "?",
+    "link": "https://opensea.io/assets/polygon/0xc82c481d47d446d21385d07a79d60619e7201b96/2200",
+    "image_url": "https://i2c.seadn.io/polygon/0xc82c481d47d446d21385d07a79d60619e7201b96/6e60bcdaec2fc85bed5f714487db13/bb6e60bcdaec2fc85bed5f714487db13.png",
+    "listed_at": "2026-05-28T02:43:20+00:00",
+    "catchup": true
   }
 ]
