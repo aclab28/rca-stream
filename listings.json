@@ -38098,5 +38098,17 @@
     "image_url": "https://i2c.seadn.io/polygon/0xc5f26f12fac236cc679357163e1f40c994576563/e9f7d3d77472ab0e06b6bc1b4c5afb/3be9f7d3d77472ab0e06b6bc1b4c5afb.png",
     "listed_at": "2026-05-29T05:38:36+00:00",
     "catchup": true
+  },
+  {
+    "name": "Jinnie #62",
+    "slug": "jinnie-by-billnye-the-russian-spy-x-reddit-collect",
+    "price": "$2.21  (0.0011 WETH)",
+    "maker": "0x87ce5ae6...91ed6d",
+    "maker_full": "0x87ce5ae644c67a180c65d18671065ae82b91ed6d",
+    "expiry": "?",
+    "link": "https://opensea.io/assets/polygon/0xd002b9fa7f234c9efc9b79f3bafb54f84f430a46/61",
+    "image_url": "https://i2c.seadn.io/polygon/0xd002b9fa7f234c9efc9b79f3bafb54f84f430a46/f5c6388a67609187135342614745ae/e6f5c6388a67609187135342614745ae.png",
+    "listed_at": "2026-05-29T05:41:43+00:00",
+    "catchup": true
   }
 ]
