@@ -37894,5 +37894,17 @@
     "image_url": "https://i2c.seadn.io/polygon/0x45308788743bbdae5de7ba9e565c0502d0ebb81f/5ade4974bbb0184011cfa2b43c92e7/0c5ade4974bbb0184011cfa2b43c92e7.png",
     "listed_at": "2026-05-29T02:06:39+00:00",
     "catchup": true
+  },
+  {
+    "name": "Red Japanese Tattoo Cat #228",
+    "slug": "red-japanese-tattoo-cat-by-ana-owu-x-reddit-collec",
+    "price": "$1.60  (0.0008 WETH)",
+    "maker": "0x87ce5ae6...91ed6d",
+    "maker_full": "0x87ce5ae644c67a180c65d18671065ae82b91ed6d",
+    "expiry": "?",
+    "link": "https://opensea.io/assets/polygon/0x671b04e364ef230d1f3ffc40c7466d88ed0452e1/227",
+    "image_url": "https://i2c.seadn.io/polygon/0x671b04e364ef230d1f3ffc40c7466d88ed0452e1/9c318912c64f9260257716b860ea35/0b9c318912c64f9260257716b860ea35.png",
+    "listed_at": "2026-05-29T04:58:21+00:00",
+    "catchup": true
   }
 ]
