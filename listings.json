@@ -39118,5 +39118,17 @@
     "image_url": "https://i2c.seadn.io/matic/0x79659a374cb7460f77fda74601055e7f7d5cf95d/e3c4ab9cbd90701cd222a98006def3/61e3c4ab9cbd90701cd222a98006def3.png",
     "listed_at": "2026-05-29T16:48:43+00:00",
     "catchup": true
+  },
+  {
+    "name": "Cache #38",
+    "slug": "cache-by-uxuz-x-reddit-collectible-avatars",
+    "price": "$2.04  (0.0010 WETH)",
+    "maker": "0x87ce5ae6...91ed6d",
+    "maker_full": "0x87ce5ae644c67a180c65d18671065ae82b91ed6d",
+    "expiry": "?",
+    "link": "https://opensea.io/assets/polygon/0x9058979f7d77c786c4fb10a2180cbd3c7c1f61f6/37",
+    "image_url": "https://i2c.seadn.io/polygon/0x9058979f7d77c786c4fb10a2180cbd3c7c1f61f6/58fed9bf47f6b506d8e1977c30bf58/b558fed9bf47f6b506d8e1977c30bf58.png",
+    "listed_at": "2026-05-29T16:54:03+00:00",
+    "catchup": true
   }
 ]
