@@ -1174,5 +1174,17 @@
     "image_url": "https://i2c.seadn.io/polygon/0x6d74e823e3cfb94a4a395b74b1e7b0f5ca5596a3/db233b360c2a3d4ef067b457be4a22/7edb233b360c2a3d4ef067b457be4a22.png",
     "listed_at": "2026-05-29T05:36:09+00:00",
     "catchup": true
+  },
+  {
+    "name": "Papa Sporewalker, the Wayfarer #2 by Feder",
+    "slug": "mash-it",
+    "price": "$4.01  (0.0020 WETH)",
+    "maker": "0x87ce5ae6...91ed6d",
+    "maker_full": "0x87ce5ae644c67a180c65d18671065ae82b91ed6d",
+    "expiry": "?",
+    "link": "https://opensea.io/assets/polygon/0x6d74e823e3cfb94a4a395b74b1e7b0f5ca5596a3/4185",
+    "image_url": "https://i2c.seadn.io/polygon/0x6d74e823e3cfb94a4a395b74b1e7b0f5ca5596a3/81ca51be9133c8e317e751bf053b00/8081ca51be9133c8e317e751bf053b00.png",
+    "listed_at": "2026-05-29T05:35:40+00:00",
+    "catchup": true
   }
 ]
