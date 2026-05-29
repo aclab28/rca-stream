@@ -37978,5 +37978,17 @@
     "image_url": "https://i2c.seadn.io/polygon/0x9abdfafe598b9ea2256432fb87a07494f5268fb3/c2b465628e369f0b2c951eb279e870/9ac2b465628e369f0b2c951eb279e870.png",
     "listed_at": "2026-05-29T04:58:51+00:00",
     "catchup": true
+  },
+  {
+    "name": "Luuc #329",
+    "slug": "spooky-sequel-rojom-x-reddit-collectible-avatars",
+    "price": "$3.01  (0.0015 WETH)",
+    "maker": "0x87ce5ae6...91ed6d",
+    "maker_full": "0x87ce5ae644c67a180c65d18671065ae82b91ed6d",
+    "expiry": "?",
+    "link": "https://opensea.io/assets/polygon/0x6fcf4dc7f2d3de2551479d10f7b0e0bba4282c30/1328",
+    "image_url": "https://i2c.seadn.io/polygon/0x6fcf4dc7f2d3de2551479d10f7b0e0bba4282c30/1bbe0b2439b41616e8214411f505c1/a51bbe0b2439b41616e8214411f505c1.png",
+    "listed_at": "2026-05-29T05:02:12+00:00",
+    "catchup": true
   }
 ]
