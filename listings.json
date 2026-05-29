@@ -39190,5 +39190,17 @@
     "image_url": "https://i2c.seadn.io/polygon/0x198001a79a0c19628fffa3cd1245a7d7c6c2d8ea/7660f0b12ea47451282e22a7efa5a1/cd7660f0b12ea47451282e22a7efa5a1.png",
     "listed_at": "2026-05-29T17:01:02+00:00",
     "catchup": true
+  },
+  {
+    "name": "Frog Wizard #2 #6",
+    "slug": "frog-wizard-2-by-digitalbutt3r-x-reddit-collectibl",
+    "price": "$2.04  (0.0010 WETH)",
+    "maker": "0x87ce5ae6...91ed6d",
+    "maker_full": "0x87ce5ae644c67a180c65d18671065ae82b91ed6d",
+    "expiry": "?",
+    "link": "https://opensea.io/assets/polygon/0xa522cd3a5613b4647749a62f5e4fad431b02968c/5",
+    "image_url": "https://i2c.seadn.io/polygon/0xa522cd3a5613b4647749a62f5e4fad431b02968c/4f5ea87015faeec3933636de64100a/354f5ea87015faeec3933636de64100a.png",
+    "listed_at": "2026-05-29T17:00:36+00:00",
+    "catchup": true
   }
 ]
