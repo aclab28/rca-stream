@@ -38110,5 +38110,17 @@
     "image_url": "https://i2c.seadn.io/polygon/0xd002b9fa7f234c9efc9b79f3bafb54f84f430a46/f5c6388a67609187135342614745ae/e6f5c6388a67609187135342614745ae.png",
     "listed_at": "2026-05-29T05:41:43+00:00",
     "catchup": true
+  },
+  {
+    "name": "Avaritia #10",
+    "slug": "avaritia-by-joe-the-kappa-guy-x-reddit-collectible",
+    "price": "$2.01  (0.0010 WETH)",
+    "maker": "0x87ce5ae6...91ed6d",
+    "maker_full": "0x87ce5ae644c67a180c65d18671065ae82b91ed6d",
+    "expiry": "?",
+    "link": "https://opensea.io/assets/polygon/0x44654486cb8a06450c41d0e30fb8dbd2cfe620a5/9",
+    "image_url": "https://i2c.seadn.io/polygon/0x44654486cb8a06450c41d0e30fb8dbd2cfe620a5/b4b6b67d993c54bce2560ddec44835/bfb4b6b67d993c54bce2560ddec44835.png",
+    "listed_at": "2026-05-29T05:41:12+00:00",
+    "catchup": true
   }
 ]
