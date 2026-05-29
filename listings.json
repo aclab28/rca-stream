@@ -39154,5 +39154,17 @@
     "image_url": "https://i2c.seadn.io/polygon/0x1449d96c9c7e7e0d0f4dd9391c7bc39db6130537/b554cb4d9656d411c30aa72bc42598/44b554cb4d9656d411c30aa72bc42598.png",
     "listed_at": "2026-05-29T17:00:09+00:00",
     "catchup": true
+  },
+  {
+    "name": "Birdseye #25",
+    "slug": "birdseye-by-rylar-x-reddit-collectible-avatars",
+    "price": "$4.08  (0.0020 WETH)",
+    "maker": "0x87ce5ae6...91ed6d",
+    "maker_full": "0x87ce5ae644c67a180c65d18671065ae82b91ed6d",
+    "expiry": "?",
+    "link": "https://opensea.io/assets/polygon/0x42f394b1c9fb6784752a0334d66a4a55ba9033db/24",
+    "image_url": "https://i2c.seadn.io/polygon/0x42f394b1c9fb6784752a0334d66a4a55ba9033db/3d9eaa96a70fb6ec85c8f4406b43c1/cf3d9eaa96a70fb6ec85c8f4406b43c1.png",
+    "listed_at": "2026-05-29T16:59:51+00:00",
+    "catchup": true
   }
 ]
