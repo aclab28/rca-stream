@@ -38794,5 +38794,17 @@
     "image_url": "https://i2c.seadn.io/polygon/0x5066c0934632bcc2902d139d7c875cbd295429f8/e126397ac26a15c5a4fb4487978033/f6e126397ac26a15c5a4fb4487978033.png",
     "listed_at": "2026-05-29T07:39:50+00:00",
     "catchup": true
+  },
+  {
+    "name": "Keyboard Brawler #58873",
+    "slug": "reddit-starter-pack-x-reddit-collectible-avatars",
+    "price": "$0.38  (0.0002 WETH)",
+    "maker": "0x9ec2a042...b07fb7",
+    "maker_full": "0x9ec2a0429acc66e4ca2c622ed85cab500eb07fb7",
+    "expiry": "?",
+    "link": "https://opensea.io/assets/polygon/0xeb959a715dfffe6f82f4605533982c4859cb14fe/4059072",
+    "image_url": "https://i2c.seadn.io/polygon/0xeb959a715dfffe6f82f4605533982c4859cb14fe/5b4f94b116e38786564cf4afaedbbb/8d5b4f94b116e38786564cf4afaedbbb.png",
+    "listed_at": "2026-05-29T07:45:54+00:00",
+    "catchup": true
   }
 ]
