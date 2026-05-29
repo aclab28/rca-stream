@@ -38796,15 +38796,27 @@
     "catchup": true
   },
   {
-    "name": "Keyboard Brawler #58873",
+    "name": "Comic Reliever #58038",
     "slug": "reddit-starter-pack-x-reddit-collectible-avatars",
     "price": "$0.38  (0.0002 WETH)",
     "maker": "0x9ec2a042...b07fb7",
     "maker_full": "0x9ec2a0429acc66e4ca2c622ed85cab500eb07fb7",
     "expiry": "?",
-    "link": "https://opensea.io/assets/polygon/0xeb959a715dfffe6f82f4605533982c4859cb14fe/4059072",
-    "image_url": "https://i2c.seadn.io/polygon/0xeb959a715dfffe6f82f4605533982c4859cb14fe/5b4f94b116e38786564cf4afaedbbb/8d5b4f94b116e38786564cf4afaedbbb.png",
+    "link": "https://opensea.io/assets/polygon/0xeb959a715dfffe6f82f4605533982c4859cb14fe/2058137",
+    "image_url": "https://i2c.seadn.io/polygon/0xeb959a715dfffe6f82f4605533982c4859cb14fe/30c5e404614a86f069d7b8b31fe686/8530c5e404614a86f069d7b8b31fe686.png",
     "listed_at": "2026-05-29T07:45:54+00:00",
+    "catchup": true
+  },
+  {
+    "name": "Kanashii Kyonshi #47",
+    "slug": "retro-reimagined-tps1222-x-reddit-collectible-avat",
+    "price": "$6.03  (0.0030 WETH)",
+    "maker": "0x4b3d65b9...4e3202",
+    "maker_full": "0x4b3d65b9ae69ef412180c3fbc130e5e6e04e3202",
+    "expiry": "?",
+    "link": "https://opensea.io/assets/polygon/0x8c80ad1979fe5af75687576bc428e3a16c09e947/6796",
+    "image_url": "https://i2c.seadn.io/polygon/0x8c80ad1979fe5af75687576bc428e3a16c09e947/5dd2ccf83a9759d29c8d95dd31fbbe/845dd2ccf83a9759d29c8d95dd31fbbe.png",
+    "listed_at": "2026-05-29T09:43:46+00:00",
     "catchup": true
   }
 ]
