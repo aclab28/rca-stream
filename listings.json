@@ -38014,5 +38014,17 @@
     "image_url": "https://i2c.seadn.io/polygon/0x4b8fe9b3914c6355528237b9ce2db80b977c0f0e/03318eb6a720c52ba30001b472d0b0/1303318eb6a720c52ba30001b472d0b0.png",
     "listed_at": "2026-05-29T05:04:10+00:00",
     "catchup": true
+  },
+  {
+    "name": "Lucky #14",
+    "slug": "lucky-by-feder-x-reddit-collectible-avatars",
+    "price": "$5.02  (0.0025 WETH)",
+    "maker": "0x87ce5ae6...91ed6d",
+    "maker_full": "0x87ce5ae644c67a180c65d18671065ae82b91ed6d",
+    "expiry": "?",
+    "link": "https://opensea.io/assets/polygon/0x7215579c6af9f80e2a77de89d638d73a1ccd2a3c/13",
+    "image_url": "https://i2c.seadn.io/polygon/0x7215579c6af9f80e2a77de89d638d73a1ccd2a3c/4b64eb5d5ff9da030d729f79d2ebf5/ee4b64eb5d5ff9da030d729f79d2ebf5.png",
+    "listed_at": "2026-05-29T05:33:03+00:00",
+    "catchup": true
   }
 ]
