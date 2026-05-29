@@ -38842,5 +38842,17 @@
     "image_url": "https://i2c.seadn.io/polygon/0x2956409293da98603025cc0121c06a4244752039/1f48d661b1df68b81642e21cf588a3/f01f48d661b1df68b81642e21cf588a3.png",
     "listed_at": "2026-05-29T14:34:14+00:00",
     "catchup": true
+  },
+  {
+    "name": "Dragonfly #782",
+    "slug": "protectors-of-the-forest-x-reddit-collectible-avat",
+    "price": "$1.39  (0.0007 WETH)",
+    "maker": "0x97637f77...d31755",
+    "maker_full": "0x97637f77691a52958a12fc8ac0945b28dad31755",
+    "expiry": "?",
+    "link": "https://opensea.io/assets/polygon/0x2956409293da98603025cc0121c06a4244752039/781",
+    "image_url": "https://i2c.seadn.io/polygon/0x2956409293da98603025cc0121c06a4244752039/b29b7b194fbf2f8b7a2c579dd80eaf/66b29b7b194fbf2f8b7a2c579dd80eaf.png",
+    "listed_at": "2026-05-29T14:45:46+00:00",
+    "catchup": true
   }
 ]
