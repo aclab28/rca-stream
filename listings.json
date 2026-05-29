@@ -38074,5 +38074,17 @@
     "image_url": "https://i2c.seadn.io/polygon/0x39606d4c044fb8857ee1457ca389e5ec8f86f256/a64a53a02f8f9a615ca9b46d33644e/30a64a53a02f8f9a615ca9b46d33644e.png",
     "listed_at": "2026-05-29T05:37:42+00:00",
     "catchup": true
+  },
+  {
+    "name": "Untethered #95",
+    "slug": "untethered-by-joe-the-kappa-guy-x-reddit-collectib",
+    "price": "$10.03  (0.0050 WETH)",
+    "maker": "0xa0115902...9717bb",
+    "maker_full": "0xa01159027832bc2185c9e6579a285124609717bb",
+    "expiry": "?",
+    "link": "https://opensea.io/assets/polygon/0x1b22b3c7419ab81f1273a925f20d627133a66508/94",
+    "image_url": "https://i2c.seadn.io/matic/0x1b22b3c7419ab81f1273a925f20d627133a66508/9e1c2fb17b7eabc2222d56e00e51f3/029e1c2fb17b7eabc2222d56e00e51f3.png",
+    "listed_at": "2026-05-29T05:34:15+00:00",
+    "catchup": true
   }
 ]
