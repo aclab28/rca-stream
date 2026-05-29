@@ -1162,5 +1162,17 @@
     "image_url": "https://i2c.seadn.io/polygon/0x6d74e823e3cfb94a4a395b74b1e7b0f5ca5596a3/014a07fd8a7a87440e5bacfa080b2f/e4014a07fd8a7a87440e5bacfa080b2f.png",
     "listed_at": "2026-05-29T05:36:29+00:00",
     "catchup": true
+  },
+  {
+    "name": "Kori #3 by Rinni",
+    "slug": "mash-it",
+    "price": "$2.01  (0.0010 WETH)",
+    "maker": "0x87ce5ae6...91ed6d",
+    "maker_full": "0x87ce5ae644c67a180c65d18671065ae82b91ed6d",
+    "expiry": "?",
+    "link": "https://opensea.io/assets/polygon/0x6d74e823e3cfb94a4a395b74b1e7b0f5ca5596a3/3900",
+    "image_url": "https://i2c.seadn.io/polygon/0x6d74e823e3cfb94a4a395b74b1e7b0f5ca5596a3/db233b360c2a3d4ef067b457be4a22/7edb233b360c2a3d4ef067b457be4a22.png",
+    "listed_at": "2026-05-29T05:36:09+00:00",
+    "catchup": true
   }
 ]
