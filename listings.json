@@ -38206,5 +38206,29 @@
     "image_url": "https://i2c.seadn.io/matic/0xe64bb7dd0a13af622e0de6456d1bbadc8d1ec09d/c15da390b18698c48b56009ae3c6d8/11c15da390b18698c48b56009ae3c6d8.png",
     "listed_at": "2026-05-29T05:51:59+00:00",
     "catchup": true
+  },
+  {
+    "name": "Smokey #6",
+    "slug": "smokey-by-bye-x-reddit-collectible-avatars",
+    "price": "$3.01  (0.0015 WETH)",
+    "maker": "0x1e363f3c...038252",
+    "maker_full": "0x1e363f3ce415ed099a622211386c3de1b5038252",
+    "expiry": "?",
+    "link": "https://opensea.io/assets/polygon/0xdd3d8674b66fc984756632cfc0e5ded6be72d5d6/5",
+    "image_url": "https://i2c.seadn.io/polygon/0xdd3d8674b66fc984756632cfc0e5ded6be72d5d6/2074341d06b83bfb9284416a41c174/fa2074341d06b83bfb9284416a41c174.png",
+    "listed_at": "2026-05-29T05:51:59+00:00",
+    "catchup": true
+  },
+  {
+    "name": "Noob Patrol #11363",
+    "slug": "trophy-hunters-x-reddit-collectible-avatars",
+    "price": "$0.44  (0.0002 WETH)",
+    "maker": "0x97637f77...d31755",
+    "maker_full": "0x97637f77691a52958a12fc8ac0945b28dad31755",
+    "expiry": "?",
+    "link": "https://opensea.io/assets/polygon/0xe64bb7dd0a13af622e0de6456d1bbadc8d1ec09d/36362",
+    "image_url": "https://i2c.seadn.io/matic/0xe64bb7dd0a13af622e0de6456d1bbadc8d1ec09d/1c5f0c1088ec0b0009e4995b03ce2a/b41c5f0c1088ec0b0009e4995b03ce2a.png",
+    "listed_at": "2026-05-29T05:57:07+00:00",
+    "catchup": true
   }
 ]
