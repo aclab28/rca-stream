@@ -39046,5 +39046,29 @@
     "image_url": "https://i2c.seadn.io/polygon/0xc28572d9a6e8c8cc18c45ab18c23f3dfa5b8eadf/81465460297d356f8e188f0f30efdb/5681465460297d356f8e188f0f30efdb.png",
     "listed_at": "2026-05-29T15:37:28+00:00",
     "catchup": true
+  },
+  {
+    "name": "Kansas City Chiefs #121",
+    "slug": "2023-nfl-season-kickoff-pack-x-reddit-collectible",
+    "price": "$5.36  (0.0026 WETH)",
+    "maker": "0x5ef4b90c...a8f6b6",
+    "maker_full": "0x5ef4b90c808ea34d4407df21a3dff142c5a8f6b6",
+    "expiry": "?",
+    "link": "https://opensea.io/assets/polygon/0xc28572d9a6e8c8cc18c45ab18c23f3dfa5b8eadf/7620",
+    "image_url": "https://i2c.seadn.io/polygon/0xc28572d9a6e8c8cc18c45ab18c23f3dfa5b8eadf/81465460297d356f8e188f0f30efdb/5681465460297d356f8e188f0f30efdb.png",
+    "listed_at": "2026-05-29T15:37:28+00:00",
+    "catchup": true
+  },
+  {
+    "name": "The Fallen Architect #47",
+    "slug": "the-fallen-architect-by-giftedocean-x-reddit-colle",
+    "price": "$3.16  (0.0015 WETH)",
+    "maker": "0x97637f77...d31755",
+    "maker_full": "0x97637f77691a52958a12fc8ac0945b28dad31755",
+    "expiry": "?",
+    "link": "https://opensea.io/assets/polygon/0xcdb1dc3052b324b1573d92d164500ec35391d061/46",
+    "image_url": "https://i2c.seadn.io/polygon/0xcdb1dc3052b324b1573d92d164500ec35391d061/9ca028f5ed3274cf082db1a444fdee/e89ca028f5ed3274cf082db1a444fdee.png",
+    "listed_at": "2026-05-29T16:37:20+00:00",
+    "catchup": true
   }
 ]
