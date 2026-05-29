@@ -37954,5 +37954,17 @@
     "image_url": "https://i2c.seadn.io/polygon/0x7086d07c802eae0529c38745dc5934b912c9d07f/ac5267285ad91ba5c8f415e932d853/06ac5267285ad91ba5c8f415e932d853.png",
     "listed_at": "2026-05-29T05:00:08+00:00",
     "catchup": true
+  },
+  {
+    "name": "lil one #27",
+    "slug": "lil-one-by-alek-ban-x-reddit-collectible-avatars",
+    "price": "$1.60  (0.0008 WETH)",
+    "maker": "0x87ce5ae6...91ed6d",
+    "maker_full": "0x87ce5ae644c67a180c65d18671065ae82b91ed6d",
+    "expiry": "?",
+    "link": "https://opensea.io/assets/polygon/0x4aa67caf511d3c67f42e1ee54468734761421ee4/26",
+    "image_url": "https://i2c.seadn.io/polygon/0x4aa67caf511d3c67f42e1ee54468734761421ee4/bcd5a848a77ec2705ab4413788ba45/c2bcd5a848a77ec2705ab4413788ba45.png",
+    "listed_at": "2026-05-29T04:59:19+00:00",
+    "catchup": true
   }
 ]
