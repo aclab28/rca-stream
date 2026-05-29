@@ -38938,5 +38938,17 @@
     "image_url": "https://i2c.seadn.io/polygon/0x8e0e44d20f4cf822e5fdee594fa2a0630f153495/9a3ac5d1ad870840e8e657248b7f26/1a9a3ac5d1ad870840e8e657248b7f26.png",
     "listed_at": "2026-05-29T14:54:48+00:00",
     "catchup": true
+  },
+  {
+    "name": "Moriko #44",
+    "slug": "moriko-by-chrono-x-reddit-collectible-avatars",
+    "price": "$7.96  (0.0040 WETH)",
+    "maker": "0x87ce5ae6...91ed6d",
+    "maker_full": "0x87ce5ae644c67a180c65d18671065ae82b91ed6d",
+    "expiry": "?",
+    "link": "https://opensea.io/assets/polygon/0xd7f2aebc2b9875937c99d3e7e9be7588cfee3ff7/43",
+    "image_url": "https://i2c.seadn.io/polygon/0xd7f2aebc2b9875937c99d3e7e9be7588cfee3ff7/77c12cc136d371abcc1a8ad11f6696/8f77c12cc136d371abcc1a8ad11f6696.png",
+    "listed_at": "2026-05-29T14:53:56+00:00",
+    "catchup": true
   }
 ]
