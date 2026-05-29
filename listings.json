@@ -39094,5 +39094,17 @@
     "image_url": "https://i2c.seadn.io/polygon/0xce7d0bc129cf263291e01b5825bab948b8765250/b54590b26bda13262938357187f3c5/73b54590b26bda13262938357187f3c5.png",
     "listed_at": "2026-05-29T16:42:53+00:00",
     "catchup": true
+  },
+  {
+    "name": "Earthbound #3",
+    "slug": "earthbound-by-rylar-x-reddit-collectible-avatars",
+    "price": "$3.05  (0.0015 WETH)",
+    "maker": "0x87ce5ae6...91ed6d",
+    "maker_full": "0x87ce5ae644c67a180c65d18671065ae82b91ed6d",
+    "expiry": "?",
+    "link": "https://opensea.io/assets/polygon/0x64c2ff29a8c1fe17bd8c2f59fd354e42fef0bd95/2",
+    "image_url": "https://i2c.seadn.io/polygon/0x64c2ff29a8c1fe17bd8c2f59fd354e42fef0bd95/3bd05b89f109db1a46e9b59e90611b/a63bd05b89f109db1a46e9b59e90611b.png",
+    "listed_at": "2026-05-29T16:46:56+00:00",
+    "catchup": true
   }
 ]
