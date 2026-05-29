@@ -38254,5 +38254,17 @@
     "image_url": "https://i2c.seadn.io/polygon/0xe64bb7dd0a13af622e0de6456d1bbadc8d1ec09d/665c91a6137cfdb005483e069833b6/6e665c91a6137cfdb005483e069833b6.png",
     "listed_at": "2026-05-29T05:57:07+00:00",
     "catchup": true
+  },
+  {
+    "name": "Bot Bouncers #5322",
+    "slug": "better-launch-next-time-x-reddit-collectible-avata",
+    "price": "$1.11  (0.0005 WETH)",
+    "maker": "0x97637f77...d31755",
+    "maker_full": "0x97637f77691a52958a12fc8ac0945b28dad31755",
+    "expiry": "?",
+    "link": "https://opensea.io/assets/polygon/0x006c5e042c01fff6ca0cfd8759313bdcf5ae622d/13721",
+    "image_url": "https://i2c.seadn.io/polygon/0x006c5e042c01fff6ca0cfd8759313bdcf5ae622d/119ac9033039f384a010f63e73a506/d8119ac9033039f384a010f63e73a506.png",
+    "listed_at": "2026-05-29T05:55:36+00:00",
+    "catchup": true
   }
 ]
