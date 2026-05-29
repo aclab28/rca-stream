@@ -38986,5 +38986,17 @@
     "image_url": "https://i2c.seadn.io/polygon/0x4baed1a83fe0d23de8b5cfa7f3c4bf74c882d495/20951ade1fea8b65d94f8078b18b18/2320951ade1fea8b65d94f8078b18b18.png",
     "listed_at": "2026-05-29T15:16:55+00:00",
     "catchup": true
+  },
+  {
+    "name": "The Merchant #1703",
+    "slug": "retro-reimagined-rojom-x-reddit-collectible-avatar",
+    "price": "$1.81  (0.0009 WETH)",
+    "maker": "0x98a2a54a...aefcb1",
+    "maker_full": "0x98a2a54a09b571f38ac8b2ada29252aa90aefcb1",
+    "expiry": "?",
+    "link": "https://opensea.io/assets/polygon/0x1ef6f9379aa228e08507f53e70c109979a35e512/9952",
+    "image_url": "https://i2c.seadn.io/polygon/0x1ef6f9379aa228e08507f53e70c109979a35e512/ec939cfc7ebffaa4791a1970b30819/4bec939cfc7ebffaa4791a1970b30819.png",
+    "listed_at": "2026-05-29T15:16:30+00:00",
+    "catchup": true
   }
 ]
