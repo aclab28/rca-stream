@@ -38290,5 +38290,17 @@
     "image_url": "https://i2c.seadn.io/polygon/0x006c5e042c01fff6ca0cfd8759313bdcf5ae622d/0232ea6baac141b63455b5777a4b84/f30232ea6baac141b63455b5777a4b84.png",
     "listed_at": "2026-05-29T05:55:36+00:00",
     "catchup": true
+  },
+  {
+    "name": "Golden Display Box #20",
+    "slug": "golden-display-box-by-bogi-d-x-reddit-collectible",
+    "price": "$30.17  (0.0150 WETH)",
+    "maker": "0xed996b4a...4d7dc4",
+    "maker_full": "0xed996b4a0acdc354ae83e59bb583d9c3614d7dc4",
+    "expiry": "?",
+    "link": "https://opensea.io/assets/polygon/0xa1940d34dd2e327ff498e8fe74d1fe2c778091b4/19",
+    "image_url": "https://i2c.seadn.io/polygon/0xa1940d34dd2e327ff498e8fe74d1fe2c778091b4/e8796a22f67f1031090dcf994c90fc/aae8796a22f67f1031090dcf994c90fc.png",
+    "listed_at": "2026-05-29T06:11:23+00:00",
+    "catchup": true
   }
 ]
