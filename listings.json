@@ -38926,5 +38926,17 @@
     "image_url": "https://i2c.seadn.io/polygon/0xacf16b4e34b73df137e837da3e713af9ece6485e/63b3574362c4e1b711568c41cdf2fc/6363b3574362c4e1b711568c41cdf2fc.png",
     "listed_at": "2026-05-29T14:55:24+00:00",
     "catchup": true
+  },
+  {
+    "name": "Mystifurr #3",
+    "slug": "mystifurr-by-solz1967-x-reddit-collectible-avatars",
+    "price": "$4.38  (0.0022 WETH)",
+    "maker": "0x87ce5ae6...91ed6d",
+    "maker_full": "0x87ce5ae644c67a180c65d18671065ae82b91ed6d",
+    "expiry": "?",
+    "link": "https://opensea.io/assets/polygon/0x8e0e44d20f4cf822e5fdee594fa2a0630f153495/2",
+    "image_url": "https://i2c.seadn.io/polygon/0x8e0e44d20f4cf822e5fdee594fa2a0630f153495/9a3ac5d1ad870840e8e657248b7f26/1a9a3ac5d1ad870840e8e657248b7f26.png",
+    "listed_at": "2026-05-29T14:54:48+00:00",
+    "catchup": true
   }
 ]
