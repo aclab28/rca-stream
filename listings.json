@@ -38002,5 +38002,17 @@
     "image_url": "https://i2c.seadn.io/polygon/0x8e9574a88af449e322183d478030ae64a9bc7688/9e4de8cdab79103ecc00b9a606a39a/0c9e4de8cdab79103ecc00b9a606a39a.png",
     "listed_at": "2026-05-29T05:05:38+00:00",
     "catchup": true
+  },
+  {
+    "name": "Thornraven #28",
+    "slug": "thornraven-by-feder-x-reddit-collectible-avatars",
+    "price": "$2.60  (0.0013 WETH)",
+    "maker": "0x87ce5ae6...91ed6d",
+    "maker_full": "0x87ce5ae644c67a180c65d18671065ae82b91ed6d",
+    "expiry": "?",
+    "link": "https://opensea.io/assets/polygon/0x4b8fe9b3914c6355528237b9ce2db80b977c0f0e/27",
+    "image_url": "https://i2c.seadn.io/polygon/0x4b8fe9b3914c6355528237b9ce2db80b977c0f0e/03318eb6a720c52ba30001b472d0b0/1303318eb6a720c52ba30001b472d0b0.png",
+    "listed_at": "2026-05-29T05:04:10+00:00",
+    "catchup": true
   }
 ]
