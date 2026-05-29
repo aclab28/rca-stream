@@ -38158,5 +38158,29 @@
     "image_url": "https://i2c.seadn.io/polygon/0x006c5e042c01fff6ca0cfd8759313bdcf5ae622d/119ac9033039f384a010f63e73a506/d8119ac9033039f384a010f63e73a506.png",
     "listed_at": "2026-05-29T05:52:00+00:00",
     "catchup": true
+  },
+  {
+    "name": "Vision Seeker #19",
+    "slug": "vision-seeker-by-performance-subpar-x-reddit-colle",
+    "price": "$4.01  (0.0020 WETH)",
+    "maker": "0x1e363f3c...038252",
+    "maker_full": "0x1e363f3ce415ed099a622211386c3de1b5038252",
+    "expiry": "?",
+    "link": "https://opensea.io/assets/polygon/0xf926986ef59fb1101e81da479a5df846f920776a/18",
+    "image_url": "https://i2c.seadn.io/polygon/0xf926986ef59fb1101e81da479a5df846f920776a/776fb471e51edd4c2390a1d52c779d/f6776fb471e51edd4c2390a1d52c779d.png",
+    "listed_at": "2026-05-29T05:52:00+00:00",
+    "catchup": true
+  },
+  {
+    "name": "jAAAy-d #6",
+    "slug": "jaaay-d-by-dogfart6942-x-reddit-collectible-avatar",
+    "price": "$7.02  (0.0035 WETH)",
+    "maker": "0x1e363f3c...038252",
+    "maker_full": "0x1e363f3ce415ed099a622211386c3de1b5038252",
+    "expiry": "?",
+    "link": "https://opensea.io/assets/polygon/0xa245c8845f661bf004055c0ffca68b7d7ba3f377/5",
+    "image_url": "https://i2c.seadn.io/polygon/0xa245c8845f661bf004055c0ffca68b7d7ba3f377/bb6b65caed43684c934fd19e60d770/69bb6b65caed43684c934fd19e60d770.png",
+    "listed_at": "2026-05-29T05:52:00+00:00",
+    "catchup": true
   }
 ]
