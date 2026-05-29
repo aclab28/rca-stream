@@ -38950,5 +38950,17 @@
     "image_url": "https://i2c.seadn.io/polygon/0xd7f2aebc2b9875937c99d3e7e9be7588cfee3ff7/77c12cc136d371abcc1a8ad11f6696/8f77c12cc136d371abcc1a8ad11f6696.png",
     "listed_at": "2026-05-29T14:53:56+00:00",
     "catchup": true
+  },
+  {
+    "name": "wolf's clothes #21",
+    "slug": "wolf-s-clothes-by-5hips-x-reddit-collectible-avata",
+    "price": "$3.98  (0.0020 WETH)",
+    "maker": "0x87ce5ae6...91ed6d",
+    "maker_full": "0x87ce5ae644c67a180c65d18671065ae82b91ed6d",
+    "expiry": "?",
+    "link": "https://opensea.io/assets/polygon/0xa296078ae3d740865d983eccad310333ad0d175e/20",
+    "image_url": "https://i2c.seadn.io/polygon/0xa296078ae3d740865d983eccad310333ad0d175e/d8a8d2a1bb62f7ea6e37bba6b346cd/1ed8a8d2a1bb62f7ea6e37bba6b346cd.png",
+    "listed_at": "2026-05-29T14:53:45+00:00",
+    "catchup": true
   }
 ]
