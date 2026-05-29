@@ -38890,5 +38890,17 @@
     "image_url": "https://i2c.seadn.io/matic/0xc2cccfd6f847ceb6f77d84701c13ca2d35ca13f7/965f014f0494744afb0287f00f03e1/ed965f014f0494744afb0287f00f03e1.png",
     "listed_at": "2026-05-29T14:56:56+00:00",
     "catchup": true
+  },
+  {
+    "name": "Elowen #41",
+    "slug": "elowen-by-powart-x-reddit-collectible-avatars",
+    "price": "$5.97  (0.0030 WETH)",
+    "maker": "0x87ce5ae6...91ed6d",
+    "maker_full": "0x87ce5ae644c67a180c65d18671065ae82b91ed6d",
+    "expiry": "?",
+    "link": "https://opensea.io/assets/polygon/0xe947b1c3128bef3c570047c365ce63f0d6108fc0/40",
+    "image_url": "https://i2c.seadn.io/polygon/0xe947b1c3128bef3c570047c365ce63f0d6108fc0/cca0b77bfb8c7abb44d68bd5746dbf/21cca0b77bfb8c7abb44d68bd5746dbf.png",
+    "listed_at": "2026-05-29T14:56:36+00:00",
+    "catchup": true
   }
 ]
