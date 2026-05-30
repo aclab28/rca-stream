@@ -39610,5 +39610,17 @@
     "image_url": "https://i2c.seadn.io/polygon/0x611598c45d781e848b73bcf65fdb6f8a6c47bc59/f6ca187063e209b6e3ece908a059d4/38f6ca187063e209b6e3ece908a059d4.png",
     "listed_at": "2026-05-30T16:43:22+00:00",
     "catchup": true
+  },
+  {
+    "name": "Bunny Boo #33",
+    "slug": "bunny-boo-by-lucifeena-x-reddit-collectible-avatar",
+    "price": "$2.03  (0.0010 WETH)",
+    "maker": "0x87ce5ae6...91ed6d",
+    "maker_full": "0x87ce5ae644c67a180c65d18671065ae82b91ed6d",
+    "expiry": "?",
+    "link": "https://opensea.io/assets/polygon/0xc8465b7dd944319d73a8d918f285e9dfd2099b9a/32",
+    "image_url": "https://i2c.seadn.io/polygon/0xc8465b7dd944319d73a8d918f285e9dfd2099b9a/8b0fcaf6921d06308a816bf70b2859/178b0fcaf6921d06308a816bf70b2859.png",
+    "listed_at": "2026-05-30T16:48:06+00:00",
+    "catchup": true
   }
 ]
