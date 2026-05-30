@@ -39862,5 +39862,17 @@
     "image_url": "https://i2c.seadn.io/polygon/0x472617ca40f8f7c85c648bb0fc43f6d5ce05a9f2/e85fe788f9b19389e402fb2f57f7ba/49e85fe788f9b19389e402fb2f57f7ba.png",
     "listed_at": "2026-05-30T17:18:19+00:00",
     "catchup": true
+  },
+  {
+    "name": "Eris #382",
+    "slug": "future-realities-gasolyn-x-reddit-collectible-avat",
+    "price": "$10.11  (0.0050 WETH)",
+    "maker": "0xd0f7133b...efa0fd",
+    "maker_full": "0xd0f7133b27e8a5307b712cc47d1d24198eefa0fd",
+    "expiry": "?",
+    "link": "https://opensea.io/assets/polygon/0x7d4caaf1d9291071452a4f11a3d0da7aa881aaad/3331",
+    "image_url": "https://i2c.seadn.io/polygon/0x7d4caaf1d9291071452a4f11a3d0da7aa881aaad/ddcb824d0a4895c34ab06a5989b622/f0ddcb824d0a4895c34ab06a5989b622.png",
+    "listed_at": "2026-05-30T17:04:47+00:00",
+    "catchup": true
   }
 ]
