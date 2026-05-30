@@ -39874,5 +39874,17 @@
     "image_url": "https://i2c.seadn.io/polygon/0x7d4caaf1d9291071452a4f11a3d0da7aa881aaad/ddcb824d0a4895c34ab06a5989b622/f0ddcb824d0a4895c34ab06a5989b622.png",
     "listed_at": "2026-05-30T17:04:47+00:00",
     "catchup": true
+  },
+  {
+    "name": "Erina #40",
+    "slug": "erina-by-weedyy-x-reddit-collectible-avatars",
+    "price": "$2.02  (0.0010 WETH)",
+    "maker": "0x87ce5ae6...91ed6d",
+    "maker_full": "0x87ce5ae644c67a180c65d18671065ae82b91ed6d",
+    "expiry": "?",
+    "link": "https://opensea.io/assets/polygon/0x8d9335365f64b118c5b486fca170a56e24522c92/39",
+    "image_url": "https://i2c.seadn.io/polygon/0x8d9335365f64b118c5b486fca170a56e24522c92/19934fc8f7a8ea33428106db2c1d3c/5419934fc8f7a8ea33428106db2c1d3c.png",
+    "listed_at": "2026-05-30T17:04:22+00:00",
+    "catchup": true
   }
 ]
