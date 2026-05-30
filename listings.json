@@ -39658,5 +39658,17 @@
     "image_url": "https://i2c.seadn.io/polygon/0xc6aa49c5bad86910c0b234f466fd59baa9291d01/93e0e211e33f7d730187253b1deeb8/1d93e0e211e33f7d730187253b1deeb8.png",
     "listed_at": "2026-05-30T16:45:31+00:00",
     "catchup": true
+  },
+  {
+    "name": "Celestial Queen #1869",
+    "slug": "future-realities-baldtuesdays-x-reddit-collectible",
+    "price": "$0.81  (0.0004 WETH)",
+    "maker": "0x87ce5ae6...91ed6d",
+    "maker_full": "0x87ce5ae644c67a180c65d18671065ae82b91ed6d",
+    "expiry": "?",
+    "link": "https://opensea.io/assets/polygon/0x2147c822eee346c137c6903ccc5e32522310faa3/2068",
+    "image_url": "https://i2c.seadn.io/polygon/0x2147c822eee346c137c6903ccc5e32522310faa3/83814a117fa836448ea313a4f080d2/1c83814a117fa836448ea313a4f080d2.png",
+    "listed_at": "2026-05-30T16:44:33+00:00",
+    "catchup": true
   }
 ]
