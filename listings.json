@@ -39562,5 +39562,29 @@
     "image_url": "https://i2c.seadn.io/polygon/0x111ca2acd67204e89abd142c358b8b825b06162c/855c0687dd0a4bfaca4f953dc803fc/bd855c0687dd0a4bfaca4f953dc803fc.png",
     "listed_at": "2026-05-30T16:33:00+00:00",
     "catchup": true
+  },
+  {
+    "name": "Geist #30",
+    "slug": "geist-by-13productions-x-reddit-collectible-avatar",
+    "price": "$2.02  (0.0010 WETH)",
+    "maker": "0x87ce5ae6...91ed6d",
+    "maker_full": "0x87ce5ae644c67a180c65d18671065ae82b91ed6d",
+    "expiry": "?",
+    "link": "https://opensea.io/assets/polygon/0x2d9ed9a56e0cf724c71d15758be1cc7d43a66c4b/29",
+    "image_url": "https://i2c.seadn.io/polygon/0x2d9ed9a56e0cf724c71d15758be1cc7d43a66c4b/6c245fc472699b2cc5f61518c07a59/776c245fc472699b2cc5f61518c07a59.png",
+    "listed_at": "2026-05-30T16:32:51+00:00",
+    "catchup": true
+  },
+  {
+    "name": "Am I Pretty? #44",
+    "slug": "am-i-pretty-by-nerril-x-reddit-collectible-avatars",
+    "price": "$4.04  (0.0020 WETH)",
+    "maker": "0x87ce5ae6...91ed6d",
+    "maker_full": "0x87ce5ae644c67a180c65d18671065ae82b91ed6d",
+    "expiry": "?",
+    "link": "https://opensea.io/assets/polygon/0x1024ccc1bfba2c0a1071655618b531955c9e8a55/43",
+    "image_url": "https://i2c.seadn.io/polygon/0x1024ccc1bfba2c0a1071655618b531955c9e8a55/27b6f4116692629fe653fa948a551b/5c27b6f4116692629fe653fa948a551b.png",
+    "listed_at": "2026-05-30T16:35:34+00:00",
+    "catchup": true
   }
 ]
