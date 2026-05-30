@@ -39430,5 +39430,17 @@
     "image_url": "https://i2c.seadn.io/polygon/0x5066c0934632bcc2902d139d7c875cbd295429f8/e126397ac26a15c5a4fb4487978033/f6e126397ac26a15c5a4fb4487978033.png",
     "listed_at": "2026-05-30T08:17:59+00:00",
     "catchup": true
+  },
+  {
+    "name": "Shrine Mother #1",
+    "slug": "shrine-mother-by-rojom-x-reddit-collectible-avatars",
+    "price": "$160.99  (0.0800 WETH)",
+    "maker": "0x90f0932a...79db49",
+    "maker_full": "0x90f0932ab1f0a9818415ae0c91a170abd279db49",
+    "expiry": "?",
+    "link": "https://opensea.io/assets/polygon/0x426ccefdcb1ac01b2918b2884d4a27da9058241c/1",
+    "image_url": "https://i2c.seadn.io/polygon/0x426ccefdcb1ac01b2918b2884d4a27da9058241c/32c30726a7b5ddb4fc3f05a976ebef/2032c30726a7b5ddb4fc3f05a976ebef.png",
+    "listed_at": "2026-05-30T08:18:45+00:00",
+    "catchup": true
   }
 ]
