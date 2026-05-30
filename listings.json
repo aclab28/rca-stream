@@ -39550,5 +39550,17 @@
     "image_url": "https://i2c.seadn.io/matic/0x8f4813ec6b1f3816af2bbfad314d50102338adca/fa354da5978228ebb7ec5486bb0d09/defa354da5978228ebb7ec5486bb0d09.png",
     "listed_at": "2026-05-30T16:33:29+00:00",
     "catchup": true
+  },
+  {
+    "name": "Seraphon #41",
+    "slug": "seraphon-by-shiro-senpai666-x-reddit-collectible-a",
+    "price": "$2.02  (0.0010 WETH)",
+    "maker": "0x87ce5ae6...91ed6d",
+    "maker_full": "0x87ce5ae644c67a180c65d18671065ae82b91ed6d",
+    "expiry": "?",
+    "link": "https://opensea.io/assets/polygon/0x111ca2acd67204e89abd142c358b8b825b06162c/40",
+    "image_url": "https://i2c.seadn.io/polygon/0x111ca2acd67204e89abd142c358b8b825b06162c/855c0687dd0a4bfaca4f953dc803fc/bd855c0687dd0a4bfaca4f953dc803fc.png",
+    "listed_at": "2026-05-30T16:33:00+00:00",
+    "catchup": true
   }
 ]
