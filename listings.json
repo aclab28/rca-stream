@@ -39742,5 +39742,17 @@
     "image_url": "https://i2c.seadn.io/polygon/0x6dcd9415ad36bcc4409b8a6f0b7c519159f88fc0/fc32ebc545d4f4270176cd84d2541d/34fc32ebc545d4f4270176cd84d2541d.png",
     "listed_at": "2026-05-30T17:17:27+00:00",
     "catchup": true
+  },
+  {
+    "name": "Ghost Ships #301",
+    "slug": "ghost-ships-by-ships-x-reddit-collectible-avatars",
+    "price": "$1.62  (0.0008 WETH)",
+    "maker": "0x87ce5ae6...91ed6d",
+    "maker_full": "0x87ce5ae644c67a180c65d18671065ae82b91ed6d",
+    "expiry": "?",
+    "link": "https://opensea.io/assets/polygon/0x1b771a4f6d4a22fcdb42c190b315613b0ae04cf8/300",
+    "image_url": "https://i2c.seadn.io/polygon/0x1b771a4f6d4a22fcdb42c190b315613b0ae04cf8/98754fa4d824347fa2609bde60430b/8298754fa4d824347fa2609bde60430b.png",
+    "listed_at": "2026-05-30T17:17:10+00:00",
+    "catchup": true
   }
 ]
