@@ -39382,5 +39382,29 @@
     "image_url": "https://i2c.seadn.io/polygon/0x622d8fea4603ba9edaf1084b407052d8b0a9bed7/b95233c78ee5d3dca73706e7f11444/4ab95233c78ee5d3dca73706e7f11444.png",
     "listed_at": "2026-05-30T08:17:59+00:00",
     "catchup": true
+  },
+  {
+    "name": "Knight Rabbid #53096",
+    "slug": "reddit-rabbids-x-reddit-collectible-avatars",
+    "price": "$6.04  (0.0030 WETH)",
+    "maker": "0x1097ccbc...b56178",
+    "maker_full": "0x1097ccbc2c0fc548e4d07f16661f058c00b56178",
+    "expiry": "?",
+    "link": "https://opensea.io/assets/polygon/0x5066c0934632bcc2902d139d7c875cbd295429f8/103195",
+    "image_url": "https://i2c.seadn.io/polygon/0x5066c0934632bcc2902d139d7c875cbd295429f8/e126397ac26a15c5a4fb4487978033/f6e126397ac26a15c5a4fb4487978033.png",
+    "listed_at": "2026-05-30T08:17:59+00:00",
+    "catchup": true
+  },
+  {
+    "name": "England #32267",
+    "slug": "reddit-cup-2022-x-reddit-collectible-avatars",
+    "price": "$6.04  (0.0030 WETH)",
+    "maker": "0x1097ccbc...b56178",
+    "maker_full": "0x1097ccbc2c0fc548e4d07f16661f058c00b56178",
+    "expiry": "?",
+    "link": "https://opensea.io/assets/polygon/0x622d8fea4603ba9edaf1084b407052d8b0a9bed7/2033266",
+    "image_url": "https://i2c.seadn.io/polygon/0x622d8fea4603ba9edaf1084b407052d8b0a9bed7/604c776db01db73544c0fb09ee9960/fe604c776db01db73544c0fb09ee9960.png",
+    "listed_at": "2026-05-30T08:17:59+00:00",
+    "catchup": true
   }
 ]
