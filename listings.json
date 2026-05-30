@@ -39754,5 +39754,17 @@
     "image_url": "https://i2c.seadn.io/polygon/0x1b771a4f6d4a22fcdb42c190b315613b0ae04cf8/98754fa4d824347fa2609bde60430b/8298754fa4d824347fa2609bde60430b.png",
     "listed_at": "2026-05-30T17:17:10+00:00",
     "catchup": true
+  },
+  {
+    "name": "The Lost One #62",
+    "slug": "the-lost-one-by-qugmo-x-reddit-collectible-avatars",
+    "price": "$2.02  (0.0010 WETH)",
+    "maker": "0x87ce5ae6...91ed6d",
+    "maker_full": "0x87ce5ae644c67a180c65d18671065ae82b91ed6d",
+    "expiry": "?",
+    "link": "https://opensea.io/assets/polygon/0xf31c2d77c15d8853fa0001e1df2cbf1755f7c849/61",
+    "image_url": "https://i2c.seadn.io/polygon/0xf31c2d77c15d8853fa0001e1df2cbf1755f7c849/60867a27fd96144234df16865234ce/f460867a27fd96144234df16865234ce.png",
+    "listed_at": "2026-05-30T17:16:47+00:00",
+    "catchup": true
   }
 ]
