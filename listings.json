@@ -39706,5 +39706,17 @@
     "image_url": "https://i2c.seadn.io/polygon/0x3ed915051397a87540b13e081a685cda889a3159/0c58cab3172e071988527a196f1c8e/9f0c58cab3172e071988527a196f1c8e.png",
     "listed_at": "2026-05-30T16:53:50+00:00",
     "catchup": true
+  },
+  {
+    "name": "Fire #3",
+    "slug": "fire-by-rylar-x-reddit-collectible-avatars",
+    "price": "$2.43  (0.0012 WETH)",
+    "maker": "0x87ce5ae6...91ed6d",
+    "maker_full": "0x87ce5ae644c67a180c65d18671065ae82b91ed6d",
+    "expiry": "?",
+    "link": "https://opensea.io/assets/polygon/0xe1f70d95fdc24450538f3589666362c88ba2bcc5/2",
+    "image_url": "https://i2c.seadn.io/polygon/0xe1f70d95fdc24450538f3589666362c88ba2bcc5/0eafda12bcc7857103e442c7c680b6/6f0eafda12bcc7857103e442c7c680b6.png",
+    "listed_at": "2026-05-30T16:56:18+00:00",
+    "catchup": true
   }
 ]
