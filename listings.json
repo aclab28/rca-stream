@@ -39994,5 +39994,29 @@
     "image_url": "https://i2c.seadn.io/polygon/0xdd3d8674b66fc984756632cfc0e5ded6be72d5d6/2074341d06b83bfb9284416a41c174/fa2074341d06b83bfb9284416a41c174.png",
     "listed_at": "2026-05-30T17:49:45+00:00",
     "catchup": true
+  },
+  {
+    "name": "Vierkantius #10",
+    "slug": "vierkantius-by-boerenbrok-x-reddit-collectible-ava",
+    "price": "$3.64  (0.0018 WETH)",
+    "maker": "0x1e363f3c...038252",
+    "maker_full": "0x1e363f3ce415ed099a622211386c3de1b5038252",
+    "expiry": "?",
+    "link": "https://opensea.io/assets/polygon/0x2fffcfaa9f64132ad7c39b2cbb2a579b05f927b3/9",
+    "image_url": "https://i2c.seadn.io/polygon/0x2fffcfaa9f64132ad7c39b2cbb2a579b05f927b3/2e2438d0fa9b3dbbf6876e70ae6d2c/f92e2438d0fa9b3dbbf6876e70ae6d2c.png",
+    "listed_at": "2026-05-30T17:49:45+00:00",
+    "catchup": true
+  },
+  {
+    "name": "jAAAy-d #6",
+    "slug": "jaaay-d-by-dogfart6942-x-reddit-collectible-avatar",
+    "price": "$7.28  (0.0036 WETH)",
+    "maker": "0x1e363f3c...038252",
+    "maker_full": "0x1e363f3ce415ed099a622211386c3de1b5038252",
+    "expiry": "?",
+    "link": "https://opensea.io/assets/polygon/0xa245c8845f661bf004055c0ffca68b7d7ba3f377/5",
+    "image_url": "https://i2c.seadn.io/polygon/0xa245c8845f661bf004055c0ffca68b7d7ba3f377/bb6b65caed43684c934fd19e60d770/69bb6b65caed43684c934fd19e60d770.png",
+    "listed_at": "2026-05-30T17:49:45+00:00",
+    "catchup": true
   }
 ]
