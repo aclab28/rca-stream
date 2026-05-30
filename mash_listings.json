@@ -1246,5 +1246,17 @@
     "image_url": "https://i2c.seadn.io/polygon/0x6d74e823e3cfb94a4a395b74b1e7b0f5ca5596a3/286637547deb2aa5f03e27ba00b6da/c6286637547deb2aa5f03e27ba00b6da.png",
     "listed_at": "2026-05-30T08:53:49+00:00",
     "catchup": true
+  },
+  {
+    "name": "Ebag #6 by xlate",
+    "slug": "mash-it",
+    "price": "$9.07  (0.0045 WETH)",
+    "maker": "0x46455a44...8a3b7a",
+    "maker_full": "0x46455a44283e5a3e4f8bb7cd39af9194ca8a3b7a",
+    "expiry": "?",
+    "link": "https://opensea.io/assets/polygon/0x6d74e823e3cfb94a4a395b74b1e7b0f5ca5596a3/16785",
+    "image_url": "https://i2c.seadn.io/polygon/0x6d74e823e3cfb94a4a395b74b1e7b0f5ca5596a3/70fe9b2589d2666706c62275c7299e/a270fe9b2589d2666706c62275c7299e.png",
+    "listed_at": "2026-05-30T12:32:30+00:00",
+    "catchup": true
   }
 ]
