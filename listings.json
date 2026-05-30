@@ -39826,5 +39826,17 @@
     "image_url": "https://i2c.seadn.io/polygon/0x1ddd71231e4d9cbe315a30f34856716bc9c5966e/7f9f6b6cae8aa244e3d97f29999dee/697f9f6b6cae8aa244e3d97f29999dee.png",
     "listed_at": "2026-05-30T17:07:56+00:00",
     "catchup": true
+  },
+  {
+    "name": "Pastel Koi #44",
+    "slug": "pastel-koi-by-tmarim-x-reddit-collectible-avatars",
+    "price": "$2.43  (0.0012 WETH)",
+    "maker": "0x87ce5ae6...91ed6d",
+    "maker_full": "0x87ce5ae644c67a180c65d18671065ae82b91ed6d",
+    "expiry": "?",
+    "link": "https://opensea.io/assets/polygon/0x830a38d86703a469c16ca9467c1cddf01fc330ac/43",
+    "image_url": "https://i2c.seadn.io/polygon/0x830a38d86703a469c16ca9467c1cddf01fc330ac/4ea9911899bc0b209e476499933602/524ea9911899bc0b209e476499933602.png",
+    "listed_at": "2026-05-30T17:18:48+00:00",
+    "catchup": true
   }
 ]
