@@ -39886,5 +39886,17 @@
     "image_url": "https://i2c.seadn.io/polygon/0x8d9335365f64b118c5b486fca170a56e24522c92/19934fc8f7a8ea33428106db2c1d3c/5419934fc8f7a8ea33428106db2c1d3c.png",
     "listed_at": "2026-05-30T17:04:22+00:00",
     "catchup": true
+  },
+  {
+    "name": "#13 #3",
+    "slug": "13-by-rylar-x-reddit-collectible-avatars",
+    "price": "$2.63  (0.0013 WETH)",
+    "maker": "0x87ce5ae6...91ed6d",
+    "maker_full": "0x87ce5ae644c67a180c65d18671065ae82b91ed6d",
+    "expiry": "?",
+    "link": "https://opensea.io/assets/polygon/0x392c7c42e41ac393c6dfe1dae2448a1fa690081d/2",
+    "image_url": "https://i2c.seadn.io/polygon/0x392c7c42e41ac393c6dfe1dae2448a1fa690081d/38ba023f8026417a247df17bfd0ca4/3838ba023f8026417a247df17bfd0ca4.png",
+    "listed_at": "2026-05-30T17:01:32+00:00",
+    "catchup": true
   }
 ]
