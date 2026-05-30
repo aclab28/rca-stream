@@ -39946,5 +39946,17 @@
     "image_url": "https://i2c.seadn.io/polygon/0x87815670eb5a2f03bc42d01e11144e9dc9b1d383/e6ae1a5cf97a4ea113476b2440c332/76e6ae1a5cf97a4ea113476b2440c332.png",
     "listed_at": "2026-05-30T16:57:23+00:00",
     "catchup": true
+  },
+  {
+    "name": "Magus #23",
+    "slug": "magus-by-ships-x-reddit-collectible-avatars",
+    "price": "$1.62  (0.0008 WETH)",
+    "maker": "0x87ce5ae6...91ed6d",
+    "maker_full": "0x87ce5ae644c67a180c65d18671065ae82b91ed6d",
+    "expiry": "?",
+    "link": "https://opensea.io/assets/polygon/0x04dac08230aaaf6a1b5f722899b995a0c6e90299/22",
+    "image_url": "https://i2c.seadn.io/polygon/0x04dac08230aaaf6a1b5f722899b995a0c6e90299/140e5fb6ebbc8c3bf501b8d12fc804/49140e5fb6ebbc8c3bf501b8d12fc804.png",
+    "listed_at": "2026-05-30T17:20:54+00:00",
+    "catchup": true
   }
 ]
