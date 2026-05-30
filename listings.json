@@ -39694,5 +39694,17 @@
     "image_url": "https://i2c.seadn.io/matic/0x80da6ead1c687af2d45e6228be15e38ac22d314a/4e7a783bb63370c1c6056280960007/024e7a783bb63370c1c6056280960007.png",
     "listed_at": "2026-05-30T16:48:28+00:00",
     "catchup": true
+  },
+  {
+    "name": "Blue Cat #17",
+    "slug": "blue-cat-by-pippytherobot-x-reddit-collectible-ava",
+    "price": "$1.62  (0.0008 WETH)",
+    "maker": "0x87ce5ae6...91ed6d",
+    "maker_full": "0x87ce5ae644c67a180c65d18671065ae82b91ed6d",
+    "expiry": "?",
+    "link": "https://opensea.io/assets/polygon/0x3ed915051397a87540b13e081a685cda889a3159/16",
+    "image_url": "https://i2c.seadn.io/polygon/0x3ed915051397a87540b13e081a685cda889a3159/0c58cab3172e071988527a196f1c8e/9f0c58cab3172e071988527a196f1c8e.png",
+    "listed_at": "2026-05-30T16:53:50+00:00",
+    "catchup": true
   }
 ]
