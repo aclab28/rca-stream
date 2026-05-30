@@ -1234,5 +1234,17 @@
     "image_url": "https://i2c.seadn.io/polygon/0x6d74e823e3cfb94a4a395b74b1e7b0f5ca5596a3/86f534886b07b42af0ec6eda3f09ff/1786f534886b07b42af0ec6eda3f09ff.png",
     "listed_at": "2026-05-29T22:31:44+00:00",
     "catchup": true
+  },
+  {
+    "name": "Naga Moto #2 by i&t",
+    "slug": "mash-it",
+    "price": "$50.39  (0.0250 WETH)",
+    "maker": "0x8815c840...863cbf",
+    "maker_full": "0x8815c840321ce565852275ef1bc55e5f75863cbf",
+    "expiry": "?",
+    "link": "https://opensea.io/assets/polygon/0x6d74e823e3cfb94a4a395b74b1e7b0f5ca5596a3/16801",
+    "image_url": "https://i2c.seadn.io/polygon/0x6d74e823e3cfb94a4a395b74b1e7b0f5ca5596a3/286637547deb2aa5f03e27ba00b6da/c6286637547deb2aa5f03e27ba00b6da.png",
+    "listed_at": "2026-05-30T08:53:49+00:00",
+    "catchup": true
   }
 ]
