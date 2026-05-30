@@ -40042,5 +40042,17 @@
     "image_url": "https://i2c.seadn.io/polygon/0xf926986ef59fb1101e81da479a5df846f920776a/776fb471e51edd4c2390a1d52c779d/f6776fb471e51edd4c2390a1d52c779d.png",
     "listed_at": "2026-05-30T17:49:45+00:00",
     "catchup": true
+  },
+  {
+    "name": "Vanilla Swirlington #26",
+    "slug": "retro-reimagined-hey-barry-x-reddit-collectible-av",
+    "price": "$2.94  (0.0014 WETH)",
+    "maker": "0x97637f77...d31755",
+    "maker_full": "0x97637f77691a52958a12fc8ac0945b28dad31755",
+    "expiry": "?",
+    "link": "https://opensea.io/assets/polygon/0xdd25e3bb8ca0fb96d37f3a199da434d98e33c36a/25",
+    "image_url": "https://i2c.seadn.io/polygon/0xdd25e3bb8ca0fb96d37f3a199da434d98e33c36a/3f4feb5cdc1859aa87979f966d57c1/883f4feb5cdc1859aa87979f966d57c1.png",
+    "listed_at": "2026-05-30T20:39:20+00:00",
+    "catchup": true
   }
 ]
