@@ -39634,5 +39634,17 @@
     "image_url": "https://i2c.seadn.io/matic/0xa28d263448308355a50f9d798bdee60b5903efd6/916fe0729cecdaa69131b69b30ce06/fc916fe0729cecdaa69131b69b30ce06.png",
     "listed_at": "2026-05-30T16:46:18+00:00",
     "catchup": true
+  },
+  {
+    "name": "Dragon Light #18",
+    "slug": "dragon-light-by-jas-x-reddit-collectible-avatars",
+    "price": "$2.03  (0.0010 WETH)",
+    "maker": "0x87ce5ae6...91ed6d",
+    "maker_full": "0x87ce5ae644c67a180c65d18671065ae82b91ed6d",
+    "expiry": "?",
+    "link": "https://opensea.io/assets/polygon/0xccdbb05412eb5ca1a37a82d3e98c1937a8f0c781/17",
+    "image_url": "https://i2c.seadn.io/polygon/0xccdbb05412eb5ca1a37a82d3e98c1937a8f0c781/daaff7515c888ddb402226220b76b9/8bdaaff7515c888ddb402226220b76b9.png",
+    "listed_at": "2026-05-30T16:46:01+00:00",
+    "catchup": true
   }
 ]
