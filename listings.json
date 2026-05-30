@@ -39814,5 +39814,17 @@
     "image_url": "https://i2c.seadn.io/polygon/0x3f8d67b83c7ba0fab96822fad38f0a940287157a/74fe200635f0d985513531d9193f94/c974fe200635f0d985513531d9193f94.png",
     "listed_at": "2026-05-30T17:10:41+00:00",
     "catchup": true
+  },
+  {
+    "name": "Peri #20",
+    "slug": "peri-by-qugmo-x-reddit-collectible-avatars",
+    "price": "$2.93  (0.0014 WETH)",
+    "maker": "0x87ce5ae6...91ed6d",
+    "maker_full": "0x87ce5ae644c67a180c65d18671065ae82b91ed6d",
+    "expiry": "?",
+    "link": "https://opensea.io/assets/polygon/0x1ddd71231e4d9cbe315a30f34856716bc9c5966e/19",
+    "image_url": "https://i2c.seadn.io/polygon/0x1ddd71231e4d9cbe315a30f34856716bc9c5966e/7f9f6b6cae8aa244e3d97f29999dee/697f9f6b6cae8aa244e3d97f29999dee.png",
+    "listed_at": "2026-05-30T17:07:56+00:00",
+    "catchup": true
   }
 ]
