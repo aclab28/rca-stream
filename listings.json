@@ -39790,5 +39790,17 @@
     "image_url": "https://i2c.seadn.io/polygon/0x4bdf98db83e4e19092ee6ca8287c414fcd6428d1/428bba62ae949f8ff143cc51c738a8/2c428bba62ae949f8ff143cc51c738a8.png",
     "listed_at": "2026-05-30T17:12:34+00:00",
     "catchup": true
+  },
+  {
+    "name": "Rat On Skulls #4",
+    "slug": "rat-on-skulls-by-rangushatch-x-reddit-collectible",
+    "price": "$1.62  (0.0008 WETH)",
+    "maker": "0x87ce5ae6...91ed6d",
+    "maker_full": "0x87ce5ae644c67a180c65d18671065ae82b91ed6d",
+    "expiry": "?",
+    "link": "https://opensea.io/assets/polygon/0x0a902ea6d9ce7599c78768e1144a61285793bdb0/3",
+    "image_url": "https://i2c.seadn.io/polygon/0x0a902ea6d9ce7599c78768e1144a61285793bdb0/37ae2123a355c8dc760e3b98e5ab11/5637ae2123a355c8dc760e3b98e5ab11.png",
+    "listed_at": "2026-05-30T17:11:58+00:00",
+    "catchup": true
   }
 ]
