@@ -39682,5 +39682,17 @@
     "image_url": "https://i2c.seadn.io/polygon/0x671d161415840573d2c48e5b2885b644182fb3f6/fc8aaadc17505ff0b1cb34565be9d5/40fc8aaadc17505ff0b1cb34565be9d5.png",
     "listed_at": "2026-05-30T16:52:39+00:00",
     "catchup": true
+  },
+  {
+    "name": "Blight #216",
+    "slug": "blight-by-itsnotyourfault-x-reddit-collectible-ava",
+    "price": "$1.62  (0.0008 WETH)",
+    "maker": "0x87ce5ae6...91ed6d",
+    "maker_full": "0x87ce5ae644c67a180c65d18671065ae82b91ed6d",
+    "expiry": "?",
+    "link": "https://opensea.io/assets/polygon/0x80da6ead1c687af2d45e6228be15e38ac22d314a/215",
+    "image_url": "https://i2c.seadn.io/matic/0x80da6ead1c687af2d45e6228be15e38ac22d314a/4e7a783bb63370c1c6056280960007/024e7a783bb63370c1c6056280960007.png",
+    "listed_at": "2026-05-30T16:48:28+00:00",
+    "catchup": true
   }
 ]
