@@ -39358,5 +39358,29 @@
     "image_url": "https://i2c.seadn.io/polygon/0x622d8fea4603ba9edaf1084b407052d8b0a9bed7/277cf4c2d5c102061b21e21847338b/2b277cf4c2d5c102061b21e21847338b.png",
     "listed_at": "2026-05-30T08:17:59+00:00",
     "catchup": true
+  },
+  {
+    "name": "Portugal #16617",
+    "slug": "reddit-cup-2022-x-reddit-collectible-avatars",
+    "price": "$6.04  (0.0030 WETH)",
+    "maker": "0x1097ccbc...b56178",
+    "maker_full": "0x1097ccbc2c0fc548e4d07f16661f058c00b56178",
+    "expiry": "?",
+    "link": "https://opensea.io/assets/polygon/0x622d8fea4603ba9edaf1084b407052d8b0a9bed7/5218816",
+    "image_url": "https://i2c.seadn.io/polygon/0x622d8fea4603ba9edaf1084b407052d8b0a9bed7/5ffab7704422027735fe6dd1b3e77f/1b5ffab7704422027735fe6dd1b3e77f.png",
+    "listed_at": "2026-05-30T08:17:59+00:00",
+    "catchup": true
+  },
+  {
+    "name": "South Korea #1716",
+    "slug": "reddit-cup-2022-x-reddit-collectible-avatars",
+    "price": "$6.04  (0.0030 WETH)",
+    "maker": "0x1097ccbc...b56178",
+    "maker_full": "0x1097ccbc2c0fc548e4d07f16661f058c00b56178",
+    "expiry": "?",
+    "link": "https://opensea.io/assets/polygon/0x622d8fea4603ba9edaf1084b407052d8b0a9bed7/4203415",
+    "image_url": "https://i2c.seadn.io/polygon/0x622d8fea4603ba9edaf1084b407052d8b0a9bed7/b95233c78ee5d3dca73706e7f11444/4ab95233c78ee5d3dca73706e7f11444.png",
+    "listed_at": "2026-05-30T08:17:59+00:00",
+    "catchup": true
   }
 ]
