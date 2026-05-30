@@ -39598,5 +39598,17 @@
     "image_url": "https://i2c.seadn.io/polygon/0x798046f992da41d7020441c472a44eb4fa350ef2/60b1bfec0cd441053b162af81db0d7/d960b1bfec0cd441053b162af81db0d7.png",
     "listed_at": "2026-05-30T16:35:03+00:00",
     "catchup": true
+  },
+  {
+    "name": "Catoi #1",
+    "slug": "catoai-by-alek-ban-x-reddit-collectible-avatars",
+    "price": "$6.08  (0.0030 WETH)",
+    "maker": "0x87ce5ae6...91ed6d",
+    "maker_full": "0x87ce5ae644c67a180c65d18671065ae82b91ed6d",
+    "expiry": "?",
+    "link": "https://opensea.io/assets/polygon/0x611598c45d781e848b73bcf65fdb6f8a6c47bc59/0",
+    "image_url": "https://i2c.seadn.io/polygon/0x611598c45d781e848b73bcf65fdb6f8a6c47bc59/f6ca187063e209b6e3ece908a059d4/38f6ca187063e209b6e3ece908a059d4.png",
+    "listed_at": "2026-05-30T16:43:22+00:00",
+    "catchup": true
   }
 ]
