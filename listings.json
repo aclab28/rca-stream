@@ -39934,5 +39934,17 @@
     "image_url": "https://i2c.seadn.io/polygon/0xfe2c4ceb975b44572410d79187a8a51bb9b45bca/0c000934214945b570c94eb5df6843/eb0c000934214945b570c94eb5df6843.png",
     "listed_at": "2026-05-30T16:58:49+00:00",
     "catchup": true
+  },
+  {
+    "name": "Nymph #27",
+    "slug": "nymph-by-basket-x-reddit-collectible-avatars",
+    "price": "$3.64  (0.0018 WETH)",
+    "maker": "0x87ce5ae6...91ed6d",
+    "maker_full": "0x87ce5ae644c67a180c65d18671065ae82b91ed6d",
+    "expiry": "?",
+    "link": "https://opensea.io/assets/polygon/0x87815670eb5a2f03bc42d01e11144e9dc9b1d383/26",
+    "image_url": "https://i2c.seadn.io/polygon/0x87815670eb5a2f03bc42d01e11144e9dc9b1d383/e6ae1a5cf97a4ea113476b2440c332/76e6ae1a5cf97a4ea113476b2440c332.png",
+    "listed_at": "2026-05-30T16:57:23+00:00",
+    "catchup": true
   }
 ]
