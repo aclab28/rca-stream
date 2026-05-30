@@ -40054,5 +40054,17 @@
     "image_url": "https://i2c.seadn.io/polygon/0xdd25e3bb8ca0fb96d37f3a199da434d98e33c36a/3f4feb5cdc1859aa87979f966d57c1/883f4feb5cdc1859aa87979f966d57c1.png",
     "listed_at": "2026-05-30T20:39:20+00:00",
     "catchup": true
+  },
+  {
+    "name": "Akeno #8",
+    "slug": "akeno-by-emanuela-bosnjak-x-reddit-collectible-ava",
+    "price": "$8.07  (0.0040 WETH)",
+    "maker": "0xf1f90fcd...c266be",
+    "maker_full": "0xf1f90fcd4ded7b30354d9c1d2ee8fe5dcbc266be",
+    "expiry": "?",
+    "link": "https://opensea.io/assets/polygon/0xe2fb8be04f806ebcdb49c4f7b86d760b609759f8/7",
+    "image_url": "https://i2c.seadn.io/polygon/0xe2fb8be04f806ebcdb49c4f7b86d760b609759f8/726b692e906650b3be33bc63976d21/c9726b692e906650b3be33bc63976d21.png",
+    "listed_at": "2026-05-30T23:43:45+00:00",
+    "catchup": true
   }
 ]
