@@ -39922,5 +39922,17 @@
     "image_url": "https://i2c.seadn.io/polygon/0xb2c71255216e87fc841f4e04581d8c27e3938ac3/976334b6a2887614374c2124176b1f/e2976334b6a2887614374c2124176b1f.png",
     "listed_at": "2026-05-30T17:00:43+00:00",
     "catchup": true
+  },
+  {
+    "name": "Hours #57",
+    "slug": "hours-by-rylar-x-reddit-collectible-avatars",
+    "price": "$3.03  (0.0015 WETH)",
+    "maker": "0x87ce5ae6...91ed6d",
+    "maker_full": "0x87ce5ae644c67a180c65d18671065ae82b91ed6d",
+    "expiry": "?",
+    "link": "https://opensea.io/assets/polygon/0xfe2c4ceb975b44572410d79187a8a51bb9b45bca/56",
+    "image_url": "https://i2c.seadn.io/polygon/0xfe2c4ceb975b44572410d79187a8a51bb9b45bca/0c000934214945b570c94eb5df6843/eb0c000934214945b570c94eb5df6843.png",
+    "listed_at": "2026-05-30T16:58:49+00:00",
+    "catchup": true
   }
 ]
