@@ -39526,5 +39526,17 @@
     "image_url": "https://i2c.seadn.io/polygon/0x0aadf4a1e607e53174e7dd0ce69b8f8719ce349d/7c5e655a21f19880039fbbff5e056b/297c5e655a21f19880039fbbff5e056b.png",
     "listed_at": "2026-05-30T16:27:51+00:00",
     "catchup": true
+  },
+  {
+    "name": "Galactic Kitty #53",
+    "slug": "galactic-kitty-by-theuntoldvalley-x-reddit-collect",
+    "price": "$3.03  (0.0015 WETH)",
+    "maker": "0x87ce5ae6...91ed6d",
+    "maker_full": "0x87ce5ae644c67a180c65d18671065ae82b91ed6d",
+    "expiry": "?",
+    "link": "https://opensea.io/assets/polygon/0x3f8b3d72f8b21a2a5deb5bddadf5267c68a14708/52",
+    "image_url": "https://i2c.seadn.io/polygon/0x3f8b3d72f8b21a2a5deb5bddadf5267c68a14708/cc1497790374d6beb8b798f869722f/57cc1497790374d6beb8b798f869722f.png",
+    "listed_at": "2026-05-30T16:27:31+00:00",
+    "catchup": true
   }
 ]
