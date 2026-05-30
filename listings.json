@@ -39850,5 +39850,17 @@
     "image_url": "https://i2c.seadn.io/polygon/0x9016bb6f3c11f676212fb5aeb9386dde50de60bc/8216c4718f32bb812182b51685ca5e/258216c4718f32bb812182b51685ca5e.png",
     "listed_at": "2026-05-30T17:05:32+00:00",
     "catchup": true
+  },
+  {
+    "name": "ready for summer #29",
+    "slug": "ready-for-summer-by-x-reddit-collectible-avatars",
+    "price": "$1.62  (0.0008 WETH)",
+    "maker": "0x87ce5ae6...91ed6d",
+    "maker_full": "0x87ce5ae644c67a180c65d18671065ae82b91ed6d",
+    "expiry": "?",
+    "link": "https://opensea.io/assets/polygon/0x472617ca40f8f7c85c648bb0fc43f6d5ce05a9f2/28",
+    "image_url": "https://i2c.seadn.io/polygon/0x472617ca40f8f7c85c648bb0fc43f6d5ce05a9f2/e85fe788f9b19389e402fb2f57f7ba/49e85fe788f9b19389e402fb2f57f7ba.png",
+    "listed_at": "2026-05-30T17:18:19+00:00",
+    "catchup": true
   }
 ]
