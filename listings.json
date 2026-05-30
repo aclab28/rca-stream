@@ -39838,5 +39838,17 @@
     "image_url": "https://i2c.seadn.io/polygon/0x830a38d86703a469c16ca9467c1cddf01fc330ac/4ea9911899bc0b209e476499933602/524ea9911899bc0b209e476499933602.png",
     "listed_at": "2026-05-30T17:18:48+00:00",
     "catchup": true
+  },
+  {
+    "name": "Lumin #69",
+    "slug": "lumin-by-ships-x-reddit-collectible-avatars",
+    "price": "$1.21  (0.0006 WETH)",
+    "maker": "0x87ce5ae6...91ed6d",
+    "maker_full": "0x87ce5ae644c67a180c65d18671065ae82b91ed6d",
+    "expiry": "?",
+    "link": "https://opensea.io/assets/polygon/0x9016bb6f3c11f676212fb5aeb9386dde50de60bc/68",
+    "image_url": "https://i2c.seadn.io/polygon/0x9016bb6f3c11f676212fb5aeb9386dde50de60bc/8216c4718f32bb812182b51685ca5e/258216c4718f32bb812182b51685ca5e.png",
+    "listed_at": "2026-05-30T17:05:32+00:00",
+    "catchup": true
   }
 ]
