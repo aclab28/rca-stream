@@ -40834,5 +40834,29 @@
     "image_url": "https://i2c.seadn.io/polygon/0x04f7a676af597f847053b6c02ed42d02fa4046aa/d40d637cd9ec37b4d2806f3b019bf6/72d40d637cd9ec37b4d2806f3b019bf6.png",
     "listed_at": "2026-05-31T15:48:34+00:00",
     "catchup": true
+  },
+  {
+    "name": "Stripes #559",
+    "slug": "future-realities-chipperdoodlescomic-x-reddit-coll",
+    "price": "$1.01  (0.0005 WETH)",
+    "maker": "0x101eb380...90d8c7",
+    "maker_full": "0x101eb380d06e443c7d456aed63961b16e290d8c7",
+    "expiry": "?",
+    "link": "https://opensea.io/assets/polygon/0x2c2c60f114ae3c857bf301d1a1b6c3069d5308dc/558",
+    "image_url": "https://i2c.seadn.io/polygon/0x2c2c60f114ae3c857bf301d1a1b6c3069d5308dc/6e59f8568b5f4e8cf9d09f404921cf/686e59f8568b5f4e8cf9d09f404921cf.png",
+    "listed_at": "2026-05-31T15:48:34+00:00",
+    "catchup": true
+  },
+  {
+    "name": "Butterfly #338",
+    "slug": "protectors-of-the-forest-x-reddit-collectible-avat",
+    "price": "$1.41  (0.0007 WETH)",
+    "maker": "0x101eb380...90d8c7",
+    "maker_full": "0x101eb380d06e443c7d456aed63961b16e290d8c7",
+    "expiry": "?",
+    "link": "https://opensea.io/assets/polygon/0x2956409293da98603025cc0121c06a4244752039/1837",
+    "image_url": "https://i2c.seadn.io/polygon/0x2956409293da98603025cc0121c06a4244752039/1f48d661b1df68b81642e21cf588a3/f01f48d661b1df68b81642e21cf588a3.png",
+    "listed_at": "2026-05-31T15:48:34+00:00",
+    "catchup": true
   }
 ]
