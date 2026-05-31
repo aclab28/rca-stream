@@ -40186,5 +40186,17 @@
     "image_url": "https://i2c.seadn.io/polygon/0x5a7e0981ede6134795cf4ec5665a1635a2477722/4b34b9a0f2d31c95457d5c8322d70f/b54b34b9a0f2d31c95457d5c8322d70f.png",
     "listed_at": "2026-05-31T07:24:42+00:00",
     "catchup": true
+  },
+  {
+    "name": "FACET #43",
+    "slug": "retro-reimagined-hessicajansen-x-reddit-collectibl",
+    "price": "$40.44  (0.0200 WETH)",
+    "maker": "0xa6bd5c1a...276429",
+    "maker_full": "0xa6bd5c1af723b907e33bd5ef3a2d16c2d1276429",
+    "expiry": "?",
+    "link": "https://opensea.io/assets/polygon/0xc6801a4dd08035156fdb2557d938307f52b99138/3642",
+    "image_url": "https://i2c.seadn.io/polygon/0xc6801a4dd08035156fdb2557d938307f52b99138/081fce60af3a09c2cb65f253040dae/d0081fce60af3a09c2cb65f253040dae.png",
+    "listed_at": "2026-05-31T07:40:29+00:00",
+    "catchup": true
   }
 ]
