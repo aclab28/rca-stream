@@ -40438,5 +40438,17 @@
     "image_url": "https://i2c.seadn.io/polygon/0x777668c5a5f2b08cc5be1f198662ab0310463769/c2a8e854b9a327d9d39da24530bb6e/12c2a8e854b9a327d9d39da24530bb6e.png",
     "listed_at": "2026-05-31T11:07:40+00:00",
     "catchup": true
+  },
+  {
+    "name": "Lily Pad Legends #17",
+    "slug": "lily-pad-legends-by-civort-x-reddit-collectible-av",
+    "price": "$1.41  (0.0007 WETH)",
+    "maker": "0x2aa67ec5...a85f95",
+    "maker_full": "0x2aa67ec5dfa4febdaa735b942b99b88565a85f95",
+    "expiry": "?",
+    "link": "https://opensea.io/assets/polygon/0xbfa7a5f53784a5d73a03f4dfe6fdceeffe2a9f22/16",
+    "image_url": "https://i2c.seadn.io/polygon/0xbfa7a5f53784a5d73a03f4dfe6fdceeffe2a9f22/b4427babbdc68d2560976c1b16551b/96b4427babbdc68d2560976c1b16551b.png",
+    "listed_at": "2026-05-31T11:06:52+00:00",
+    "catchup": true
   }
 ]
