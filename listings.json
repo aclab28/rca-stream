@@ -40918,5 +40918,17 @@
     "image_url": "https://i2c.seadn.io/polygon/0x5bbae18120a52755deba69dd1ff2628fba229d33/65fd7de4aa31a90310da7a13a90f0c/0865fd7de4aa31a90310da7a13a90f0c.png",
     "listed_at": "2026-05-31T15:50:41+00:00",
     "catchup": true
+  },
+  {
+    "name": "TOKYO PUNKS UGLY KITTY #1126",
+    "slug": "future-realities-sabet76-x-reddit-collectible-avat",
+    "price": "$0.60  (0.0003 WETH)",
+    "maker": "0x101eb380...90d8c7",
+    "maker_full": "0x101eb380d06e443c7d456aed63961b16e290d8c7",
+    "expiry": "?",
+    "link": "https://opensea.io/assets/polygon/0x4db1e32bdb33d6b76ae6e5d7fa7f18bcd9f4b905/2075",
+    "image_url": "https://i2c.seadn.io/polygon/0x4db1e32bdb33d6b76ae6e5d7fa7f18bcd9f4b905/480ad9d757439437ddab25aa3a0d18/9d480ad9d757439437ddab25aa3a0d18.png",
+    "listed_at": "2026-05-31T15:48:34+00:00",
+    "catchup": true
   }
 ]
