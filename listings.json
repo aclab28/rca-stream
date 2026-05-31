@@ -40606,5 +40606,17 @@
     "image_url": "https://i2c.seadn.io/polygon/0xddbdb65138131dbf2d01b4a5140e1979680c90bb/a331acf87581f6e2d43f2d2993eace/1ca331acf87581f6e2d43f2d2993eace.png",
     "listed_at": "2026-05-31T13:15:05+00:00",
     "catchup": true
+  },
+  {
+    "name": "Bewitching Eyes #574",
+    "slug": "magic-of-the-woods-x-reddit-collectible-avatars",
+    "price": "$2.93  (0.0014 WETH)",
+    "maker": "0x97637f77...d31755",
+    "maker_full": "0x97637f77691a52958a12fc8ac0945b28dad31755",
+    "expiry": "?",
+    "link": "https://opensea.io/assets/polygon/0xd8cf23bf309de778609d234bd2410b0156118c26/1173",
+    "image_url": "https://i2c.seadn.io/polygon/0xd8cf23bf309de778609d234bd2410b0156118c26/f5af4413f55ddf433d10f1199d5a37/6df5af4413f55ddf433d10f1199d5a37.png",
+    "listed_at": "2026-05-31T13:14:04+00:00",
+    "catchup": true
   }
 ]
