@@ -40894,5 +40894,17 @@
     "image_url": "https://i2c.seadn.io/polygon/0x91ac106090fe2b0fa7d01efdf4487a5bfafad7fa/28d47858bf4062fef4a4784cf5cbbe/4d28d47858bf4062fef4a4784cf5cbbe.png",
     "listed_at": "2026-05-31T15:48:34+00:00",
     "catchup": true
+  },
+  {
+    "name": "Jelly Skelly #159",
+    "slug": "retro-reimagined-potaloma-x-reddit-collectible-ava",
+    "price": "$12.06  (0.0060 WETH)",
+    "maker": "0x101eb380...90d8c7",
+    "maker_full": "0x101eb380d06e443c7d456aed63961b16e290d8c7",
+    "expiry": "?",
+    "link": "https://opensea.io/assets/polygon/0x0b0f05f544f6730ad06fee8f40f4a774d662350b/158",
+    "image_url": "https://i2c.seadn.io/polygon/0x0b0f05f544f6730ad06fee8f40f4a774d662350b/348b72d3d961ee07370004a56afc1a/29348b72d3d961ee07370004a56afc1a.png",
+    "listed_at": "2026-05-31T15:48:34+00:00",
+    "catchup": true
   }
 ]
