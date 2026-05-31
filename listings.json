@@ -40702,5 +40702,17 @@
     "image_url": "https://i2c.seadn.io/polygon/0x267609e4e1535501b490d7c52fb795f1934ad154/3a0905720649711a362100569ffc81/953a0905720649711a362100569ffc81.png",
     "listed_at": "2026-05-31T14:10:47+00:00",
     "catchup": true
+  },
+  {
+    "name": "Bright Vibes #8",
+    "slug": "bright-vibes-by-justchasingsparkles-x-reddit-colle",
+    "price": "$1.31  (0.0006 WETH)",
+    "maker": "0x97637f77...d31755",
+    "maker_full": "0x97637f77691a52958a12fc8ac0945b28dad31755",
+    "expiry": "?",
+    "link": "https://opensea.io/assets/polygon/0x3b0ead4934ff3ce73388d055811dd0bffd93d67b/7",
+    "image_url": "https://i2c.seadn.io/polygon/0x3b0ead4934ff3ce73388d055811dd0bffd93d67b/93acc7a8c4d3ace05dc0f05bf947f8/7e93acc7a8c4d3ace05dc0f05bf947f8.png",
+    "listed_at": "2026-05-31T14:12:49+00:00",
+    "catchup": true
   }
 ]
