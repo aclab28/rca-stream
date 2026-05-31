@@ -40750,5 +40750,17 @@
     "image_url": "https://i2c.seadn.io/polygon/0x74ed88f83a96f3c8644e1a764f15c70cdd4e43e8/517e2486d3c474a33ffb53788c0df5/06517e2486d3c474a33ffb53788c0df5.png",
     "listed_at": "2026-05-31T14:23:26+00:00",
     "catchup": true
+  },
+  {
+    "name": "Berry Me Alive #50",
+    "slug": "berry-me-alive-by-marrte-x-reddit-collectible-avat",
+    "price": "$1.00  (0.0005 WETH)",
+    "maker": "0x87ce5ae6...91ed6d",
+    "maker_full": "0x87ce5ae644c67a180c65d18671065ae82b91ed6d",
+    "expiry": "?",
+    "link": "https://opensea.io/assets/polygon/0x4ffa272383e5a03b3a05a16071d1da1fcbbaf67a/49",
+    "image_url": "https://i2c.seadn.io/polygon/0x4ffa272383e5a03b3a05a16071d1da1fcbbaf67a/400f990288d2bae5ce0e9832891127/a7400f990288d2bae5ce0e9832891127.png",
+    "listed_at": "2026-05-31T14:21:40+00:00",
+    "catchup": true
   }
 ]
