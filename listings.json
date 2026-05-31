@@ -41146,5 +41146,17 @@
     "image_url": "https://i2c.seadn.io/polygon/0xddbdb65138131dbf2d01b4a5140e1979680c90bb/a331acf87581f6e2d43f2d2993eace/1ca331acf87581f6e2d43f2d2993eace.png",
     "listed_at": "2026-05-31T19:37:03+00:00",
     "catchup": true
+  },
+  {
+    "name": "Mia Flames #111",
+    "slug": "wearing-your-emotions-x-reddit-collectible-avatars",
+    "price": "$7.87  (0.0039 WETH)",
+    "maker": "0x97637f77...d31755",
+    "maker_full": "0x97637f77691a52958a12fc8ac0945b28dad31755",
+    "expiry": "?",
+    "link": "https://opensea.io/assets/polygon/0x808ed3e23aac685126524aa4416d8eaeb2e767b9/1610",
+    "image_url": "https://i2c.seadn.io/polygon/0x808ed3e23aac685126524aa4416d8eaeb2e767b9/7acbafa2f2659ad925d258683aaebc/627acbafa2f2659ad925d258683aaebc.png",
+    "listed_at": "2026-05-31T19:36:44+00:00",
+    "catchup": true
   }
 ]
