@@ -40234,5 +40234,29 @@
     "image_url": "https://i2c.seadn.io/polygon/0xddbdb65138131dbf2d01b4a5140e1979680c90bb/06e678c3f5ea02db7294ef8586c2be/3a06e678c3f5ea02db7294ef8586c2be.png",
     "listed_at": "2026-05-31T07:44:42+00:00",
     "catchup": true
+  },
+  {
+    "name": "Skyborg #205",
+    "slug": "spooky-season-eando9745-x-reddit-collectible-avata",
+    "price": "$8.09  (0.0040 WETH)",
+    "maker": "0xa6bd5c1a...276429",
+    "maker_full": "0xa6bd5c1af723b907e33bd5ef3a2d16c2d1276429",
+    "expiry": "?",
+    "link": "https://opensea.io/assets/polygon/0x621ce7e7e44d43a428a183d5390c4f4572c9ff9d/1304",
+    "image_url": "https://i2c.seadn.io/polygon/0x621ce7e7e44d43a428a183d5390c4f4572c9ff9d/b400d0b9eee6660fef6961e4b9399b/1fb400d0b9eee6660fef6961e4b9399b.png",
+    "listed_at": "2026-05-31T07:44:41+00:00",
+    "catchup": true
+  },
+  {
+    "name": "Snooze Paralysis #144",
+    "slug": "spooky-season-tirli-x-reddit-collectible-avatars",
+    "price": "$8.09  (0.0040 WETH)",
+    "maker": "0xa6bd5c1a...276429",
+    "maker_full": "0xa6bd5c1af723b907e33bd5ef3a2d16c2d1276429",
+    "expiry": "?",
+    "link": "https://opensea.io/assets/polygon/0x45ee1caed83525673843321107bccadecb9065d7/843",
+    "image_url": "https://i2c.seadn.io/polygon/0x45ee1caed83525673843321107bccadecb9065d7/dc37bb80557c4a7e0ab1965b81fdc1/3fdc37bb80557c4a7e0ab1965b81fdc1.png",
+    "listed_at": "2026-05-31T07:44:41+00:00",
+    "catchup": true
   }
 ]
