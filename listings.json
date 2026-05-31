@@ -40678,5 +40678,17 @@
     "image_url": "https://i2c.seadn.io/polygon/0x2e90e8af4c319095942c84cfa446e1f206795517/c01f0b500cb7ba459234acc9db52ab/0dc01f0b500cb7ba459234acc9db52ab.png",
     "listed_at": "2026-05-31T14:08:01+00:00",
     "catchup": true
+  },
+  {
+    "name": "The Almighty Worm #21",
+    "slug": "the-almighty-worm-by-feogge-x-reddit-collectible-a",
+    "price": "$1.51  (0.0007 WETH)",
+    "maker": "0x97637f77...d31755",
+    "maker_full": "0x97637f77691a52958a12fc8ac0945b28dad31755",
+    "expiry": "?",
+    "link": "https://opensea.io/assets/polygon/0xf94d00c3e2668677a6f53829adc42853b20f4bf6/20",
+    "image_url": "https://i2c.seadn.io/polygon/0xf94d00c3e2668677a6f53829adc42853b20f4bf6/56b89994af1599deea5559b743b7ac/1d56b89994af1599deea5559b743b7ac.png",
+    "listed_at": "2026-05-31T14:11:42+00:00",
+    "catchup": true
   }
 ]
