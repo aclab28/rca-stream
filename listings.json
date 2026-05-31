@@ -40486,5 +40486,17 @@
     "image_url": "https://i2c.seadn.io/polygon/0x362953d22f7487171104b7c138a04b72d7ecc11d/7f4830926eb601d9b31b8be08ce89a/467f4830926eb601d9b31b8be08ce89a.png",
     "listed_at": "2026-05-31T11:44:31+00:00",
     "catchup": true
+  },
+  {
+    "name": "Hushmaker #27",
+    "slug": "hushmaker-by-qugmo-x-reddit-collectible-avatars",
+    "price": "$3.03  (0.0015 WETH)",
+    "maker": "0x87ce5ae6...91ed6d",
+    "maker_full": "0x87ce5ae644c67a180c65d18671065ae82b91ed6d",
+    "expiry": "?",
+    "link": "https://opensea.io/assets/polygon/0xdb1b68ca3c6ff91266b845f0bdf2a22fb243ac6e/26",
+    "image_url": "https://i2c.seadn.io/polygon/0xdb1b68ca3c6ff91266b845f0bdf2a22fb243ac6e/957d03d6124701838974ff24373c8c/c7957d03d6124701838974ff24373c8c.png",
+    "listed_at": "2026-05-31T11:44:04+00:00",
+    "catchup": true
   }
 ]
