@@ -40630,5 +40630,17 @@
     "image_url": "https://i2c.seadn.io/polygon/0x6acb8fb82880d39c2b8446f8778a14d34ee6cfb7/dc1bb0cfd62b95b49cc5e05e08600f/bddc1bb0cfd62b95b49cc5e05e08600f.png",
     "listed_at": "2026-05-31T13:16:58+00:00",
     "catchup": true
+  },
+  {
+    "name": "Not so Fungi #127",
+    "slug": "spooky-season-aliciafreemandesigns-x-reddit-collec",
+    "price": "$7.17  (0.0035 WETH)",
+    "maker": "0x97637f77...d31755",
+    "maker_full": "0x97637f77691a52958a12fc8ac0945b28dad31755",
+    "expiry": "?",
+    "link": "https://opensea.io/assets/polygon/0xddbdb65138131dbf2d01b4a5140e1979680c90bb/1226",
+    "image_url": "https://i2c.seadn.io/polygon/0xddbdb65138131dbf2d01b4a5140e1979680c90bb/4e7713462e9d1a3ac5f8ac06024b41/b84e7713462e9d1a3ac5f8ac06024b41.png",
+    "listed_at": "2026-05-31T13:16:05+00:00",
+    "catchup": true
   }
 ]
