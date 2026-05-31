@@ -40870,5 +40870,29 @@
     "image_url": "https://i2c.seadn.io/polygon/0xa687660f9c9fcf7370210d358f1279088e851e58/c31d333258c0f6e5ef6cf227a1a106/f6c31d333258c0f6e5ef6cf227a1a106.png",
     "listed_at": "2026-05-31T15:48:34+00:00",
     "catchup": true
+  },
+  {
+    "name": "Illusionist Foustling #604",
+    "slug": "spooky-season-tfoust10-x-reddit-collectible-avatar",
+    "price": "$1.51  (0.0008 WETH)",
+    "maker": "0x101eb380...90d8c7",
+    "maker_full": "0x101eb380d06e443c7d456aed63961b16e290d8c7",
+    "expiry": "?",
+    "link": "https://opensea.io/assets/polygon/0xe1b5e23fdbc003aec16e6e79726a0b5f75ff93f5/603",
+    "image_url": "https://i2c.seadn.io/polygon/0xe1b5e23fdbc003aec16e6e79726a0b5f75ff93f5/6e9045288d78bf703e12a7e6882790/4c6e9045288d78bf703e12a7e6882790.png",
+    "listed_at": "2026-05-31T15:48:34+00:00",
+    "catchup": true
+  },
+  {
+    "name": "Night Guard #731",
+    "slug": "spooky-season-poieeeyee-x-reddit-collectible-avata",
+    "price": "$3.42  (0.0017 WETH)",
+    "maker": "0x101eb380...90d8c7",
+    "maker_full": "0x101eb380d06e443c7d456aed63961b16e290d8c7",
+    "expiry": "?",
+    "link": "https://opensea.io/assets/polygon/0x91ac106090fe2b0fa7d01efdf4487a5bfafad7fa/730",
+    "image_url": "https://i2c.seadn.io/polygon/0x91ac106090fe2b0fa7d01efdf4487a5bfafad7fa/28d47858bf4062fef4a4784cf5cbbe/4d28d47858bf4062fef4a4784cf5cbbe.png",
+    "listed_at": "2026-05-31T15:48:34+00:00",
+    "catchup": true
   }
 ]
