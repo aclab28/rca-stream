@@ -40366,5 +40366,17 @@
     "image_url": "https://i2c.seadn.io/polygon/0x36faf58871bbee4cc854209a85eb61460ffed890/e3196f9ce3bf032ab45a68a647c1f6/08e3196f9ce3bf032ab45a68a647c1f6.png",
     "listed_at": "2026-05-31T11:00:25+00:00",
     "catchup": true
+  },
+  {
+    "name": "Nigiri Sushi #8",
+    "slug": "nigiri-sushi-by-lunnaoe-x-reddit-collectible-avata",
+    "price": "$0.92  (0.0005 WETH)",
+    "maker": "0x2aa67ec5...a85f95",
+    "maker_full": "0x2aa67ec5dfa4febdaa735b942b99b88565a85f95",
+    "expiry": "?",
+    "link": "https://opensea.io/assets/polygon/0x2517ee16d6716841eabd416c010ca94d3253413f/7",
+    "image_url": "https://i2c.seadn.io/polygon/0x2517ee16d6716841eabd416c010ca94d3253413f/6c2ed71e698e40d4a17b04d31e3024/3a6c2ed71e698e40d4a17b04d31e3024.png",
+    "listed_at": "2026-05-31T11:02:22+00:00",
+    "catchup": true
   }
 ]
