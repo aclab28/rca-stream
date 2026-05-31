@@ -40654,5 +40654,17 @@
     "image_url": "https://i2c.seadn.io/polygon/0x808ed3e23aac685126524aa4416d8eaeb2e767b9/7acbafa2f2659ad925d258683aaebc/627acbafa2f2659ad925d258683aaebc.png",
     "listed_at": "2026-05-31T13:18:33+00:00",
     "catchup": true
+  },
+  {
+    "name": "Mio Armor #925",
+    "slug": "wearing-your-emotions-x-reddit-collectible-avatars",
+    "price": "$7.59  (0.0037 WETH)",
+    "maker": "0x97637f77...d31755",
+    "maker_full": "0x97637f77691a52958a12fc8ac0945b28dad31755",
+    "expiry": "?",
+    "link": "https://opensea.io/assets/polygon/0x808ed3e23aac685126524aa4416d8eaeb2e767b9/924",
+    "image_url": "https://i2c.seadn.io/polygon/0x808ed3e23aac685126524aa4416d8eaeb2e767b9/cc7970d7b90676b0f0e43e0d247845/a4cc7970d7b90676b0f0e43e0d247845.png",
+    "listed_at": "2026-05-31T13:18:13+00:00",
+    "catchup": true
   }
 ]
