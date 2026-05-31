@@ -40582,5 +40582,17 @@
     "image_url": "https://i2c.seadn.io/polygon/0x6d1c3646e8cce8537e6ec9ecab26762bfaf1f891/9d681841daebe8423aa4582ec2ab70/ce9d681841daebe8423aa4582ec2ab70.png",
     "listed_at": "2026-05-31T13:12:23+00:00",
     "catchup": true
+  },
+  {
+    "name": "Snooze Paralysis #150",
+    "slug": "spooky-season-tirli-x-reddit-collectible-avatars",
+    "price": "$7.98  (0.0039 WETH)",
+    "maker": "0x97637f77...d31755",
+    "maker_full": "0x97637f77691a52958a12fc8ac0945b28dad31755",
+    "expiry": "?",
+    "link": "https://opensea.io/assets/polygon/0x45ee1caed83525673843321107bccadecb9065d7/849",
+    "image_url": "https://i2c.seadn.io/polygon/0x45ee1caed83525673843321107bccadecb9065d7/dc37bb80557c4a7e0ab1965b81fdc1/3fdc37bb80557c4a7e0ab1965b81fdc1.png",
+    "listed_at": "2026-05-31T13:11:23+00:00",
+    "catchup": true
   }
 ]
