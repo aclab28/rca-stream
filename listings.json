@@ -40174,5 +40174,17 @@
     "image_url": "https://i2c.seadn.io/polygon/0x91ac106090fe2b0fa7d01efdf4487a5bfafad7fa/ef6b5095b69d00987ff6a130b4a1b7/91ef6b5095b69d00987ff6a130b4a1b7.png",
     "listed_at": "2026-05-31T07:25:28+00:00",
     "catchup": true
+  },
+  {
+    "name": "MECHLETZ #25",
+    "slug": "retro-reimagined-penguitt-x-reddit-collectible-ava",
+    "price": "$18.19  (0.0090 WETH)",
+    "maker": "0xa6bd5c1a...276429",
+    "maker_full": "0xa6bd5c1af723b907e33bd5ef3a2d16c2d1276429",
+    "expiry": "?",
+    "link": "https://opensea.io/assets/polygon/0x5a7e0981ede6134795cf4ec5665a1635a2477722/24",
+    "image_url": "https://i2c.seadn.io/polygon/0x5a7e0981ede6134795cf4ec5665a1635a2477722/4b34b9a0f2d31c95457d5c8322d70f/b54b34b9a0f2d31c95457d5c8322d70f.png",
+    "listed_at": "2026-05-31T07:24:42+00:00",
+    "catchup": true
   }
 ]
