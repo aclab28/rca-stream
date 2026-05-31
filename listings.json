@@ -40354,5 +40354,17 @@
     "image_url": "https://i2c.seadn.io/polygon/0xfcc6a9a8c25ece89cf222944b313ff140d26894f/73be77a3cd86c34a93f7ee30624ae9/d373be77a3cd86c34a93f7ee30624ae9.png",
     "listed_at": "2026-05-31T08:27:15+00:00",
     "catchup": true
+  },
+  {
+    "name": "Fracture #8",
+    "slug": "fracture-by-autumn-x-reddit-collectible-avatars",
+    "price": "$0.31  (0.0002 WETH)",
+    "maker": "0x2aa67ec5...a85f95",
+    "maker_full": "0x2aa67ec5dfa4febdaa735b942b99b88565a85f95",
+    "expiry": "?",
+    "link": "https://opensea.io/assets/polygon/0x36faf58871bbee4cc854209a85eb61460ffed890/7",
+    "image_url": "https://i2c.seadn.io/polygon/0x36faf58871bbee4cc854209a85eb61460ffed890/e3196f9ce3bf032ab45a68a647c1f6/08e3196f9ce3bf032ab45a68a647c1f6.png",
+    "listed_at": "2026-05-31T11:00:25+00:00",
+    "catchup": true
   }
 ]
