@@ -41182,5 +41182,29 @@
     "image_url": "https://i2c.seadn.io/polygon/0x1c3305e492f2d9d5a1e6cfadf14e526905ab489e/01812cd9ecd5a151493d05203aa677/f301812cd9ecd5a151493d05203aa677.png",
     "listed_at": "2026-05-31T19:35:34+00:00",
     "catchup": true
+  },
+  {
+    "name": "Redd Mummy #494",
+    "slug": "peculiar-gang-x-reddit-collectible-avatars",
+    "price": "$1.99  (0.0010 WETH)",
+    "maker": "0x97637f77...d31755",
+    "maker_full": "0x97637f77691a52958a12fc8ac0945b28dad31755",
+    "expiry": "?",
+    "link": "https://opensea.io/assets/polygon/0xd6261320f49d38c137f6e229a2ea4ab0f4fae6de/493",
+    "image_url": "https://i2c.seadn.io/polygon/0xd6261320f49d38c137f6e229a2ea4ab0f4fae6de/1a6230125746f85494d901703d5894/671a6230125746f85494d901703d5894.png",
+    "listed_at": "2026-05-31T19:35:32+00:00",
+    "catchup": true
+  },
+  {
+    "name": "Snooze Paralysis #150",
+    "slug": "spooky-season-tirli-x-reddit-collectible-avatars",
+    "price": "$4.88  (0.0024 WETH)",
+    "maker": "0x97637f77...d31755",
+    "maker_full": "0x97637f77691a52958a12fc8ac0945b28dad31755",
+    "expiry": "?",
+    "link": "https://opensea.io/assets/polygon/0x45ee1caed83525673843321107bccadecb9065d7/849",
+    "image_url": "https://i2c.seadn.io/polygon/0x45ee1caed83525673843321107bccadecb9065d7/dc37bb80557c4a7e0ab1965b81fdc1/3fdc37bb80557c4a7e0ab1965b81fdc1.png",
+    "listed_at": "2026-05-31T19:38:14+00:00",
+    "catchup": true
   }
 ]
