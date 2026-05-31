@@ -1668,15 +1668,27 @@
     "catchup": true
   },
   {
-    "name": "Sprinkles #18 by rylar",
+    "name": "Odds #5 by rylar",
     "slug": "mash-it",
-    "price": "$2.00  (0.0010 WETH)",
+    "price": "$4.01  (0.0020 WETH)",
     "maker": "0x7385dbeb...6a459b",
     "maker_full": "0x7385dbebbdc08b8ff69af3f924710258fe6a459b",
     "expiry": "?",
-    "link": "https://opensea.io/assets/polygon/0x6d74e823e3cfb94a4a395b74b1e7b0f5ca5596a3/12292",
-    "image_url": "https://i2c.seadn.io/polygon/0x6d74e823e3cfb94a4a395b74b1e7b0f5ca5596a3/23b573aea54065e4c6a2e46fdb394e/5423b573aea54065e4c6a2e46fdb394e.png",
-    "listed_at": "2026-05-31T17:52:09+00:00",
+    "link": "https://opensea.io/assets/polygon/0x6d74e823e3cfb94a4a395b74b1e7b0f5ca5596a3/11884",
+    "image_url": "https://i2c.seadn.io/polygon/0x6d74e823e3cfb94a4a395b74b1e7b0f5ca5596a3/3878d77b0bdeeaca140f9dde914b84/443878d77b0bdeeaca140f9dde914b84.png",
+    "listed_at": "2026-05-31T17:52:10+00:00",
+    "catchup": true
+  },
+  {
+    "name": "Mash-it Holographic #12",
+    "slug": "mash-it-holographic",
+    "price": "$0.40  (0.0002 WETH)",
+    "maker": "0x87ce5ae6...91ed6d",
+    "maker_full": "0x87ce5ae644c67a180c65d18671065ae82b91ed6d",
+    "expiry": "?",
+    "link": "https://opensea.io/assets/polygon/0xb37d5f8ca8d51692a078fb57d6e7315f4edd3d65/12",
+    "image_url": "https://i2c.seadn.io/polygon/0xb37d5f8ca8d51692a078fb57d6e7315f4edd3d65/073b226a1e5e17db1d62976170d0a7/3d073b226a1e5e17db1d62976170d0a7.png",
+    "listed_at": "2026-05-31T19:24:42+00:00",
     "catchup": true
   }
 ]
