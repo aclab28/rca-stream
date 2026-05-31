@@ -40714,5 +40714,17 @@
     "image_url": "https://i2c.seadn.io/polygon/0x3b0ead4934ff3ce73388d055811dd0bffd93d67b/93acc7a8c4d3ace05dc0f05bf947f8/7e93acc7a8c4d3ace05dc0f05bf947f8.png",
     "listed_at": "2026-05-31T14:12:49+00:00",
     "catchup": true
+  },
+  {
+    "name": "1988 #388",
+    "slug": "1988-by-itsnotyourfault-x-reddit-collectible-avata",
+    "price": "$1.92  (0.0009 WETH)",
+    "maker": "0x97637f77...d31755",
+    "maker_full": "0x97637f77691a52958a12fc8ac0945b28dad31755",
+    "expiry": "?",
+    "link": "https://opensea.io/assets/polygon/0xa65489d3114fd5faab62148943c9583464bda491/387",
+    "image_url": "https://i2c.seadn.io/polygon/0xa65489d3114fd5faab62148943c9583464bda491/52ea4116d028afe35c1b8d49ef102b/1652ea4116d028afe35c1b8d49ef102b.png",
+    "listed_at": "2026-05-31T14:15:10+00:00",
+    "catchup": true
   }
 ]
