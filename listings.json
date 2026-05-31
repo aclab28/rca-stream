@@ -40558,5 +40558,17 @@
     "image_url": "https://i2c.seadn.io/polygon/0x621ce7e7e44d43a428a183d5390c4f4572c9ff9d/3c1e638bea25ea4d42400a017ef039/ed3c1e638bea25ea4d42400a017ef039.png",
     "listed_at": "2026-05-31T13:09:51+00:00",
     "catchup": true
+  },
+  {
+    "name": "Shadow Wolf #153",
+    "slug": "coolcats-x-reddit",
+    "price": "$20.19  (0.0100 WETH)",
+    "maker": "0x97637f77...d31755",
+    "maker_full": "0x97637f77691a52958a12fc8ac0945b28dad31755",
+    "expiry": "?",
+    "link": "https://opensea.io/assets/polygon/0xc82c481d47d446d21385d07a79d60619e7201b96/4100",
+    "image_url": "https://i2c.seadn.io/polygon/0xc82c481d47d446d21385d07a79d60619e7201b96/f6f1fb3bc20d2d801271b0ef562fb1/57f6f1fb3bc20d2d801271b0ef562fb1.png",
+    "listed_at": "2026-05-31T13:13:24+00:00",
+    "catchup": true
   }
 ]
