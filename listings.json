@@ -40330,5 +40330,17 @@
     "image_url": "https://i2c.seadn.io/polygon/0x9f5dcd096e85accecf7f2b2ec0a132cf44fe7996/be7894bb62c825af91b20c42af823a/65be7894bb62c825af91b20c42af823a.png",
     "listed_at": "2026-05-31T08:04:44+00:00",
     "catchup": true
+  },
+  {
+    "name": "Butterfly of Diamonds #86",
+    "slug": "the-butterfly-garden-x-reddit-collectible-avatars",
+    "price": "$20.21  (0.0100 WETH)",
+    "maker": "0xdf274566...28c2b2",
+    "maker_full": "0xdf274566db9a30fc89e24ed5f39fabcdd828c2b2",
+    "expiry": "?",
+    "link": "https://opensea.io/assets/polygon/0xfbed9640e37666fe2ac78e1d263670976354cb69/1585",
+    "image_url": "https://i2c.seadn.io/polygon/0xfbed9640e37666fe2ac78e1d263670976354cb69/9b9c77e477e0e0085908b5b7eb4e0b/889b9c77e477e0e0085908b5b7eb4e0b.png",
+    "listed_at": "2026-05-31T07:53:25+00:00",
+    "catchup": true
   }
 ]
