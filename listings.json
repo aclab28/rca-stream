@@ -41170,5 +41170,17 @@
     "image_url": "https://i2c.seadn.io/polygon/0x808ed3e23aac685126524aa4416d8eaeb2e767b9/cc7970d7b90676b0f0e43e0d247845/a4cc7970d7b90676b0f0e43e0d247845.png",
     "listed_at": "2026-05-31T19:36:27+00:00",
     "catchup": true
+  },
+  {
+    "name": "Iridescent #95",
+    "slug": "iridescent-by-koyangi2018-x-reddit-collectible-ava",
+    "price": "$1.00  (0.0005 WETH)",
+    "maker": "0x87ce5ae6...91ed6d",
+    "maker_full": "0x87ce5ae644c67a180c65d18671065ae82b91ed6d",
+    "expiry": "?",
+    "link": "https://opensea.io/assets/polygon/0x1c3305e492f2d9d5a1e6cfadf14e526905ab489e/94",
+    "image_url": "https://i2c.seadn.io/polygon/0x1c3305e492f2d9d5a1e6cfadf14e526905ab489e/01812cd9ecd5a151493d05203aa677/f301812cd9ecd5a151493d05203aa677.png",
+    "listed_at": "2026-05-31T19:35:34+00:00",
+    "catchup": true
   }
 ]
