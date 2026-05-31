@@ -41206,5 +41206,17 @@
     "image_url": "https://i2c.seadn.io/polygon/0x45ee1caed83525673843321107bccadecb9065d7/dc37bb80557c4a7e0ab1965b81fdc1/3fdc37bb80557c4a7e0ab1965b81fdc1.png",
     "listed_at": "2026-05-31T19:38:14+00:00",
     "catchup": true
+  },
+  {
+    "name": "Fuyuko #3",
+    "slug": "fuyuko-by-emanuela-bosnjak-x-reddit-collectible-av",
+    "price": "$5.98  (0.0030 WETH)",
+    "maker": "0x87ce5ae6...91ed6d",
+    "maker_full": "0x87ce5ae644c67a180c65d18671065ae82b91ed6d",
+    "expiry": "?",
+    "link": "https://opensea.io/assets/polygon/0x79659a374cb7460f77fda74601055e7f7d5cf95d/2",
+    "image_url": "https://i2c.seadn.io/matic/0x79659a374cb7460f77fda74601055e7f7d5cf95d/e3c4ab9cbd90701cd222a98006def3/61e3c4ab9cbd90701cd222a98006def3.png",
+    "listed_at": "2026-05-31T19:38:01+00:00",
+    "catchup": true
   }
 ]
