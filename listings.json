@@ -41218,5 +41218,17 @@
     "image_url": "https://i2c.seadn.io/matic/0x79659a374cb7460f77fda74601055e7f7d5cf95d/e3c4ab9cbd90701cd222a98006def3/61e3c4ab9cbd90701cd222a98006def3.png",
     "listed_at": "2026-05-31T19:38:01+00:00",
     "catchup": true
+  },
+  {
+    "name": "Boroborygmius #63",
+    "slug": "baked-goods-evils-x-reddit-collectible-avatars",
+    "price": "$3.59  (0.0018 WETH)",
+    "maker": "0x97637f77...d31755",
+    "maker_full": "0x97637f77691a52958a12fc8ac0945b28dad31755",
+    "expiry": "?",
+    "link": "https://opensea.io/assets/polygon/0x6d1c3646e8cce8537e6ec9ecab26762bfaf1f891/1227",
+    "image_url": "https://i2c.seadn.io/polygon/0x6d1c3646e8cce8537e6ec9ecab26762bfaf1f891/9d681841daebe8423aa4582ec2ab70/ce9d681841daebe8423aa4582ec2ab70.png",
+    "listed_at": "2026-05-31T19:37:41+00:00",
+    "catchup": true
   }
 ]
