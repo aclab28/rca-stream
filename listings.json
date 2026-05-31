@@ -40858,5 +40858,17 @@
     "image_url": "https://i2c.seadn.io/polygon/0x2956409293da98603025cc0121c06a4244752039/1f48d661b1df68b81642e21cf588a3/f01f48d661b1df68b81642e21cf588a3.png",
     "listed_at": "2026-05-31T15:48:34+00:00",
     "catchup": true
+  },
+  {
+    "name": "Diamond Wyvern - Dyvern #54",
+    "slug": "retro-reimagined-brasky155-x-reddit-collectible-av",
+    "price": "$2.31  (0.0011 WETH)",
+    "maker": "0x101eb380...90d8c7",
+    "maker_full": "0x101eb380d06e443c7d456aed63961b16e290d8c7",
+    "expiry": "?",
+    "link": "https://opensea.io/assets/polygon/0xa687660f9c9fcf7370210d358f1279088e851e58/1003",
+    "image_url": "https://i2c.seadn.io/polygon/0xa687660f9c9fcf7370210d358f1279088e851e58/c31d333258c0f6e5ef6cf227a1a106/f6c31d333258c0f6e5ef6cf227a1a106.png",
+    "listed_at": "2026-05-31T15:48:34+00:00",
+    "catchup": true
   }
 ]
