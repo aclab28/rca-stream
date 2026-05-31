@@ -1318,5 +1318,17 @@
     "image_url": "https://i2c.seadn.io/polygon/0x6d74e823e3cfb94a4a395b74b1e7b0f5ca5596a3/86f534886b07b42af0ec6eda3f09ff/1786f534886b07b42af0ec6eda3f09ff.png",
     "listed_at": "2026-05-30T22:37:16+00:00",
     "catchup": true
+  },
+  {
+    "name": "Ticktockalypse Chronomad #10 by Canetoonist",
+    "slug": "mash-it",
+    "price": "$0.80  (0.0004 WETH)",
+    "maker": "0x97637f77...d31755",
+    "maker_full": "0x97637f77691a52958a12fc8ac0945b28dad31755",
+    "expiry": "?",
+    "link": "https://opensea.io/assets/polygon/0x6d74e823e3cfb94a4a395b74b1e7b0f5ca5596a3/8514",
+    "image_url": "https://i2c.seadn.io/polygon/0x6d74e823e3cfb94a4a395b74b1e7b0f5ca5596a3/3ef252fc6757239ed556b821606988/4d3ef252fc6757239ed556b821606988.png",
+    "listed_at": "2026-05-31T04:38:56+00:00",
+    "catchup": true
   }
 ]
