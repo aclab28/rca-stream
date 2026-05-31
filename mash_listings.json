@@ -1354,5 +1354,17 @@
     "image_url": "https://i2c.seadn.io/polygon/0x6d74e823e3cfb94a4a395b74b1e7b0f5ca5596a3/1e12cf6dc54c36047bf1d11b2fb2d4/831e12cf6dc54c36047bf1d11b2fb2d4.png",
     "listed_at": "2026-05-31T10:41:52+00:00",
     "catchup": true
+  },
+  {
+    "name": "Mash-it Comics Rinni's page #12 by Rinni",
+    "slug": "mash-it-comics",
+    "price": "$0.24  (0.0001 WETH)",
+    "maker": "0x87ce5ae6...91ed6d",
+    "maker_full": "0x87ce5ae644c67a180c65d18671065ae82b91ed6d",
+    "expiry": "?",
+    "link": "https://opensea.io/assets/polygon/0x599e5ceeca244cc09032828407c929a23bbaf976/108",
+    "image_url": "https://i2c.seadn.io/polygon/0x599e5ceeca244cc09032828407c929a23bbaf976/9bbe5a8f0b9c1afb0882c9c44b7a47/4f9bbe5a8f0b9c1afb0882c9c44b7a47.png",
+    "listed_at": "2026-05-31T10:41:00+00:00",
+    "catchup": true
   }
 ]
