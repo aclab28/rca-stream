@@ -40342,5 +40342,17 @@
     "image_url": "https://i2c.seadn.io/polygon/0xfbed9640e37666fe2ac78e1d263670976354cb69/9b9c77e477e0e0085908b5b7eb4e0b/889b9c77e477e0e0085908b5b7eb4e0b.png",
     "listed_at": "2026-05-31T07:53:25+00:00",
     "catchup": true
+  },
+  {
+    "name": "Cone Gnome #132",
+    "slug": "retro-reimagined-chipperdoodlescomic-x-reddit-coll",
+    "price": "$3.42  (0.0017 WETH)",
+    "maker": "0x14447318...c7e077",
+    "maker_full": "0x144473186eb4726577dbb94a06690c97edc7e077",
+    "expiry": "?",
+    "link": "https://opensea.io/assets/polygon/0xfcc6a9a8c25ece89cf222944b313ff140d26894f/881",
+    "image_url": "https://i2c.seadn.io/polygon/0xfcc6a9a8c25ece89cf222944b313ff140d26894f/73be77a3cd86c34a93f7ee30624ae9/d373be77a3cd86c34a93f7ee30624ae9.png",
+    "listed_at": "2026-05-31T08:27:15+00:00",
+    "catchup": true
   }
 ]
