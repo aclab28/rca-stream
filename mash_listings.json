@@ -1342,5 +1342,17 @@
     "image_url": "https://i2c.seadn.io/polygon/0x6d74e823e3cfb94a4a395b74b1e7b0f5ca5596a3/4f3d1e3f55cfa905ac4f3d002acb12/894f3d1e3f55cfa905ac4f3d002acb12.png",
     "listed_at": "2026-05-31T04:38:56+00:00",
     "catchup": true
+  },
+  {
+    "name": "Pinky #5 by xlate",
+    "slug": "mash-it",
+    "price": "$0.71  (0.0003 WETH)",
+    "maker": "0x87ce5ae6...91ed6d",
+    "maker_full": "0x87ce5ae644c67a180c65d18671065ae82b91ed6d",
+    "expiry": "?",
+    "link": "https://opensea.io/assets/polygon/0x6d74e823e3cfb94a4a395b74b1e7b0f5ca5596a3/12787",
+    "image_url": "https://i2c.seadn.io/polygon/0x6d74e823e3cfb94a4a395b74b1e7b0f5ca5596a3/1e12cf6dc54c36047bf1d11b2fb2d4/831e12cf6dc54c36047bf1d11b2fb2d4.png",
+    "listed_at": "2026-05-31T10:41:52+00:00",
+    "catchup": true
   }
 ]
