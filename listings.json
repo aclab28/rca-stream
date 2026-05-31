@@ -40738,5 +40738,17 @@
     "image_url": "https://i2c.seadn.io/polygon/0xa44674ff018d8ce45a77e24ea3bb2e0da958a832/b1803309113bb6d5adb6097df294bc/c1b1803309113bb6d5adb6097df294bc.png",
     "listed_at": "2026-05-31T14:13:54+00:00",
     "catchup": true
+  },
+  {
+    "name": "Groovy Skull #5",
+    "slug": "groovy-skull-by-groovi-x-reddit-collectible-avatar",
+    "price": "$1.60  (0.0008 WETH)",
+    "maker": "0x87ce5ae6...91ed6d",
+    "maker_full": "0x87ce5ae644c67a180c65d18671065ae82b91ed6d",
+    "expiry": "?",
+    "link": "https://opensea.io/assets/polygon/0x74ed88f83a96f3c8644e1a764f15c70cdd4e43e8/4",
+    "image_url": "https://i2c.seadn.io/polygon/0x74ed88f83a96f3c8644e1a764f15c70cdd4e43e8/517e2486d3c474a33ffb53788c0df5/06517e2486d3c474a33ffb53788c0df5.png",
+    "listed_at": "2026-05-31T14:23:26+00:00",
+    "catchup": true
   }
 ]
