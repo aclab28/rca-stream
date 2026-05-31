@@ -41254,5 +41254,17 @@
     "image_url": "https://i2c.seadn.io/polygon/0x621ce7e7e44d43a428a183d5390c4f4572c9ff9d/3c1e638bea25ea4d42400a017ef039/ed3c1e638bea25ea4d42400a017ef039.png",
     "listed_at": "2026-05-31T19:39:21+00:00",
     "catchup": true
+  },
+  {
+    "name": "Santasuko #70",
+    "slug": "santasuko-by-chrono-x-reddit-collectible-avatars",
+    "price": "$0.80  (0.0004 WETH)",
+    "maker": "0x87ce5ae6...91ed6d",
+    "maker_full": "0x87ce5ae644c67a180c65d18671065ae82b91ed6d",
+    "expiry": "?",
+    "link": "https://opensea.io/assets/polygon/0x6102ec47c031286b10e77f79311b3b0979f8e1c3/69",
+    "image_url": "https://i2c.seadn.io/polygon/0x6102ec47c031286b10e77f79311b3b0979f8e1c3/a2c63414ac6a12f8f27480cdc82af6/5ca2c63414ac6a12f8f27480cdc82af6.png",
+    "listed_at": "2026-05-31T23:03:08+00:00",
+    "catchup": true
   }
 ]
