@@ -1618,5 +1618,17 @@
     "image_url": "https://i2c.seadn.io/polygon/0x6d74e823e3cfb94a4a395b74b1e7b0f5ca5596a3/8b5ba95e09427c98e25fa82c49b53d/848b5ba95e09427c98e25fa82c49b53d.png",
     "listed_at": "2026-05-31T12:39:55+00:00",
     "catchup": true
+  },
+  {
+    "name": "gary nakamoto 04:20 #10 by fearsmile",
+    "slug": "mash-it-comics",
+    "price": "$1.62  (0.0008 WETH)",
+    "maker": "0xe306caca...e47bb6",
+    "maker_full": "0xe306caca97f92cd566f5fc91121b26a296e47bb6",
+    "expiry": "?",
+    "link": "https://opensea.io/assets/polygon/0x599e5ceeca244cc09032828407c929a23bbaf976/356",
+    "image_url": "https://i2c.seadn.io/polygon/0x599e5ceeca244cc09032828407c929a23bbaf976/50bbc808d28476f7cfe148523eaa2c/de50bbc808d28476f7cfe148523eaa2c.png",
+    "listed_at": "2026-05-31T12:39:23+00:00",
+    "catchup": true
   }
 ]
