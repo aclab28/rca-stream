@@ -40258,5 +40258,29 @@
     "image_url": "https://i2c.seadn.io/polygon/0x45ee1caed83525673843321107bccadecb9065d7/dc37bb80557c4a7e0ab1965b81fdc1/3fdc37bb80557c4a7e0ab1965b81fdc1.png",
     "listed_at": "2026-05-31T07:44:41+00:00",
     "catchup": true
+  },
+  {
+    "name": "Redd Mummy #975",
+    "slug": "peculiar-gang-x-reddit-collectible-avatars",
+    "price": "$4.65  (0.0023 WETH)",
+    "maker": "0xa6bd5c1a...276429",
+    "maker_full": "0xa6bd5c1af723b907e33bd5ef3a2d16c2d1276429",
+    "expiry": "?",
+    "link": "https://opensea.io/assets/polygon/0xd6261320f49d38c137f6e229a2ea4ab0f4fae6de/974",
+    "image_url": "https://i2c.seadn.io/polygon/0xd6261320f49d38c137f6e229a2ea4ab0f4fae6de/1a6230125746f85494d901703d5894/671a6230125746f85494d901703d5894.png",
+    "listed_at": "2026-05-31T07:44:41+00:00",
+    "catchup": true
+  },
+  {
+    "name": "Winged Eyeling #2438",
+    "slug": "retro-reimagined-rojom-x-reddit-collectible-avatar",
+    "price": "$1.62  (0.0008 WETH)",
+    "maker": "0x14447318...c7e077",
+    "maker_full": "0x144473186eb4726577dbb94a06690c97edc7e077",
+    "expiry": "?",
+    "link": "https://opensea.io/assets/polygon/0x1ef6f9379aa228e08507f53e70c109979a35e512/2437",
+    "image_url": "https://i2c.seadn.io/polygon/0x1ef6f9379aa228e08507f53e70c109979a35e512/085316523e01e668c540949fd66b99/4b085316523e01e668c540949fd66b99.png",
+    "listed_at": "2026-05-31T07:50:13+00:00",
+    "catchup": true
   }
 ]
