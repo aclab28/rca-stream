@@ -40378,5 +40378,17 @@
     "image_url": "https://i2c.seadn.io/polygon/0x2517ee16d6716841eabd416c010ca94d3253413f/6c2ed71e698e40d4a17b04d31e3024/3a6c2ed71e698e40d4a17b04d31e3024.png",
     "listed_at": "2026-05-31T11:02:22+00:00",
     "catchup": true
+  },
+  {
+    "name": "a cup of cherry blossom #24",
+    "slug": "a-cup-of-cherry-blossom-by-kkeist-x-reddit-collect",
+    "price": "$1.01  (0.0005 WETH)",
+    "maker": "0x2aa67ec5...a85f95",
+    "maker_full": "0x2aa67ec5dfa4febdaa735b942b99b88565a85f95",
+    "expiry": "?",
+    "link": "https://opensea.io/assets/polygon/0x7b2056da2b93aa3eb231bc52107087b232a042d2/23",
+    "image_url": "https://i2c.seadn.io/polygon/0x7b2056da2b93aa3eb231bc52107087b232a042d2/b49ed270170d06e974d4c3fe1547ef/bfb49ed270170d06e974d4c3fe1547ef.png",
+    "listed_at": "2026-05-31T11:01:29+00:00",
+    "catchup": true
   }
 ]
