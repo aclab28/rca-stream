@@ -40990,5 +40990,17 @@
     "image_url": "https://i2c.seadn.io/polygon/0x45ee1caed83525673843321107bccadecb9065d7/dc37bb80557c4a7e0ab1965b81fdc1/3fdc37bb80557c4a7e0ab1965b81fdc1.png",
     "listed_at": "2026-05-31T15:58:56+00:00",
     "catchup": true
+  },
+  {
+    "name": "Redd Mummy #975",
+    "slug": "peculiar-gang-x-reddit-collectible-avatars",
+    "price": "$2.01  (0.0010 WETH)",
+    "maker": "0xa6bd5c1a...276429",
+    "maker_full": "0xa6bd5c1af723b907e33bd5ef3a2d16c2d1276429",
+    "expiry": "?",
+    "link": "https://opensea.io/assets/polygon/0xd6261320f49d38c137f6e229a2ea4ab0f4fae6de/974",
+    "image_url": "https://i2c.seadn.io/polygon/0xd6261320f49d38c137f6e229a2ea4ab0f4fae6de/1a6230125746f85494d901703d5894/671a6230125746f85494d901703d5894.png",
+    "listed_at": "2026-05-31T16:01:10+00:00",
+    "catchup": true
   }
 ]
