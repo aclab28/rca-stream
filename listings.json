@@ -41134,5 +41134,17 @@
     "image_url": "https://i2c.seadn.io/polygon/0x6b354dc1bd8240aba21f969fee269af73d47f42e/e2e8be4b156aae6dec0c020e7eefc4/06e2e8be4b156aae6dec0c020e7eefc4.png",
     "listed_at": "2026-05-31T19:32:32+00:00",
     "catchup": true
+  },
+  {
+    "name": "In-tree-guing #262",
+    "slug": "spooky-season-aliciafreemandesigns-x-reddit-collec",
+    "price": "$4.88  (0.0024 WETH)",
+    "maker": "0x97637f77...d31755",
+    "maker_full": "0x97637f77691a52958a12fc8ac0945b28dad31755",
+    "expiry": "?",
+    "link": "https://opensea.io/assets/polygon/0xddbdb65138131dbf2d01b4a5140e1979680c90bb/2161",
+    "image_url": "https://i2c.seadn.io/polygon/0xddbdb65138131dbf2d01b4a5140e1979680c90bb/a331acf87581f6e2d43f2d2993eace/1ca331acf87581f6e2d43f2d2993eace.png",
+    "listed_at": "2026-05-31T19:37:03+00:00",
+    "catchup": true
   }
 ]
