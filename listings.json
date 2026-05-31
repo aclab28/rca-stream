@@ -40450,5 +40450,17 @@
     "image_url": "https://i2c.seadn.io/polygon/0xbfa7a5f53784a5d73a03f4dfe6fdceeffe2a9f22/b4427babbdc68d2560976c1b16551b/96b4427babbdc68d2560976c1b16551b.png",
     "listed_at": "2026-05-31T11:06:52+00:00",
     "catchup": true
+  },
+  {
+    "name": "Peacemaker #841956",
+    "slug": "reddit-starter-pack-x-reddit-collectible-avatars",
+    "price": "$1.52  (0.0008 WETH)",
+    "maker": "0x2aa67ec5...a85f95",
+    "maker_full": "0x2aa67ec5dfa4febdaa735b942b99b88565a85f95",
+    "expiry": "?",
+    "link": "https://opensea.io/assets/polygon/0xeb959a715dfffe6f82f4605533982c4859cb14fe/841955",
+    "image_url": "https://i2c.seadn.io/polygon/0xeb959a715dfffe6f82f4605533982c4859cb14fe/9663553a7b6364e837b7ba2657c1f8/269663553a7b6364e837b7ba2657c1f8.png",
+    "listed_at": "2026-05-31T11:05:12+00:00",
+    "catchup": true
   }
 ]
