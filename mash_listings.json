@@ -1366,5 +1366,17 @@
     "image_url": "https://i2c.seadn.io/polygon/0x599e5ceeca244cc09032828407c929a23bbaf976/9bbe5a8f0b9c1afb0882c9c44b7a47/4f9bbe5a8f0b9c1afb0882c9c44b7a47.png",
     "listed_at": "2026-05-31T10:41:00+00:00",
     "catchup": true
+  },
+  {
+    "name": "Feniss The Worm #11 by Hofmaurerad",
+    "slug": "mash-it-comics",
+    "price": "$0.40  (0.0002 WETH)",
+    "maker": "0x87ce5ae6...91ed6d",
+    "maker_full": "0x87ce5ae644c67a180c65d18671065ae82b91ed6d",
+    "expiry": "?",
+    "link": "https://opensea.io/assets/polygon/0x599e5ceeca244cc09032828407c929a23bbaf976/172",
+    "image_url": "https://i2c.seadn.io/polygon/0x599e5ceeca244cc09032828407c929a23bbaf976/33485b92e24105147ab8f3e74e35fd/c933485b92e24105147ab8f3e74e35fd.png",
+    "listed_at": "2026-05-31T10:39:46+00:00",
+    "catchup": true
   }
 ]
