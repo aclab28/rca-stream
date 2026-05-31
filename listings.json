@@ -40150,5 +40150,17 @@
     "image_url": "https://i2c.seadn.io/polygon/0xa5118b39815650b52f6c1e191d0cd06398a2b542/3c800996f0186af5d390ae2784532b/473c800996f0186af5d390ae2784532b.png",
     "listed_at": "2026-05-31T07:22:02+00:00",
     "catchup": true
+  },
+  {
+    "name": "Ramses #54",
+    "slug": "future-realities-avirenft-x-reddit-collectible-ava",
+    "price": "$10.11  (0.0050 WETH)",
+    "maker": "0xa6bd5c1a...276429",
+    "maker_full": "0xa6bd5c1af723b907e33bd5ef3a2d16c2d1276429",
+    "expiry": "?",
+    "link": "https://opensea.io/assets/polygon/0xe2a98ba4f46fa47d938be8dfc82c82c35700c5f0/2878",
+    "image_url": "https://i2c.seadn.io/polygon/0xe2a98ba4f46fa47d938be8dfc82c82c35700c5f0/d5b0aa0b55b68ccd02438552d993fa/40d5b0aa0b55b68ccd02438552d993fa.png",
+    "listed_at": "2026-05-31T07:20:45+00:00",
+    "catchup": true
   }
 ]
