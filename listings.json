@@ -40822,5 +40822,17 @@
     "image_url": "https://i2c.seadn.io/polygon/0x7f8cba17511ac40270bb4ef13eba47165e577cc8/2562f8832d1ca5d6350cf3a21d74da/d12562f8832d1ca5d6350cf3a21d74da.png",
     "listed_at": "2026-05-31T15:48:34+00:00",
     "catchup": true
+  },
+  {
+    "name": "Cosplay #766",
+    "slug": "spooky-season-canetoonist-x-reddit-collectible-ava",
+    "price": "$0.99  (0.0005 WETH)",
+    "maker": "0x101eb380...90d8c7",
+    "maker_full": "0x101eb380d06e443c7d456aed63961b16e290d8c7",
+    "expiry": "?",
+    "link": "https://opensea.io/assets/polygon/0x04f7a676af597f847053b6c02ed42d02fa4046aa/765",
+    "image_url": "https://i2c.seadn.io/polygon/0x04f7a676af597f847053b6c02ed42d02fa4046aa/d40d637cd9ec37b4d2806f3b019bf6/72d40d637cd9ec37b4d2806f3b019bf6.png",
+    "listed_at": "2026-05-31T15:48:34+00:00",
+    "catchup": true
   }
 ]
