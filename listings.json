@@ -41002,5 +41002,17 @@
     "image_url": "https://i2c.seadn.io/polygon/0xd6261320f49d38c137f6e229a2ea4ab0f4fae6de/1a6230125746f85494d901703d5894/671a6230125746f85494d901703d5894.png",
     "listed_at": "2026-05-31T16:01:10+00:00",
     "catchup": true
+  },
+  {
+    "name": "Skyborg #205",
+    "slug": "spooky-season-eando9745-x-reddit-collectible-avata",
+    "price": "$4.02  (0.0020 WETH)",
+    "maker": "0xa6bd5c1a...276429",
+    "maker_full": "0xa6bd5c1af723b907e33bd5ef3a2d16c2d1276429",
+    "expiry": "?",
+    "link": "https://opensea.io/assets/polygon/0x621ce7e7e44d43a428a183d5390c4f4572c9ff9d/1304",
+    "image_url": "https://i2c.seadn.io/polygon/0x621ce7e7e44d43a428a183d5390c4f4572c9ff9d/b400d0b9eee6660fef6961e4b9399b/1fb400d0b9eee6660fef6961e4b9399b.png",
+    "listed_at": "2026-05-31T16:00:54+00:00",
+    "catchup": true
   }
 ]
