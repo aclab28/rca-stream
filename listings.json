@@ -41098,5 +41098,17 @@
     "image_url": "https://i2c.seadn.io/polygon/0xc3cfa037fe392cc2eb3a8851eaa01c34494ec5f7/90e57976be97564b90a4727dcbbd36/db90e57976be97564b90a4727dcbbd36.png",
     "listed_at": "2026-05-31T19:17:24+00:00",
     "catchup": true
+  },
+  {
+    "name": "Flora #6",
+    "slug": "flora-by-laura-dimma-x-reddit-collectible-avatars",
+    "price": "$0.90  (0.0004 WETH)",
+    "maker": "0x87ce5ae6...91ed6d",
+    "maker_full": "0x87ce5ae644c67a180c65d18671065ae82b91ed6d",
+    "expiry": "?",
+    "link": "https://opensea.io/assets/polygon/0x26f33cfcb936e040557aeb4ded6059911f63f7e7/5",
+    "image_url": "https://i2c.seadn.io/polygon/0x26f33cfcb936e040557aeb4ded6059911f63f7e7/3aae57d655be2108e7cff423bc6a6c/363aae57d655be2108e7cff423bc6a6c.png",
+    "listed_at": "2026-05-31T19:25:24+00:00",
+    "catchup": true
   }
 ]
