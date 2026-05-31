@@ -1414,5 +1414,17 @@
     "image_url": "https://i2c.seadn.io/polygon/0x6d74e823e3cfb94a4a395b74b1e7b0f5ca5596a3/504460304e6f5cb9f54dd4dcafaaac/0e504460304e6f5cb9f54dd4dcafaaac.png",
     "listed_at": "2026-05-31T10:59:14+00:00",
     "catchup": true
+  },
+  {
+    "name": "Natalone #9 by xlate",
+    "slug": "mash-it",
+    "price": "$0.91  (0.0004 WETH)",
+    "maker": "0x2aa67ec5...a85f95",
+    "maker_full": "0x2aa67ec5dfa4febdaa735b942b99b88565a85f95",
+    "expiry": "?",
+    "link": "https://opensea.io/assets/polygon/0x6d74e823e3cfb94a4a395b74b1e7b0f5ca5596a3/15530",
+    "image_url": "https://i2c.seadn.io/polygon/0x6d74e823e3cfb94a4a395b74b1e7b0f5ca5596a3/e56beabea455d7faf6f9e47a75c9ba/b5e56beabea455d7faf6f9e47a75c9ba.png",
+    "listed_at": "2026-05-31T10:59:56+00:00",
+    "catchup": true
   }
 ]
