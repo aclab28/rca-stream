@@ -41626,5 +41626,17 @@
     "image_url": "https://i2c.seadn.io/polygon/0xeb959a715dfffe6f82f4605533982c4859cb14fe/07e75c360a85909cc595bbc6befa7b/7107e75c360a85909cc595bbc6befa7b.png",
     "listed_at": "2026-06-01T07:56:31+00:00",
     "catchup": true
+  },
+  {
+    "name": "Rose #15",
+    "slug": "rose-by-fearsmile-x-x-reddit-collectible-avatars",
+    "price": "$11.83  (0.0060 WETH)",
+    "maker": "0x14447318...c7e077",
+    "maker_full": "0x144473186eb4726577dbb94a06690c97edc7e077",
+    "expiry": "?",
+    "link": "https://opensea.io/assets/polygon/0x196b56992701dfd459c5501cc3b9ce463baa11ed/14",
+    "image_url": "https://i2c.seadn.io/polygon/0x196b56992701dfd459c5501cc3b9ce463baa11ed/f45a3864df287b668db30c9704384b/28f45a3864df287b668db30c9704384b.png",
+    "listed_at": "2026-06-01T08:04:59+00:00",
+    "catchup": true
   }
 ]
