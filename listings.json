@@ -41410,5 +41410,17 @@
     "image_url": "https://i2c.seadn.io/polygon/0x6a73da4e3d49baa2485d975af1ae71cee638ebbf/e3cd00841401f0b9e184899f1a57b2/79e3cd00841401f0b9e184899f1a57b2.png",
     "listed_at": "2026-06-01T07:45:12+00:00",
     "catchup": true
+  },
+  {
+    "name": "LEON #293",
+    "slug": "future-realities-carbonprintshop-x-reddit-collecti",
+    "price": "$5.85  (0.0029 WETH)",
+    "maker": "0x04210981...d48b3f",
+    "maker_full": "0x042109812f1c23bfd61aabc3fe0247b378d48b3f",
+    "expiry": "?",
+    "link": "https://opensea.io/assets/polygon/0xe7484f96d20ee75e146c1917d094ac64f59699cd/2892",
+    "image_url": "https://i2c.seadn.io/polygon/0xe7484f96d20ee75e146c1917d094ac64f59699cd/8e3f4392f3208f2621f902dde488bd/048e3f4392f3208f2621f902dde488bd.png",
+    "listed_at": "2026-06-01T07:47:56+00:00",
+    "catchup": true
   }
 ]
