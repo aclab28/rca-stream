@@ -41722,5 +41722,17 @@
     "image_url": "https://i2c.seadn.io/polygon/0x621ce7e7e44d43a428a183d5390c4f4572c9ff9d/37708b0a8228e389fc634900bd39e9/5f37708b0a8228e389fc634900bd39e9.png",
     "listed_at": "2026-06-01T13:53:03+00:00",
     "catchup": true
+  },
+  {
+    "name": "THE VISION #585",
+    "slug": "spooky-season-worsttwitchever-x-reddit-collectible",
+    "price": "$3.66  (0.0018 WETH)",
+    "maker": "0x97637f77...d31755",
+    "maker_full": "0x97637f77691a52958a12fc8ac0945b28dad31755",
+    "expiry": "?",
+    "link": "https://opensea.io/assets/polygon/0xe4989961ebfdac3e65fcf0059c916452c77d8503/584",
+    "image_url": "https://i2c.seadn.io/polygon/0xe4989961ebfdac3e65fcf0059c916452c77d8503/3b9852c35d1d4fba21a65250678acc/f83b9852c35d1d4fba21a65250678acc.png",
+    "listed_at": "2026-06-01T13:52:24+00:00",
+    "catchup": true
   }
 ]
