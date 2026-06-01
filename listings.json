@@ -41782,5 +41782,17 @@
     "image_url": "https://i2c.seadn.io/polygon/0xe0743141df04a6b9f3df890429cc994e46db03d9/06d27fb0825a086512d12bcada5ff0/8606d27fb0825a086512d12bcada5ff0.png",
     "listed_at": "2026-06-01T15:34:47+00:00",
     "catchup": true
+  },
+  {
+    "name": "SONRISA #123",
+    "slug": "spooky-season-stuttervoid-x-reddit-collectible-ava",
+    "price": "$1.86  (0.0009 WETH)",
+    "maker": "0x97637f77...d31755",
+    "maker_full": "0x97637f77691a52958a12fc8ac0945b28dad31755",
+    "expiry": "?",
+    "link": "https://opensea.io/assets/polygon/0x81ba34b90876f42f34a4f232cfc0fe4b6ec949a3/122",
+    "image_url": "https://i2c.seadn.io/polygon/0x81ba34b90876f42f34a4f232cfc0fe4b6ec949a3/269b184e1daefd112ea97eae4e6512/5b269b184e1daefd112ea97eae4e6512.png",
+    "listed_at": "2026-06-01T15:36:53+00:00",
+    "catchup": true
   }
 ]
