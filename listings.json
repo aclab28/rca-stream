@@ -41314,5 +41314,17 @@
     "image_url": "https://i2c.seadn.io/polygon/0x466a330887bdf62d53f968ea824793150f07762e/d83822ab02c06b6a0f22627235471b/d8d83822ab02c06b6a0f22627235471b.png",
     "listed_at": "2026-06-01T04:27:23+00:00",
     "catchup": true
+  },
+  {
+    "name": "Kyuri #373",
+    "slug": "retro-reimagined-gasolyn-x-reddit-collectible-avat",
+    "price": "$25.95  (0.0130 WETH)",
+    "maker": "0xeacec320...62c242",
+    "maker_full": "0xeacec320f6f3f5ef81f522067737502b2162c242",
+    "expiry": "?",
+    "link": "https://opensea.io/assets/polygon/0x5de96ca330a72e09435db2452e80f4cb1b714e8c/372",
+    "image_url": "https://i2c.seadn.io/polygon/0x5de96ca330a72e09435db2452e80f4cb1b714e8c/4d459965446efaac40a36652a36683/474d459965446efaac40a36652a36683.png",
+    "listed_at": "2026-06-01T05:12:22+00:00",
+    "catchup": true
   }
 ]
