@@ -1750,5 +1750,17 @@
     "image_url": "https://i2c.seadn.io/polygon/0x6d74e823e3cfb94a4a395b74b1e7b0f5ca5596a3/8b5ba95e09427c98e25fa82c49b53d/848b5ba95e09427c98e25fa82c49b53d.png",
     "listed_at": "2026-06-01T10:56:09+00:00",
     "catchup": true
+  },
+  {
+    "name": "The Naked King - Hollow-Cure #1 by Satoshi KappaMoto",
+    "slug": "mash-it",
+    "price": "$39.94  (0.0200 WETH)",
+    "maker": "0x0ccf8124...75a64c",
+    "maker_full": "0x0ccf812476ef19d677152ba4bdb759073375a64c",
+    "expiry": "?",
+    "link": "https://opensea.io/assets/polygon/0x6d74e823e3cfb94a4a395b74b1e7b0f5ca5596a3/16212",
+    "image_url": "https://i2c.seadn.io/polygon/0x6d74e823e3cfb94a4a395b74b1e7b0f5ca5596a3/56d23c720f96f3482edd003ff6f9ae/9056d23c720f96f3482edd003ff6f9ae.png",
+    "listed_at": "2026-06-01T23:38:30+00:00",
+    "catchup": true
   }
 ]
