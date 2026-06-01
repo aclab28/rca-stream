@@ -41866,5 +41866,29 @@
     "image_url": "https://i2c.seadn.io/polygon/0x622d8fea4603ba9edaf1084b407052d8b0a9bed7/7f5dc7046b25a55a89d26c4479a9dc/ba7f5dc7046b25a55a89d26c4479a9dc.png",
     "listed_at": "2026-06-01T17:43:33+00:00",
     "catchup": true
+  },
+  {
+    "name": "Saudi Arabia #3070",
+    "slug": "reddit-cup-2022-x-reddit-collectible-avatars",
+    "price": "$9.93  (0.0050 WETH)",
+    "maker": "0x3aff36d1...eceaa3",
+    "maker_full": "0x3aff36d15fca684dbbfd1b7653a35ab42ceceaa3",
+    "expiry": "?",
+    "link": "https://opensea.io/assets/polygon/0x622d8fea4603ba9edaf1084b407052d8b0a9bed7/5605469",
+    "image_url": "https://i2c.seadn.io/polygon/0x622d8fea4603ba9edaf1084b407052d8b0a9bed7/1c796483743a3344a804ab4ae35794/211c796483743a3344a804ab4ae35794.png",
+    "listed_at": "2026-06-01T17:43:33+00:00",
+    "catchup": true
+  },
+  {
+    "name": "France #8200",
+    "slug": "reddit-cup-2022-x-reddit-collectible-avatars",
+    "price": "$9.93  (0.0050 WETH)",
+    "maker": "0x3aff36d1...eceaa3",
+    "maker_full": "0x3aff36d15fca684dbbfd1b7653a35ab42ceceaa3",
+    "expiry": "?",
+    "link": "https://opensea.io/assets/polygon/0x622d8fea4603ba9edaf1084b407052d8b0a9bed7/2209299",
+    "image_url": "https://i2c.seadn.io/polygon/0x622d8fea4603ba9edaf1084b407052d8b0a9bed7/277cf4c2d5c102061b21e21847338b/2b277cf4c2d5c102061b21e21847338b.png",
+    "listed_at": "2026-06-01T17:43:33+00:00",
+    "catchup": true
   }
 ]
