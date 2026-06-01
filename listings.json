@@ -41698,5 +41698,17 @@
     "image_url": "https://i2c.seadn.io/polygon/0x7d4caaf1d9291071452a4f11a3d0da7aa881aaad/cf8a5eb4925881f2b67394cfd7e733/dccf8a5eb4925881f2b67394cfd7e733.png",
     "listed_at": "2026-06-01T12:48:25+00:00",
     "catchup": true
+  },
+  {
+    "name": "The Singularity #600880",
+    "slug": "the-singularity-x-reddit-collectible-avatars",
+    "price": "$5.83  (0.0029 WETH)",
+    "maker": "0x97637f77...d31755",
+    "maker_full": "0x97637f77691a52958a12fc8ac0945b28dad31755",
+    "expiry": "?",
+    "link": "https://opensea.io/assets/polygon/0x466a330887bdf62d53f968ea824793150f07762e/600879",
+    "image_url": "https://i2c.seadn.io/polygon/0x466a330887bdf62d53f968ea824793150f07762e/d83822ab02c06b6a0f22627235471b/d8d83822ab02c06b6a0f22627235471b.png",
+    "listed_at": "2026-06-01T13:49:10+00:00",
+    "catchup": true
   }
 ]
