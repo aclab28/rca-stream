@@ -41482,5 +41482,17 @@
     "image_url": "https://i2c.seadn.io/polygon/0xe4989961ebfdac3e65fcf0059c916452c77d8503/3b9852c35d1d4fba21a65250678acc/f83b9852c35d1d4fba21a65250678acc.png",
     "listed_at": "2026-06-01T07:49:43+00:00",
     "catchup": true
+  },
+  {
+    "name": "Comic Reliever #2886124",
+    "slug": "reddit-starter-pack-x-reddit-collectible-avatars",
+    "price": "$0.37  (0.0002 WETH)",
+    "maker": "0x04210981...d48b3f",
+    "maker_full": "0x042109812f1c23bfd61aabc3fe0247b378d48b3f",
+    "expiry": "?",
+    "link": "https://opensea.io/assets/polygon/0xeb959a715dfffe6f82f4605533982c4859cb14fe/16892023",
+    "image_url": "https://i2c.seadn.io/polygon/0xeb959a715dfffe6f82f4605533982c4859cb14fe/30c5e404614a86f069d7b8b31fe686/8530c5e404614a86f069d7b8b31fe686.png",
+    "listed_at": "2026-06-01T07:56:31+00:00",
+    "catchup": true
   }
 ]
