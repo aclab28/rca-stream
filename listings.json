@@ -41434,5 +41434,17 @@
     "image_url": "https://i2c.seadn.io/polygon/0x466a330887bdf62d53f968ea824793150f07762e/d85798174e35d78e9b3756ed584863/efd85798174e35d78e9b3756ed584863.png",
     "listed_at": "2026-06-01T07:47:31+00:00",
     "catchup": true
+  },
+  {
+    "name": "Music Man #994",
+    "slug": "spooky-season-eando9745-x-reddit-collectible-avata",
+    "price": "$3.85  (0.0019 WETH)",
+    "maker": "0x04210981...d48b3f",
+    "maker_full": "0x042109812f1c23bfd61aabc3fe0247b378d48b3f",
+    "expiry": "?",
+    "link": "https://opensea.io/assets/polygon/0x621ce7e7e44d43a428a183d5390c4f4572c9ff9d/993",
+    "image_url": "https://i2c.seadn.io/polygon/0x621ce7e7e44d43a428a183d5390c4f4572c9ff9d/8fa7d397ce56ff93cbd9c902e414b3/a88fa7d397ce56ff93cbd9c902e414b3.png",
+    "listed_at": "2026-06-01T07:50:26+00:00",
+    "catchup": true
   }
 ]
