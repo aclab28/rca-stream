@@ -41758,5 +41758,17 @@
     "image_url": "https://i2c.seadn.io/polygon/0x2956409293da98603025cc0121c06a4244752039/b29b7b194fbf2f8b7a2c579dd80eaf/66b29b7b194fbf2f8b7a2c579dd80eaf.png",
     "listed_at": "2026-06-01T14:15:59+00:00",
     "catchup": true
+  },
+  {
+    "name": "Progress #403",
+    "slug": "i-quit-my-job-to-be-an-artist-x-reddit-collectibl",
+    "price": "$2.45  (0.0012 WETH)",
+    "maker": "0x97637f77...d31755",
+    "maker_full": "0x97637f77691a52958a12fc8ac0945b28dad31755",
+    "expiry": "?",
+    "link": "https://opensea.io/assets/polygon/0x65a83530ca8abc27969907913fe5e641a5da2e9f/1902",
+    "image_url": "https://i2c.seadn.io/polygon/0x65a83530ca8abc27969907913fe5e641a5da2e9f/df777c78619c847f52b83b66b7296f/4cdf777c78619c847f52b83b66b7296f.png",
+    "listed_at": "2026-06-01T15:24:48+00:00",
+    "catchup": true
   }
 ]
