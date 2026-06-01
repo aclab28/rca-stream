@@ -41350,5 +41350,17 @@
     "image_url": "https://i2c.seadn.io/polygon/0x66e70023b652e467eabe8767839eeae65b9cbfaa/1d1402641808223be9c1c6f3dc930d/401d1402641808223be9c1c6f3dc930d.png",
     "listed_at": "2026-06-01T05:14:36+00:00",
     "catchup": true
+  },
+  {
+    "name": "Lumi #114",
+    "slug": "retro-reimagined-gasolyn-x-reddit-collectible-avat",
+    "price": "$9.18  (0.0046 WETH)",
+    "maker": "0xeacec320...62c242",
+    "maker_full": "0xeacec320f6f3f5ef81f522067737502b2162c242",
+    "expiry": "?",
+    "link": "https://opensea.io/assets/polygon/0x5de96ca330a72e09435db2452e80f4cb1b714e8c/1363",
+    "image_url": "https://i2c.seadn.io/polygon/0x5de96ca330a72e09435db2452e80f4cb1b714e8c/ea7a8580cf2cd36e99ea180615c6a6/d7ea7a8580cf2cd36e99ea180615c6a6.png",
+    "listed_at": "2026-06-01T05:13:40+00:00",
+    "catchup": true
   }
 ]
