@@ -42082,5 +42082,17 @@
     "image_url": "https://i2c.seadn.io/polygon/0x2fffcfaa9f64132ad7c39b2cbb2a579b05f927b3/2e2438d0fa9b3dbbf6876e70ae6d2c/f92e2438d0fa9b3dbbf6876e70ae6d2c.png",
     "listed_at": "2026-06-01T18:06:34+00:00",
     "catchup": true
+  },
+  {
+    "name": "Bioluminescent Buddy #510",
+    "slug": "retro-reimagined-salt-the-wizard-x-reddit-collecti",
+    "price": "$4.98  (0.0025 WETH)",
+    "maker": "0x8872471a...34bc89",
+    "maker_full": "0x8872471ae98de05f3bae23df35045f108f34bc89",
+    "expiry": "?",
+    "link": "https://opensea.io/assets/polygon/0x2e30a06065c49a31fbf49118a7a9f4df7ee47488/1619",
+    "image_url": "https://i2c.seadn.io/polygon/0x2e30a06065c49a31fbf49118a7a9f4df7ee47488/6b1772df1c448baf7df7b8d6f8095c/026b1772df1c448baf7df7b8d6f8095c.png",
+    "listed_at": "2026-06-01T19:03:03+00:00",
+    "catchup": true
   }
 ]
