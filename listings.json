@@ -41638,5 +41638,17 @@
     "image_url": "https://i2c.seadn.io/polygon/0x196b56992701dfd459c5501cc3b9ce463baa11ed/f45a3864df287b668db30c9704384b/28f45a3864df287b668db30c9704384b.png",
     "listed_at": "2026-06-01T08:04:59+00:00",
     "catchup": true
+  },
+  {
+    "name": "Rose #54",
+    "slug": "rose-by-wispywi11ow-x-reddit-collectible-avatars",
+    "price": "$9.86  (0.0050 WETH)",
+    "maker": "0x14447318...c7e077",
+    "maker_full": "0x144473186eb4726577dbb94a06690c97edc7e077",
+    "expiry": "?",
+    "link": "https://opensea.io/assets/polygon/0xa0e59419793615bc67b6f2cd0500f82f881efff4/53",
+    "image_url": "https://i2c.seadn.io/polygon/0xa0e59419793615bc67b6f2cd0500f82f881efff4/7ad5157426ca9043cd5fde59210a52/b67ad5157426ca9043cd5fde59210a52.png",
+    "listed_at": "2026-06-01T08:04:50+00:00",
+    "catchup": true
   }
 ]
