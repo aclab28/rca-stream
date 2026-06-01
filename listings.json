@@ -41338,5 +41338,17 @@
     "image_url": "https://i2c.seadn.io/matic/0x656e3273059b7881f204d205f7362b0336a703b7/a3298aa2768b4e417658bc191dd192/b7a3298aa2768b4e417658bc191dd192.png",
     "listed_at": "2026-06-01T05:15:15+00:00",
     "catchup": true
+  },
+  {
+    "name": "Maure #52",
+    "slug": "maure-by-emanuela-bosnjak-x-reddit-collectible-ava",
+    "price": "$11.98  (0.0060 WETH)",
+    "maker": "0xeacec320...62c242",
+    "maker_full": "0xeacec320f6f3f5ef81f522067737502b2162c242",
+    "expiry": "?",
+    "link": "https://opensea.io/assets/polygon/0x66e70023b652e467eabe8767839eeae65b9cbfaa/51",
+    "image_url": "https://i2c.seadn.io/polygon/0x66e70023b652e467eabe8767839eeae65b9cbfaa/1d1402641808223be9c1c6f3dc930d/401d1402641808223be9c1c6f3dc930d.png",
+    "listed_at": "2026-06-01T05:14:36+00:00",
+    "catchup": true
   }
 ]
