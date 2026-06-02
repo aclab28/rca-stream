@@ -1882,5 +1882,17 @@
     "image_url": "https://i2c.seadn.io/polygon/0x6d74e823e3cfb94a4a395b74b1e7b0f5ca5596a3/3b8574248a869e8cf7306965718ac3/5b3b8574248a869e8cf7306965718ac3.png",
     "listed_at": "2026-06-02T16:57:19+00:00",
     "catchup": true
+  },
+  {
+    "name": "Lotus Monk #6 by Civort",
+    "slug": "mash-it",
+    "price": "$1.54  (0.0008 WETH)",
+    "maker": "0x87ce5ae6...91ed6d",
+    "maker_full": "0x87ce5ae644c67a180c65d18671065ae82b91ed6d",
+    "expiry": "?",
+    "link": "https://opensea.io/assets/polygon/0x6d74e823e3cfb94a4a395b74b1e7b0f5ca5596a3/1025",
+    "image_url": "https://i2c.seadn.io/polygon/0x6d74e823e3cfb94a4a395b74b1e7b0f5ca5596a3/4e4309acdcccd34692984bf675e181/6b4e4309acdcccd34692984bf675e181.png",
+    "listed_at": "2026-06-02T16:56:21+00:00",
+    "catchup": true
   }
 ]
