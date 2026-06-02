@@ -42130,5 +42130,17 @@
     "image_url": "https://i2c.seadn.io/polygon/0x3b477a6b1be236628b08839e1e8cf8ba8d93589a/27be929021580389d8747cff92da9c/2d27be929021580389d8747cff92da9c.png",
     "listed_at": "2026-06-02T00:47:00+00:00",
     "catchup": true
+  },
+  {
+    "name": "Eagles #382620",
+    "slug": "super-bowl-lvii-x-reddit-collectible-avatars",
+    "price": "$0.02  (0.0000 WETH)",
+    "maker": "0xe6da4a49...87b802",
+    "maker_full": "0xe6da4a4930e896c7e1ff590779b4046d7587b802",
+    "expiry": "?",
+    "link": "https://opensea.io/assets/polygon/0x3b477a6b1be236628b08839e1e8cf8ba8d93589a/382619",
+    "image_url": "https://i2c.seadn.io/polygon/0x3b477a6b1be236628b08839e1e8cf8ba8d93589a/1e7f1f916f278a0a985cafdfd59280/941e7f1f916f278a0a985cafdfd59280.png",
+    "listed_at": "2026-06-02T00:47:00+00:00",
+    "catchup": true
   }
 ]
