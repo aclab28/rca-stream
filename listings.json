@@ -42238,5 +42238,17 @@
     "image_url": "https://i2c.seadn.io/polygon/0x216c8a17c2bfc8086f92dfc8ad29c9256c843145/6bfc612aa3e3d7df1121578e9a2058/486bfc612aa3e3d7df1121578e9a2058.png",
     "listed_at": "2026-06-02T11:10:02+00:00",
     "catchup": true
+  },
+  {
+    "name": "Drop Watchers #690",
+    "slug": "better-launch-next-time-x-reddit-collectible-avata",
+    "price": "$2.95  (0.0015 WETH)",
+    "maker": "0x97637f77...d31755",
+    "maker_full": "0x97637f77691a52958a12fc8ac0945b28dad31755",
+    "expiry": "?",
+    "link": "https://opensea.io/assets/polygon/0x006c5e042c01fff6ca0cfd8759313bdcf5ae622d/5889",
+    "image_url": "https://i2c.seadn.io/polygon/0x006c5e042c01fff6ca0cfd8759313bdcf5ae622d/07f64deb0aadd244786bb39de29ad6/bb07f64deb0aadd244786bb39de29ad6.png",
+    "listed_at": "2026-06-02T15:48:09+00:00",
+    "catchup": true
   }
 ]
