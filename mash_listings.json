@@ -1798,5 +1798,17 @@
     "image_url": "https://i2c.seadn.io/polygon/0x6d74e823e3cfb94a4a395b74b1e7b0f5ca5596a3/63b98896d302c71087df804bed689c/b563b98896d302c71087df804bed689c.png",
     "listed_at": "2026-06-02T01:24:05+00:00",
     "catchup": true
+  },
+  {
+    "name": "Lest We Forget #70 by xSurvivalist",
+    "slug": "mash-it",
+    "price": "$3.99  (0.0020 WETH)",
+    "maker": "0x8815c840...863cbf",
+    "maker_full": "0x8815c840321ce565852275ef1bc55e5f75863cbf",
+    "expiry": "?",
+    "link": "https://opensea.io/assets/polygon/0x6d74e823e3cfb94a4a395b74b1e7b0f5ca5596a3/10042",
+    "image_url": "https://i2c.seadn.io/polygon/0x6d74e823e3cfb94a4a395b74b1e7b0f5ca5596a3/b2e65073c326f9944be25c4e68387c/5bb2e65073c326f9944be25c4e68387c.png",
+    "listed_at": "2026-06-02T01:27:12+00:00",
+    "catchup": true
   }
 ]
