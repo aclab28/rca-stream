@@ -42274,5 +42274,17 @@
     "image_url": "https://i2c.seadn.io/polygon/0x0aadf4a1e607e53174e7dd0ce69b8f8719ce349d/7c5e655a21f19880039fbbff5e056b/297c5e655a21f19880039fbbff5e056b.png",
     "listed_at": "2026-06-02T17:07:59+00:00",
     "catchup": true
+  },
+  {
+    "name": "Normal Adult #109",
+    "slug": "retro-reimagined-qugmo-x-reddit-collectible-avatar",
+    "price": "$1.35  (0.0007 WETH)",
+    "maker": "0x97637f77...d31755",
+    "maker_full": "0x97637f77691a52958a12fc8ac0945b28dad31755",
+    "expiry": "?",
+    "link": "https://opensea.io/assets/polygon/0x5bf284ee3e1287af74c2a68a5c36ead1be3ae642/308",
+    "image_url": "https://i2c.seadn.io/polygon/0x5bf284ee3e1287af74c2a68a5c36ead1be3ae642/9bba68778dc861e0fe04d932ce3206/789bba68778dc861e0fe04d932ce3206.png",
+    "listed_at": "2026-06-02T17:07:38+00:00",
+    "catchup": true
   }
 ]
