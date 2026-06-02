@@ -42262,5 +42262,17 @@
     "image_url": "https://i2c.seadn.io/polygon/0x39606d4c044fb8857ee1457ca389e5ec8f86f256/a64a53a02f8f9a615ca9b46d33644e/30a64a53a02f8f9a615ca9b46d33644e.png",
     "listed_at": "2026-06-02T16:56:05+00:00",
     "catchup": true
+  },
+  {
+    "name": "Berry #45",
+    "slug": "berry-by-imaginary-basket8947-x-reddit-collectible",
+    "price": "$1.35  (0.0007 WETH)",
+    "maker": "0x87ce5ae6...91ed6d",
+    "maker_full": "0x87ce5ae644c67a180c65d18671065ae82b91ed6d",
+    "expiry": "?",
+    "link": "https://opensea.io/assets/polygon/0x0aadf4a1e607e53174e7dd0ce69b8f8719ce349d/44",
+    "image_url": "https://i2c.seadn.io/polygon/0x0aadf4a1e607e53174e7dd0ce69b8f8719ce349d/7c5e655a21f19880039fbbff5e056b/297c5e655a21f19880039fbbff5e056b.png",
+    "listed_at": "2026-06-02T17:07:59+00:00",
+    "catchup": true
   }
 ]
