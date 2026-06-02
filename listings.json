@@ -42286,5 +42286,17 @@
     "image_url": "https://i2c.seadn.io/polygon/0x5bf284ee3e1287af74c2a68a5c36ead1be3ae642/9bba68778dc861e0fe04d932ce3206/789bba68778dc861e0fe04d932ce3206.png",
     "listed_at": "2026-06-02T17:07:38+00:00",
     "catchup": true
+  },
+  {
+    "name": "The Enlightened #99",
+    "slug": "future-realities-rojom-x-reddit-collectible-avatar",
+    "price": "$6.73  (0.0035 WETH)",
+    "maker": "0xa6bd5c1a...276429",
+    "maker_full": "0xa6bd5c1af723b907e33bd5ef3a2d16c2d1276429",
+    "expiry": "?",
+    "link": "https://opensea.io/assets/polygon/0xba6a05ef46aedd91960e7e4f7d7258fc35a9a15b/98",
+    "image_url": "https://i2c.seadn.io/polygon/0xba6a05ef46aedd91960e7e4f7d7258fc35a9a15b/ad8105fe8db381f197ae4ee8b92f1c/52ad8105fe8db381f197ae4ee8b92f1c.png",
+    "listed_at": "2026-06-02T17:12:04+00:00",
+    "catchup": true
   }
 ]
