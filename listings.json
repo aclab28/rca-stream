@@ -42250,5 +42250,17 @@
     "image_url": "https://i2c.seadn.io/polygon/0x006c5e042c01fff6ca0cfd8759313bdcf5ae622d/07f64deb0aadd244786bb39de29ad6/bb07f64deb0aadd244786bb39de29ad6.png",
     "listed_at": "2026-06-02T15:48:09+00:00",
     "catchup": true
+  },
+  {
+    "name": "Pumpkin Spell #176",
+    "slug": "pumpkin-spell-by-jas-x-reddit-collectible-avatars",
+    "price": "$1.34  (0.0007 WETH)",
+    "maker": "0x87ce5ae6...91ed6d",
+    "maker_full": "0x87ce5ae644c67a180c65d18671065ae82b91ed6d",
+    "expiry": "?",
+    "link": "https://opensea.io/assets/polygon/0x39606d4c044fb8857ee1457ca389e5ec8f86f256/175",
+    "image_url": "https://i2c.seadn.io/polygon/0x39606d4c044fb8857ee1457ca389e5ec8f86f256/a64a53a02f8f9a615ca9b46d33644e/30a64a53a02f8f9a615ca9b46d33644e.png",
+    "listed_at": "2026-06-02T16:56:05+00:00",
+    "catchup": true
   }
 ]
