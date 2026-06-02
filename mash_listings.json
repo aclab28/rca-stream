@@ -1846,5 +1846,17 @@
     "image_url": "https://i2c.seadn.io/polygon/0x6d74e823e3cfb94a4a395b74b1e7b0f5ca5596a3/a31332c64eeb644c2c84e2a04c4c51/b9a31332c64eeb644c2c84e2a04c4c51.png",
     "listed_at": "2026-06-02T12:00:57+00:00",
     "catchup": true
+  },
+  {
+    "name": "gary nakamoto /the preserved founder #10 by fearsmile",
+    "slug": "mash-it",
+    "price": "$17.80  (0.0090 WETH)",
+    "maker": "0xe306caca...e47bb6",
+    "maker_full": "0xe306caca97f92cd566f5fc91121b26a296e47bb6",
+    "expiry": "?",
+    "link": "https://opensea.io/assets/polygon/0x6d74e823e3cfb94a4a395b74b1e7b0f5ca5596a3/17083",
+    "image_url": "https://raw2.seadn.io/polygon/0x6d74e823e3cfb94a4a395b74b1e7b0f5ca5596a3/e756aa043191ea790fe39965123b83/b2e756aa043191ea790fe39965123b83.html",
+    "listed_at": "2026-06-02T13:11:54+00:00",
+    "catchup": true
   }
 ]
