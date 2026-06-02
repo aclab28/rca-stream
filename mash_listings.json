@@ -1800,15 +1800,39 @@
     "catchup": true
   },
   {
-    "name": "Lest We Forget #70 by xSurvivalist",
+    "name": "Spellcaster #12 by rylar",
     "slug": "mash-it",
-    "price": "$3.99  (0.0020 WETH)",
+    "price": "$9.97  (0.0050 WETH)",
     "maker": "0x8815c840...863cbf",
     "maker_full": "0x8815c840321ce565852275ef1bc55e5f75863cbf",
     "expiry": "?",
-    "link": "https://opensea.io/assets/polygon/0x6d74e823e3cfb94a4a395b74b1e7b0f5ca5596a3/10042",
-    "image_url": "https://i2c.seadn.io/polygon/0x6d74e823e3cfb94a4a395b74b1e7b0f5ca5596a3/b2e65073c326f9944be25c4e68387c/5bb2e65073c326f9944be25c4e68387c.png",
+    "link": "https://opensea.io/assets/polygon/0x6d74e823e3cfb94a4a395b74b1e7b0f5ca5596a3/13703",
+    "image_url": "https://i2c.seadn.io/polygon/0x6d74e823e3cfb94a4a395b74b1e7b0f5ca5596a3/c29f7265925c5c32dda6353c531b8e/12c29f7265925c5c32dda6353c531b8e.png",
     "listed_at": "2026-06-02T01:27:12+00:00",
+    "catchup": true
+  },
+  {
+    "name": "Val.txt #21 by Qugmo",
+    "slug": "mash-it",
+    "price": "$9.97  (0.0050 WETH)",
+    "maker": "0x8815c840...863cbf",
+    "maker_full": "0x8815c840321ce565852275ef1bc55e5f75863cbf",
+    "expiry": "?",
+    "link": "https://opensea.io/assets/polygon/0x6d74e823e3cfb94a4a395b74b1e7b0f5ca5596a3/13822",
+    "image_url": "https://i2c.seadn.io/polygon/0x6d74e823e3cfb94a4a395b74b1e7b0f5ca5596a3/922fc9fbccbd727ce11cd6a8eb1e48/64922fc9fbccbd727ce11cd6a8eb1e48.png",
+    "listed_at": "2026-06-02T01:27:12+00:00",
+    "catchup": true
+  },
+  {
+    "name": "Dave the Raven #7 by Hoppy Doodle",
+    "slug": "mash-it",
+    "price": "$3.97  (0.0020 WETH)",
+    "maker": "0xed996b4a...4d7dc4",
+    "maker_full": "0xed996b4a0acdc354ae83e59bb583d9c3614d7dc4",
+    "expiry": "?",
+    "link": "https://opensea.io/assets/polygon/0x6d74e823e3cfb94a4a395b74b1e7b0f5ca5596a3/3920",
+    "image_url": "https://i2c.seadn.io/polygon/0x6d74e823e3cfb94a4a395b74b1e7b0f5ca5596a3/e6e2549cc251e2ee7a5986d653734e/2de6e2549cc251e2ee7a5986d653734e.png",
+    "listed_at": "2026-06-02T06:36:22+00:00",
     "catchup": true
   }
 ]
