@@ -1894,5 +1894,17 @@
     "image_url": "https://i2c.seadn.io/polygon/0x6d74e823e3cfb94a4a395b74b1e7b0f5ca5596a3/4e4309acdcccd34692984bf675e181/6b4e4309acdcccd34692984bf675e181.png",
     "listed_at": "2026-06-02T16:56:21+00:00",
     "catchup": true
+  },
+  {
+    "name": "Goatoshi Nakagoato #11 by Rojom",
+    "slug": "mash-it",
+    "price": "$7.65  (0.0040 WETH)",
+    "maker": "0x0ccf8124...75a64c",
+    "maker_full": "0x0ccf812476ef19d677152ba4bdb759073375a64c",
+    "expiry": "?",
+    "link": "https://opensea.io/assets/polygon/0x6d74e823e3cfb94a4a395b74b1e7b0f5ca5596a3/16825",
+    "image_url": "https://i2c.seadn.io/polygon/0x6d74e823e3cfb94a4a395b74b1e7b0f5ca5596a3/47ecd56156ee586145fb9242b6a00b/ef47ecd56156ee586145fb9242b6a00b.png",
+    "listed_at": "2026-06-02T18:30:53+00:00",
+    "catchup": true
   }
 ]
