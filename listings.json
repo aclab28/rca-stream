@@ -42622,5 +42622,17 @@
     "image_url": "https://i2c.seadn.io/polygon/0x1ef6f9379aa228e08507f53e70c109979a35e512/ec939cfc7ebffaa4791a1970b30819/4bec939cfc7ebffaa4791a1970b30819.png",
     "listed_at": "2026-06-03T16:46:38+00:00",
     "catchup": true
+  },
+  {
+    "name": "The Awakening #898",
+    "slug": "retro-reimagined-conall-in-space-x-reddit-collecti",
+    "price": "$2.56  (0.0014 WETH)",
+    "maker": "0x49d5da28...afc3a5",
+    "maker_full": "0x49d5da28bfe4e32c323c15463b3152650eafc3a5",
+    "expiry": "?",
+    "link": "https://opensea.io/assets/polygon/0xe1b6d0e8ce5b75d73a6fa5f05b6bd24bfb1fad7a/897",
+    "image_url": "https://i2c.seadn.io/polygon/0xe1b6d0e8ce5b75d73a6fa5f05b6bd24bfb1fad7a/9e8595641a73f52a9041869e342b26/379e8595641a73f52a9041869e342b26.png",
+    "listed_at": "2026-06-03T16:59:00+00:00",
+    "catchup": true
   }
 ]
