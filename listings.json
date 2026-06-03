@@ -42634,5 +42634,17 @@
     "image_url": "https://i2c.seadn.io/polygon/0xe1b6d0e8ce5b75d73a6fa5f05b6bd24bfb1fad7a/9e8595641a73f52a9041869e342b26/379e8595641a73f52a9041869e342b26.png",
     "listed_at": "2026-06-03T16:59:00+00:00",
     "catchup": true
+  },
+  {
+    "name": "Lit #241",
+    "slug": "lit-by-misterm0h0-x-reddit-collectible-avatars",
+    "price": "$10.04  (0.0055 WETH)",
+    "maker": "0x49d5da28...afc3a5",
+    "maker_full": "0x49d5da28bfe4e32c323c15463b3152650eafc3a5",
+    "expiry": "?",
+    "link": "https://opensea.io/assets/polygon/0x6234626b4222d28de7f0f009d30df2755e016146/240",
+    "image_url": "https://i2c.seadn.io/polygon/0x6234626b4222d28de7f0f009d30df2755e016146/222deef05e52fe06fb6e203f112061/b2222deef05e52fe06fb6e203f112061.png",
+    "listed_at": "2026-06-03T17:05:35+00:00",
+    "catchup": true
   }
 ]
