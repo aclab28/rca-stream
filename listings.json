@@ -42418,5 +42418,17 @@
     "image_url": "https://i2c.seadn.io/matic/0xe64bb7dd0a13af622e0de6456d1bbadc8d1ec09d/c15da390b18698c48b56009ae3c6d8/11c15da390b18698c48b56009ae3c6d8.png",
     "listed_at": "2026-06-03T02:20:49+00:00",
     "catchup": true
+  },
+  {
+    "name": "Elite Collectors #2500",
+    "slug": "better-launch-next-time-x-reddit-collectible-avata",
+    "price": "$4.60  (0.0025 WETH)",
+    "maker": "0x99aa49d9...9780b6",
+    "maker_full": "0x99aa49d9498c0fdb9c32989aa7f934de569780b6",
+    "expiry": "?",
+    "link": "https://opensea.io/assets/polygon/0x006c5e042c01fff6ca0cfd8759313bdcf5ae622d/10299",
+    "image_url": "https://i2c.seadn.io/polygon/0x006c5e042c01fff6ca0cfd8759313bdcf5ae622d/8d29cb4f83001e851375369eb52a33/eb8d29cb4f83001e851375369eb52a33.png",
+    "listed_at": "2026-06-03T04:30:48+00:00",
+    "catchup": true
   }
 ]
