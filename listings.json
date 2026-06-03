@@ -42682,5 +42682,17 @@
     "image_url": "https://i2c.seadn.io/polygon/0xba6a05ef46aedd91960e7e4f7d7258fc35a9a15b/6eb8ebf41f199ea9a97ef61403746b/2a6eb8ebf41f199ea9a97ef61403746b.png",
     "listed_at": "2026-06-03T19:00:58+00:00",
     "catchup": true
+  },
+  {
+    "name": "Creeper #108",
+    "slug": "creeper-by-rylar-x-reddit-collectible-avatars",
+    "price": "$1.28  (0.0007 WETH)",
+    "maker": "0x87ce5ae6...91ed6d",
+    "maker_full": "0x87ce5ae644c67a180c65d18671065ae82b91ed6d",
+    "expiry": "?",
+    "link": "https://opensea.io/assets/polygon/0x4e78bd5664ae457ed2811302a9cee306743877e5/107",
+    "image_url": "https://i2c.seadn.io/polygon/0x4e78bd5664ae457ed2811302a9cee306743877e5/d0c9aa11945ef0073d854361869314/2dd0c9aa11945ef0073d854361869314.png",
+    "listed_at": "2026-06-03T19:03:00+00:00",
+    "catchup": true
   }
 ]
