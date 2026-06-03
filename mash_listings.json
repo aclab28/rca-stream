@@ -1918,5 +1918,17 @@
     "image_url": "https://i2c.seadn.io/polygon/0x6d74e823e3cfb94a4a395b74b1e7b0f5ca5596a3/9b10250bf114adaa0dc50e73f50d5f/019b10250bf114adaa0dc50e73f50d5f.png",
     "listed_at": "2026-06-02T22:39:31+00:00",
     "catchup": true
+  },
+  {
+    "name": "Sprinkles #28 by rylar",
+    "slug": "mash-it",
+    "price": "$4.64  (0.0025 WETH)",
+    "maker": "0x29cc4b9c...ad30f9",
+    "maker_full": "0x29cc4b9c605517eda55372dc746b6b0f57ad30f9",
+    "expiry": "?",
+    "link": "https://opensea.io/assets/polygon/0x6d74e823e3cfb94a4a395b74b1e7b0f5ca5596a3/12302",
+    "image_url": "https://i2c.seadn.io/polygon/0x6d74e823e3cfb94a4a395b74b1e7b0f5ca5596a3/23b573aea54065e4c6a2e46fdb394e/5423b573aea54065e4c6a2e46fdb394e.png",
+    "listed_at": "2026-06-03T14:59:57+00:00",
+    "catchup": true
   }
 ]
