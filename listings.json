@@ -42730,5 +42730,17 @@
     "image_url": "https://i2c.seadn.io/polygon/0x150afa2dfcaaada471472dfa6ad4b79e718a197c/255b6c4be45b48d9b0efd2e304b895/26255b6c4be45b48d9b0efd2e304b895.png",
     "listed_at": "2026-06-03T19:16:10+00:00",
     "catchup": true
+  },
+  {
+    "name": "REMAINCALM #234",
+    "slug": "spooky-season-treasureofophiel-x-reddit-collectibl",
+    "price": "$2.74  (0.0015 WETH)",
+    "maker": "0x87ce5ae6...91ed6d",
+    "maker_full": "0x87ce5ae644c67a180c65d18671065ae82b91ed6d",
+    "expiry": "?",
+    "link": "https://opensea.io/assets/polygon/0x150afa2dfcaaada471472dfa6ad4b79e718a197c/683",
+    "image_url": "https://i2c.seadn.io/polygon/0x150afa2dfcaaada471472dfa6ad4b79e718a197c/842a60d46ef2ee2c2cec0180556a64/f9842a60d46ef2ee2c2cec0180556a64.png",
+    "listed_at": "2026-06-03T19:14:09+00:00",
+    "catchup": true
   }
 ]
