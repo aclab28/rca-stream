@@ -42742,5 +42742,17 @@
     "image_url": "https://i2c.seadn.io/polygon/0x150afa2dfcaaada471472dfa6ad4b79e718a197c/842a60d46ef2ee2c2cec0180556a64/f9842a60d46ef2ee2c2cec0180556a64.png",
     "listed_at": "2026-06-03T19:14:09+00:00",
     "catchup": true
+  },
+  {
+    "name": "Saati #216",
+    "slug": "future-realities-genuineardvark-x-reddit-collectib",
+    "price": "$0.55  (0.0003 WETH)",
+    "maker": "0x87ce5ae6...91ed6d",
+    "maker_full": "0x87ce5ae644c67a180c65d18671065ae82b91ed6d",
+    "expiry": "?",
+    "link": "https://opensea.io/assets/polygon/0xc2148d2db71d7b8cebabc896ee4d62133d6bc42b/5315",
+    "image_url": "https://i2c.seadn.io/polygon/0xc2148d2db71d7b8cebabc896ee4d62133d6bc42b/e017348a697944395fd869b43d171f/b2e017348a697944395fd869b43d171f.png",
+    "listed_at": "2026-06-03T19:20:10+00:00",
+    "catchup": true
   }
 ]
