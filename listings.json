@@ -42646,5 +42646,17 @@
     "image_url": "https://i2c.seadn.io/polygon/0x6234626b4222d28de7f0f009d30df2755e016146/222deef05e52fe06fb6e203f112061/b2222deef05e52fe06fb6e203f112061.png",
     "listed_at": "2026-06-03T17:05:35+00:00",
     "catchup": true
+  },
+  {
+    "name": "Wayigaith Yalingbu #49",
+    "slug": "wayigaith-yalingbu-by-r-u-d-i-x-reddit-collectible",
+    "price": "$54.55  (0.0300 WETH)",
+    "maker": "0x49d5da28...afc3a5",
+    "maker_full": "0x49d5da28bfe4e32c323c15463b3152650eafc3a5",
+    "expiry": "?",
+    "link": "https://opensea.io/assets/polygon/0x22ba4339be5a29cb90823b15bfda37f210c1e944/48",
+    "image_url": "https://i2c.seadn.io/matic/0x22ba4339be5a29cb90823b15bfda37f210c1e944/687008e15252b556d4270137c65fee/62687008e15252b556d4270137c65fee.png",
+    "listed_at": "2026-06-03T17:16:31+00:00",
+    "catchup": true
   }
 ]
