@@ -42706,5 +42706,17 @@
     "image_url": "https://i2c.seadn.io/polygon/0x0a854ad7dd66ccf92b71ee1d8212fd00e3ccd063/0376576f0fe4c3c2ea78444de191b2/3c0376576f0fe4c3c2ea78444de191b2.png",
     "listed_at": "2026-06-03T19:05:03+00:00",
     "catchup": true
+  },
+  {
+    "name": "Ramen #325",
+    "slug": "retro-reimagined-onicowboy-x-reddit-collectible-av",
+    "price": "$1.83  (0.0010 WETH)",
+    "maker": "0x87ce5ae6...91ed6d",
+    "maker_full": "0x87ce5ae644c67a180c65d18671065ae82b91ed6d",
+    "expiry": "?",
+    "link": "https://opensea.io/assets/polygon/0xc94e1be3ae0200be6d55da9473b127f7c0d9beeb/324",
+    "image_url": "https://i2c.seadn.io/polygon/0xc94e1be3ae0200be6d55da9473b127f7c0d9beeb/d4998dd891651891ccc828518fcdf3/2fd4998dd891651891ccc828518fcdf3.png",
+    "listed_at": "2026-06-03T19:13:18+00:00",
+    "catchup": true
   }
 ]
