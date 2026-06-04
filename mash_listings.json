@@ -2098,5 +2098,29 @@
     "image_url": "https://i2c.seadn.io/polygon/0x6d74e823e3cfb94a4a395b74b1e7b0f5ca5596a3/c661ca8c60a139839d18f16c29e179/d2c661ca8c60a139839d18f16c29e179.png",
     "listed_at": "2026-06-04T20:51:32+00:00",
     "catchup": true
+  },
+  {
+    "name": "Stontoshi Staumoto #7 by Hammer",
+    "slug": "mash-it",
+    "price": "$1,770.62  (1.0000 WETH)",
+    "maker": "0x46dc1dd8...b690a9",
+    "maker_full": "0x46dc1dd8d015cc773ecffc998860dfb4bfb690a9",
+    "expiry": "?",
+    "link": "https://opensea.io/assets/polygon/0x6d74e823e3cfb94a4a395b74b1e7b0f5ca5596a3/16919",
+    "image_url": "https://i2c.seadn.io/polygon/0x6d74e823e3cfb94a4a395b74b1e7b0f5ca5596a3/1cbf9831f9467b8946ccf9d3ea7af5/661cbf9831f9467b8946ccf9d3ea7af5.png",
+    "listed_at": "2026-06-04T20:51:20+00:00",
+    "catchup": true
+  },
+  {
+    "name": "Jay and pets #161 by Satoshi KappaMoto",
+    "slug": "mash-it",
+    "price": "$35.42  (0.0200 WETH)",
+    "maker": "0x5de72589...08a645",
+    "maker_full": "0x5de72589ddfd4d40dacd4d5fdda502874e08a645",
+    "expiry": "?",
+    "link": "https://opensea.io/assets/polygon/0x6d74e823e3cfb94a4a395b74b1e7b0f5ca5596a3/12909",
+    "image_url": "https://i2c.seadn.io/polygon/0x6d74e823e3cfb94a4a395b74b1e7b0f5ca5596a3/7e7882d873ed3c820d0b7c99a47b77/317e7882d873ed3c820d0b7c99a47b77.png",
+    "listed_at": "2026-06-04T23:06:13+00:00",
+    "catchup": true
   }
 ]
