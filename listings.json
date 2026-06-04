@@ -42814,5 +42814,17 @@
     "image_url": "https://i2c.seadn.io/polygon/0x622d8fea4603ba9edaf1084b407052d8b0a9bed7/64c0813cf8df3ed9e26ca56c818e0e/eb64c0813cf8df3ed9e26ca56c818e0e.png",
     "listed_at": "2026-06-04T02:45:11+00:00",
     "catchup": true
+  },
+  {
+    "name": "Brazil #53486",
+    "slug": "reddit-cup-2022-x-reddit-collectible-avatars",
+    "price": "$352.97  (0.2000 WETH)",
+    "maker": "0xd13f08cf...edc0d7",
+    "maker_full": "0xd13f08cfe5b8cd31073f3853c9091b690aedc0d7",
+    "expiry": "?",
+    "link": "https://opensea.io/assets/polygon/0x622d8fea4603ba9edaf1084b407052d8b0a9bed7/653785",
+    "image_url": "https://i2c.seadn.io/polygon/0x622d8fea4603ba9edaf1084b407052d8b0a9bed7/044409e525b3a59b390ee8b92001a0/ba044409e525b3a59b390ee8b92001a0.png",
+    "listed_at": "2026-06-04T02:45:11+00:00",
+    "catchup": true
   }
 ]
