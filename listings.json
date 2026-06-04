@@ -42910,5 +42910,17 @@
     "image_url": "https://i2c.seadn.io/polygon/0x5bf284ee3e1287af74c2a68a5c36ead1be3ae642/9bba68778dc861e0fe04d932ce3206/789bba68778dc861e0fe04d932ce3206.png",
     "listed_at": "2026-06-04T02:56:50+00:00",
     "catchup": true
+  },
+  {
+    "name": "Noob Patrol #14628",
+    "slug": "trophy-hunters-x-reddit-collectible-avatars",
+    "price": "$0.36  (0.0002 WETH)",
+    "maker": "0x2acdebf8...f3352a",
+    "maker_full": "0x2acdebf8116859b0c3f85ac73127bc562ef3352a",
+    "expiry": "?",
+    "link": "https://opensea.io/assets/polygon/0xe64bb7dd0a13af622e0de6456d1bbadc8d1ec09d/39627",
+    "image_url": "https://i2c.seadn.io/polygon/0xe64bb7dd0a13af622e0de6456d1bbadc8d1ec09d/1c5f0c1088ec0b0009e4995b03ce2a/b41c5f0c1088ec0b0009e4995b03ce2a.png",
+    "listed_at": "2026-06-04T06:14:02+00:00",
+    "catchup": true
   }
 ]
