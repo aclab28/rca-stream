@@ -43282,5 +43282,17 @@
     "image_url": "https://i2c.seadn.io/polygon/0xfdba313e9d2e52299ec317a6fa05a141767e61b4/06f7d9d7233e996c99094311a94617/2406f7d9d7233e996c99094311a94617.png",
     "listed_at": "2026-06-04T18:38:10+00:00",
     "catchup": true
+  },
+  {
+    "name": "Confrontation #3",
+    "slug": "future-realities-that-john-guy-x-reddit-collectibl",
+    "price": "$5.33  (0.0030 WETH)",
+    "maker": "0x9e991ecc...df56c8",
+    "maker_full": "0x9e991ecc88d63a60861ad36ef863a0e679df56c8",
+    "expiry": "?",
+    "link": "https://opensea.io/assets/polygon/0x9d8542ef1237933badbe867291f6c0434b8d315c/2602",
+    "image_url": "https://i2c.seadn.io/polygon/0x9d8542ef1237933badbe867291f6c0434b8d315c/51bf366708653a6882b3b487479fc1/b451bf366708653a6882b3b487479fc1.png",
+    "listed_at": "2026-06-04T18:37:43+00:00",
+    "catchup": true
   }
 ]
