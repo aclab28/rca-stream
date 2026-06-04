@@ -2086,5 +2086,17 @@
     "image_url": "https://i2c.seadn.io/polygon/0x6d74e823e3cfb94a4a395b74b1e7b0f5ca5596a3/a7661394856dee1f2541b223002e49/4fa7661394856dee1f2541b223002e49.png",
     "listed_at": "2026-06-04T20:50:34+00:00",
     "catchup": true
+  },
+  {
+    "name": "Tend Thy Garden #8 by Hammer",
+    "slug": "mash-it",
+    "price": "$1,770.62  (1.0000 WETH)",
+    "maker": "0x46dc1dd8...b690a9",
+    "maker_full": "0x46dc1dd8d015cc773ecffc998860dfb4bfb690a9",
+    "expiry": "?",
+    "link": "https://opensea.io/assets/polygon/0x6d74e823e3cfb94a4a395b74b1e7b0f5ca5596a3/16657",
+    "image_url": "https://i2c.seadn.io/polygon/0x6d74e823e3cfb94a4a395b74b1e7b0f5ca5596a3/c661ca8c60a139839d18f16c29e179/d2c661ca8c60a139839d18f16c29e179.png",
+    "listed_at": "2026-06-04T20:51:32+00:00",
+    "catchup": true
   }
 ]
