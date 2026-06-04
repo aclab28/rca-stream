@@ -43294,5 +43294,17 @@
     "image_url": "https://i2c.seadn.io/polygon/0x9d8542ef1237933badbe867291f6c0434b8d315c/51bf366708653a6882b3b487479fc1/b451bf366708653a6882b3b487479fc1.png",
     "listed_at": "2026-06-04T18:37:43+00:00",
     "catchup": true
+  },
+  {
+    "name": "Ember Wanderer #13",
+    "slug": "future-realities-0xjbam-x-reddit-collectible-avata",
+    "price": "$5.33  (0.0030 WETH)",
+    "maker": "0x9e991ecc...df56c8",
+    "maker_full": "0x9e991ecc88d63a60861ad36ef863a0e679df56c8",
+    "expiry": "?",
+    "link": "https://opensea.io/assets/polygon/0xf897e2cd445bdc5ac02a8d116caa2c2fb767fdf1/962",
+    "image_url": "https://i2c.seadn.io/polygon/0xf897e2cd445bdc5ac02a8d116caa2c2fb767fdf1/55f96ec4e428c9d5454b56f5b31713/8555f96ec4e428c9d5454b56f5b31713.png",
+    "listed_at": "2026-06-04T18:37:10+00:00",
+    "catchup": true
   }
 ]
