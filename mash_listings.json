@@ -2062,5 +2062,17 @@
     "image_url": "https://raw2.seadn.io/polygon/0x6d74e823e3cfb94a4a395b74b1e7b0f5ca5596a3/e756aa043191ea790fe39965123b83/b2e756aa043191ea790fe39965123b83.html",
     "listed_at": "2026-06-04T12:35:40+00:00",
     "catchup": true
+  },
+  {
+    "name": "Death Bringer Satoshi #7 by Satoshi KappaMoto",
+    "slug": "mash-it",
+    "price": "$1,770.62  (1.0000 WETH)",
+    "maker": "0x46dc1dd8...b690a9",
+    "maker_full": "0x46dc1dd8d015cc773ecffc998860dfb4bfb690a9",
+    "expiry": "?",
+    "link": "https://opensea.io/assets/polygon/0x6d74e823e3cfb94a4a395b74b1e7b0f5ca5596a3/17403",
+    "image_url": "https://i2c.seadn.io/polygon/0x6d74e823e3cfb94a4a395b74b1e7b0f5ca5596a3/9b10250bf114adaa0dc50e73f50d5f/019b10250bf114adaa0dc50e73f50d5f.png",
+    "listed_at": "2026-06-04T20:50:56+00:00",
+    "catchup": true
   }
 ]
