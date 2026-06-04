@@ -43102,5 +43102,17 @@
     "image_url": "https://i2c.seadn.io/polygon/0x216c8a17c2bfc8086f92dfc8ad29c9256c843145/6bfc612aa3e3d7df1121578e9a2058/486bfc612aa3e3d7df1121578e9a2058.png",
     "listed_at": "2026-06-04T11:10:03+00:00",
     "catchup": true
+  },
+  {
+    "name": "Denmark #4534",
+    "slug": "reddit-cup-2022-x-reddit-collectible-avatars",
+    "price": "$0.02  (0.0000 WETH)",
+    "maker": "0x80949b71...7d2c19",
+    "maker_full": "0x80949b717516f9e6ade89633d30f83952c7d2c19",
+    "expiry": "?",
+    "link": "https://opensea.io/assets/polygon/0x622d8fea4603ba9edaf1084b407052d8b0a9bed7/1605333",
+    "image_url": "https://i2c.seadn.io/polygon/0x622d8fea4603ba9edaf1084b407052d8b0a9bed7/1d79efc577086a0b9c6aa83d6eb9a3/1b1d79efc577086a0b9c6aa83d6eb9a3.png",
+    "listed_at": "2026-06-04T14:06:29+00:00",
+    "catchup": true
   }
 ]
