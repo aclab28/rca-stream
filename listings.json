@@ -43126,5 +43126,17 @@
     "image_url": "https://i2c.seadn.io/polygon/0xf230dace6f38471f159ab027bac37d6e0f76958e/f68744adfa35820bf234fa25b0ddce/45f68744adfa35820bf234fa25b0ddce.png",
     "listed_at": "2026-06-04T14:35:51+00:00",
     "catchup": true
+  },
+  {
+    "name": "jAAAy-d #6",
+    "slug": "jaaay-d-by-dogfart6942-x-reddit-collectible-avatar",
+    "price": "$2.74  (0.0015 WETH)",
+    "maker": "0x1e363f3c...038252",
+    "maker_full": "0x1e363f3ce415ed099a622211386c3de1b5038252",
+    "expiry": "?",
+    "link": "https://opensea.io/assets/polygon/0xa245c8845f661bf004055c0ffca68b7d7ba3f377/5",
+    "image_url": "https://i2c.seadn.io/polygon/0xa245c8845f661bf004055c0ffca68b7d7ba3f377/bb6b65caed43684c934fd19e60d770/69bb6b65caed43684c934fd19e60d770.png",
+    "listed_at": "2026-06-04T17:03:49+00:00",
+    "catchup": true
   }
 ]
