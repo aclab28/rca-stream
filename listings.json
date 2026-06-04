@@ -42790,5 +42790,17 @@
     "image_url": "https://i2c.seadn.io/polygon/0xc1894ded8f0b81fd174b23d510f08ed722ce63ef/ecfa6babd493d9d288209e9b4b4f80/15ecfa6babd493d9d288209e9b4b4f80.png",
     "listed_at": "2026-06-03T19:20:29+00:00",
     "catchup": true
+  },
+  {
+    "name": "Myth #71",
+    "slug": "future-realities-onicowboy-x-reddit-collectible-av",
+    "price": "$5.27  (0.0030 WETH)",
+    "maker": "0x347188c5...8f7aa6",
+    "maker_full": "0x347188c51af781a0170ac8d1db8e4b4fe38f7aa6",
+    "expiry": "?",
+    "link": "https://opensea.io/assets/polygon/0x6a73da4e3d49baa2485d975af1ae71cee638ebbf/70",
+    "image_url": "https://i2c.seadn.io/polygon/0x6a73da4e3d49baa2485d975af1ae71cee638ebbf/e3cd00841401f0b9e184899f1a57b2/79e3cd00841401f0b9e184899f1a57b2.png",
+    "listed_at": "2026-06-04T02:01:49+00:00",
+    "catchup": true
   }
 ]
