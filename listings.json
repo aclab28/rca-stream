@@ -43306,5 +43306,17 @@
     "image_url": "https://i2c.seadn.io/polygon/0xf897e2cd445bdc5ac02a8d116caa2c2fb767fdf1/55f96ec4e428c9d5454b56f5b31713/8555f96ec4e428c9d5454b56f5b31713.png",
     "listed_at": "2026-06-04T18:37:10+00:00",
     "catchup": true
+  },
+  {
+    "name": "The Champs #209065",
+    "slug": "super-bowl-lvii-x-reddit-collectible-avatars",
+    "price": "$1.78  (0.0010 WETH)",
+    "maker": "0x9e991ecc...df56c8",
+    "maker_full": "0x9e991ecc88d63a60861ad36ef863a0e679df56c8",
+    "expiry": "?",
+    "link": "https://opensea.io/assets/polygon/0x3b477a6b1be236628b08839e1e8cf8ba8d93589a/6209364",
+    "image_url": "https://i2c.seadn.io/polygon/0x3b477a6b1be236628b08839e1e8cf8ba8d93589a/dab576159898c8e999085189cd1883/61dab576159898c8e999085189cd1883.png",
+    "listed_at": "2026-06-04T18:42:04+00:00",
+    "catchup": true
   }
 ]
