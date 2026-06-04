@@ -2038,5 +2038,17 @@
     "image_url": "https://i2c.seadn.io/polygon/0x6d74e823e3cfb94a4a395b74b1e7b0f5ca5596a3/86f534886b07b42af0ec6eda3f09ff/1786f534886b07b42af0ec6eda3f09ff.png",
     "listed_at": "2026-06-03T21:21:51+00:00",
     "catchup": true
+  },
+  {
+    "name": "The Mashinator #466 by rylar",
+    "slug": "mash-it",
+    "price": "$0.70  (0.0004 WETH)",
+    "maker": "0x41226eda...30d55f",
+    "maker_full": "0x41226eda3f09474e5eb832c0e5568be91730d55f",
+    "expiry": "?",
+    "link": "https://opensea.io/assets/polygon/0x6d74e823e3cfb94a4a395b74b1e7b0f5ca5596a3/7974",
+    "image_url": "https://i2c.seadn.io/polygon/0x6d74e823e3cfb94a4a395b74b1e7b0f5ca5596a3/f6307827e69be3e5d39b7048cb43ce/65f6307827e69be3e5d39b7048cb43ce.png",
+    "listed_at": "2026-06-04T07:56:25+00:00",
+    "catchup": true
   }
 ]
