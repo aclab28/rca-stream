@@ -43378,5 +43378,17 @@
     "image_url": "https://i2c.seadn.io/polygon/0x067731337979a36e5692da1e5a9996977febcd00/88724c1b6bc21ac94604bb88461e9f/da88724c1b6bc21ac94604bb88461e9f.png",
     "listed_at": "2026-06-04T22:00:53+00:00",
     "catchup": true
+  },
+  {
+    "name": "Chart Candle #4052",
+    "slug": "memetic-traders-x-reddit-collectible-avatars",
+    "price": "$74.06  (0.0420 WETH)",
+    "maker": "0x5b5433e9...b15822",
+    "maker_full": "0x5b5433e9f7f5e5f6febef055e3d22d6779b15822",
+    "expiry": "?",
+    "link": "https://opensea.io/assets/polygon/0xa3396af20ce52bd3c7ab6d7046be617257f60eb9/4051",
+    "image_url": "https://i2c.seadn.io/polygon/0xa3396af20ce52bd3c7ab6d7046be617257f60eb9/f191921a1ab05d6c27ed8cc8fd6d6d/4bf191921a1ab05d6c27ed8cc8fd6d6d.png",
+    "listed_at": "2026-06-04T23:45:03+00:00",
+    "catchup": true
   }
 ]
