@@ -2134,5 +2134,17 @@
     "image_url": "https://i2c.seadn.io/polygon/0x599e5ceeca244cc09032828407c929a23bbaf976/42663d9fd1d86650f84721d58dffd3/d142663d9fd1d86650f84721d58dffd3.png",
     "listed_at": "2026-06-05T09:55:21+00:00",
     "catchup": true
+  },
+  {
+    "name": "The Satoshi Reveal - Banner Trio #71 by Satoshi KappaMoto",
+    "slug": "mash-it-comics",
+    "price": "$1.68  (0.0010 WETH)",
+    "maker": "0xe306caca...e47bb6",
+    "maker_full": "0xe306caca97f92cd566f5fc91121b26a296e47bb6",
+    "expiry": "?",
+    "link": "https://opensea.io/assets/polygon/0x599e5ceeca244cc09032828407c929a23bbaf976/454",
+    "image_url": "https://i2c.seadn.io/polygon/0x599e5ceeca244cc09032828407c929a23bbaf976/f7beedbb615d025d10f463ef44736d/7df7beedbb615d025d10f463ef44736d.png",
+    "listed_at": "2026-06-05T09:55:06+00:00",
+    "catchup": true
   }
 ]
