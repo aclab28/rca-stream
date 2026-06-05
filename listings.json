@@ -43774,5 +43774,17 @@
     "image_url": "https://i2c.seadn.io/polygon/0x7e680862c572e4b945cf45912130c8d884109b59/06546715c9296cb68f9aaf2206f68f/0306546715c9296cb68f9aaf2206f68f.png",
     "listed_at": "2026-06-05T18:40:11+00:00",
     "catchup": true
+  },
+  {
+    "name": "Goddess of the Moon #4",
+    "slug": "goddess-of-the-moon-by-jenniichii-x-reddit-collect",
+    "price": "$4.71  (0.0030 WETH)",
+    "maker": "0xeacec320...62c242",
+    "maker_full": "0xeacec320f6f3f5ef81f522067737502b2162c242",
+    "expiry": "?",
+    "link": "https://opensea.io/assets/polygon/0xf700e41357317a962b0ce82ea619017fef545d26/3",
+    "image_url": "https://i2c.seadn.io/polygon/0xf700e41357317a962b0ce82ea619017fef545d26/821cddcc88accee878664924dace30/ac821cddcc88accee878664924dace30.png",
+    "listed_at": "2026-06-05T18:40:11+00:00",
+    "catchup": true
   }
 ]
