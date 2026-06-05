@@ -43906,5 +43906,29 @@
     "image_url": "https://i2c.seadn.io/matic/0x9f3f53434c0772b9ece101b2f461738722ff0af4/6b238bcad99083cb25addd7634507f/426b238bcad99083cb25addd7634507f.png",
     "listed_at": "2026-06-05T18:40:10+00:00",
     "catchup": true
+  },
+  {
+    "name": "Raven #44",
+    "slug": "raven-by-basket-x-reddit-collectible-avatars",
+    "price": "$4.71  (0.0030 WETH)",
+    "maker": "0xeacec320...62c242",
+    "maker_full": "0xeacec320f6f3f5ef81f522067737502b2162c242",
+    "expiry": "?",
+    "link": "https://opensea.io/assets/polygon/0x92465acf54d94e9fb502cd70b81db1360aeaa784/43",
+    "image_url": "https://i2c.seadn.io/polygon/0x92465acf54d94e9fb502cd70b81db1360aeaa784/98da8a1d3a6665a0af0443b816d023/2a98da8a1d3a6665a0af0443b816d023.png",
+    "listed_at": "2026-06-05T18:40:10+00:00",
+    "catchup": true
+  },
+  {
+    "name": "Alice #8",
+    "slug": "alice-by-ace-x-reddit-collectible-avatars",
+    "price": "$6.28  (0.0040 WETH)",
+    "maker": "0xeacec320...62c242",
+    "maker_full": "0xeacec320f6f3f5ef81f522067737502b2162c242",
+    "expiry": "?",
+    "link": "https://opensea.io/assets/polygon/0xcca3cbe7143f29c2cc820228b9ae3ef91d948ecf/7",
+    "image_url": "https://i2c.seadn.io/polygon/0xcca3cbe7143f29c2cc820228b9ae3ef91d948ecf/0c302d3a9553cd4cb197935264f99b/0b0c302d3a9553cd4cb197935264f99b.png",
+    "listed_at": "2026-06-05T18:40:10+00:00",
+    "catchup": true
   }
 ]
