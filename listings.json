@@ -43630,5 +43630,17 @@
     "image_url": "https://i2c.seadn.io/polygon/0xf06929441b56c856d21ac3ee314fdf64c3af29c4/a397a802371bf3565ccf2b51d12ddb/2fa397a802371bf3565ccf2b51d12ddb.png",
     "listed_at": "2026-06-05T18:40:11+00:00",
     "catchup": true
+  },
+  {
+    "name": "Stina [Spook] #120",
+    "slug": "stina-spook-by-glowymushroom-x-reddit-collectible",
+    "price": "$4.71  (0.0030 WETH)",
+    "maker": "0xeacec320...62c242",
+    "maker_full": "0xeacec320f6f3f5ef81f522067737502b2162c242",
+    "expiry": "?",
+    "link": "https://opensea.io/assets/polygon/0x6bd73e307c18c3da62312889ce423107b6d98fba/119",
+    "image_url": "https://i2c.seadn.io/polygon/0x6bd73e307c18c3da62312889ce423107b6d98fba/dcd34d8e3e78de66c313502588f568/fedcd34d8e3e78de66c313502588f568.png",
+    "listed_at": "2026-06-05T18:40:11+00:00",
+    "catchup": true
   }
 ]
