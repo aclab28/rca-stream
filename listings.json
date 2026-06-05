@@ -43534,5 +43534,17 @@
     "image_url": "https://i2c.seadn.io/polygon/0x2953399124f0cbb46d2cbacd8a89cf0599974963/bffd288beac04fcb02c3e9ea943bca/d1bffd288beac04fcb02c3e9ea943bca.png",
     "listed_at": "2026-06-05T17:47:36+00:00",
     "catchup": true
+  },
+  {
+    "name": "Anima #78",
+    "slug": "anima-by-ervindas-x-reddit-collectible-avatars",
+    "price": "$4.71  (0.0030 WETH)",
+    "maker": "0xeacec320...62c242",
+    "maker_full": "0xeacec320f6f3f5ef81f522067737502b2162c242",
+    "expiry": "?",
+    "link": "https://opensea.io/assets/polygon/0x278d802b554f4af935c401520d252895f33d605a/77",
+    "image_url": "https://i2c.seadn.io/polygon/0x278d802b554f4af935c401520d252895f33d605a/baaa6bbde3f8e0df4993a56ca2a2b5/42baaa6bbde3f8e0df4993a56ca2a2b5.png",
+    "listed_at": "2026-06-05T18:40:11+00:00",
+    "catchup": true
   }
 ]
