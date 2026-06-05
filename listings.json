@@ -43666,5 +43666,29 @@
     "image_url": "https://i2c.seadn.io/polygon/0x9c184d87e5802e6429f1c5202145f6427a31bf1b/76cfaa9c8ca0eda19cc252a7fc6c80/a776cfaa9c8ca0eda19cc252a7fc6c80.png",
     "listed_at": "2026-06-05T18:40:11+00:00",
     "catchup": true
+  },
+  {
+    "name": "Emera #7",
+    "slug": "emera-by-rinni-x-reddit-collectible-avatars",
+    "price": "$6.28  (0.0040 WETH)",
+    "maker": "0xeacec320...62c242",
+    "maker_full": "0xeacec320f6f3f5ef81f522067737502b2162c242",
+    "expiry": "?",
+    "link": "https://opensea.io/assets/polygon/0x6b69cce6b403905f4ce6dc5438e1106e8a2fb337/6",
+    "image_url": "https://i2c.seadn.io/polygon/0x6b69cce6b403905f4ce6dc5438e1106e8a2fb337/cc7674b61b1664645dbe75771c6314/dccc7674b61b1664645dbe75771c6314.png",
+    "listed_at": "2026-06-05T18:40:11+00:00",
+    "catchup": true
+  },
+  {
+    "name": "Jilted #25",
+    "slug": "jilted-by-wispywillow-x-reddit-collectible-avatars",
+    "price": "$6.28  (0.0040 WETH)",
+    "maker": "0xeacec320...62c242",
+    "maker_full": "0xeacec320f6f3f5ef81f522067737502b2162c242",
+    "expiry": "?",
+    "link": "https://opensea.io/assets/polygon/0x6f0862944c1b86307ec556ee99454c6e4dc0b5f6/24",
+    "image_url": "https://i2c.seadn.io/polygon/0x6f0862944c1b86307ec556ee99454c6e4dc0b5f6/45e14df04a0760774f56c846667caa/6045e14df04a0760774f56c846667caa.png",
+    "listed_at": "2026-06-05T18:40:11+00:00",
+    "catchup": true
   }
 ]
