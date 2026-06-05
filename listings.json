@@ -43798,5 +43798,17 @@
     "image_url": "https://i2c.seadn.io/polygon/0xaec2d59cc3cdd7d272163c1c41ba1d68561006d8/264ef35c01fe3c59b3d82356cc47cb/fb264ef35c01fe3c59b3d82356cc47cb.png",
     "listed_at": "2026-06-05T18:40:11+00:00",
     "catchup": true
+  },
+  {
+    "name": "Sad Pumpkin Spice #9",
+    "slug": "sad-pumpkin-spice-by-corpus-upir-x-reddit-collecti",
+    "price": "$6.28  (0.0040 WETH)",
+    "maker": "0xeacec320...62c242",
+    "maker_full": "0xeacec320f6f3f5ef81f522067737502b2162c242",
+    "expiry": "?",
+    "link": "https://opensea.io/assets/polygon/0x7d3015abe56f16258575df888ca747b24ac36f49/8",
+    "image_url": "https://i2c.seadn.io/polygon/0x7d3015abe56f16258575df888ca747b24ac36f49/020e299c168eeaa897d0db0acf4b29/06020e299c168eeaa897d0db0acf4b29.png",
+    "listed_at": "2026-06-05T18:40:11+00:00",
+    "catchup": true
   }
 ]
