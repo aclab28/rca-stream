@@ -43750,5 +43750,17 @@
     "image_url": "https://i2c.seadn.io/polygon/0x3caf02e613adb9bd473355253437752675e80ac5/1f0da08df1b86f55b797553e480b3a/821f0da08df1b86f55b797553e480b3a.png",
     "listed_at": "2026-06-05T18:40:11+00:00",
     "catchup": true
+  },
+  {
+    "name": "Meow #3",
+    "slug": "meow-by-itsnotyourfault-x-reddit-collectible-avata",
+    "price": "$4.71  (0.0030 WETH)",
+    "maker": "0xeacec320...62c242",
+    "maker_full": "0xeacec320f6f3f5ef81f522067737502b2162c242",
+    "expiry": "?",
+    "link": "https://opensea.io/assets/polygon/0x46a07c00d67d7a09f0d86fb5277e721a502f77f7/2",
+    "image_url": "https://i2c.seadn.io/polygon/0x46a07c00d67d7a09f0d86fb5277e721a502f77f7/aacf9d56e38d1128775e89be90ef61/5faacf9d56e38d1128775e89be90ef61.png",
+    "listed_at": "2026-06-05T18:40:11+00:00",
+    "catchup": true
   }
 ]
