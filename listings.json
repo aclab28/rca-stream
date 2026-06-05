@@ -43762,5 +43762,17 @@
     "image_url": "https://i2c.seadn.io/polygon/0x46a07c00d67d7a09f0d86fb5277e721a502f77f7/aacf9d56e38d1128775e89be90ef61/5faacf9d56e38d1128775e89be90ef61.png",
     "listed_at": "2026-06-05T18:40:11+00:00",
     "catchup": true
+  },
+  {
+    "name": "GUARDIAN OF THE REALMS #356",
+    "slug": "spooky-season-bodegacatceo-x-reddit-collectible-av",
+    "price": "$1.26  (0.0008 WETH)",
+    "maker": "0xeacec320...62c242",
+    "maker_full": "0xeacec320f6f3f5ef81f522067737502b2162c242",
+    "expiry": "?",
+    "link": "https://opensea.io/assets/polygon/0x7e680862c572e4b945cf45912130c8d884109b59/1605",
+    "image_url": "https://i2c.seadn.io/polygon/0x7e680862c572e4b945cf45912130c8d884109b59/06546715c9296cb68f9aaf2206f68f/0306546715c9296cb68f9aaf2206f68f.png",
+    "listed_at": "2026-06-05T18:40:11+00:00",
+    "catchup": true
   }
 ]
