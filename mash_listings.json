@@ -2194,5 +2194,17 @@
     "image_url": "https://i2c.seadn.io/polygon/0x6d74e823e3cfb94a4a395b74b1e7b0f5ca5596a3/8881ae78c6b0eba0956f21d17a512e/b88881ae78c6b0eba0956f21d17a512e.png",
     "listed_at": "2026-06-05T15:50:21+00:00",
     "catchup": true
+  },
+  {
+    "name": "Golden Beauty In Sin #8 by Serhii",
+    "slug": "mash-it",
+    "price": "$6.36  (0.0039 WETH)",
+    "maker": "0x97637f77...d31755",
+    "maker_full": "0x97637f77691a52958a12fc8ac0945b28dad31755",
+    "expiry": "?",
+    "link": "https://opensea.io/assets/polygon/0x6d74e823e3cfb94a4a395b74b1e7b0f5ca5596a3/1855",
+    "image_url": "https://i2c.seadn.io/polygon/0x6d74e823e3cfb94a4a395b74b1e7b0f5ca5596a3/2bab69bea88a88bc79c47e65a2ae13/632bab69bea88a88bc79c47e65a2ae13.png",
+    "listed_at": "2026-06-05T21:42:51+00:00",
+    "catchup": true
   }
 ]
