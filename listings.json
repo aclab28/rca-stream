@@ -43942,5 +43942,17 @@
     "image_url": "https://i2c.seadn.io/polygon/0x1c0b4f07da79fb7bcf1f5485a901e2eb51ae690a/632872082dff839bd5b929a7fbdae0/d5632872082dff839bd5b929a7fbdae0.png",
     "listed_at": "2026-06-05T18:40:10+00:00",
     "catchup": true
+  },
+  {
+    "name": "The Sun #494",
+    "slug": "spooky-season-rojom-x-reddit-collectible-avatars",
+    "price": "$3.14  (0.0020 WETH)",
+    "maker": "0xeacec320...62c242",
+    "maker_full": "0xeacec320f6f3f5ef81f522067737502b2162c242",
+    "expiry": "?",
+    "link": "https://opensea.io/assets/polygon/0x3e4627665bf2e52c69be03788e664ab545f2be71/493",
+    "image_url": "https://i2c.seadn.io/polygon/0x3e4627665bf2e52c69be03788e664ab545f2be71/d68365f1b0c6041ba3ffa694697386/efd68365f1b0c6041ba3ffa694697386.png",
+    "listed_at": "2026-06-05T18:40:10+00:00",
+    "catchup": true
   }
 ]
