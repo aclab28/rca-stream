@@ -43570,5 +43570,17 @@
     "image_url": "https://i2c.seadn.io/polygon/0xf3c6e577dc98760bccd91b2a45cd2b2b7fdeffef/49e6f587f8af4b92922dde4efba5ac/4f49e6f587f8af4b92922dde4efba5ac.png",
     "listed_at": "2026-06-05T18:40:11+00:00",
     "catchup": true
+  },
+  {
+    "name": "Seer #11",
+    "slug": "seer-by-itsnotyourfault-x-reddit-collectible-avata",
+    "price": "$7.85  (0.0050 WETH)",
+    "maker": "0xeacec320...62c242",
+    "maker_full": "0xeacec320f6f3f5ef81f522067737502b2162c242",
+    "expiry": "?",
+    "link": "https://opensea.io/assets/polygon/0xd9f04dbf61eeed6492d056d45c55ca7db2b11cda/10",
+    "image_url": "https://i2c.seadn.io/polygon/0xd9f04dbf61eeed6492d056d45c55ca7db2b11cda/1b8090cf6c68bdc0fe3f99dff80ba9/011b8090cf6c68bdc0fe3f99dff80ba9.png",
+    "listed_at": "2026-06-05T18:40:11+00:00",
+    "catchup": true
   }
 ]
