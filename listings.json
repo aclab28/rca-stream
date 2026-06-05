@@ -43582,5 +43582,17 @@
     "image_url": "https://i2c.seadn.io/polygon/0xd9f04dbf61eeed6492d056d45c55ca7db2b11cda/1b8090cf6c68bdc0fe3f99dff80ba9/011b8090cf6c68bdc0fe3f99dff80ba9.png",
     "listed_at": "2026-06-05T18:40:11+00:00",
     "catchup": true
+  },
+  {
+    "name": "Nahla #24",
+    "slug": "nahla-by-laura-d-x-reddit-collectible-avatars",
+    "price": "$4.71  (0.0030 WETH)",
+    "maker": "0xeacec320...62c242",
+    "maker_full": "0xeacec320f6f3f5ef81f522067737502b2162c242",
+    "expiry": "?",
+    "link": "https://opensea.io/assets/polygon/0x7dbc85bf294b068e92c0aa04dc728d10523cdc6a/23",
+    "image_url": "https://i2c.seadn.io/matic/0x7dbc85bf294b068e92c0aa04dc728d10523cdc6a/69982b295df8d0be806b7e4248db63/ac69982b295df8d0be806b7e4248db63.png",
+    "listed_at": "2026-06-05T18:40:11+00:00",
+    "catchup": true
   }
 ]
