@@ -43702,5 +43702,17 @@
     "image_url": "https://i2c.seadn.io/matic/0xc9317f5a9496970822f65047fd6eff0e0247012e/08ef1770dcbd74a29e65f8856b6645/0f08ef1770dcbd74a29e65f8856b6645.png",
     "listed_at": "2026-06-05T18:40:11+00:00",
     "catchup": true
+  },
+  {
+    "name": "Cheri #108",
+    "slug": "cheri-by-emanuela-bosnjak-x-reddit-collectible-ava",
+    "price": "$7.85  (0.0050 WETH)",
+    "maker": "0xeacec320...62c242",
+    "maker_full": "0xeacec320f6f3f5ef81f522067737502b2162c242",
+    "expiry": "?",
+    "link": "https://opensea.io/assets/polygon/0xadffeacbe985e430ef46597b4a4b0e14d86df7b9/107",
+    "image_url": "https://i2c.seadn.io/polygon/0xadffeacbe985e430ef46597b4a4b0e14d86df7b9/a4a793416797bcbdf95ae43d5f428e/32a4a793416797bcbdf95ae43d5f428e.png",
+    "listed_at": "2026-06-05T18:40:11+00:00",
+    "catchup": true
   }
 ]
