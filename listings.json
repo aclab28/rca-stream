@@ -43726,5 +43726,17 @@
     "image_url": "https://i2c.seadn.io/polygon/0xac5192eae02f168361f5c70986ac28f38c5a6c3e/fb109551fad40a62ba81d8eee66089/78fb109551fad40a62ba81d8eee66089.png",
     "listed_at": "2026-06-05T18:40:11+00:00",
     "catchup": true
+  },
+  {
+    "name": "Aime #37",
+    "slug": "aime-by-wispywi11ow-x-reddit-collectible-avatars",
+    "price": "$6.28  (0.0040 WETH)",
+    "maker": "0xeacec320...62c242",
+    "maker_full": "0xeacec320f6f3f5ef81f522067737502b2162c242",
+    "expiry": "?",
+    "link": "https://opensea.io/assets/polygon/0xf0c8466c3d25614372932845aa37e06feb4671c6/36",
+    "image_url": "https://i2c.seadn.io/matic/0xf0c8466c3d25614372932845aa37e06feb4671c6/b4371327e9d6b063e9f9554338fd69/79b4371327e9d6b063e9f9554338fd69.png",
+    "listed_at": "2026-06-05T18:40:11+00:00",
+    "catchup": true
   }
 ]
