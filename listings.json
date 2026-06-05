@@ -43954,5 +43954,29 @@
     "image_url": "https://i2c.seadn.io/polygon/0x3e4627665bf2e52c69be03788e664ab545f2be71/d68365f1b0c6041ba3ffa694697386/efd68365f1b0c6041ba3ffa694697386.png",
     "listed_at": "2026-06-05T18:40:10+00:00",
     "catchup": true
+  },
+  {
+    "name": "Halo Cat #5",
+    "slug": "halo-cat-by-tmarim-x-reddit-collectible-avatars",
+    "price": "$4.71  (0.0030 WETH)",
+    "maker": "0xeacec320...62c242",
+    "maker_full": "0xeacec320f6f3f5ef81f522067737502b2162c242",
+    "expiry": "?",
+    "link": "https://opensea.io/assets/polygon/0x723199e6d5cbd99468860d5abc94ed2e8b7b7e61/4",
+    "image_url": "https://i2c.seadn.io/polygon/0x723199e6d5cbd99468860d5abc94ed2e8b7b7e61/e878236e48e8487f172c14a98a0f1b/cae878236e48e8487f172c14a98a0f1b.png",
+    "listed_at": "2026-06-05T18:40:10+00:00",
+    "catchup": true
+  },
+  {
+    "name": "Drip Squad #429920",
+    "slug": "drip-squad-x-reddit-collectible-avatars",
+    "price": "$2.33  (0.0014 WETH)",
+    "maker": "0x97637f77...d31755",
+    "maker_full": "0x97637f77691a52958a12fc8ac0945b28dad31755",
+    "expiry": "?",
+    "link": "https://opensea.io/assets/polygon/0xbfd670667053e517a97afe56c91e4f83f1160bd3/429919",
+    "image_url": "https://i2c.seadn.io/polygon/0xbfd670667053e517a97afe56c91e4f83f1160bd3/d4307d04494cb04eed5c69408d7113/afd4307d04494cb04eed5c69408d7113.png",
+    "listed_at": "2026-06-05T21:44:28+00:00",
+    "catchup": true
   }
 ]
