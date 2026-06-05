@@ -43846,5 +43846,17 @@
     "image_url": "https://i2c.seadn.io/polygon/0x611598c45d781e848b73bcf65fdb6f8a6c47bc59/f6ca187063e209b6e3ece908a059d4/38f6ca187063e209b6e3ece908a059d4.png",
     "listed_at": "2026-06-05T18:40:11+00:00",
     "catchup": true
+  },
+  {
+    "name": "Cutie #20",
+    "slug": "cutie-by-rylar-x-reddit-collectible-avatars",
+    "price": "$2.20  (0.0014 WETH)",
+    "maker": "0xeacec320...62c242",
+    "maker_full": "0xeacec320f6f3f5ef81f522067737502b2162c242",
+    "expiry": "?",
+    "link": "https://opensea.io/assets/polygon/0x198001a79a0c19628fffa3cd1245a7d7c6c2d8ea/19",
+    "image_url": "https://i2c.seadn.io/polygon/0x198001a79a0c19628fffa3cd1245a7d7c6c2d8ea/7660f0b12ea47451282e22a7efa5a1/cd7660f0b12ea47451282e22a7efa5a1.png",
+    "listed_at": "2026-06-05T18:40:11+00:00",
+    "catchup": true
   }
 ]
