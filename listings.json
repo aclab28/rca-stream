@@ -43510,5 +43510,17 @@
     "image_url": "https://i2c.seadn.io/polygon/0x3e4627665bf2e52c69be03788e664ab545f2be71/8a4577c7fda1d77115655b473e33ec/648a4577c7fda1d77115655b473e33ec.png",
     "listed_at": "2026-06-05T16:16:51+00:00",
     "catchup": true
+  },
+  {
+    "name": "Monster 1 Place Reddit",
+    "slug": "redditart",
+    "price": "$0.80  (0.0005 WETH)",
+    "maker": "0x3782a826...312907",
+    "maker_full": "0x3782a826a0c2657b9aebfa980245f7d76c312907",
+    "expiry": "?",
+    "link": "https://opensea.io/assets/polygon/0x2953399124f0cbb46d2cbacd8a89cf0599974963/112734530857144882359999642701628212224458434027144103607303888202032773957280",
+    "image_url": "https://i2c.seadn.io/polygon/0x2953399124f0cbb46d2cbacd8a89cf0599974963/e7b2b0539e1efe93f0a426cc33a93e/95e7b2b0539e1efe93f0a426cc33a93e.png",
+    "listed_at": "2026-06-05T17:47:36+00:00",
+    "catchup": true
   }
 ]
