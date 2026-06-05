@@ -43690,5 +43690,17 @@
     "image_url": "https://i2c.seadn.io/polygon/0x6f0862944c1b86307ec556ee99454c6e4dc0b5f6/45e14df04a0760774f56c846667caa/6045e14df04a0760774f56c846667caa.png",
     "listed_at": "2026-06-05T18:40:11+00:00",
     "catchup": true
+  },
+  {
+    "name": "Maple #46",
+    "slug": "maple-by-wispywi11ow-x-reddit-collectible-avatars",
+    "price": "$15.53  (0.0099 WETH)",
+    "maker": "0xeacec320...62c242",
+    "maker_full": "0xeacec320f6f3f5ef81f522067737502b2162c242",
+    "expiry": "?",
+    "link": "https://opensea.io/assets/polygon/0xc9317f5a9496970822f65047fd6eff0e0247012e/45",
+    "image_url": "https://i2c.seadn.io/matic/0xc9317f5a9496970822f65047fd6eff0e0247012e/08ef1770dcbd74a29e65f8856b6645/0f08ef1770dcbd74a29e65f8856b6645.png",
+    "listed_at": "2026-06-05T18:40:11+00:00",
+    "catchup": true
   }
 ]
