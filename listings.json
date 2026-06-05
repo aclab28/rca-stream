@@ -43522,5 +43522,17 @@
     "image_url": "https://i2c.seadn.io/polygon/0x2953399124f0cbb46d2cbacd8a89cf0599974963/e7b2b0539e1efe93f0a426cc33a93e/95e7b2b0539e1efe93f0a426cc33a93e.png",
     "listed_at": "2026-06-05T17:47:36+00:00",
     "catchup": true
+  },
+  {
+    "name": "Monster 2 Place Rediit",
+    "slug": "redditart",
+    "price": "$0.16  (0.0001 WETH)",
+    "maker": "0x3782a826...312907",
+    "maker_full": "0x3782a826a0c2657b9aebfa980245f7d76c312907",
+    "expiry": "?",
+    "link": "https://opensea.io/assets/polygon/0x2953399124f0cbb46d2cbacd8a89cf0599974963/112734530857144882359999642701628212224458434027144103607303888203132285585056",
+    "image_url": "https://i2c.seadn.io/polygon/0x2953399124f0cbb46d2cbacd8a89cf0599974963/bffd288beac04fcb02c3e9ea943bca/d1bffd288beac04fcb02c3e9ea943bca.png",
+    "listed_at": "2026-06-05T17:47:36+00:00",
+    "catchup": true
   }
 ]
