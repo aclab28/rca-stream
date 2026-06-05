@@ -43390,5 +43390,29 @@
     "image_url": "https://i2c.seadn.io/polygon/0xa3396af20ce52bd3c7ab6d7046be617257f60eb9/f191921a1ab05d6c27ed8cc8fd6d6d/4bf191921a1ab05d6c27ed8cc8fd6d6d.png",
     "listed_at": "2026-06-04T23:45:03+00:00",
     "catchup": true
+  },
+  {
+    "name": "Hedge Fund Wolf #2842",
+    "slug": "memetic-traders-x-reddit-collectible-avatars",
+    "price": "$74.06  (0.0420 WETH)",
+    "maker": "0x5b5433e9...b15822",
+    "maker_full": "0x5b5433e9f7f5e5f6febef055e3d22d6779b15822",
+    "expiry": "?",
+    "link": "https://opensea.io/assets/polygon/0xa3396af20ce52bd3c7ab6d7046be617257f60eb9/2841",
+    "image_url": "https://i2c.seadn.io/polygon/0xa3396af20ce52bd3c7ab6d7046be617257f60eb9/bd5602d802e7506569c2e2f10c279e/7ebd5602d802e7506569c2e2f10c279e.png",
+    "listed_at": "2026-06-04T23:45:03+00:00",
+    "catchup": true
+  },
+  {
+    "name": "Temperance #3",
+    "slug": "temperance-by-qugmo-x-reddit-collectible-avatars",
+    "price": "$13.90  (0.0080 WETH)",
+    "maker": "0x447b9a9c...fce1b1",
+    "maker_full": "0x447b9a9c730b1edb5dc389cd92cc7b9ee5fce1b1",
+    "expiry": "?",
+    "link": "https://opensea.io/assets/polygon/0x2bd77293dcddd3baf2b76bd6dc20b5f6676b7108/2",
+    "image_url": "https://i2c.seadn.io/polygon/0x2bd77293dcddd3baf2b76bd6dc20b5f6676b7108/47c59ea12420a8409cc82aa6af2140/ce47c59ea12420a8409cc82aa6af2140.png",
+    "listed_at": "2026-06-05T02:34:18+00:00",
+    "catchup": true
   }
 ]
