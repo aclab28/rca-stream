@@ -43654,5 +43654,17 @@
     "image_url": "https://i2c.seadn.io/polygon/0x12db331f5396161cdcbec1a921a7c571b7bfa313/8babc32f406c6fa6a59eeb1a7ffe94/5d8babc32f406c6fa6a59eeb1a7ffe94.png",
     "listed_at": "2026-06-05T18:40:11+00:00",
     "catchup": true
+  },
+  {
+    "name": "() #17",
+    "slug": "o-by-k0piee-x-reddit-collectible-avatars",
+    "price": "$3.14  (0.0020 WETH)",
+    "maker": "0xeacec320...62c242",
+    "maker_full": "0xeacec320f6f3f5ef81f522067737502b2162c242",
+    "expiry": "?",
+    "link": "https://opensea.io/assets/polygon/0x9c184d87e5802e6429f1c5202145f6427a31bf1b/16",
+    "image_url": "https://i2c.seadn.io/polygon/0x9c184d87e5802e6429f1c5202145f6427a31bf1b/76cfaa9c8ca0eda19cc252a7fc6c80/a776cfaa9c8ca0eda19cc252a7fc6c80.png",
+    "listed_at": "2026-06-05T18:40:11+00:00",
+    "catchup": true
   }
 ]
