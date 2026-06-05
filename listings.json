@@ -43894,5 +43894,17 @@
     "image_url": "https://i2c.seadn.io/polygon/0xdc366e251ac07e729e6b815842b2a4448005575f/d4fd7d5a48692b7db634ef823ba998/12d4fd7d5a48692b7db634ef823ba998.png",
     "listed_at": "2026-06-05T18:40:10+00:00",
     "catchup": true
+  },
+  {
+    "name": "Flurry #36",
+    "slug": "flurry-by-wispywi11ow-x-reddit-collectible-avatars",
+    "price": "$4.71  (0.0030 WETH)",
+    "maker": "0xeacec320...62c242",
+    "maker_full": "0xeacec320f6f3f5ef81f522067737502b2162c242",
+    "expiry": "?",
+    "link": "https://opensea.io/assets/polygon/0x9f3f53434c0772b9ece101b2f461738722ff0af4/35",
+    "image_url": "https://i2c.seadn.io/matic/0x9f3f53434c0772b9ece101b2f461738722ff0af4/6b238bcad99083cb25addd7634507f/426b238bcad99083cb25addd7634507f.png",
+    "listed_at": "2026-06-05T18:40:10+00:00",
+    "catchup": true
   }
 ]
