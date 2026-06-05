@@ -2122,5 +2122,17 @@
     "image_url": "https://i2c.seadn.io/polygon/0x6d74e823e3cfb94a4a395b74b1e7b0f5ca5596a3/7e7882d873ed3c820d0b7c99a47b77/317e7882d873ed3c820d0b7c99a47b77.png",
     "listed_at": "2026-06-04T23:06:13+00:00",
     "catchup": true
+  },
+  {
+    "name": "Logomania #21 by Satoshi KappaMoto",
+    "slug": "mash-it-comics",
+    "price": "$1.68  (0.0010 WETH)",
+    "maker": "0xe306caca...e47bb6",
+    "maker_full": "0xe306caca97f92cd566f5fc91121b26a296e47bb6",
+    "expiry": "?",
+    "link": "https://opensea.io/assets/polygon/0x599e5ceeca244cc09032828407c929a23bbaf976/494",
+    "image_url": "https://i2c.seadn.io/polygon/0x599e5ceeca244cc09032828407c929a23bbaf976/42663d9fd1d86650f84721d58dffd3/d142663d9fd1d86650f84721d58dffd3.png",
+    "listed_at": "2026-06-05T09:55:21+00:00",
+    "catchup": true
   }
 ]
