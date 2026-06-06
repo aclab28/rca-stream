@@ -44158,5 +44158,17 @@
     "image_url": "https://i2c.seadn.io/polygon/0x53c24125f68bd49ba79afe95a4b23f5e419d89b9/c8e7e0dc29052eb9a666e4c45a39bd/f8c8e7e0dc29052eb9a666e4c45a39bd.png",
     "listed_at": "2026-06-06T21:23:33+00:00",
     "catchup": true
+  },
+  {
+    "name": "Epilogue #63",
+    "slug": "epilogue-by-zuccyn-x-reddit-collectible-avatars",
+    "price": "$1.87  (0.0012 WETH)",
+    "maker": "0x79e5a77d...d1eb6c",
+    "maker_full": "0x79e5a77dae19234ff89e6e0ba261cad761d1eb6c",
+    "expiry": "?",
+    "link": "https://opensea.io/assets/polygon/0x556184d01f4ef37d16d810ad5687e327ce3d6ecd/62",
+    "image_url": "https://i2c.seadn.io/polygon/0x556184d01f4ef37d16d810ad5687e327ce3d6ecd/ab05103042d24d60699fa66d49ac17/82ab05103042d24d60699fa66d49ac17.png",
+    "listed_at": "2026-06-06T21:28:02+00:00",
+    "catchup": true
   }
 ]
