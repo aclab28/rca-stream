@@ -44146,5 +44146,17 @@
     "image_url": "https://i2c.seadn.io/polygon/0x5bbae18120a52755deba69dd1ff2628fba229d33/65fd7de4aa31a90310da7a13a90f0c/0865fd7de4aa31a90310da7a13a90f0c.png",
     "listed_at": "2026-06-06T21:14:39+00:00",
     "catchup": true
+  },
+  {
+    "name": "Dr. Kami #446",
+    "slug": "retro-reimagined-giftedocean-x-reddit-collectible",
+    "price": "$0.31  (0.0002 WETH)",
+    "maker": "0x79e5a77d...d1eb6c",
+    "maker_full": "0x79e5a77dae19234ff89e6e0ba261cad761d1eb6c",
+    "expiry": "?",
+    "link": "https://opensea.io/assets/polygon/0x53c24125f68bd49ba79afe95a4b23f5e419d89b9/1111",
+    "image_url": "https://i2c.seadn.io/polygon/0x53c24125f68bd49ba79afe95a4b23f5e419d89b9/c8e7e0dc29052eb9a666e4c45a39bd/f8c8e7e0dc29052eb9a666e4c45a39bd.png",
+    "listed_at": "2026-06-06T21:23:33+00:00",
+    "catchup": true
   }
 ]
