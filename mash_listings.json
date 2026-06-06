@@ -2506,5 +2506,77 @@
     "image_url": "https://i2c.seadn.io/polygon/0x6d74e823e3cfb94a4a395b74b1e7b0f5ca5596a3/e3e2dfbeff49f220a8a6163a39425d/7be3e2dfbeff49f220a8a6163a39425d.png",
     "listed_at": "2026-06-06T18:45:30+00:00",
     "catchup": true
+  },
+  {
+    "name": "Oh Boy #54 by Hammer",
+    "slug": "mash-it",
+    "price": "$7.79  (0.0050 WETH)",
+    "maker": "0x6ef7b67f...09b942",
+    "maker_full": "0x6ef7b67f8c001793705bebe9b2835ecb8209b942",
+    "expiry": "?",
+    "link": "https://opensea.io/assets/polygon/0x6d74e823e3cfb94a4a395b74b1e7b0f5ca5596a3/2669",
+    "image_url": "https://i2c.seadn.io/polygon/0x6d74e823e3cfb94a4a395b74b1e7b0f5ca5596a3/1733bd864de36dd17c870807f6d0ee/661733bd864de36dd17c870807f6d0ee.png",
+    "listed_at": "2026-06-06T18:45:30+00:00",
+    "catchup": true
+  },
+  {
+    "name": "Nihon #3 by intent",
+    "slug": "mash-it",
+    "price": "$7.79  (0.0050 WETH)",
+    "maker": "0x6ef7b67f...09b942",
+    "maker_full": "0x6ef7b67f8c001793705bebe9b2835ecb8209b942",
+    "expiry": "?",
+    "link": "https://opensea.io/assets/polygon/0x6d74e823e3cfb94a4a395b74b1e7b0f5ca5596a3/1940",
+    "image_url": "https://i2c.seadn.io/polygon/0x6d74e823e3cfb94a4a395b74b1e7b0f5ca5596a3/1a2653feba3fe226717eaa6ea6a970/7c1a2653feba3fe226717eaa6ea6a970.png",
+    "listed_at": "2026-06-06T18:45:30+00:00",
+    "catchup": true
+  },
+  {
+    "name": "Crux #33 by rylar",
+    "slug": "mash-it",
+    "price": "$7.79  (0.0050 WETH)",
+    "maker": "0x6ef7b67f...09b942",
+    "maker_full": "0x6ef7b67f8c001793705bebe9b2835ecb8209b942",
+    "expiry": "?",
+    "link": "https://opensea.io/assets/polygon/0x6d74e823e3cfb94a4a395b74b1e7b0f5ca5596a3/146",
+    "image_url": "https://i2c.seadn.io/polygon/0x6d74e823e3cfb94a4a395b74b1e7b0f5ca5596a3/48ac8ccea49b321afad2737f475d2e/8848ac8ccea49b321afad2737f475d2e.png",
+    "listed_at": "2026-06-06T18:45:30+00:00",
+    "catchup": true
+  },
+  {
+    "name": "the Sidekick #11 by RocketMoonApe",
+    "slug": "mash-it",
+    "price": "$7.79  (0.0050 WETH)",
+    "maker": "0x6ef7b67f...09b942",
+    "maker_full": "0x6ef7b67f8c001793705bebe9b2835ecb8209b942",
+    "expiry": "?",
+    "link": "https://opensea.io/assets/polygon/0x6d74e823e3cfb94a4a395b74b1e7b0f5ca5596a3/2528",
+    "image_url": "https://i2c.seadn.io/polygon/0x6d74e823e3cfb94a4a395b74b1e7b0f5ca5596a3/5265a7400c013ca4d22bb65a74b671/9c5265a7400c013ca4d22bb65a74b671.png",
+    "listed_at": "2026-06-06T18:45:30+00:00",
+    "catchup": true
+  },
+  {
+    "name": "NO EVIL #5 by joethekappaguy",
+    "slug": "mash-it",
+    "price": "$7.79  (0.0050 WETH)",
+    "maker": "0x6ef7b67f...09b942",
+    "maker_full": "0x6ef7b67f8c001793705bebe9b2835ecb8209b942",
+    "expiry": "?",
+    "link": "https://opensea.io/assets/polygon/0x6d74e823e3cfb94a4a395b74b1e7b0f5ca5596a3/2210",
+    "image_url": "https://i2c.seadn.io/polygon/0x6d74e823e3cfb94a4a395b74b1e7b0f5ca5596a3/8bdc14e602e96dd25eea3d3a22384d/908bdc14e602e96dd25eea3d3a22384d.png",
+    "listed_at": "2026-06-06T18:45:30+00:00",
+    "catchup": true
+  },
+  {
+    "name": "The Onion Head #28 by Atorcran",
+    "slug": "mash-it",
+    "price": "$7.79  (0.0050 WETH)",
+    "maker": "0x6ef7b67f...09b942",
+    "maker_full": "0x6ef7b67f8c001793705bebe9b2835ecb8209b942",
+    "expiry": "?",
+    "link": "https://opensea.io/assets/polygon/0x6d74e823e3cfb94a4a395b74b1e7b0f5ca5596a3/58",
+    "image_url": "https://i2c.seadn.io/polygon/0x6d74e823e3cfb94a4a395b74b1e7b0f5ca5596a3/b9179a59966bfa2a32ee697816ec98/0bb9179a59966bfa2a32ee697816ec98.png",
+    "listed_at": "2026-06-06T18:45:30+00:00",
+    "catchup": true
   }
 ]
