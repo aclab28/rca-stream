@@ -44110,5 +44110,17 @@
     "image_url": "https://i2c.seadn.io/polygon/0x5066c0934632bcc2902d139d7c875cbd295429f8/e126397ac26a15c5a4fb4487978033/f6e126397ac26a15c5a4fb4487978033.png",
     "listed_at": "2026-06-06T11:38:47+00:00",
     "catchup": true
+  },
+  {
+    "name": "Pookie #25",
+    "slug": "pookie-by-chrono-x-reddit-collectible-avatars",
+    "price": "$1.56  (0.0010 WETH)",
+    "maker": "0x672dbeb3...4c32cc",
+    "maker_full": "0x672dbeb35a3a668302ec28a966e566ff144c32cc",
+    "expiry": "?",
+    "link": "https://opensea.io/assets/polygon/0x7165f38b08f02baf9a6418add226079b14e0d7ec/24",
+    "image_url": "https://i2c.seadn.io/polygon/0x7165f38b08f02baf9a6418add226079b14e0d7ec/91a8d027317af562ab75687c55adf2/c191a8d027317af562ab75687c55adf2.png",
+    "listed_at": "2026-06-06T15:48:20+00:00",
+    "catchup": true
   }
 ]
