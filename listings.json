@@ -44170,5 +44170,17 @@
     "image_url": "https://i2c.seadn.io/polygon/0x556184d01f4ef37d16d810ad5687e327ce3d6ecd/ab05103042d24d60699fa66d49ac17/82ab05103042d24d60699fa66d49ac17.png",
     "listed_at": "2026-06-06T21:28:02+00:00",
     "catchup": true
+  },
+  {
+    "name": "Proxima Centauri #49",
+    "slug": "proxima-centauri-by-ervindas-x-reddit-collectible",
+    "price": "$1.56  (0.0010 WETH)",
+    "maker": "0x79e5a77d...d1eb6c",
+    "maker_full": "0x79e5a77dae19234ff89e6e0ba261cad761d1eb6c",
+    "expiry": "?",
+    "link": "https://opensea.io/assets/polygon/0xfe4427192b9a0678adfde514f3861dcbf23490d3/48",
+    "image_url": "https://i2c.seadn.io/polygon/0xfe4427192b9a0678adfde514f3861dcbf23490d3/bddfe2297fd96e74d873f3ea6572bc/a0bddfe2297fd96e74d873f3ea6572bc.png",
+    "listed_at": "2026-06-06T21:26:02+00:00",
+    "catchup": true
   }
 ]
