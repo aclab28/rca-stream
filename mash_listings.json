@@ -2350,5 +2350,77 @@
     "image_url": "https://i2c.seadn.io/polygon/0x6d74e823e3cfb94a4a395b74b1e7b0f5ca5596a3/e3e2dfbeff49f220a8a6163a39425d/7be3e2dfbeff49f220a8a6163a39425d.png",
     "listed_at": "2026-06-06T18:45:30+00:00",
     "catchup": true
+  },
+  {
+    "name": "Crux #32 by rylar",
+    "slug": "mash-it",
+    "price": "$7.79  (0.0050 WETH)",
+    "maker": "0x6ef7b67f...09b942",
+    "maker_full": "0x6ef7b67f8c001793705bebe9b2835ecb8209b942",
+    "expiry": "?",
+    "link": "https://opensea.io/assets/polygon/0x6d74e823e3cfb94a4a395b74b1e7b0f5ca5596a3/145",
+    "image_url": "https://i2c.seadn.io/polygon/0x6d74e823e3cfb94a4a395b74b1e7b0f5ca5596a3/48ac8ccea49b321afad2737f475d2e/8848ac8ccea49b321afad2737f475d2e.png",
+    "listed_at": "2026-06-06T18:45:30+00:00",
+    "catchup": true
+  },
+  {
+    "name": "Little Rynasha #1 by Panyasan",
+    "slug": "mash-it",
+    "price": "$7.79  (0.0050 WETH)",
+    "maker": "0x6ef7b67f...09b942",
+    "maker_full": "0x6ef7b67f8c001793705bebe9b2835ecb8209b942",
+    "expiry": "?",
+    "link": "https://opensea.io/assets/polygon/0x6d74e823e3cfb94a4a395b74b1e7b0f5ca5596a3/617",
+    "image_url": "https://i2c.seadn.io/polygon/0x6d74e823e3cfb94a4a395b74b1e7b0f5ca5596a3/3b8574248a869e8cf7306965718ac3/5b3b8574248a869e8cf7306965718ac3.png",
+    "listed_at": "2026-06-06T18:45:30+00:00",
+    "catchup": true
+  },
+  {
+    "name": "Havoc #5 by Feral",
+    "slug": "mash-it",
+    "price": "$7.79  (0.0050 WETH)",
+    "maker": "0x6ef7b67f...09b942",
+    "maker_full": "0x6ef7b67f8c001793705bebe9b2835ecb8209b942",
+    "expiry": "?",
+    "link": "https://opensea.io/assets/polygon/0x6d74e823e3cfb94a4a395b74b1e7b0f5ca5596a3/2133",
+    "image_url": "https://i2c.seadn.io/polygon/0x6d74e823e3cfb94a4a395b74b1e7b0f5ca5596a3/af92552870a89f6cab24394ef05743/edaf92552870a89f6cab24394ef05743.png",
+    "listed_at": "2026-06-06T18:45:30+00:00",
+    "catchup": true
+  },
+  {
+    "name": "RBS 2043 #55 by icono",
+    "slug": "mash-it",
+    "price": "$7.79  (0.0050 WETH)",
+    "maker": "0x6ef7b67f...09b942",
+    "maker_full": "0x6ef7b67f8c001793705bebe9b2835ecb8209b942",
+    "expiry": "?",
+    "link": "https://opensea.io/assets/polygon/0x6d74e823e3cfb94a4a395b74b1e7b0f5ca5596a3/1719",
+    "image_url": "https://i2c.seadn.io/polygon/0x6d74e823e3cfb94a4a395b74b1e7b0f5ca5596a3/ea2d6f3916262eb6c3c3c24153e1fe/24ea2d6f3916262eb6c3c3c24153e1fe.png",
+    "listed_at": "2026-06-06T18:45:30+00:00",
+    "catchup": true
+  },
+  {
+    "name": "AS ABOVE SO BELOW #18 by Fightmusician",
+    "slug": "mash-it",
+    "price": "$7.79  (0.0050 WETH)",
+    "maker": "0x6ef7b67f...09b942",
+    "maker_full": "0x6ef7b67f8c001793705bebe9b2835ecb8209b942",
+    "expiry": "?",
+    "link": "https://opensea.io/assets/polygon/0x6d74e823e3cfb94a4a395b74b1e7b0f5ca5596a3/887",
+    "image_url": "https://i2c.seadn.io/polygon/0x6d74e823e3cfb94a4a395b74b1e7b0f5ca5596a3/c009d27720ecddaf80d05e6926c20a/05c009d27720ecddaf80d05e6926c20a.png",
+    "listed_at": "2026-06-06T18:45:30+00:00",
+    "catchup": true
+  },
+  {
+    "name": "Shirayuki #8 by Hofmaurerad",
+    "slug": "mash-it",
+    "price": "$7.79  (0.0050 WETH)",
+    "maker": "0x6ef7b67f...09b942",
+    "maker_full": "0x6ef7b67f8c001793705bebe9b2835ecb8209b942",
+    "expiry": "?",
+    "link": "https://opensea.io/assets/polygon/0x6d74e823e3cfb94a4a395b74b1e7b0f5ca5596a3/243",
+    "image_url": "https://i2c.seadn.io/polygon/0x6d74e823e3cfb94a4a395b74b1e7b0f5ca5596a3/302ff7538a0330ff999ec3108e9c82/5f302ff7538a0330ff999ec3108e9c82.png",
+    "listed_at": "2026-06-06T18:45:30+00:00",
+    "catchup": true
   }
 ]
