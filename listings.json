@@ -44098,5 +44098,17 @@
     "image_url": "https://i2c.seadn.io/polygon/0x5066c0934632bcc2902d139d7c875cbd295429f8/e126397ac26a15c5a4fb4487978033/f6e126397ac26a15c5a4fb4487978033.png",
     "listed_at": "2026-06-06T11:38:47+00:00",
     "catchup": true
+  },
+  {
+    "name": "Knight Rabbid #11759",
+    "slug": "reddit-rabbids-x-reddit-collectible-avatars",
+    "price": "$0.02  (0.0000 WETH)",
+    "maker": "0x95d5f26f...f854cd",
+    "maker_full": "0x95d5f26f76ee2c105ed177913b822b98b2f854cd",
+    "expiry": "?",
+    "link": "https://opensea.io/assets/polygon/0x5066c0934632bcc2902d139d7c875cbd295429f8/61858",
+    "image_url": "https://i2c.seadn.io/polygon/0x5066c0934632bcc2902d139d7c875cbd295429f8/e126397ac26a15c5a4fb4487978033/f6e126397ac26a15c5a4fb4487978033.png",
+    "listed_at": "2026-06-06T11:38:47+00:00",
+    "catchup": true
   }
 ]
