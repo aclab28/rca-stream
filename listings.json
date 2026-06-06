@@ -44182,5 +44182,17 @@
     "image_url": "https://i2c.seadn.io/polygon/0xfe4427192b9a0678adfde514f3861dcbf23490d3/bddfe2297fd96e74d873f3ea6572bc/a0bddfe2297fd96e74d873f3ea6572bc.png",
     "listed_at": "2026-06-06T21:26:02+00:00",
     "catchup": true
+  },
+  {
+    "name": "Faiza #31",
+    "slug": "faiza-by-ninja-vagabond-x-reddit-collectible-avata",
+    "price": "$2.97  (0.0019 WETH)",
+    "maker": "0x6ef7b67f...09b942",
+    "maker_full": "0x6ef7b67f8c001793705bebe9b2835ecb8209b942",
+    "expiry": "?",
+    "link": "https://opensea.io/assets/polygon/0xe6384d455bb94497d752b350ba78285772290553/30",
+    "image_url": "https://i2c.seadn.io/matic/0xe6384d455bb94497d752b350ba78285772290553/2a0a8cc1fa7d9790021198eb9b3386b0.png",
+    "listed_at": "2026-06-06T23:03:46+00:00",
+    "catchup": true
   }
 ]
