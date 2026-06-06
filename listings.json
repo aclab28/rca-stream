@@ -44134,5 +44134,17 @@
     "image_url": "https://i2c.seadn.io/polygon/0x911c2e867e7333e64ad46cd1cbe14936621931e0/1eee4947945b1c260a115f7152ed83/b11eee4947945b1c260a115f7152ed83.png",
     "listed_at": "2026-06-06T15:47:08+00:00",
     "catchup": true
+  },
+  {
+    "name": "Soranami #1307",
+    "slug": "future-realities-hofmaurerad-x-reddit-collectible",
+    "price": "$0.70  (0.0004 WETH)",
+    "maker": "0x79e5a77d...d1eb6c",
+    "maker_full": "0x79e5a77dae19234ff89e6e0ba261cad761d1eb6c",
+    "expiry": "?",
+    "link": "https://opensea.io/assets/polygon/0x5bbae18120a52755deba69dd1ff2628fba229d33/1306",
+    "image_url": "https://i2c.seadn.io/polygon/0x5bbae18120a52755deba69dd1ff2628fba229d33/65fd7de4aa31a90310da7a13a90f0c/0865fd7de4aa31a90310da7a13a90f0c.png",
+    "listed_at": "2026-06-06T21:14:39+00:00",
+    "catchup": true
   }
 ]
