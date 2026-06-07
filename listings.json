@@ -44194,5 +44194,29 @@
     "image_url": "https://i2c.seadn.io/matic/0xe6384d455bb94497d752b350ba78285772290553/2a0a8cc1fa7d9790021198eb9b3386b0.png",
     "listed_at": "2026-06-06T23:03:46+00:00",
     "catchup": true
+  },
+  {
+    "name": "Nautical Noodle #10",
+    "slug": "retro-reimagined-chipperdoodlescomic-x-reddit-coll",
+    "price": "$2.97  (0.0019 WETH)",
+    "maker": "0x6ef7b67f...09b942",
+    "maker_full": "0x6ef7b67f8c001793705bebe9b2835ecb8209b942",
+    "expiry": "?",
+    "link": "https://opensea.io/assets/polygon/0xfcc6a9a8c25ece89cf222944b313ff140d26894f/2027",
+    "image_url": "https://i2c.seadn.io/polygon/0xfcc6a9a8c25ece89cf222944b313ff140d26894f/8e61e4ea50bd4a6dbbd8c4cbcfe2e1/9c8e61e4ea50bd4a6dbbd8c4cbcfe2e1.png",
+    "listed_at": "2026-06-06T23:03:46+00:00",
+    "catchup": true
+  },
+  {
+    "name": "Gold Hedge Snoo #23",
+    "slug": "memetic-traders-x-reddit-collectible-avatars",
+    "price": "$1,565.21  (1.0000 WETH)",
+    "maker": "0x54e3e66e...832238",
+    "maker_full": "0x54e3e66e8ace5dbe9ee02f016c286b37cb832238",
+    "expiry": "?",
+    "link": "https://opensea.io/assets/polygon/0xa3396af20ce52bd3c7ab6d7046be617257f60eb9/22",
+    "image_url": "https://i2c.seadn.io/polygon/0xa3396af20ce52bd3c7ab6d7046be617257f60eb9/d8032bb3c399671838b7eabfec8b6e/8cd8032bb3c399671838b7eabfec8b6e.png",
+    "listed_at": "2026-06-07T00:54:31+00:00",
+    "catchup": true
   }
 ]
