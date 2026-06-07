@@ -44278,5 +44278,17 @@
     "image_url": "https://i2c.seadn.io/polygon/0x9f5dcd096e85accecf7f2b2ec0a132cf44fe7996/be7894bb62c825af91b20c42af823a/65be7894bb62c825af91b20c42af823a.png",
     "listed_at": "2026-06-07T06:33:06+00:00",
     "catchup": true
+  },
+  {
+    "name": "Mint Condition #23",
+    "slug": "mint-condition-by-giftedocean-x-reddit-collectible",
+    "price": "$16.32  (0.0100 WETH)",
+    "maker": "0xeda125de...e45f26",
+    "maker_full": "0xeda125de176fb11fdd218d1a604a5a6596e45f26",
+    "expiry": "?",
+    "link": "https://opensea.io/assets/polygon/0xf64be91f15cdfe95d988283b6644e7ffcd908e33/22",
+    "image_url": "https://i2c.seadn.io/polygon/0xf64be91f15cdfe95d988283b6644e7ffcd908e33/312b377e39c71669a36417387eb2d1/f7312b377e39c71669a36417387eb2d1.png",
+    "listed_at": "2026-06-07T09:45:50+00:00",
+    "catchup": true
   }
 ]
