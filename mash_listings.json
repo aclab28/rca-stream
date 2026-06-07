@@ -2578,5 +2578,41 @@
     "image_url": "https://i2c.seadn.io/polygon/0x6d74e823e3cfb94a4a395b74b1e7b0f5ca5596a3/b9179a59966bfa2a32ee697816ec98/0bb9179a59966bfa2a32ee697816ec98.png",
     "listed_at": "2026-06-06T18:45:30+00:00",
     "catchup": true
+  },
+  {
+    "name": "Nihon #6 by intent",
+    "slug": "mash-it",
+    "price": "$7.79  (0.0050 WETH)",
+    "maker": "0x6ef7b67f...09b942",
+    "maker_full": "0x6ef7b67f8c001793705bebe9b2835ecb8209b942",
+    "expiry": "?",
+    "link": "https://opensea.io/assets/polygon/0x6d74e823e3cfb94a4a395b74b1e7b0f5ca5596a3/1943",
+    "image_url": "https://i2c.seadn.io/polygon/0x6d74e823e3cfb94a4a395b74b1e7b0f5ca5596a3/1a2653feba3fe226717eaa6ea6a970/7c1a2653feba3fe226717eaa6ea6a970.png",
+    "listed_at": "2026-06-06T18:45:29+00:00",
+    "catchup": true
+  },
+  {
+    "name": "Feniss #16 by Hofmaurerad",
+    "slug": "mash-it",
+    "price": "$7.79  (0.0050 WETH)",
+    "maker": "0x6ef7b67f...09b942",
+    "maker_full": "0x6ef7b67f8c001793705bebe9b2835ecb8209b942",
+    "expiry": "?",
+    "link": "https://opensea.io/assets/polygon/0x6d74e823e3cfb94a4a395b74b1e7b0f5ca5596a3/1460",
+    "image_url": "https://i2c.seadn.io/polygon/0x6d74e823e3cfb94a4a395b74b1e7b0f5ca5596a3/9ba5afc2d5d2d5d06fa935f50fc78c/029ba5afc2d5d2d5d06fa935f50fc78c.png",
+    "listed_at": "2026-06-06T18:45:29+00:00",
+    "catchup": true
+  },
+  {
+    "name": "Santochas Takafogo #11 by Ezekiel",
+    "slug": "mash-it",
+    "price": "$17.31  (0.0110 WETH)",
+    "maker": "0x7385dbeb...6a459b",
+    "maker_full": "0x7385dbebbdc08b8ff69af3f924710258fe6a459b",
+    "expiry": "?",
+    "link": "https://opensea.io/assets/polygon/0x6d74e823e3cfb94a4a395b74b1e7b0f5ca5596a3/17028",
+    "image_url": "https://i2c.seadn.io/polygon/0x6d74e823e3cfb94a4a395b74b1e7b0f5ca5596a3/86f534886b07b42af0ec6eda3f09ff/1786f534886b07b42af0ec6eda3f09ff.png",
+    "listed_at": "2026-06-07T01:06:10+00:00",
+    "catchup": true
   }
 ]
