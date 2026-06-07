@@ -2614,5 +2614,17 @@
     "image_url": "https://i2c.seadn.io/polygon/0x6d74e823e3cfb94a4a395b74b1e7b0f5ca5596a3/86f534886b07b42af0ec6eda3f09ff/1786f534886b07b42af0ec6eda3f09ff.png",
     "listed_at": "2026-06-07T01:06:10+00:00",
     "catchup": true
+  },
+  {
+    "name": "Satoshi Sakkabuster #6 by Satoshi KappaMoto",
+    "slug": "mash-it",
+    "price": "$19.59  (0.0123 WETH)",
+    "maker": "0x90a02d10...64eed8",
+    "maker_full": "0x90a02d105e5dd5d56563f8e633654d202964eed8",
+    "expiry": "?",
+    "link": "https://opensea.io/assets/polygon/0x6d74e823e3cfb94a4a395b74b1e7b0f5ca5596a3/17409",
+    "image_url": "https://i2c.seadn.io/polygon/0x6d74e823e3cfb94a4a395b74b1e7b0f5ca5596a3/a7661394856dee1f2541b223002e49/4fa7661394856dee1f2541b223002e49.png",
+    "listed_at": "2026-06-07T01:37:44+00:00",
+    "catchup": true
   }
 ]
