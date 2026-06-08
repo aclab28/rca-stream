@@ -44458,5 +44458,17 @@
     "image_url": "https://i2c.seadn.io/polygon/0x216c8a17c2bfc8086f92dfc8ad29c9256c843145/6bfc612aa3e3d7df1121578e9a2058/486bfc612aa3e3d7df1121578e9a2058.png",
     "listed_at": "2026-06-08T05:57:42+00:00",
     "catchup": true
+  },
+  {
+    "name": "Winged Eyeling #2438",
+    "slug": "retro-reimagined-rojom-x-reddit-collectible-avatar",
+    "price": "$1.32  (0.0008 WETH)",
+    "maker": "0x14447318...c7e077",
+    "maker_full": "0x144473186eb4726577dbb94a06690c97edc7e077",
+    "expiry": "?",
+    "link": "https://opensea.io/assets/polygon/0x1ef6f9379aa228e08507f53e70c109979a35e512/2437",
+    "image_url": "https://i2c.seadn.io/polygon/0x1ef6f9379aa228e08507f53e70c109979a35e512/085316523e01e668c540949fd66b99/4b085316523e01e668c540949fd66b99.png",
+    "listed_at": "2026-06-08T05:57:34+00:00",
+    "catchup": true
   }
 ]
