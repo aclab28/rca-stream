@@ -2626,5 +2626,17 @@
     "image_url": "https://i2c.seadn.io/polygon/0x6d74e823e3cfb94a4a395b74b1e7b0f5ca5596a3/a7661394856dee1f2541b223002e49/4fa7661394856dee1f2541b223002e49.png",
     "listed_at": "2026-06-07T01:37:44+00:00",
     "catchup": true
+  },
+  {
+    "name": "Bobami #1 by artofmajon",
+    "slug": "mash-it",
+    "price": "$16.62  (0.0100 WETH)",
+    "maker": "0xac73aca1...4057ae",
+    "maker_full": "0xac73aca1205aff5dfc5e31223c33a970854057ae",
+    "expiry": "?",
+    "link": "https://opensea.io/assets/polygon/0x6d74e823e3cfb94a4a395b74b1e7b0f5ca5596a3/14407",
+    "image_url": "https://i2c.seadn.io/polygon/0x6d74e823e3cfb94a4a395b74b1e7b0f5ca5596a3/4c76c6540079a3d81fce24ee794a9e/a24c76c6540079a3d81fce24ee794a9e.png",
+    "listed_at": "2026-06-08T07:09:56+00:00",
+    "catchup": true
   }
 ]
