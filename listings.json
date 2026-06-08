@@ -44410,5 +44410,17 @@
     "image_url": "https://i2c.seadn.io/matic/0xbaa7d9a3b103d20e06389407595938e011ced9db/34753462c0a7c2b39d36f63ad108885d.png",
     "listed_at": "2026-06-08T01:02:53+00:00",
     "catchup": true
+  },
+  {
+    "name": "Infinite Impermanence #50",
+    "slug": "infinite-impermanence-by-salt-the-wizard-x-reddit",
+    "price": "$8.32  (0.0049 WETH)",
+    "maker": "0x98a2a54a...aefcb1",
+    "maker_full": "0x98a2a54a09b571f38ac8b2ada29252aa90aefcb1",
+    "expiry": "?",
+    "link": "https://opensea.io/assets/polygon/0xae32487980b8ef012853d94bfef0d879d05bcb8f/49",
+    "image_url": "https://i2c.seadn.io/polygon/0xae32487980b8ef012853d94bfef0d879d05bcb8f/5389da68a1fbeb11dd975b47b9b23f/de5389da68a1fbeb11dd975b47b9b23f.png",
+    "listed_at": "2026-06-08T01:02:17+00:00",
+    "catchup": true
   }
 ]
