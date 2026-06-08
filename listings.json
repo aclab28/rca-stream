@@ -44386,5 +44386,29 @@
     "image_url": "https://i2c.seadn.io/polygon/0xa245c8845f661bf004055c0ffca68b7d7ba3f377/bb6b65caed43684c934fd19e60d770/69bb6b65caed43684c934fd19e60d770.png",
     "listed_at": "2026-06-07T16:56:38+00:00",
     "catchup": true
+  },
+  {
+    "name": "Vierkantius #10",
+    "slug": "vierkantius-by-boerenbrok-x-reddit-collectible-ava",
+    "price": "$1.95  (0.0012 WETH)",
+    "maker": "0x1e363f3c...038252",
+    "maker_full": "0x1e363f3ce415ed099a622211386c3de1b5038252",
+    "expiry": "?",
+    "link": "https://opensea.io/assets/polygon/0x2fffcfaa9f64132ad7c39b2cbb2a579b05f927b3/9",
+    "image_url": "https://i2c.seadn.io/polygon/0x2fffcfaa9f64132ad7c39b2cbb2a579b05f927b3/2e2438d0fa9b3dbbf6876e70ae6d2c/f92e2438d0fa9b3dbbf6876e70ae6d2c.png",
+    "listed_at": "2026-06-07T16:56:38+00:00",
+    "catchup": true
+  },
+  {
+    "name": "Druid #46",
+    "slug": "druid-by-itsnotyourfault-x-reddit-collectible-avat",
+    "price": "$7.81  (0.0046 WETH)",
+    "maker": "0x98a2a54a...aefcb1",
+    "maker_full": "0x98a2a54a09b571f38ac8b2ada29252aa90aefcb1",
+    "expiry": "?",
+    "link": "https://opensea.io/assets/polygon/0xbaa7d9a3b103d20e06389407595938e011ced9db/45",
+    "image_url": "https://i2c.seadn.io/matic/0xbaa7d9a3b103d20e06389407595938e011ced9db/34753462c0a7c2b39d36f63ad108885d.png",
+    "listed_at": "2026-06-08T01:02:53+00:00",
+    "catchup": true
   }
 ]
