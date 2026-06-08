@@ -44686,5 +44686,29 @@
     "image_url": "https://i2c.seadn.io/polygon/0xf33ad86bb54a278a6c9f9c076f4ed5a34c531967/8e9b53cdb07bf5d9542daa6b56567e/b88e9b53cdb07bf5d9542daa6b56567e.png",
     "listed_at": "2026-06-08T22:35:14+00:00",
     "catchup": true
+  },
+  {
+    "name": "Axolotls #6094",
+    "slug": "endangered_animals_x_reddit_collectible_avatars",
+    "price": "$16.95  (0.0100 WETH)",
+    "maker": "0x25f20e56...96ca04",
+    "maker_full": "0x25f20e56dc90c79bb80896b613dbe9dc6b96ca04",
+    "expiry": "?",
+    "link": "https://opensea.io/assets/polygon/0xf33ad86bb54a278a6c9f9c076f4ed5a34c531967/6093",
+    "image_url": "https://i2c.seadn.io/polygon/0xf33ad86bb54a278a6c9f9c076f4ed5a34c531967/cdc9ecbc5cd10ecf8fcefdcbd9e97a/accdc9ecbc5cd10ecf8fcefdcbd9e97a.png",
+    "listed_at": "2026-06-08T22:35:14+00:00",
+    "catchup": true
+  },
+  {
+    "name": "Axolotls #9911",
+    "slug": "endangered_animals_x_reddit_collectible_avatars",
+    "price": "$16.95  (0.0100 WETH)",
+    "maker": "0x25f20e56...96ca04",
+    "maker_full": "0x25f20e56dc90c79bb80896b613dbe9dc6b96ca04",
+    "expiry": "?",
+    "link": "https://opensea.io/assets/polygon/0xf33ad86bb54a278a6c9f9c076f4ed5a34c531967/9910",
+    "image_url": "https://i2c.seadn.io/polygon/0xf33ad86bb54a278a6c9f9c076f4ed5a34c531967/cdc9ecbc5cd10ecf8fcefdcbd9e97a/accdc9ecbc5cd10ecf8fcefdcbd9e97a.png",
+    "listed_at": "2026-06-08T22:35:14+00:00",
+    "catchup": true
   }
 ]
