@@ -44746,5 +44746,29 @@
     "image_url": "https://i2c.seadn.io/polygon/0xf33ad86bb54a278a6c9f9c076f4ed5a34c531967/cdc9ecbc5cd10ecf8fcefdcbd9e97a/accdc9ecbc5cd10ecf8fcefdcbd9e97a.png",
     "listed_at": "2026-06-08T22:35:14+00:00",
     "catchup": true
+  },
+  {
+    "name": "Aye-ayes #1447",
+    "slug": "endangered_animals_x_reddit_collectible_avatars",
+    "price": "$16.95  (0.0100 WETH)",
+    "maker": "0x25f20e56...96ca04",
+    "maker_full": "0x25f20e56dc90c79bb80896b613dbe9dc6b96ca04",
+    "expiry": "?",
+    "link": "https://opensea.io/assets/polygon/0xf33ad86bb54a278a6c9f9c076f4ed5a34c531967/361746",
+    "image_url": "https://i2c.seadn.io/polygon/0xf33ad86bb54a278a6c9f9c076f4ed5a34c531967/8549021ee0b386df78813262eeffac/d18549021ee0b386df78813262eeffac.png",
+    "listed_at": "2026-06-08T22:35:14+00:00",
+    "catchup": true
+  },
+  {
+    "name": "Knight Rabbid #47329",
+    "slug": "reddit-rabbids-x-reddit-collectible-avatars",
+    "price": "$16.95  (0.0100 WETH)",
+    "maker": "0x25f20e56...96ca04",
+    "maker_full": "0x25f20e56dc90c79bb80896b613dbe9dc6b96ca04",
+    "expiry": "?",
+    "link": "https://opensea.io/assets/polygon/0x5066c0934632bcc2902d139d7c875cbd295429f8/97428",
+    "image_url": "https://i2c.seadn.io/polygon/0x5066c0934632bcc2902d139d7c875cbd295429f8/e126397ac26a15c5a4fb4487978033/f6e126397ac26a15c5a4fb4487978033.png",
+    "listed_at": "2026-06-08T22:35:14+00:00",
+    "catchup": true
   }
 ]
