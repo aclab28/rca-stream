@@ -44422,5 +44422,17 @@
     "image_url": "https://i2c.seadn.io/polygon/0xae32487980b8ef012853d94bfef0d879d05bcb8f/5389da68a1fbeb11dd975b47b9b23f/de5389da68a1fbeb11dd975b47b9b23f.png",
     "listed_at": "2026-06-08T01:02:17+00:00",
     "catchup": true
+  },
+  {
+    "name": "Space Potato #6",
+    "slug": "space-potato-by-groovi-x-reddit-collectible-avatar",
+    "price": "$4.92  (0.0029 WETH)",
+    "maker": "0x863f7bcd...b16783",
+    "maker_full": "0x863f7bcd991c8578519188d696e9d2e7c2b16783",
+    "expiry": "?",
+    "link": "https://opensea.io/assets/polygon/0x9be02f5169870440371e5c2609215bbc3a9fcd3c/5",
+    "image_url": "https://i2c.seadn.io/polygon/0x9be02f5169870440371e5c2609215bbc3a9fcd3c/1e1eca7de0073ff999b09cba33dfd8/191e1eca7de0073ff999b09cba33dfd8.png",
+    "listed_at": "2026-06-08T01:03:29+00:00",
+    "catchup": true
   }
 ]
