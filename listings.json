@@ -44590,5 +44590,17 @@
     "image_url": "https://i2c.seadn.io/polygon/0x622d8fea4603ba9edaf1084b407052d8b0a9bed7/5b9b11fb63c4a5ca2729cd55912f01/165b9b11fb63c4a5ca2729cd55912f01.png",
     "listed_at": "2026-06-08T22:35:14+00:00",
     "catchup": true
+  },
+  {
+    "name": "Argentina #17937",
+    "slug": "reddit-cup-2022-x-reddit-collectible-avatars",
+    "price": "$16.95  (0.0100 WETH)",
+    "maker": "0x25f20e56...96ca04",
+    "maker_full": "0x25f20e56dc90c79bb80896b613dbe9dc6b96ca04",
+    "expiry": "?",
+    "link": "https://opensea.io/assets/polygon/0x622d8fea4603ba9edaf1084b407052d8b0a9bed7/17936",
+    "image_url": "https://i2c.seadn.io/polygon/0x622d8fea4603ba9edaf1084b407052d8b0a9bed7/64c0813cf8df3ed9e26ca56c818e0e/eb64c0813cf8df3ed9e26ca56c818e0e.png",
+    "listed_at": "2026-06-08T22:35:14+00:00",
+    "catchup": true
   }
 ]
