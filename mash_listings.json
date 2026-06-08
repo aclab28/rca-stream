@@ -2662,5 +2662,17 @@
     "image_url": "https://i2c.seadn.io/polygon/0x6d74e823e3cfb94a4a395b74b1e7b0f5ca5596a3/86f534886b07b42af0ec6eda3f09ff/1786f534886b07b42af0ec6eda3f09ff.png",
     "listed_at": "2026-06-08T17:17:20+00:00",
     "catchup": true
+  },
+  {
+    "name": "Skatoshi Pizzamoto #6 by Satoshi KappaMoto",
+    "slug": "mash-it",
+    "price": "$16.81  (0.0100 WETH)",
+    "maker": "0x0ccf8124...75a64c",
+    "maker_full": "0x0ccf812476ef19d677152ba4bdb759073375a64c",
+    "expiry": "?",
+    "link": "https://opensea.io/assets/polygon/0x6d74e823e3cfb94a4a395b74b1e7b0f5ca5596a3/17441",
+    "image_url": "https://i2c.seadn.io/polygon/0x6d74e823e3cfb94a4a395b74b1e7b0f5ca5596a3/696ca3320e894af378ce0060326307/c1696ca3320e894af378ce0060326307.png",
+    "listed_at": "2026-06-08T17:54:04+00:00",
+    "catchup": true
   }
 ]
