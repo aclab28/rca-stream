@@ -44938,5 +44938,17 @@
     "image_url": "https://i2c.seadn.io/polygon/0xbd24e412d8eb0bca223ad87869374d97cede3424/49a7a3483914b82c1f1b0411432c32/6749a7a3483914b82c1f1b0411432c32.png",
     "listed_at": "2026-06-09T15:57:25+00:00",
     "catchup": true
+  },
+  {
+    "name": "Kid Shroom #480",
+    "slug": "kid-shroom-by-zuko-x-reddit-collectible-avatars",
+    "price": "$6.56  (0.0040 WETH)",
+    "maker": "0x347188c5...8f7aa6",
+    "maker_full": "0x347188c51af781a0170ac8d1db8e4b4fe38f7aa6",
+    "expiry": "?",
+    "link": "https://opensea.io/assets/polygon/0x9c92b882ac7aeff58414d874de60d30381991bad/479",
+    "image_url": "https://i2c.seadn.io/polygon/0x9c92b882ac7aeff58414d874de60d30381991bad/b89d51ee68152dfd09b7831bea11a7/50b89d51ee68152dfd09b7831bea11a7.png",
+    "listed_at": "2026-06-09T15:56:58+00:00",
+    "catchup": true
   }
 ]
