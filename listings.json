@@ -45130,5 +45130,17 @@
     "image_url": "https://i2c.seadn.io/polygon/0x45ee1caed83525673843321107bccadecb9065d7/b8416e27c4ec5acdb2d9bb83b52012/30b8416e27c4ec5acdb2d9bb83b52012.png",
     "listed_at": "2026-06-09T17:26:43+00:00",
     "catchup": true
+  },
+  {
+    "name": "Butterfly #357",
+    "slug": "protectors-of-the-forest-x-reddit-collectible-avat",
+    "price": "$2.63  (0.0016 WETH)",
+    "maker": "0x2823177f...40a446",
+    "maker_full": "0x2823177f0ea6627421a3e06859d1213c4f40a446",
+    "expiry": "?",
+    "link": "https://opensea.io/assets/polygon/0x2956409293da98603025cc0121c06a4244752039/1856",
+    "image_url": "https://i2c.seadn.io/polygon/0x2956409293da98603025cc0121c06a4244752039/1f48d661b1df68b81642e21cf588a3/f01f48d661b1df68b81642e21cf588a3.png",
+    "listed_at": "2026-06-09T17:30:21+00:00",
+    "catchup": true
   }
 ]
