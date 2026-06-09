@@ -45022,5 +45022,17 @@
     "image_url": "https://i2c.seadn.io/polygon/0xbf5450a58e660740cb9eed444bc3658f2a1b7bb3/e0272d930d2922905d92d5f2b4d324/3fe0272d930d2922905d92d5f2b4d324.png",
     "listed_at": "2026-06-09T16:53:35+00:00",
     "catchup": true
+  },
+  {
+    "name": "Earth #252",
+    "slug": "reddit-cup-2022-x-reddit-collectible-avatars",
+    "price": "$325.51  (0.2000 WETH)",
+    "maker": "0xf7c1334e...4fdbdd",
+    "maker_full": "0xf7c1334ed087da137cc1bfe665e7a4ec834fdbdd",
+    "expiry": "?",
+    "link": "https://opensea.io/assets/polygon/0x622d8fea4603ba9edaf1084b407052d8b0a9bed7/2801651",
+    "image_url": "https://i2c.seadn.io/polygon/0x622d8fea4603ba9edaf1084b407052d8b0a9bed7/c5ca007fa12ac98c53de62526bfb2a/42c5ca007fa12ac98c53de62526bfb2a.png",
+    "listed_at": "2026-06-09T16:56:41+00:00",
+    "catchup": true
   }
 ]
