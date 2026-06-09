@@ -44842,5 +44842,17 @@
     "image_url": "https://i2c.seadn.io/polygon/0x9f5dcd096e85accecf7f2b2ec0a132cf44fe7996/be7894bb62c825af91b20c42af823a/65be7894bb62c825af91b20c42af823a.png",
     "listed_at": "2026-06-09T06:33:06+00:00",
     "catchup": true
+  },
+  {
+    "name": "The Assembler #112",
+    "slug": "celestial-assembly-x-reddit-collectible-avatars",
+    "price": "$148.77  (0.0890 WETH)",
+    "maker": "0xd5e17e61...c59c40",
+    "maker_full": "0xd5e17e61fa9e1babf9da9419b705bf1801c59c40",
+    "expiry": "?",
+    "link": "https://opensea.io/assets/polygon/0x71dc46607f31f30510f0ccc670b0963f431b212a/2444",
+    "image_url": "https://i2c.seadn.io/polygon/0x71dc46607f31f30510f0ccc670b0963f431b212a/70f3f312dcc978da7ce86dd652fc7d/cf70f3f312dcc978da7ce86dd652fc7d.png",
+    "listed_at": "2026-06-09T10:56:28+00:00",
+    "catchup": true
   }
 ]
