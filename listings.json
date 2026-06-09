@@ -44770,5 +44770,17 @@
     "image_url": "https://i2c.seadn.io/polygon/0x5066c0934632bcc2902d139d7c875cbd295429f8/e126397ac26a15c5a4fb4487978033/f6e126397ac26a15c5a4fb4487978033.png",
     "listed_at": "2026-06-08T22:35:14+00:00",
     "catchup": true
+  },
+  {
+    "name": "Restriction of Dreams #83",
+    "slug": "spooky-season-treasureofophiel-x-reddit-collectibl",
+    "price": "$8.44  (0.0050 WETH)",
+    "maker": "0xa6bd5c1a...276429",
+    "maker_full": "0xa6bd5c1af723b907e33bd5ef3a2d16c2d1276429",
+    "expiry": "?",
+    "link": "https://opensea.io/assets/polygon/0x150afa2dfcaaada471472dfa6ad4b79e718a197c/82",
+    "image_url": "https://i2c.seadn.io/polygon/0x150afa2dfcaaada471472dfa6ad4b79e718a197c/255b6c4be45b48d9b0efd2e304b895/26255b6c4be45b48d9b0efd2e304b895.png",
+    "listed_at": "2026-06-09T05:05:46+00:00",
+    "catchup": true
   }
 ]
