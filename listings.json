@@ -45238,5 +45238,17 @@
     "image_url": "https://i2c.seadn.io/polygon/0xe1b5e23fdbc003aec16e6e79726a0b5f75ff93f5/6e9045288d78bf703e12a7e6882790/4c6e9045288d78bf703e12a7e6882790.png",
     "listed_at": "2026-06-09T17:39:38+00:00",
     "catchup": true
+  },
+  {
+    "name": "Illusionist Foustling #767",
+    "slug": "spooky-season-tfoust10-x-reddit-collectible-avatar",
+    "price": "$4.61  (0.0028 WETH)",
+    "maker": "0x2823177f...40a446",
+    "maker_full": "0x2823177f0ea6627421a3e06859d1213c4f40a446",
+    "expiry": "?",
+    "link": "https://opensea.io/assets/polygon/0xe1b5e23fdbc003aec16e6e79726a0b5f75ff93f5/766",
+    "image_url": "https://i2c.seadn.io/polygon/0xe1b5e23fdbc003aec16e6e79726a0b5f75ff93f5/0277a675407aeb05e3ef215d3d6c2b/bd0277a675407aeb05e3ef215d3d6c2b.png",
+    "listed_at": "2026-06-09T17:39:33+00:00",
+    "catchup": true
   }
 ]
