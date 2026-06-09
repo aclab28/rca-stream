@@ -44950,5 +44950,17 @@
     "image_url": "https://i2c.seadn.io/polygon/0x9c92b882ac7aeff58414d874de60d30381991bad/b89d51ee68152dfd09b7831bea11a7/50b89d51ee68152dfd09b7831bea11a7.png",
     "listed_at": "2026-06-09T15:56:58+00:00",
     "catchup": true
+  },
+  {
+    "name": "Eryth #130",
+    "slug": "abeekatie-reddit-collectible-avatars-gen-3",
+    "price": "$976.54  (0.6000 WETH)",
+    "maker": "0xf7c1334e...4fdbdd",
+    "maker_full": "0xf7c1334ed087da137cc1bfe665e7a4ec834fdbdd",
+    "expiry": "?",
+    "link": "https://opensea.io/assets/polygon/0x9f5dcd096e85accecf7f2b2ec0a132cf44fe7996/2229",
+    "image_url": "https://i2c.seadn.io/polygon/0x9f5dcd096e85accecf7f2b2ec0a132cf44fe7996/9503a773b424610ed5f05d23938620/169503a773b424610ed5f05d23938620.png",
+    "listed_at": "2026-06-09T16:53:05+00:00",
+    "catchup": true
   }
 ]
