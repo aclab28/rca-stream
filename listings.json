@@ -45442,5 +45442,17 @@
     "image_url": "https://i2c.seadn.io/polygon/0x158817397648fce6fc5351632382a88a2ee0a045/de4d22015df85d569424a7a8acfd63/9cde4d22015df85d569424a7a8acfd63.png",
     "listed_at": "2026-06-09T18:45:31+00:00",
     "catchup": true
+  },
+  {
+    "name": "Fiesta Dog #589",
+    "slug": "fiesta-dog-prguitarman-x-reddit-collectible-avatar",
+    "price": "$20.48  (0.0124 WETH)",
+    "maker": "0x2823177f...40a446",
+    "maker_full": "0x2823177f0ea6627421a3e06859d1213c4f40a446",
+    "expiry": "?",
+    "link": "https://opensea.io/assets/polygon/0x3372a12009195d912c0b8f0d275806777824f90f/588",
+    "image_url": "https://i2c.seadn.io/polygon/0x3372a12009195d912c0b8f0d275806777824f90f/769ed635445020b97e04b8111c1158/69769ed635445020b97e04b8111c1158.png",
+    "listed_at": "2026-06-09T18:43:27+00:00",
+    "catchup": true
   }
 ]
