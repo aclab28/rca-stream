@@ -44962,5 +44962,17 @@
     "image_url": "https://i2c.seadn.io/polygon/0x9f5dcd096e85accecf7f2b2ec0a132cf44fe7996/9503a773b424610ed5f05d23938620/169503a773b424610ed5f05d23938620.png",
     "listed_at": "2026-06-09T16:53:05+00:00",
     "catchup": true
+  },
+  {
+    "name": "Golden Artisman #163",
+    "slug": "future-realities-substantial-law-910-x-reddit-coll",
+    "price": "$1,139.30  (0.7000 WETH)",
+    "maker": "0xf7c1334e...4fdbdd",
+    "maker_full": "0xf7c1334ed087da137cc1bfe665e7a4ec834fdbdd",
+    "expiry": "?",
+    "link": "https://opensea.io/assets/polygon/0x2f2e8b6b0bb62598753621ceb7c1025212e6267b/2762",
+    "image_url": "https://i2c.seadn.io/polygon/0x2f2e8b6b0bb62598753621ceb7c1025212e6267b/679237cec8735767caf6db78ceaebb/08679237cec8735767caf6db78ceaebb.png",
+    "listed_at": "2026-06-09T16:51:55+00:00",
+    "catchup": true
   }
 ]
