@@ -44926,5 +44926,17 @@
     "image_url": "https://i2c.seadn.io/polygon/0x04f087e3191d7a050800a2e04cb20046d2633e35/a01f44c309c04c7a191156cf79d202/c9a01f44c309c04c7a191156cf79d202.png",
     "listed_at": "2026-06-09T14:31:09+00:00",
     "catchup": true
+  },
+  {
+    "name": "Gold Mooshie #136",
+    "slug": "gold-mooshie-by-zuko-x-reddit-collectible-avatars",
+    "price": "$9.84  (0.0060 WETH)",
+    "maker": "0x347188c5...8f7aa6",
+    "maker_full": "0x347188c51af781a0170ac8d1db8e4b4fe38f7aa6",
+    "expiry": "?",
+    "link": "https://opensea.io/assets/polygon/0xbd24e412d8eb0bca223ad87869374d97cede3424/135",
+    "image_url": "https://i2c.seadn.io/polygon/0xbd24e412d8eb0bca223ad87869374d97cede3424/49a7a3483914b82c1f1b0411432c32/6749a7a3483914b82c1f1b0411432c32.png",
+    "listed_at": "2026-06-09T15:57:25+00:00",
+    "catchup": true
   }
 ]
