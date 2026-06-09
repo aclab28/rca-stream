@@ -45082,5 +45082,17 @@
     "image_url": "https://i2c.seadn.io/polygon/0xfdba313e9d2e52299ec317a6fa05a141767e61b4/ecd6a49d0b14d98712cc9d580f56f4/baecd6a49d0b14d98712cc9d580f56f4.png",
     "listed_at": "2026-06-09T16:55:17+00:00",
     "catchup": true
+  },
+  {
+    "name": "The Constable #41",
+    "slug": "future-realities-pollila1-x-reddit-collectible-ava",
+    "price": "$488.27  (0.3000 WETH)",
+    "maker": "0xf7c1334e...4fdbdd",
+    "maker_full": "0xf7c1334ed087da137cc1bfe665e7a4ec834fdbdd",
+    "expiry": "?",
+    "link": "https://opensea.io/assets/polygon/0xffd17d9dd02c6bb3096528f36d0c2cb9335fac9d/3740",
+    "image_url": "https://i2c.seadn.io/polygon/0xffd17d9dd02c6bb3096528f36d0c2cb9335fac9d/d19cbe16c0291ba7f21bdab07e7509/3ed19cbe16c0291ba7f21bdab07e7509.png",
+    "listed_at": "2026-06-09T16:55:00+00:00",
+    "catchup": true
   }
 ]
