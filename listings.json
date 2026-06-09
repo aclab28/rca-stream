@@ -45874,5 +45874,17 @@
     "image_url": "https://i2c.seadn.io/polygon/0x907808732079863886443057c65827a0f1c64357/03901d2e3d39f56d8acc1397fa9372/ad03901d2e3d39f56d8acc1397fa9372.png",
     "listed_at": "2026-06-09T20:23:06+00:00",
     "catchup": true
+  },
+  {
+    "name": "Drip Squad #15",
+    "slug": "drip-squad-x-reddit-collectible-avatars",
+    "price": "$2,488.47  (1.5000 WETH)",
+    "maker": "0xf3fa14e7...b010d2",
+    "maker_full": "0xf3fa14e78b7cae6fcd42b8e1a9bd34c6a8b010d2",
+    "expiry": "?",
+    "link": "https://opensea.io/assets/polygon/0xbfd670667053e517a97afe56c91e4f83f1160bd3/14",
+    "image_url": "https://i2c.seadn.io/polygon/0xbfd670667053e517a97afe56c91e4f83f1160bd3/e770d39aaa7e0567c436b10f2aec2a/77e770d39aaa7e0567c436b10f2aec2a.png",
+    "listed_at": "2026-06-09T20:22:22+00:00",
+    "catchup": true
   }
 ]
