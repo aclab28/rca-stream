@@ -45706,5 +45706,29 @@
     "image_url": "https://i2c.seadn.io/polygon/0xd8cf23bf309de778609d234bd2410b0156118c26/31f90f84be35b10831d30a08ea62d7/f431f90f84be35b10831d30a08ea62d7.png",
     "listed_at": "2026-06-09T18:58:11+00:00",
     "catchup": true
+  },
+  {
+    "name": "Bewitching Eyes #772",
+    "slug": "magic-of-the-woods-x-reddit-collectible-avatars",
+    "price": "$6.59  (0.0040 WETH)",
+    "maker": "0x2a315b89...cb6d12",
+    "maker_full": "0x2a315b89571babecbc69abcb7f332b527ecb6d12",
+    "expiry": "?",
+    "link": "https://opensea.io/assets/polygon/0xd8cf23bf309de778609d234bd2410b0156118c26/1371",
+    "image_url": "https://i2c.seadn.io/polygon/0xd8cf23bf309de778609d234bd2410b0156118c26/31f90f84be35b10831d30a08ea62d7/f431f90f84be35b10831d30a08ea62d7.png",
+    "listed_at": "2026-06-09T18:58:05+00:00",
+    "catchup": true
+  },
+  {
+    "name": "Morgan #2476",
+    "slug": "future-realities-gasolyn-x-reddit-collectible-avat",
+    "price": "$3.30  (0.0020 WETH)",
+    "maker": "0x2a315b89...cb6d12",
+    "maker_full": "0x2a315b89571babecbc69abcb7f332b527ecb6d12",
+    "expiry": "?",
+    "link": "https://opensea.io/assets/polygon/0x7d4caaf1d9291071452a4f11a3d0da7aa881aaad/2825",
+    "image_url": "https://i2c.seadn.io/polygon/0x7d4caaf1d9291071452a4f11a3d0da7aa881aaad/5c2cfb90e63ffb97238433f511a16a/985c2cfb90e63ffb97238433f511a16a.png",
+    "listed_at": "2026-06-09T19:04:05+00:00",
+    "catchup": true
   }
 ]
