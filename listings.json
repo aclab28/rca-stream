@@ -45058,5 +45058,17 @@
     "image_url": "https://i2c.seadn.io/polygon/0xc70a7496716b3e25546901fe88215531abbd5a10/3233d5293486ec9d7bee0436176ab0/3c3233d5293486ec9d7bee0436176ab0.png",
     "listed_at": "2026-06-09T16:56:24+00:00",
     "catchup": true
+  },
+  {
+    "name": "Qatar #11169",
+    "slug": "reddit-cup-2022-x-reddit-collectible-avatars",
+    "price": "$325.51  (0.2000 WETH)",
+    "maker": "0xf7c1334e...4fdbdd",
+    "maker_full": "0xf7c1334ed087da137cc1bfe665e7a4ec834fdbdd",
+    "expiry": "?",
+    "link": "https://opensea.io/assets/polygon/0x622d8fea4603ba9edaf1084b407052d8b0a9bed7/5413468",
+    "image_url": "https://i2c.seadn.io/polygon/0x622d8fea4603ba9edaf1084b407052d8b0a9bed7/fe339d0a05ef2802cb99c49c094db4/08fe339d0a05ef2802cb99c49c094db4.png",
+    "listed_at": "2026-06-09T16:55:40+00:00",
+    "catchup": true
   }
 ]
