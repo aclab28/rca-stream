@@ -45466,5 +45466,17 @@
     "image_url": "https://i2c.seadn.io/polygon/0xefded257ca71b9e3bbc9c0959a1ef4ad494c8897/9051e91c96bc7499f3e4d4870db47d/c69051e91c96bc7499f3e4d4870db47d.png",
     "listed_at": "2026-06-09T18:46:30+00:00",
     "catchup": true
+  },
+  {
+    "name": "The Masks #2569",
+    "slug": "future-realities-rojom-x-reddit-collectible-avatar",
+    "price": "$2.64  (0.0016 WETH)",
+    "maker": "0x2a315b89...cb6d12",
+    "maker_full": "0x2a315b89571babecbc69abcb7f332b527ecb6d12",
+    "expiry": "?",
+    "link": "https://opensea.io/assets/polygon/0xba6a05ef46aedd91960e7e4f7d7258fc35a9a15b/3393",
+    "image_url": "https://i2c.seadn.io/polygon/0xba6a05ef46aedd91960e7e4f7d7258fc35a9a15b/6eb8ebf41f199ea9a97ef61403746b/2a6eb8ebf41f199ea9a97ef61403746b.png",
+    "listed_at": "2026-06-09T18:49:24+00:00",
+    "catchup": true
   }
 ]
