@@ -45094,5 +45094,17 @@
     "image_url": "https://i2c.seadn.io/polygon/0xffd17d9dd02c6bb3096528f36d0c2cb9335fac9d/d19cbe16c0291ba7f21bdab07e7509/3ed19cbe16c0291ba7f21bdab07e7509.png",
     "listed_at": "2026-06-09T16:55:00+00:00",
     "catchup": true
+  },
+  {
+    "name": "Eve, Cataclysm Engine [000] #247",
+    "slug": "spooky-season-genuineardvark-x-reddit-collectible",
+    "price": "$0.73  (0.0004 WETH)",
+    "maker": "0x97637f77...d31755",
+    "maker_full": "0x97637f77691a52958a12fc8ac0945b28dad31755",
+    "expiry": "?",
+    "link": "https://opensea.io/assets/polygon/0xc70a7496716b3e25546901fe88215531abbd5a10/246",
+    "image_url": "https://i2c.seadn.io/polygon/0xc70a7496716b3e25546901fe88215531abbd5a10/e5283258e5fabfc7faba9c0dc40d0c/fde5283258e5fabfc7faba9c0dc40d0c.png",
+    "listed_at": "2026-06-09T16:58:18+00:00",
+    "catchup": true
   }
 ]
