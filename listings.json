@@ -45886,5 +45886,17 @@
     "image_url": "https://i2c.seadn.io/polygon/0xbfd670667053e517a97afe56c91e4f83f1160bd3/e770d39aaa7e0567c436b10f2aec2a/77e770d39aaa7e0567c436b10f2aec2a.png",
     "listed_at": "2026-06-09T20:22:22+00:00",
     "catchup": true
+  },
+  {
+    "name": "Cone Head #39",
+    "slug": "imagination-station-x-reddit-collectible-avatars",
+    "price": "$66.03  (0.0398 WETH)",
+    "maker": "0x9b50c89a...861f2d",
+    "maker_full": "0x9b50c89a099b190e890a22868ed662a14a861f2d",
+    "expiry": "?",
+    "link": "https://opensea.io/assets/polygon/0x5846728730366d686cdc95dae80a70b44ec9eab2/338",
+    "image_url": "https://i2c.seadn.io/polygon/0x5846728730366d686cdc95dae80a70b44ec9eab2/675c2830c87ac4e3995db8cc10ae9b/05675c2830c87ac4e3995db8cc10ae9b.png",
+    "listed_at": "2026-06-09T20:21:18+00:00",
+    "catchup": true
   }
 ]
