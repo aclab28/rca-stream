@@ -45514,5 +45514,29 @@
     "image_url": "https://i2c.seadn.io/polygon/0x2c2c60f114ae3c857bf301d1a1b6c3069d5308dc/6e59f8568b5f4e8cf9d09f404921cf/686e59f8568b5f4e8cf9d09f404921cf.png",
     "listed_at": "2026-06-09T18:48:36+00:00",
     "catchup": true
+  },
+  {
+    "name": "Penguitt Pals #1118",
+    "slug": "future-realities-penguitt-x-reddit-collectible-ava",
+    "price": "$1.32  (0.0008 WETH)",
+    "maker": "0x2a315b89...cb6d12",
+    "maker_full": "0x2a315b89571babecbc69abcb7f332b527ecb6d12",
+    "expiry": "?",
+    "link": "https://opensea.io/assets/polygon/0xf3f1798ee4d40b78d32a2fe321d045a591e7103a/2017",
+    "image_url": "https://i2c.seadn.io/polygon/0xf3f1798ee4d40b78d32a2fe321d045a591e7103a/a193b2efe66a971735470e23f705e1/80a193b2efe66a971735470e23f705e1.png",
+    "listed_at": "2026-06-09T18:48:31+00:00",
+    "catchup": true
+  },
+  {
+    "name": "Stripes #599",
+    "slug": "future-realities-chipperdoodlescomic-x-reddit-coll",
+    "price": "$1.32  (0.0008 WETH)",
+    "maker": "0x2a315b89...cb6d12",
+    "maker_full": "0x2a315b89571babecbc69abcb7f332b527ecb6d12",
+    "expiry": "?",
+    "link": "https://opensea.io/assets/polygon/0x2c2c60f114ae3c857bf301d1a1b6c3069d5308dc/598",
+    "image_url": "https://i2c.seadn.io/polygon/0x2c2c60f114ae3c857bf301d1a1b6c3069d5308dc/6e59f8568b5f4e8cf9d09f404921cf/686e59f8568b5f4e8cf9d09f404921cf.png",
+    "listed_at": "2026-06-09T18:48:24+00:00",
+    "catchup": true
   }
 ]
