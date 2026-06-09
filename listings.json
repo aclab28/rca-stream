@@ -45862,5 +45862,17 @@
     "image_url": "https://i2c.seadn.io/polygon/0x47264055f3bac41be4ec5e195f0ee23646c9f6a4/8fa5861e4d7c80ddc6a98a515a3107/048fa5861e4d7c80ddc6a98a515a3107.png",
     "listed_at": "2026-06-09T19:44:22+00:00",
     "catchup": true
+  },
+  {
+    "name": "Rainbow Foustling #68",
+    "slug": "foustlings-x-reddit-collectible-avatars",
+    "price": "$165.90  (0.1000 WETH)",
+    "maker": "0xf3fa14e7...b010d2",
+    "maker_full": "0xf3fa14e78b7cae6fcd42b8e1a9bd34c6a8b010d2",
+    "expiry": "?",
+    "link": "https://opensea.io/assets/polygon/0x907808732079863886443057c65827a0f1c64357/1567",
+    "image_url": "https://i2c.seadn.io/polygon/0x907808732079863886443057c65827a0f1c64357/03901d2e3d39f56d8acc1397fa9372/ad03901d2e3d39f56d8acc1397fa9372.png",
+    "listed_at": "2026-06-09T20:23:06+00:00",
+    "catchup": true
   }
 ]
