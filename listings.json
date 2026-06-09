@@ -45010,5 +45010,17 @@
     "image_url": "https://i2c.seadn.io/polygon/0xa5c875a893b082edcbdf70a23b01cb10e4768865/2839506d811fe11d32380f9b870c3a/072839506d811fe11d32380f9b870c3a.png",
     "listed_at": "2026-06-09T16:54:04+00:00",
     "catchup": true
+  },
+  {
+    "name": "Jack of Spades #11",
+    "slug": "future-realities-paulinka-k-x-reddit-collectible-a",
+    "price": "$488.27  (0.3000 WETH)",
+    "maker": "0xf7c1334e...4fdbdd",
+    "maker_full": "0xf7c1334ed087da137cc1bfe665e7a4ec834fdbdd",
+    "expiry": "?",
+    "link": "https://opensea.io/assets/polygon/0xbf5450a58e660740cb9eed444bc3658f2a1b7bb3/10",
+    "image_url": "https://i2c.seadn.io/polygon/0xbf5450a58e660740cb9eed444bc3658f2a1b7bb3/e0272d930d2922905d92d5f2b4d324/3fe0272d930d2922905d92d5f2b4d324.png",
+    "listed_at": "2026-06-09T16:53:35+00:00",
+    "catchup": true
   }
 ]
