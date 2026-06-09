@@ -44854,5 +44854,17 @@
     "image_url": "https://i2c.seadn.io/polygon/0x71dc46607f31f30510f0ccc670b0963f431b212a/70f3f312dcc978da7ce86dd652fc7d/cf70f3f312dcc978da7ce86dd652fc7d.png",
     "listed_at": "2026-06-09T10:56:28+00:00",
     "catchup": true
+  },
+  {
+    "name": "The Eyes #375",
+    "slug": "the-senses-x-reddit-collectible-avatars",
+    "price": "$62.68  (0.0375 WETH)",
+    "maker": "0xd5e17e61...c59c40",
+    "maker_full": "0xd5e17e61fa9e1babf9da9419b705bf1801c59c40",
+    "expiry": "?",
+    "link": "https://opensea.io/assets/polygon/0x8d0501d85becda92b89e56177ddfcea5fc1f0af2/974",
+    "image_url": "https://i2c.seadn.io/polygon/0x8d0501d85becda92b89e56177ddfcea5fc1f0af2/fa076b4becdc6c30ab6e9cb1853058/34fa076b4becdc6c30ab6e9cb1853058.png",
+    "listed_at": "2026-06-09T10:56:28+00:00",
+    "catchup": true
   }
 ]
