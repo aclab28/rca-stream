@@ -2674,5 +2674,17 @@
     "image_url": "https://i2c.seadn.io/polygon/0x6d74e823e3cfb94a4a395b74b1e7b0f5ca5596a3/696ca3320e894af378ce0060326307/c1696ca3320e894af378ce0060326307.png",
     "listed_at": "2026-06-08T17:54:04+00:00",
     "catchup": true
+  },
+  {
+    "name": "THE LOST SOUL #1 by antiquepeanut",
+    "slug": "mash-it",
+    "price": "$20.05  (0.0120 WETH)",
+    "maker": "0x8815c840...863cbf",
+    "maker_full": "0x8815c840321ce565852275ef1bc55e5f75863cbf",
+    "expiry": "?",
+    "link": "https://opensea.io/assets/polygon/0x6d74e823e3cfb94a4a395b74b1e7b0f5ca5596a3/11471",
+    "image_url": "https://i2c.seadn.io/polygon/0x6d74e823e3cfb94a4a395b74b1e7b0f5ca5596a3/c34841e4182ba92506ca64497c7d85/13c34841e4182ba92506ca64497c7d85.png",
+    "listed_at": "2026-06-09T10:01:18+00:00",
+    "catchup": true
   }
 ]
