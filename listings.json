@@ -45850,5 +45850,17 @@
     "image_url": "https://i2c.seadn.io/polygon/0xa7bb50d90b43752199c45be04053641c3cb5f53f/2954ef7a4bf16ec4cbdf9f07cff5a2/002954ef7a4bf16ec4cbdf9f07cff5a2.png",
     "listed_at": "2026-06-09T19:36:21+00:00",
     "catchup": true
+  },
+  {
+    "name": "gli i 1t c h #226",
+    "slug": "spooky-sequel-ships-x-reddit-collectible-avatars",
+    "price": "$8.59  (0.0052 WETH)",
+    "maker": "0x2a315b89...cb6d12",
+    "maker_full": "0x2a315b89571babecbc69abcb7f332b527ecb6d12",
+    "expiry": "?",
+    "link": "https://opensea.io/assets/polygon/0x47264055f3bac41be4ec5e195f0ee23646c9f6a4/225",
+    "image_url": "https://i2c.seadn.io/polygon/0x47264055f3bac41be4ec5e195f0ee23646c9f6a4/8fa5861e4d7c80ddc6a98a515a3107/048fa5861e4d7c80ddc6a98a515a3107.png",
+    "listed_at": "2026-06-09T19:44:22+00:00",
+    "catchup": true
   }
 ]
