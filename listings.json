@@ -45298,5 +45298,17 @@
     "image_url": "https://i2c.seadn.io/polygon/0x8264e2bad3d2f7afd72a00233b9f841fe4b388cd/222f3f4bce1312085958689e3667fa/9e222f3f4bce1312085958689e3667fa.png",
     "listed_at": "2026-06-09T17:47:13+00:00",
     "catchup": true
+  },
+  {
+    "name": "HELIX #295",
+    "slug": "spooky-season-earthtoplanet-x-reddit-collectible-a",
+    "price": "$4.61  (0.0028 WETH)",
+    "maker": "0x2823177f...40a446",
+    "maker_full": "0x2823177f0ea6627421a3e06859d1213c4f40a446",
+    "expiry": "?",
+    "link": "https://opensea.io/assets/polygon/0x8264e2bad3d2f7afd72a00233b9f841fe4b388cd/1394",
+    "image_url": "https://i2c.seadn.io/polygon/0x8264e2bad3d2f7afd72a00233b9f841fe4b388cd/575cad2adfb0b31804fe13abddc571/15575cad2adfb0b31804fe13abddc571.png",
+    "listed_at": "2026-06-09T17:47:07+00:00",
+    "catchup": true
   }
 ]
