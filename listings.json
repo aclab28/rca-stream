@@ -44890,5 +44890,29 @@
     "image_url": "https://i2c.seadn.io/polygon/0x8d0501d85becda92b89e56177ddfcea5fc1f0af2/cf9257ded43e40122eded8aae70ea5/66cf9257ded43e40122eded8aae70ea5.png",
     "listed_at": "2026-06-09T10:56:27+00:00",
     "catchup": true
+  },
+  {
+    "name": "Fishy Foustling #74",
+    "slug": "foustlings-x-reddit-collectible-avatars",
+    "price": "$206.37  (0.1235 WETH)",
+    "maker": "0xd5e17e61...c59c40",
+    "maker_full": "0xd5e17e61fa9e1babf9da9419b705bf1801c59c40",
+    "expiry": "?",
+    "link": "https://opensea.io/assets/polygon/0x907808732079863886443057c65827a0f1c64357/2473",
+    "image_url": "https://i2c.seadn.io/polygon/0x907808732079863886443057c65827a0f1c64357/ec6ec03e64a1bcb1be6adaa7dd1217/9bec6ec03e64a1bcb1be6adaa7dd1217.png",
+    "listed_at": "2026-06-09T10:56:27+00:00",
+    "catchup": true
+  },
+  {
+    "name": "Cone Gnome #132",
+    "slug": "retro-reimagined-chipperdoodlescomic-x-reddit-coll",
+    "price": "$2.84  (0.0017 WETH)",
+    "maker": "0x14447318...c7e077",
+    "maker_full": "0x144473186eb4726577dbb94a06690c97edc7e077",
+    "expiry": "?",
+    "link": "https://opensea.io/assets/polygon/0xfcc6a9a8c25ece89cf222944b313ff140d26894f/881",
+    "image_url": "https://i2c.seadn.io/polygon/0xfcc6a9a8c25ece89cf222944b313ff140d26894f/73be77a3cd86c34a93f7ee30624ae9/d373be77a3cd86c34a93f7ee30624ae9.png",
+    "listed_at": "2026-06-09T12:22:59+00:00",
+    "catchup": true
   }
 ]
