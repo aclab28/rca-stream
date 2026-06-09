@@ -45430,5 +45430,17 @@
     "image_url": "https://i2c.seadn.io/matic/0xfcc6a9a8c25ece89cf222944b313ff140d26894f/9c8e61e4ea50bd4a6dbbd8c4cbcfe2e1.png",
     "listed_at": "2026-06-09T18:45:53+00:00",
     "catchup": true
+  },
+  {
+    "name": "Funnel Head #207",
+    "slug": "spooky-sequel-chipperdoodlescomic-x-reddit-collect",
+    "price": "$4.62  (0.0028 WETH)",
+    "maker": "0x2823177f...40a446",
+    "maker_full": "0x2823177f0ea6627421a3e06859d1213c4f40a446",
+    "expiry": "?",
+    "link": "https://opensea.io/assets/polygon/0x158817397648fce6fc5351632382a88a2ee0a045/706",
+    "image_url": "https://i2c.seadn.io/polygon/0x158817397648fce6fc5351632382a88a2ee0a045/de4d22015df85d569424a7a8acfd63/9cde4d22015df85d569424a7a8acfd63.png",
+    "listed_at": "2026-06-09T18:45:31+00:00",
+    "catchup": true
   }
 ]
