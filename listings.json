@@ -44866,5 +44866,29 @@
     "image_url": "https://i2c.seadn.io/polygon/0x8d0501d85becda92b89e56177ddfcea5fc1f0af2/fa076b4becdc6c30ab6e9cb1853058/34fa076b4becdc6c30ab6e9cb1853058.png",
     "listed_at": "2026-06-09T10:56:28+00:00",
     "catchup": true
+  },
+  {
+    "name": "The Hands #62",
+    "slug": "the-senses-x-reddit-collectible-avatars",
+    "price": "$763.56  (0.4568 WETH)",
+    "maker": "0xd5e17e61...c59c40",
+    "maker_full": "0xd5e17e61fa9e1babf9da9419b705bf1801c59c40",
+    "expiry": "?",
+    "link": "https://opensea.io/assets/polygon/0x8d0501d85becda92b89e56177ddfcea5fc1f0af2/61",
+    "image_url": "https://i2c.seadn.io/polygon/0x8d0501d85becda92b89e56177ddfcea5fc1f0af2/cd54e1ec12e22113d5268a79d10ef9/21cd54e1ec12e22113d5268a79d10ef9.png",
+    "listed_at": "2026-06-09T10:56:28+00:00",
+    "catchup": true
+  },
+  {
+    "name": "The Mouths #36",
+    "slug": "the-senses-x-reddit-collectible-avatars",
+    "price": "$334.32  (0.2000 WETH)",
+    "maker": "0xd5e17e61...c59c40",
+    "maker_full": "0xd5e17e61fa9e1babf9da9419b705bf1801c59c40",
+    "expiry": "?",
+    "link": "https://opensea.io/assets/polygon/0x8d0501d85becda92b89e56177ddfcea5fc1f0af2/235",
+    "image_url": "https://i2c.seadn.io/polygon/0x8d0501d85becda92b89e56177ddfcea5fc1f0af2/cf9257ded43e40122eded8aae70ea5/66cf9257ded43e40122eded8aae70ea5.png",
+    "listed_at": "2026-06-09T10:56:27+00:00",
+    "catchup": true
   }
 ]
