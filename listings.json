@@ -46426,5 +46426,17 @@
     "image_url": "https://i2c.seadn.io/polygon/0x2c2c60f114ae3c857bf301d1a1b6c3069d5308dc/6e59f8568b5f4e8cf9d09f404921cf/686e59f8568b5f4e8cf9d09f404921cf.png",
     "listed_at": "2026-06-10T19:17:15+00:00",
     "catchup": true
+  },
+  {
+    "name": "Frustrated #419",
+    "slug": "i-quit-my-job-to-be-an-artist-x-reddit-collectibl",
+    "price": "$5.20  (0.0032 WETH)",
+    "maker": "0x2a315b89...cb6d12",
+    "maker_full": "0x2a315b89571babecbc69abcb7f332b527ecb6d12",
+    "expiry": "?",
+    "link": "https://opensea.io/assets/polygon/0x65a83530ca8abc27969907913fe5e641a5da2e9f/418",
+    "image_url": "https://i2c.seadn.io/polygon/0x65a83530ca8abc27969907913fe5e641a5da2e9f/1f8fb98754387b3091f165bc852402/bd1f8fb98754387b3091f165bc852402.png",
+    "listed_at": "2026-06-10T19:23:09+00:00",
+    "catchup": true
   }
 ]
