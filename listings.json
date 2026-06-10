@@ -46174,5 +46174,17 @@
     "image_url": "https://i2c.seadn.io/polygon/0x91ac106090fe2b0fa7d01efdf4487a5bfafad7fa/28d47858bf4062fef4a4784cf5cbbe/4d28d47858bf4062fef4a4784cf5cbbe.png",
     "listed_at": "2026-06-10T18:12:07+00:00",
     "catchup": true
+  },
+  {
+    "name": "Batty for Halloween #202",
+    "slug": "spooky-season-aliciafreemandesigns-x-reddit-collec",
+    "price": "$5.22  (0.0032 WETH)",
+    "maker": "0x2823177f...40a446",
+    "maker_full": "0x2823177f0ea6627421a3e06859d1213c4f40a446",
+    "expiry": "?",
+    "link": "https://opensea.io/assets/polygon/0xddbdb65138131dbf2d01b4a5140e1979680c90bb/201",
+    "image_url": "https://i2c.seadn.io/polygon/0xddbdb65138131dbf2d01b4a5140e1979680c90bb/194a053919abaee2627076b45863d0/ba194a053919abaee2627076b45863d0.png",
+    "listed_at": "2026-06-10T18:15:22+00:00",
+    "catchup": true
   }
 ]
