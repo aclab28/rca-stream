@@ -46330,5 +46330,17 @@
     "image_url": "https://i2c.seadn.io/polygon/0xefded257ca71b9e3bbc9c0959a1ef4ad494c8897/9051e91c96bc7499f3e4d4870db47d/c69051e91c96bc7499f3e4d4870db47d.png",
     "listed_at": "2026-06-10T19:15:16+00:00",
     "catchup": true
+  },
+  {
+    "name": "Stripes #588",
+    "slug": "future-realities-chipperdoodlescomic-x-reddit-coll",
+    "price": "$6.52  (0.0040 WETH)",
+    "maker": "0x2823177f...40a446",
+    "maker_full": "0x2823177f0ea6627421a3e06859d1213c4f40a446",
+    "expiry": "?",
+    "link": "https://opensea.io/assets/polygon/0x2c2c60f114ae3c857bf301d1a1b6c3069d5308dc/587",
+    "image_url": "https://i2c.seadn.io/matic/0x2c2c60f114ae3c857bf301d1a1b6c3069d5308dc/686e59f8568b5f4e8cf9d09f404921cf.png",
+    "listed_at": "2026-06-10T19:14:42+00:00",
+    "catchup": true
   }
 ]
