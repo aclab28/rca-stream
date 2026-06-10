@@ -46066,5 +46066,17 @@
     "image_url": "https://i2c.seadn.io/polygon/0x5fd4d6fef3b87b91c7df8658727b5edd7210cf5a/603b11aca935e6bba3295758267023/12603b11aca935e6bba3295758267023.png",
     "listed_at": "2026-06-10T17:58:44+00:00",
     "catchup": true
+  },
+  {
+    "name": "Earthling #775",
+    "slug": "spooky-season-substantial-law-910-x-reddit-collect",
+    "price": "$3.26  (0.0020 WETH)",
+    "maker": "0x2823177f...40a446",
+    "maker_full": "0x2823177f0ea6627421a3e06859d1213c4f40a446",
+    "expiry": "?",
+    "link": "https://opensea.io/assets/polygon/0x5fd4d6fef3b87b91c7df8658727b5edd7210cf5a/1307",
+    "image_url": "https://i2c.seadn.io/polygon/0x5fd4d6fef3b87b91c7df8658727b5edd7210cf5a/d47fe0942cd8a862ffd56e0ed5ea44/c5d47fe0942cd8a862ffd56e0ed5ea44.png",
+    "listed_at": "2026-06-10T17:58:39+00:00",
+    "catchup": true
   }
 ]
