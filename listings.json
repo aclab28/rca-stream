@@ -46234,5 +46234,17 @@
     "image_url": "https://i2c.seadn.io/polygon/0xf6d634527c6454cecf242e43aec59c50f8e79b73/ff3e97f4b4916472bb7116fab4d3e1/8aff3e97f4b4916472bb7116fab4d3e1.png",
     "listed_at": "2026-06-10T18:34:52+00:00",
     "catchup": true
+  },
+  {
+    "name": "Monarch Artisman #1839",
+    "slug": "future-realities-substantial-law-910-x-reddit-coll",
+    "price": "$1.95  (0.0012 WETH)",
+    "maker": "0x2823177f...40a446",
+    "maker_full": "0x2823177f0ea6627421a3e06859d1213c4f40a446",
+    "expiry": "?",
+    "link": "https://opensea.io/assets/polygon/0x2f2e8b6b0bb62598753621ceb7c1025212e6267b/1838",
+    "image_url": "https://i2c.seadn.io/polygon/0x2f2e8b6b0bb62598753621ceb7c1025212e6267b/c7d0b4f01861749f702ef0ac1e5356/b6c7d0b4f01861749f702ef0ac1e5356.png",
+    "listed_at": "2026-06-10T18:38:11+00:00",
+    "catchup": true
   }
 ]
