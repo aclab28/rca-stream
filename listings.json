@@ -46342,5 +46342,17 @@
     "image_url": "https://i2c.seadn.io/matic/0x2c2c60f114ae3c857bf301d1a1b6c3069d5308dc/686e59f8568b5f4e8cf9d09f404921cf.png",
     "listed_at": "2026-06-10T19:14:42+00:00",
     "catchup": true
+  },
+  {
+    "name": "Nautical Noodle #138",
+    "slug": "retro-reimagined-chipperdoodlescomic-x-reddit-coll",
+    "price": "$5.22  (0.0032 WETH)",
+    "maker": "0x2823177f...40a446",
+    "maker_full": "0x2823177f0ea6627421a3e06859d1213c4f40a446",
+    "expiry": "?",
+    "link": "https://opensea.io/assets/polygon/0xfcc6a9a8c25ece89cf222944b313ff140d26894f/2155",
+    "image_url": "https://i2c.seadn.io/matic/0xfcc6a9a8c25ece89cf222944b313ff140d26894f/9c8e61e4ea50bd4a6dbbd8c4cbcfe2e1.png",
+    "listed_at": "2026-06-10T19:14:36+00:00",
+    "catchup": true
   }
 ]
