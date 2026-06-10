@@ -46666,5 +46666,17 @@
     "image_url": "https://i2c.seadn.io/polygon/0x7d4caaf1d9291071452a4f11a3d0da7aa881aaad/5c2cfb90e63ffb97238433f511a16a/985c2cfb90e63ffb97238433f511a16a.png",
     "listed_at": "2026-06-10T19:32:59+00:00",
     "catchup": true
+  },
+  {
+    "name": "Morgan #2476",
+    "slug": "future-realities-gasolyn-x-reddit-collectible-avat",
+    "price": "$3.25  (0.0020 WETH)",
+    "maker": "0x2a315b89...cb6d12",
+    "maker_full": "0x2a315b89571babecbc69abcb7f332b527ecb6d12",
+    "expiry": "?",
+    "link": "https://opensea.io/assets/polygon/0x7d4caaf1d9291071452a4f11a3d0da7aa881aaad/2825",
+    "image_url": "https://i2c.seadn.io/polygon/0x7d4caaf1d9291071452a4f11a3d0da7aa881aaad/5c2cfb90e63ffb97238433f511a16a/985c2cfb90e63ffb97238433f511a16a.png",
+    "listed_at": "2026-06-10T19:32:54+00:00",
+    "catchup": true
   }
 ]
