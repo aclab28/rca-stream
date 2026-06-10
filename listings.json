@@ -46222,5 +46222,17 @@
     "image_url": "https://i2c.seadn.io/polygon/0x0985cb10c5d57dbf44aa473f33839ed38d80f111/1510a72438f1c49840d6207771d903/6d1510a72438f1c49840d6207771d903.png",
     "listed_at": "2026-06-10T18:33:41+00:00",
     "catchup": true
+  },
+  {
+    "name": "Rudy #186",
+    "slug": "retro-reimagined-ships-x-reddit-collectible-avatar",
+    "price": "$3.25  (0.0020 WETH)",
+    "maker": "0x2823177f...40a446",
+    "maker_full": "0x2823177f0ea6627421a3e06859d1213c4f40a446",
+    "expiry": "?",
+    "link": "https://opensea.io/assets/polygon/0xf6d634527c6454cecf242e43aec59c50f8e79b73/185",
+    "image_url": "https://i2c.seadn.io/polygon/0xf6d634527c6454cecf242e43aec59c50f8e79b73/ff3e97f4b4916472bb7116fab4d3e1/8aff3e97f4b4916472bb7116fab4d3e1.png",
+    "listed_at": "2026-06-10T18:34:52+00:00",
+    "catchup": true
   }
 ]
