@@ -46030,5 +46030,17 @@
     "image_url": "https://i2c.seadn.io/polygon/0x808ed3e23aac685126524aa4416d8eaeb2e767b9/cc7970d7b90676b0f0e43e0d247845/a4cc7970d7b90676b0f0e43e0d247845.png",
     "listed_at": "2026-06-10T12:31:41+00:00",
     "catchup": true
+  },
+  {
+    "name": "Possum #1017",
+    "slug": "creatures-of-the-nighties-x-reddit-collectible",
+    "price": "$3.26  (0.0020 WETH)",
+    "maker": "0x2823177f...40a446",
+    "maker_full": "0x2823177f0ea6627421a3e06859d1213c4f40a446",
+    "expiry": "?",
+    "link": "https://opensea.io/assets/polygon/0x97439ee4c93ff9f76417696ce648aa6f35ab3b25/1016",
+    "image_url": "https://i2c.seadn.io/polygon/0x97439ee4c93ff9f76417696ce648aa6f35ab3b25/85fe9640d08617ebb8e96c57265ca7/5d85fe9640d08617ebb8e96c57265ca7.png",
+    "listed_at": "2026-06-10T18:00:48+00:00",
+    "catchup": true
   }
 ]
