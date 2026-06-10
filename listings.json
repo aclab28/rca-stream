@@ -46366,5 +46366,17 @@
     "image_url": "https://i2c.seadn.io/polygon/0x158817397648fce6fc5351632382a88a2ee0a045/de4d22015df85d569424a7a8acfd63/9cde4d22015df85d569424a7a8acfd63.png",
     "listed_at": "2026-06-10T19:14:12+00:00",
     "catchup": true
+  },
+  {
+    "name": "Penguitt Pals #1589",
+    "slug": "future-realities-penguitt-x-reddit-collectible-ava",
+    "price": "$1.30  (0.0008 WETH)",
+    "maker": "0x2a315b89...cb6d12",
+    "maker_full": "0x2a315b89571babecbc69abcb7f332b527ecb6d12",
+    "expiry": "?",
+    "link": "https://opensea.io/assets/polygon/0xf3f1798ee4d40b78d32a2fe321d045a591e7103a/2488",
+    "image_url": "https://i2c.seadn.io/polygon/0xf3f1798ee4d40b78d32a2fe321d045a591e7103a/a193b2efe66a971735470e23f705e1/80a193b2efe66a971735470e23f705e1.png",
+    "listed_at": "2026-06-10T19:17:38+00:00",
+    "catchup": true
   }
 ]
