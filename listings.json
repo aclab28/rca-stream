@@ -46318,5 +46318,17 @@
     "image_url": "https://i2c.seadn.io/polygon/0x3372a12009195d912c0b8f0d275806777824f90f/769ed635445020b97e04b8111c1158/69769ed635445020b97e04b8111c1158.png",
     "listed_at": "2026-06-10T19:12:10+00:00",
     "catchup": true
+  },
+  {
+    "name": "Glass Foustling #377",
+    "slug": "future-realities-tfoust10-x-reddit-collectible-ava",
+    "price": "$1.96  (0.0012 WETH)",
+    "maker": "0x2a315b89...cb6d12",
+    "maker_full": "0x2a315b89571babecbc69abcb7f332b527ecb6d12",
+    "expiry": "?",
+    "link": "https://opensea.io/assets/polygon/0xefded257ca71b9e3bbc9c0959a1ef4ad494c8897/376",
+    "image_url": "https://i2c.seadn.io/polygon/0xefded257ca71b9e3bbc9c0959a1ef4ad494c8897/9051e91c96bc7499f3e4d4870db47d/c69051e91c96bc7499f3e4d4870db47d.png",
+    "listed_at": "2026-06-10T19:15:16+00:00",
+    "catchup": true
   }
 ]
