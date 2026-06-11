@@ -46762,5 +46762,17 @@
     "image_url": "https://i2c.seadn.io/polygon/0x47264055f3bac41be4ec5e195f0ee23646c9f6a4/8fa5861e4d7c80ddc6a98a515a3107/048fa5861e4d7c80ddc6a98a515a3107.png",
     "listed_at": "2026-06-10T20:12:59+00:00",
     "catchup": true
+  },
+  {
+    "name": "Moon Spirit #143",
+    "slug": "moon-spirit-by-ervindas-x-reddit-collectible-avata",
+    "price": "$2.49  (0.0015 WETH)",
+    "maker": "0x1e363f3c...038252",
+    "maker_full": "0x1e363f3ce415ed099a622211386c3de1b5038252",
+    "expiry": "?",
+    "link": "https://opensea.io/assets/polygon/0xe7a6ac1dd0cbb7733d657ef49b4b635464a2e151/142",
+    "image_url": "https://i2c.seadn.io/polygon/0xe7a6ac1dd0cbb7733d657ef49b4b635464a2e151/ad851b316d81c00b1167127ec71eb0/58ad851b316d81c00b1167127ec71eb0.png",
+    "listed_at": "2026-06-11T05:03:14+00:00",
+    "catchup": true
   }
 ]
