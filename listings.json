@@ -46774,5 +46774,17 @@
     "image_url": "https://i2c.seadn.io/polygon/0xe7a6ac1dd0cbb7733d657ef49b4b635464a2e151/ad851b316d81c00b1167127ec71eb0/58ad851b316d81c00b1167127ec71eb0.png",
     "listed_at": "2026-06-11T05:03:14+00:00",
     "catchup": true
+  },
+  {
+    "name": "Luxuria the Lecher #28",
+    "slug": "luxuria-the-lecher-by-joe-the-kappa-guy-x-reddit-c",
+    "price": "$3.39  (0.0020 WETH)",
+    "maker": "0x1e363f3c...038252",
+    "maker_full": "0x1e363f3ce415ed099a622211386c3de1b5038252",
+    "expiry": "?",
+    "link": "https://opensea.io/assets/polygon/0xca22ca7e74c7421a9c52b504f7f572380b25d2ea/27",
+    "image_url": "https://i2c.seadn.io/polygon/0xca22ca7e74c7421a9c52b504f7f572380b25d2ea/687c29ab37e25fe67a5b79e410f455/2a687c29ab37e25fe67a5b79e410f455.png",
+    "listed_at": "2026-06-11T05:03:14+00:00",
+    "catchup": true
   }
 ]
